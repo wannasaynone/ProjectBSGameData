@@ -38,7 +38,7 @@
     "NameContextID": 103,
     "DescriptionContextID": 104,
     "ReferenceContextIDs": "105;106",
-    "Command": "OnActived\n{\n     AddStatus(Self, Haterd, Self.Haterd * 0.3);\n     GainBuff(Self, 101, 3);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Hatred, Self.Hatred * 0.3);\n     GainBuff(Self, 101, 3);\n}",
     "IsDrop": 1
   },
   {
