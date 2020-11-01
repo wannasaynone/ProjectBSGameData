@@ -2,5 +2,5 @@
    "MaxDropCount" : 21,
    "MinDropCount" : 10,
    "DropSkillChance" : 50,
-   "PressDownShowInfoTime" : 1
+   "PressDownShowInfoTime" : 0.5
 }
