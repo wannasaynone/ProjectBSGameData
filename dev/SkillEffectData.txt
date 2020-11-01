@@ -32,7 +32,7 @@
     "ID": 4,
     "NameContextID": 15,
     "DescriptionContextID": 16,
-    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnActionStarted_Self\n{\n    SetForceEndAction();\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(25%);\n}\n\nOnDamageTaken_Self\n{\n     RemoveBuff(Self, 4, -1);\n}",
+    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnActionStarted_Self\n{\n    SetForceEndAction();\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(25%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffStack(Self, 4, -99);\n}",
     "Tag": 400003,
     "MaxStackCount": 1
   },
@@ -110,7 +110,7 @@
     "ID": 10001,
     "NameContextID": 10002,
     "DescriptionContextID": 10003,
-    "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP <= 0);\n     SetStatus(Self, HP, 1);\n     RemoveBuff(Self, 10001, -1);\n     GainBuff(Self, 10002, 3);\n     EndIf();\n}",
+    "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP <= 0);\n     SetStatus(Self, HP, 1);\n     AddBuffStack(Self, 10001, -1);\n     GainBuff(Self, 10002, 3);\n     EndIf();\n}",
     "MaxStackCount": 1
   },
   {
