@@ -16,7 +16,7 @@
     "ID": 2,
     "NameContextID": 11,
     "DescriptionContextID": 12,
-    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnActionStarted_Self\n{\n    SetForceEndAction();\n}",
+    "Command": "OnActived\n{\n    SetForceEndAction();\n}",
     "Tag": 400003,
     "MaxStackCount": 1
   },
@@ -32,7 +32,7 @@
     "ID": 4,
     "NameContextID": 15,
     "DescriptionContextID": 16,
-    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnActionStarted_Self\n{\n    SetForceEndAction();\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(25%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffStack(Self, 4, -99);\n}",
+    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(25%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffStack(Self, 4, -99);\n}",
     "Tag": 400003,
     "MaxStackCount": 1
   },
@@ -48,7 +48,7 @@
     "ID": 6,
     "NameContextID": 19,
     "DescriptionContextID": 20,
-    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnActionStarted_Self\n{\n    SetForceEndAction();\n}\n\nOnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.3); \n}",
+    "Command": "OnActived\n{\n    SetForceEndAction();\n    AddStatus(Self, Defense, Self.Defense * 0.3); \n}",
     "Tag": 400003,
     "MaxStackCount": 1
   },
@@ -103,6 +103,13 @@
     "NameContextID": 162,
     "DescriptionContextID": 163,
     "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.05); \n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(-20%);\n}",
+    "MaxStackCount": 1
+  },
+  {
+    "ID": 105,
+    "NameContextID": 186,
+    "DescriptionContextID": 187,
+    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defence, Self.Defence * 0.7);\n     AddStatus(Self, Speed, Self.Speed * 0.7);\n     AddStatus(Self, MaxHP, Self.MaxHP);\n     SetStatus(Self, HP, Self.MaxHP);\n     LockAddStatus(Self, HP);\n}\n\nOnDamageCalculated_Self\n{\n     AddDamage(100%);\n}\n\nOnStartToEndAction_Any\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.05);\n}\n\nOnDeactived\n{\n     SetStatus(Self, HP, 1);\n}",
     "MaxStackCount": 1
   },
   {},
