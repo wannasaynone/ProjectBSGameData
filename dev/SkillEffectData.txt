@@ -109,7 +109,7 @@
     "ID": 105,
     "NameContextID": 186,
     "DescriptionContextID": 187,
-    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defence, Self.Defence * 0.7);\n     AddStatus(Self, Speed, Self.Speed * 0.7);\n     AddStatus(Self, MaxHP, Self.MaxHP);\n     SetStatus(Self, HP, Self.MaxHP);\n     LockAddStatus(Self, HP);\n}\n\nOnDamageCalculated_Self\n{\n     AddDamage(100%);\n}\n\nOnStartToEndAction_Any\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.05);\n}\n\nOnDeactived\n{\n     SetStatus(Self, HP, 1);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defense, Self.Defense * 0.7);\n     AddStatus(Self, Speed, Self.Speed * 0.7);\n     AddStatus(Self, MaxHP, Self.MaxHP);\n     SetStatus(Self, HP, Self.MaxHP);\n     LockAddStatus(Self, HP);\n}\n\nOnDamageCalculated_Self\n{\n     AddDamage(100%);\n}\n\nOnStartToEndAction_Any\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.05);\n}\n\nOnDeactived\n{\n     SetStatus(Self, HP, 1);\n}",
     "MaxStackCount": 1
   },
   {},
