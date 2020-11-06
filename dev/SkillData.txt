@@ -363,7 +363,7 @@
     "NameContextID": 184,
     "DescriptionContextID": 185,
     "ReferenceContextIDs": "186;187",
-    "Command": "OnActived\n{\n     GainBuff(Self, 105, -1);\n     AddExtraAction(Self, -1);\n}",
+    "Command": "OnActived\n{\n     GainBuff(Self, 105, -1);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 1
   },
   {
