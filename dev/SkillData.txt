@@ -268,7 +268,7 @@
     "SP": 10,
     "NameContextID": 160,
     "DescriptionContextID": 161,
-    "ReferenceContextIDs": "160;161",
+    "ReferenceContextIDs": "162;163",
     "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Random, -1), 104, 2);\n}",
     "IsDrop": 1,
     "Tag": 400002
