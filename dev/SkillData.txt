@@ -250,7 +250,7 @@
     "SP": 0,
     "NameContextID": 156,
     "DescriptionContextID": 157,
-    "ReferenceContextIDs": "3;4",
+    "ReferenceContextIDs": "5;6",
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, -Self.Attack * 0.3);\n}\n\nOnTurnStarted\n{\n     GainBuff(Self, 1, 1);\n}",
     "IsDrop": 1
   },
@@ -435,7 +435,8 @@
     "SP": 100,
     "NameContextID": 204,
     "DescriptionContextID": 205,
-    "Command": "OnActived\n{\n     GainBuff(Select(All, Random, -1), 2, 4);\n}",
+    "ReferenceContextIDs": "11;12",
+    "Command": "OnActived\n{\n     GainBuff(SelectOther(All, Random, -1), 2, 4);\n}",
     "IsDrop": 1
   },
   {
@@ -467,6 +468,7 @@
     "SP": 0,
     "NameContextID": 212,
     "DescriptionContextID": 213,
+    "ReferenceContextIDs": "214;215",
     "Command": "OnActived\n{\n     GainBuff(Self, 106, 6);\n}",
     "IsDrop": 1
   },
