@@ -109,7 +109,21 @@
     "ID": 105,
     "NameContextID": 186,
     "DescriptionContextID": 187,
-    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defense, Self.Defense * 0.7);\n     AddStatus(Self, Speed, Self.Speed * 0.7);\n     AddStatus(Self, MaxHP, Self.MaxHP);\n     AddStatus(Self, HP, Self.MaxHP * 2);\n     LockAddStatus(Self, HP);\n}\n\nOnDamageCalculated_Self\n{\n     AddDamage(100%);\n}\n\nOnStartToEndAction_Any\n{\n     AddStatus(Self, HP, -Self.MaxHP * 0.05);\n}\n\nOnDeactived\n{\n     SetStatus(Self, HP, 1);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defense, -Self.Defense * 0.7);\n     AddStatus(Self, Speed, Self.Speed * 0.7);\n     AddStatus(Self, MaxHP, Self.MaxHP);\n     AddStatus(Self, HP, Self.MaxHP * 2);\n     LockAddStatus(Self, HP);\n}\n\nOnDamageCalculated_Self\n{\n     AddDamage(100%);\n}\n\nOnStartToEndAction_Any\n{\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n}\n\nOnDeactived\n{\n     SetStatus(Self, HP, 1);\n}",
+    "MaxStackCount": 1
+  },
+  {
+    "ID": 106,
+    "NameContextID": 214,
+    "DescriptionContextID": 215,
+    "Command": "OnActived\n{\n     SetStatus(Self, Hatred, 1);\n     SetStatus(Self, HP, 1);\n     AddBuffStackByTag(Self, 400003, -99);\n}\n\nOnTurnStarted\n{\n     SetStatus(Self, Hatred, 1);\n     SetStatus(Self, HP, 1);\n     AddBuffStackByTag(Self, 400003, -99);\n}\n\nOnStartToEndTurn\n{\n     SetStatus(Self, Hatred, 1);\n     SetStatus(Self, HP, 1);\n     AddBuffStackByTag(Self, 400003, -99);\n}\n\nOnStartToTakeDamage_Self\n{\n     SetDamage(1);\n}",
+    "MaxStackCount": 1
+  },
+  {
+    "ID": 107,
+    "NameContextID": 220,
+    "DescriptionContextID": 221,
+    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.15); \n     AddStatus(Self, Defense, Self.Defense * 0.3);\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(-15%);\n}\n\nOnTurnStarted\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.03); \n}",
     "MaxStackCount": 1
   },
   {},
@@ -117,14 +131,14 @@
     "ID": 10001,
     "NameContextID": 10002,
     "DescriptionContextID": 10003,
-    "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP <= 0);\n     SetStatus(Self, HP, 1);\n     AddBuffStack(Self, 10001, -1);\n     GainBuff(Self, 10002, 3);\n     EndIf();\n}",
+    "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP <= 0);\n     SetStatus(Self, HP, 1);\n     AddBuffStack(Self, 10001, -1);\n     EndIf();\n}\n\nOnDeactived\n{\n     GainBuff(Self, 10002, 3);\n}",
     "MaxStackCount": 1
   },
   {
     "ID": 10002,
     "NameContextID": 10004,
     "DescriptionContextID": 10005,
-    "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.15);\n}\n\nOnDeactived\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.1);\n     GainBuff(Self, 10001, -1);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.35);\n}\n\nOnDeactived\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.4);\n     GainBuff(Self, 10001, -1);\n}",
     "MaxStackCount": 1
   },
   {
