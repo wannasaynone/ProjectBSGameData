@@ -483,6 +483,7 @@
     "SP": 0,
     "NameContextID": 218,
     "DescriptionContextID": 219,
+    "ReferenceContextIDs": "220;221",
     "Command": "OnDied_Self\n{\n     GainBuff(Select(SameSide, Random, -1), 107, 4);\n}",
     "IsDrop": 1
   },
