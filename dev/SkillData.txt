@@ -29,7 +29,7 @@
     "SP": 0,
     "NameContextID": 101,
     "DescriptionContextID": 102,
-    "Command": "OnBattleStarted\n{\n     SetStatus(Self, Hatred, Self.Defense);\n}",
+    "Command": "OnBattleStarted\n{\n     SetStatus(Self, Hatred, Self.Defense * 3);\n}",
     "IsDrop": 1
   },
   {
@@ -38,7 +38,7 @@
     "NameContextID": 103,
     "DescriptionContextID": 104,
     "ReferenceContextIDs": "105;106",
-    "Command": "OnActived\n{\n     AddStatus(Self, Hatred, Self.Hatred * 0.3);\n     GainBuff(Self, 101, 3);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Hatred, Self.Defense * 2);\n     GainBuff(Self, 101, 3);\n}",
     "IsDrop": 1
   },
   {
@@ -46,7 +46,7 @@
     "SP": 0,
     "NameContextID": 107,
     "DescriptionContextID": 108,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Defense * 0.75, 0);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Defense * 0.85, 0);\n}",
     "IsDrop": 1
   },
   {
@@ -80,7 +80,7 @@
     "NameContextID": 117,
     "DescriptionContextID": 118,
     "ReferenceContextIDs": "11;12",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.7, 0, 0);\n     BeginIf(Random(1, 100) <= 25);\n     GainBuff(LastSelected, 2, 1);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.7, 0, 0);\n}\n\nOnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill != 107);\n     Quit();\n     EndIf();\n\n     BeginIf(Target.HP / Target.MaxHP >= 0.76);\n     Quit();\n     EndIf();\n\n     BeginIf(Random(0, 100) <= (0.75 - (Target.HP / Target.MaxHP)) * 100);\n     GainBuff(LastSelected, 2, 1);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -346,7 +346,7 @@
     "SP": 0,
     "NameContextID": 180,
     "DescriptionContextID": 181,
-    "Command": "OnDamageCalculated_Self\n{\n     AddDamage(Self.MaxHP - Self.HP);\n}",
+    "Command": "OnStartToAttack_Self\n{\n     AddStatus(Self, Attack, Self.MaxHP - Self.HP);\n}\n\nOnAttackEnded_Self\n{\n     AddStatus(Self, Attack, -(Self.MaxHP - Self.HP));\n}",
     "IsDrop": 1
   },
   {
@@ -387,7 +387,7 @@
     "SP": 0,
     "NameContextID": 192,
     "DescriptionContextID": 193,
-    "Command": "OnStartToEndAction_Any\n{\n     BeginIf(Random(0, 100) <= 10);\n     AddExtraAction(Self, 1);\n     EndIf();\n}",
+    "Command": "OnStartToEndAction_Any\n{\n     BeginIf(Random(0, 100) <= 5);\n     AddExtraAction(Self, 1);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
