@@ -1,7 +1,7 @@
 [
   {
     "ID": 1,
-    "NameContextID": 10002,
+    "NameContextID": 10024,
     "CharacterSpriteID": 0,
     "Attack": 50,
     "Defense": 50,

@@ -88,7 +88,7 @@
     "SP": 0,
     "NameContextID": 119,
     "DescriptionContextID": 120,
-    "Command": "OnAttackEnded_Self\n{\n     AddStatus(Self, Hatred, Self.Hatred * 0.2);\n}",
+    "Command": "OnAttackEnded_Self\n{\n     AddStatus(Self, Hatred, Self.Hatred * 1.2);\n}",
     "IsDrop": 1
   },
   {
@@ -124,7 +124,7 @@
     "SP": 10,
     "NameContextID": 127,
     "DescriptionContextID": 128,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * Random(200, 400) * 0.01, 0);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * Random(130, 360) * 0.01, 0);\n}",
     "IsDrop": 1,
     "Tag": 400001
   },
@@ -216,7 +216,7 @@
     "SP": 0,
     "NameContextID": 148,
     "DescriptionContextID": 149,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1, 0);\n     AddStatus(Self, HP, Self.LastDealedDamage);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     AddStatus(Self, HP, Self.LastDealedDamage);\n}",
     "IsDrop": 1
   },
   {
@@ -233,7 +233,7 @@
     "NameContextID": 152,
     "DescriptionContextID": 153,
     "ReferenceContextIDs": "21;22",
-    "Command": "OnStartToAttack_Self\n{\n     BeginIf(Random(0, 100) <= 15);\n     GainBuff(Self, 7, 1);\n     EndIf();\n}",
+    "Command": "OnStartToAttack_Self\n{\n     BeginIf(Random(0, 100) <= 30);\n     GainBuff(Self, 7, 2);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -304,6 +304,7 @@
     "SP": 0,
     "NameContextID": 170,
     "DescriptionContextID": 171,
+    "ReferenceContextIDs": "25;26",
     "Command": "OnBattleStarted\n{\n     LockAddStatus(Self, SP);\n     LockAddStatus(Self, HP);\n     GainBuff(Self, 9, 3);\n     SetSkipCheckSP();\n}\n\nOnStartToTakeDamage_Self\n{\n     SetDamage(0);\n}",
     "IsDrop": 1
   },
@@ -371,7 +372,7 @@
     "SP": 0,
     "NameContextID": 188,
     "DescriptionContextID": 189,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(All, Random, -1), Self.HP * 0.5, 1);\n     ForceDie(Self);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent , Random, -1), Self.HP * 0.5, 1);\n     ForceDie(Self);\n}",
     "IsDrop": 1
   },
   {
@@ -403,12 +404,12 @@
     "SP": 30,
     "NameContextID": 196,
     "DescriptionContextID": 197,
-    "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Random, -1), HP, Self.Defense * 0.25);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Random, -1), HP, Self.Defense * 0.35);\n}",
     "IsDrop": 1
   },
   {
     "ID": 145,
-    "SP": 15,
+    "SP": 20,
     "NameContextID": 198,
     "DescriptionContextID": 199,
     "Command": "OnActived\n{\n     AddBuffStack(Select(All, Manual, 1), -1, -99);\n}",
