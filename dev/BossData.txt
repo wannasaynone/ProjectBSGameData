@@ -11,7 +11,15 @@
     "AI": "AI\n{\n    RandomCastSkill(10003);\n}"
   },
   {
-    "ID": 2
+    "ID": 2,
+    "NameContextID": 10031,
+    "CharacterSpriteID": 0,
+    "Attack": 200,
+    "Defense": 550,
+    "Speed": 100,
+    "HP": 10000,
+    "SP": 100,
+    "AI": "AI\n{\n    CastSkill(10011);\n}"
   },
   {
     "ID": 3
