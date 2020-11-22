@@ -594,7 +594,7 @@
     "SP": 0,
     "NameContextID": 10032,
     "DescriptionContextID": 10033,
-    "Command": "OnActived\n{\n     DealDamage(Select(Opponent, RandomByHatred, 1), Self.Attack * 1, 0);\n}\n\nOnAttacked_Self\n{\n      AddStatus(Self, Attack, Self.Attack * 0.03);\n}",
+    "Command": "OnActived\n{\n     DealDamage(Select(Opponent, RandomByHatred, 1), Self.Attack * 1, 0);\n}\n\nOnAttackEnded_Self\n{\n      AddStatus(Self, Attack, Self.Attack * 0.03);\n}",
     "IsDrop": 0
   },
   {},
