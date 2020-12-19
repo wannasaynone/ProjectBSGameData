@@ -2,5 +2,7 @@
    "MaxDropCount" : 21,
    "MinDropCount" : 10,
    "DropSkillChance" : 50,
-   "PressDownShowInfoTime" : 0.5
+   "MaxStamina": 100,
+   "AddStaminaPerSec" : 60,
+   "AddStaminaPerTime" : 1,
 }
