@@ -2,6 +2,8 @@
    "MaxDropCount" : 21,
    "MinDropCount" : 10,
    "DropSkillChance" : 50,
+   "PressDownShowInfoTime" : 1,
+   "MaxPassedTimeCount" : 16400,
    "MaxStamina": 100,
    "AddStaminaPerSec" : 60,
    "AddStaminaPerTime" : 1,
