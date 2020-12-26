@@ -12,7 +12,11 @@
   },
   {
     "ID": 1,
-    "Index": -1,
+    "Index": 1,
+    "MainBossID": 2,
+    "Stamina": 0,
+    "BossIDs": "2;2;2;2",
+    "DescriptionContextID": 300002,
     "DropData": "1:25;\n2:25;\n3:25;\n4:25",
     "MinExp": 8800,
     "MaxExp": 17600
