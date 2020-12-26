@@ -1,7 +1,7 @@
 [
   {
     "ID": 0,
-    "Index": 0,
+    "Index": -1,
     "MinExp": 0,
     "MaxExp": 0
   },
