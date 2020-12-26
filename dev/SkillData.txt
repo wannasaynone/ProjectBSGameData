@@ -743,7 +743,7 @@
     "SP": 0,
     "NameContextID": 389,
     "DescriptionContextID": 390,
-    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Manual, 1), 7, 1);\n AddActionIndex(LastSelected, 3);\n}",
+    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Manual, 1), 7, 1);\n AddActionIndex(LastSelected, -3);\n}",
     "IsDrop": 1
   },
   {
@@ -775,7 +775,7 @@
     "SP": 0,
     "NameContextID": 397,
     "DescriptionContextID": 398,
-    "Command": "OnActived\n{\n  DealDamage(Select(SameSide, Random, 1), Self.Attack * 0.3, 1);\n  AddActionIndex(LastSelected, 1);\n}",
+    "Command": "OnActived\n{\n  DealDamage(Select(SameSide, Random, 1), Self.Attack * 0.3, 1);\n  AddActionIndex(LastSelected, -1);\n}",
     "IsDrop": 1
   },
   {
@@ -791,7 +791,7 @@
     "SP": 10,
     "NameContextID": 401,
     "DescriptionContextID": 402,
-    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Random, -1), 21,1);\n AddActionIndex(LastSelected, 1);\n}",
+    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Random, -1), 21,1);\n AddActionIndex(LastSelected, -1);\n}",
     "IsDrop": 1
   },
   {
