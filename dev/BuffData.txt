@@ -403,7 +403,7 @@
     "ID": 10002,
     "NameContextID": 10005,
     "DescriptionContextID": 10006,
-    "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <= Self.MaxHP * 0.5);\n     AddStatus(Self, Attack, Self.Attack * 0.03);\n     AddStatus(Self. Defense, -Self.Defense, 0.03);\n  EndIf();\n}",
+    "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <= Self.MaxHP * 0.5);\n     AddStatus(Self, Attack, Self.Attack * 0.03);\n     AddStatus(Self, Defense, -Self.Defense, 0.03);\n  EndIf();\n}",
     "MaxStackCount": 1
   },
   {
