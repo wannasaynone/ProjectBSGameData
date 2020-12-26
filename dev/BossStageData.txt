@@ -1,7 +1,7 @@
 [
   {
     "ID": 0,
-    "Index": -1,
+    "Index": 0,
     "MainBossID": 1,
     "Stamina": 0,
     "BossIDs": 1,
