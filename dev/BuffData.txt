@@ -75,6 +75,14 @@
     "Command": "OnDeactived\n{\n     Destroy(Self);\n}",
     "MaxStackCount": 1
   },
+  {
+    "ID": 10,
+    "NameContextID": 27,
+    "DescriptionContextID": 28,
+    "Command": "OnActived\n{\n     AddStatus(Self, Attack, -Self.Attack * 0.5); \n}",
+    "Tag": 400003,
+    "MaxStackCount": 1
+  },
   {},
   {
     "ID": 101,
@@ -396,14 +404,14 @@
     "ID": 10001,
     "NameContextID": 10003,
     "DescriptionContextID": 10004,
-    "Command": "OnAttackEnded_Self\n{\n  BeginIf(Random(1, 100) <= 30);\n    AddExtraAction(Self, 1);\n    GainBuff(Self, 120, 1);\n  EndIf();\n}",
+    "Command": "OnAttackEnded_Self\n{\n  BeginIf(Random(1, 100) <= 30);\n    AddExtraAction(Self, 1);\n    GainBuff(Self, 10, 1);\n  EndIf();\n}",
     "MaxStackCount": 1
   },
   {
     "ID": 10002,
     "NameContextID": 10005,
     "DescriptionContextID": 10006,
-    "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <= Self.MaxHP * 0.5);\n     AddStatus(Self, Attack, Self.Attack * 0.03);\n     AddStatus(Self, Defense, -Self.Defense * 0.03);\n  EndIf();\n}",
+    "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <= Self.MaxHP * 0.5);\n     AddStatus(Self, Attack, Self.Attack * 0.3);\n     AddStatus(Self, Speed, Self.Speed * 0.3);\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n  EndIf();\n}",
     "MaxStackCount": 1
   },
   {
