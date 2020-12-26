@@ -1,25 +1,18 @@
 [
   {
     "ID": 1,
-    "NameContextID": 10024,
+    "NameContextID": 10011,
     "CharacterSpriteID": 0,
-    "Attack": 50,
-    "Defense": 50,
-    "Speed": 50,
-    "HP": 2000,
+    "Attack": 35,
+    "Defense": 35,
+    "Speed": 35,
+    "HP": 1400,
     "SP": 100,
-    "AI": "AI\n{\n    RandomCastSkill(10003);\n}"
+    "BuffIDs": "10001;10002",
+    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);\n       CastSkill(10002);\n       Quir();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
   },
   {
-    "ID": 2,
-    "NameContextID": 10031,
-    "CharacterSpriteID": 0,
-    "Attack": 200,
-    "Defense": 550,
-    "Speed": 100,
-    "HP": 10000,
-    "SP": 100,
-    "AI": "AI\n{\n    CastSkill(10011);\n}"
+    "ID": 2
   },
   {
     "ID": 3
@@ -34,15 +27,6 @@
     "ID": 6
   },
   {
-    "ID": 7,
-    "NameContextID": 10001,
-    "CharacterSpriteID": 0,
-    "Attack": 8000,
-    "Defense": 8000,
-    "Speed": 8000,
-    "HP": 320000,
-    "SP": 100,
-    "BuffIDs": "10001;10003",
-    "AI": "AI\n{\n    BeginIf_Effect(Self, 1, 10004);\n    CastSkill(10007);\n    Quit();\n    EndIf();\n    BeginIf(Self.HP <= Self.MaxHP * 0.5);\n    RandomCastSkill(10002);\n    Quit();\n    EndIf();\n    RandomCastSkill(10001);\n}"
+    "ID": 7
   }
 ]
