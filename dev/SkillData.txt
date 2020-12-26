@@ -743,7 +743,7 @@
     "SP": 0,
     "NameContextID": 389,
     "DescriptionContextID": 390,
-    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Manual, 1), 21, 1);\n AddActionIndex(LastSelected, 3);\n}",
+    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Manual, 1), 7, 1);\n AddActionIndex(LastSelected, 3);\n}",
     "IsDrop": 1
   },
   {
