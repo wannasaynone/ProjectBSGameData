@@ -1,0 +1,27 @@
+[
+  {
+    "ID": 1,
+    "NameContextID": 100001,
+    "DefaultSkillSet": "1;2;0;0"
+  },
+  {
+    "ID": 2,
+    "NameContextID": 100002,
+    "DefaultSkillSet": "1;2;0;0"
+  },
+  {
+    "ID": 3,
+    "NameContextID": 100003,
+    "DefaultSkillSet": "1;2;0;0"
+  },
+  {
+    "ID": 4,
+    "NameContextID": 100004,
+    "DefaultSkillSet": "1;2;0;0"
+  },
+  {
+    "ID": 5,
+    "NameContextID": 100005,
+    "DefaultSkillSet": "1;2;0;0"
+  }
+]
