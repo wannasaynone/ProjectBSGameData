@@ -11,7 +11,7 @@
     "SP": 0,
     "NameContextID": 1,
     "DescriptionContextID": 2,
-    "AnimationInfo": "Attack0;\n0.58:Fire_501",
+    "AnimationInfo": "Attack0;\n0.58_Fire_501",
     "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n}",
     "IsDrop": 1
   },
