@@ -430,4 +430,7 @@
 {"ID":1000001,"zh_tw":"角色","en_us":null,"ja_jp":null},
 {"ID":1000002,"zh_tw":"戰鬥","en_us":null,"ja_jp":null},
 {"ID":1000003,"zh_tw":"營地","en_us":null,"ja_jp":null},
-{"ID":1000004,"zh_tw":"商店","en_us":null,"ja_jp":null}]
+{"ID":1000004,"zh_tw":"商店","en_us":null,"ja_jp":null},
+{"ID":1000005,"zh_tw":"隊伍","en_us":null,"ja_jp":null},
+{"ID":1000006,"zh_tw":"裝備","en_us":null,"ja_jp":null},
+{"ID":1000007,"zh_tw":"技能","en_us":null,"ja_jp":null}]
