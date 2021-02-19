@@ -433,4 +433,5 @@
 {"ID":1000004,"zh_tw":"商店","en_us":null,"ja_jp":null},
 {"ID":1000005,"zh_tw":"隊伍","en_us":null,"ja_jp":null},
 {"ID":1000006,"zh_tw":"裝備","en_us":null,"ja_jp":null},
-{"ID":1000007,"zh_tw":"技能","en_us":null,"ja_jp":null}]
+{"ID":1000007,"zh_tw":"技能","en_us":null,"ja_jp":null},
+{"ID":1000008,"zh_tw":"第 {0} 回合","en_us":null,"ja_jp":null}]
