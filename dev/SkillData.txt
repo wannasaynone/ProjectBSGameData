@@ -288,7 +288,7 @@
     "SP": 0,
     "NameContextID": 166,
     "DescriptionContextID": 167,
-    "Command": "OnDamageTaken_Self\n{\n     AddStatus(Target, HP, -Random(1, Self.Attack * 0.5));\n}",
+    "Command": "OnDamageTaken_Self\n{\n     AddStatus(CurrentActor, HP, -Random(1, Self.Attack * 0.5));\n}",
     "IsDrop": 1
   },
   {
@@ -297,7 +297,7 @@
     "NameContextID": 168,
     "DescriptionContextID": 169,
     "ReferenceContextIDs": "15;16",
-    "Command": "OnDamageTaken_Self\n{\n     AddDamage(-10%);\n     BeginIf(Random(1, 100) <= 7);\n     GainBuff(Target, 4, 2);\n     EndIf();\n}",
+    "Command": "OnDamageTaken_Self\n{\n     AddDamage(-10%);\n     BeginIf(Random(1, 100) <= 7);\n     GainBuff(CurrentActor, 4, 2);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -722,6 +722,7 @@
     "SP": 0,
     "NameContextID": 319,
     "DescriptionContextID": 320,
+    "ReferenceContextIDs": "247;248",
     "Command": "OnActionStarted_Self\n{\n BeginIf(Self.ActionIndex == 0);\n GainBuff(Self, 110, 1);\n EndIf();\n}",
     "IsDrop": 1
   },
