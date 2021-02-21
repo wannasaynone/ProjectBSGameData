@@ -434,4 +434,10 @@
 {"ID":1000005,"zh_tw":"隊伍","en_us":null,"ja_jp":null},
 {"ID":1000006,"zh_tw":"裝備","en_us":null,"ja_jp":null},
 {"ID":1000007,"zh_tw":"技能","en_us":null,"ja_jp":null},
-{"ID":1000008,"zh_tw":"第 {0} 回合","en_us":null,"ja_jp":null}]
+{"ID":1000008,"zh_tw":"第 {0} 回合","en_us":null,"ja_jp":null},
+{"ID":1000009,"zh_tw":"追加行動","en_us":null,"ja_jp":null},
+{"ID":1000010,"zh_tw":"{0} 順序","en_us":null,"ja_jp":null},
+{"ID":1000011,"zh_tw":"開始行動","en_us":null,"ja_jp":null},
+{"ID":1000012,"zh_tw":"強制結束","en_us":null,"ja_jp":null},
+{"ID":1000013,"zh_tw":"死亡","en_us":null,"ja_jp":null},
+{"ID":1000014,"zh_tw":"消滅","en_us":null,"ja_jp":null}]
