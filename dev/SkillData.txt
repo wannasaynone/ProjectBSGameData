@@ -17,11 +17,11 @@
   },
   {
     "ID": 2,
-    "SP": 0,
+    "SP": 10,
     "NameContextID": 3,
     "DescriptionContextID": 4,
     "ReferenceContextIDs": "5;6",
-    "Command": "OnActived\n{\n     GainBuff(Self, 1, 1);\n}",
+    "Command": "OnActived\n{\n     GainBuff(Self, 1, 2);\n}",
     "IsDrop": 1
   },
   {},
@@ -539,6 +539,7 @@
     "SP": 0,
     "NameContextID": 235,
     "DescriptionContextID": 236,
+    "ReferenceContextIDs": "233;234",
     "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <= 0);\n   SetStatus(Self, HP,1000);\n   GainBuff(Self, 109, 1);\n  EndIf();\n}",
     "IsDrop": 1
   },
@@ -669,6 +670,7 @@
     "SP": 35,
     "NameContextID": 293,
     "DescriptionContextID": 294,
+    "ReferenceContextIDs": "291;292",
     "Command": "OnActived\n{\n GainBuff(Self, 122, 3);\n}",
     "IsDrop": 1
   },
@@ -677,6 +679,7 @@
     "SP": 0,
     "NameContextID": 295,
     "DescriptionContextID": 296,
+    "ReferenceContextIDs": "297;298",
     "Command": "OnActived\n{\n ReplaceSkill(Self,177,178);\n}",
     "IsDrop": 1
   },
@@ -702,6 +705,7 @@
     "SP": 0,
     "NameContextID": 301,
     "DescriptionContextID": 302,
+    "ReferenceContextIDs": "289;290",
     "Command": "OnDamageTaken_Self \n{\n   BeginIf(Random(1,100) <= 15);\n      DealDamage(Self, 0 , 0);\n   EndIf();\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(Self, 175, 1);\n   EndIf();\n}",
     "IsDrop": 1
   },
@@ -734,7 +738,7 @@
     "SP": 0,
     "NameContextID": 347,
     "DescriptionContextID": 348,
-    "Command": "OnActived\n{\n   BeginIf( Target.LastTakenDamage<=Target.MaxHP*0.01 );\n     AddExtraAction(Self, 1);\n   EndIf();\n}",
+    "Command": "OnDamageDealed_Self\n{\n   BeginIf_Effect(112);\n     Quit();\n   EndIf();\n\n   BeginIf( Target.LastTakenDamage<=Target.MaxHP*0.01 );\n     AddExtraAction(Self, 1);\n     GainBuff(Self, 112, 1);\n   EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -742,6 +746,7 @@
     "SP": 0,
     "NameContextID": 349,
     "DescriptionContextID": 350,
+    "ReferenceContextIDs": "287;288",
     "Command": "OnActived\n{\n GainBuff(Self, 185, 1);\n}",
     "IsDrop": 1
   },
@@ -750,6 +755,7 @@
     "SP": 0,
     "NameContextID": 389,
     "DescriptionContextID": 390,
+    "ReferenceContextIDs": "21;22",
     "Command": "OnActived\n{\n GainBuff(Select(SameSide, Manual, 1), 7, 1);\n AddActionIndex(LastSelected, -3);\n}",
     "IsDrop": 1
   },
@@ -758,6 +764,7 @@
     "SP": 0,
     "NameContextID": 391,
     "DescriptionContextID": 392,
+    "ReferenceContextIDs": "21;22",
     "Command": "OnActionStarted_Self\n{\n BeginIf(Self.ActionIndex >= CombatField.MyUnitCount + CombatField.OpponentUnitCount);\n GainBuff(Self, 21, 1);\n EndIf();\n}",
     "IsDrop": 1
   },
@@ -798,6 +805,7 @@
     "SP": 10,
     "NameContextID": 401,
     "DescriptionContextID": 402,
+    "ReferenceContextIDs": "21;22",
     "Command": "OnActived\n{\n GainBuff(Select(SameSide, Random, -1), 21,2);\n}",
     "IsDrop": 1
   },
