@@ -1,5913 +1,986 @@
-{
-  "命令對照表": {
-    "OnBattleStarted": {
-      "意義": "戰鬥開始時觸發\nCaster=自己\nTarget=自己",
-      "對應遊戲文字": "戰鬥開始時，",
-      "用法": "觸發時機名稱\n{\n    命令0;\n    命令1;\n    命令2;\n    命令3;\n}\n\n觸發時機名稱\n{\n    命令0;\n    命令1;\n    命令2;\n    命令3;\n}"
-    },
-    "OnTurnStarted": {
-      "意義": "回合開始時觸發\nCaster=自己\nTarget=自己",
-      "對應遊戲文字": "回合開始時，",
-      "用法": null
-    },
-    "OnActionStarted_Any": {
-      "意義": "行動開始時觸發(自己以外的任何人)\nCaster=現在行動的單位\nTarget=現在行動的單位",
-      "對應遊戲文字": "每當有人行動開始時，",
-      "用法": null
-    },
-    "OnActionStarted_Self": {
-      "意義": "行動開始時觸發(自己)\nCaster=現在行動的單位\nTarget=現在行動的單位",
-      "對應遊戲文字": "行動開始時，",
-      "用法": null
-    },
-    "OnStartToAttack_Any": {
-      "意義": "計算傷害前觸發(自己以外的任何人)\nCaster=現在發起攻擊的單位\nTarget=目前被選擇的目標",
-      "對應遊戲文字": "每當有人開始攻擊時，",
-      "用法": null
-    },
-    "OnStartToAttack_Self": {
-      "意義": "計算傷害前觸發(自己)\nCaster=現在發起攻擊的單位\r\nTarget=目前被選擇的目標",
-      "對應遊戲文字": "攻擊時，",
-      "用法": null
-    },
-    "OnDamageCalculated_Any": {
-      "意義": "計算傷害後觸發(自己以外的任何人)\nCaster=現在發起攻擊的單位\nTarget=目前被選擇的目標",
-      "對應遊戲文字": "每當有人將造成傷害時，",
-      "用法": null
-    },
-    "OnDamageCalculated_Self": {
-      "意義": "計算傷害後觸發(自己)\nCaster=現在發起攻擊的單位\nTarget=目前被選擇的目標",
-      "對應遊戲文字": "將造成傷害時，",
-      "用法": null
-    },
-    "OnStartToTakeDamage_Any": {
-      "意義": "被給予傷害前觸發(自己以外的任何人)\nCaster=目前被選擇的目標\nTarget=目前發起攻擊的單位",
-      "對應遊戲文字": "每當有人將受到傷害時，",
-      "用法": null
-    },
-    "OnStartToTakeDamage_Self": {
-      "意義": "被給予傷害前觸發(自己)\nCaster=目前被選擇的目標\nTarget=目前發起攻擊的單位",
-      "對應遊戲文字": "將受到傷害時，",
-      "用法": null
-    },
-    "OnDamageTaken_Any": {
-      "意義": "受到1點以上傷害、生命值扣除結算後觸發(自己以外的任何人)\nCaster=目前被選擇的目標\nTarget=目前發起攻擊的單位",
-      "對應遊戲文字": "每當有人受到傷害後，",
-      "用法": null
-    },
-    "OnDamageTaken_Self": {
-      "意義": "受到1點以上傷害、生命值扣除結算後觸發(自己)\nCaster=目前被選擇的目標\nTarget=目前發起攻擊的單位",
-      "對應遊戲文字": "受到傷害後，",
-      "用法": null
-    },
-    "OnDamageDealed_Any": {
-      "意義": "造成1點以上傷害的時候觸發(自己以外的任何人)\nCaster=目前發起攻擊的單位\nTarget=目前被選擇的目標",
-      "對應遊戲文字": "每當有人造成傷害後，",
-      "用法": null
-    },
-    "OnDamageDealed_Self": {
-      "意義": "造成1點以上傷害的時候觸發(自己)\nCaster=自己\r\nTarget=目前被選擇的目標",
-      "對應遊戲文字": "造成傷害後，",
-      "用法": null
-    },
-    "OnBeAttackedEnded_Any": {
-      "意義": "受到攻擊結束的時候觸發，不論有無受到傷害(自己以外的任何人)\nCaster=目前被選擇的目標\r\nTarget=目前發起攻擊的單位",
-      "對應遊戲文字": "每當有人受到攻擊後，",
-      "用法": null
-    },
-    "OnBeAttackedEnded_Self": {
-      "意義": "受到攻擊結束的時候觸發，不論有無受到傷害(自己)\nCaster=目前被選擇的目標\r\nTarget=目前發起攻擊的單位",
-      "對應遊戲文字": "受到攻擊後，",
-      "用法": null
-    },
-    "OnAttackEnded_Any": {
-      "意義": "攻擊結束觸發(自己以外的任何人)\nCaster=現在發起攻擊的單位\nTarget=現在發起攻擊的單位",
-      "對應遊戲文字": "每當有人攻擊後，",
-      "用法": null
-    },
-    "OnAttackEnded_Self": {
-      "意義": "攻擊結束觸發(自己)\nCaster=現在發起攻擊的單位\nTarget=現在發起攻擊的單位",
-      "對應遊戲文字": "攻擊後，",
-      "用法": null
-    },
-    "OnDied_Any": {
-      "意義": "角色死亡時觸發(自己以外的任何人)\nCaster=現在死亡的單位\nTarget=現在死亡的單位",
-      "對應遊戲文字": "每當有人死亡時，",
-      "用法": null
-    },
-    "OnDied_Self": {
-      "意義": "角色死亡時觸發(自己)\nCaster=現在死亡的單位\r\nTarget=現在死亡的單位",
-      "對應遊戲文字": "死亡時，",
-      "用法": null
-    },
-    "OnStartToEndAction_Any": {
-      "意義": "結束行動時觸發(自己以外的任何人)\nCaster=現在行動的單位\r\nTarget=現在行動的單位",
-      "對應遊戲文字": "每當有人行動結束時，",
-      "用法": null
-    },
-    "OnStartToEndAction_Self": {
-      "意義": "結束行動時觸發(自己)\nCaster=現在行動的單位\r\nTarget=現在行動的單位",
-      "對應遊戲文字": "行動結束時，",
-      "用法": null
-    },
-    "OnStartToEndTurn": {
-      "意義": "回合結束時觸發\nCaster=自己\nTarget=自己",
-      "對應遊戲文字": "回合結束時，",
-      "用法": null
-    },
-    "OnBattleEnded": {
-      "意義": "戰鬥結束時觸發觸發\nCaster=自己\nTarget=自己",
-      "對應遊戲文字": "戰鬥結束時，",
-      "用法": null
-    },
-    "OnActived": {
-      "意義": "主動技能/獲得BUFF的瞬間觸發\nCaster=自己\nTarget=無",
-      "對應遊戲文字": "立即...",
-      "用法": null
-    },
-    "OnDeactived": {
-      "意義": "失去BUFF的瞬間觸發\nCaster=自己\nTarget=無",
-      "對應遊戲文字": "狀態消除時，",
-      "用法": null
-    },
-    "命令名稱": {
-      "意義": "意義",
-      "對應遊戲文字": "參數1",
-      "用法": "參數2"
-    },
-    "SetStatus": {
-      "意義": "設定數值，將會直接設定原始數值，索引的值也會是原始數值",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "素質名稱"
-    },
-    "AddStatus": {
-      "意義": "增加數值，特定素質不會直接增加，在取值時才會加上去，計算百分比時將取原始值計算，而不是累乘。例如增加30%、減少40%後，最後的結果是原始數值x90%。",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "素質名稱"
-    },
-    "DealDamage": {
-      "意義": "造成傷害，走完整攻擊流程，取攻擊防禦值做傷害給予，並會觸發其他與攻擊相關的效果",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "數值，支援素質變數與算式"
-    },
-    "AddDamage": {
-      "意義": "增加對目前計算中的傷害，只能對自己發生作用，若是在傷害計算完畢前執行，將會沒有效果，若自己是攻擊者效果將影響至全部目標",
-      "對應遊戲文字": "填入數字或%數，非%數時支援素質變數與算式",
-      "用法": null
-    },
-    "SetDamage": {
-      "意義": "強制設定對目前計算中的傷害，只能對自己發生作用，若是在傷害計算完畢前執行，將會沒有效果，若自己是攻擊者效果將影響至全部目標",
-      "對應遊戲文字": "數值，支援素質變數與算式",
-      "用法": null
-    },
-    "SetForceEndAction": {
-      "意義": "強制結束行動，但如果不是在行動開始前執行，就不會有效果。只會對自己有效。",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "SetSkipCheckSP": {
-      "意義": "跳過技能施放需檢查SP，如果不是在選擇技能階段前執行，就不會有效果。只會對自己有效。",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "GainBuff": {
-      "意義": "獲得Buff，若已有該BUFF且不能再往上疊時，將刷新時間，以時間較長者為準。",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "SkillEffect ID"
-    },
-    "AddBuffStack": {
-      "意義": "增加Buff層數",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "SkillEffect ID，-1表示全部"
-    },
-    "AddBuffStackByTag": {
-      "意義": "增加指定Tag的Buff層數",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "Tag"
-    },
-    "AddBuffTime": {
-      "意義": "增減Buff的持續時間",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "SkillEffect ID，-1表示全部"
-    },
-    "AddBuffTimeByTag": {
-      "意義": "增減指定Tag的Buff的持續時間",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "Tag"
-    },
-    "BeginIf": {
-      "意義": "條件判斷，只支援單條件，判斷式只支援>=、<=、==、!=",
-      "對應遊戲文字": "條件式，支援素質變數與算式",
-      "用法": null
-    },
-    "BeginIf_Effect": {
-      "意義": "判斷是否擁有Skill Effect ID",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "0=無/1=有"
-    },
-    "BeginIf_Skill": {
-      "意義": "判斷是否擁有Skill ID",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "0=無/1=有"
-    },
-    "BeginIf_HasEffectTag": {
-      "意義": "判斷是否擁有Skill Effect Tag",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "0=無/1=有"
-    },
-    "BeginIf_LastSkillTag": {
-      "意義": "判斷是否擁有最後用的Skill的Tag",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "0=無/1=有"
-    },
-    "EndIf": {
-      "意義": "BeginIf為否時，向下逐一跳過，直到碰到EndIf或指令結束",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "AddShield": {
-      "意義": "給予護盾，如果護盾完全抵擋了傷害，則不算「受到傷害」",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "數值，支援素質變數與算式"
-    },
-    "Chain": {
-      "意義": "連鎖技能，在攻擊者以外的同側角色尋找擁有該技能且可以行動的角色(同一行動中)",
-      "對應遊戲文字": "Skill ID",
-      "用法": null
-    },
-    "ReplaceSkill": {
-      "意義": "替換技能，只對自己有效，沒有該技能，則不會有任何效果",
-      "對應遊戲文字": "原始Skill ID",
-      "用法": "替換後Skill ID"
-    },
-    "CastSkill": {
-      "意義": "若自己可以行動，則接續使用技能，不論是否持有",
-      "對應遊戲文字": "Skill ID",
-      "用法": null
-    },
-    "RandomCastSkill": {
-      "意義": "根據輸入的RandomSkillData ID隨機施放技能，不論是否持有",
-      "對應遊戲文字": "RandomSkillData ID",
-      "用法": null
-    },
-    "ForceDie": {
-      "意義": "強制選擇的對象死亡",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": null
-    },
-    "Destroy": {
-      "意義": "消滅選擇的對象，會直接移除角色，不會觸發死亡相關效果",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": null
-    },
-    "LockAddStatus": {
-      "意義": "上素質鎖，被鎖上的素質不會增加，目前只對HP SP 仇恨有用",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "HP / SP / Hatred"
-    },
-    "AddActionIndex": {
-      "意義": "增減選擇對象的行動順序，對已經行動的角色沒有效果",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "增減順位，只支援整數"
-    },
-    "AddExtraAction": {
-      "意義": "追加選擇對象的行動，如果是普通追加則會追加在最後一位",
-      "對應遊戲文字": "選擇對象指令",
-      "用法": "0=普通追加/1=立即追加"
-    },
-    "選擇對象指令名稱": {
-      "意義": "意義",
-      "對應遊戲文字": "參數1",
-      "用法": "參數2"
-    },
-    "Self": {
-      "意義": "自己",
-      "對應遊戲文字": "Self.MaxHP = 自己的最大生命值\nTarget.Attack = 目標的攻擊值\nSelf.LastSkill = 最後一次施展的技能ID",
-      "用法": null
-    },
-    "Select": {
-      "意義": "選擇對象：範圍、選擇方式、選擇數量",
-      "對應遊戲文字": "SameSide / Opponent / All",
-      "用法": "Manual / Random / HighestXX / LowestXX / RandomByHatred"
-    },
-    "SelectOther": {
-      "意義": "同上，但選擇對象不包含自己",
-      "對應遊戲文字": "SameSide / Opponent / All",
-      "用法": "Manual / Random / HighestXX / LowestXX / RandomByHatred"
-    },
-    "LastSelected": {
-      "意義": "上次被選擇的目標，只會抓取同個ID區間，不分敵我",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "LastAttacked": {
-      "意義": "選擇上次攻擊過的目標，只對自己有效，會追溯到最早攻擊過的目標，不論回合",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "CurrentActor": {
-      "意義": "現在行動中的單位",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "素質對象變數名稱": {
-      "意義": "意義",
-      "對應遊戲文字": "用法",
-      "用法": null
-    },
-    "Caster": {
-      "意義": "施展者，內容變化參考觸發時機說明",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Target": {
-      "意義": "目標，內容變化參考觸發時機說明",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "素質變數名稱": {
-      "意義": "意義",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "MaxHP": {
-      "意義": "最大生命值",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "HP": {
-      "意義": "生命值",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "SP": {
-      "意義": "特殊值，上限固定為100",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Attack": {
-      "意義": "攻擊值",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Defense": {
-      "意義": "防禦值",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Speed": {
-      "意義": "速度值",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "LastSkill": {
-      "意義": "最後施展過的技能ID，OnActived的時候就會更新",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "LastSkillTag": {
-      "意義": "最後施展過的技能的Tag",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "ActionIndex": {
-      "意義": "目前行動次序(從0開始)，回合排序開始排序時更新，角色死亡、技能不影響",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Head": {
-      "意義": "頭盔裝備ID",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Body": {
-      "意義": "身體裝備ID",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Hand": {
-      "意義": "手部裝備ID",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Foot": {
-      "意義": "腳部裝備ID",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Hatred": {
-      "意義": "仇恨值",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "LastDealedDamage": {
-      "意義": "最後造成的總傷害",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "LastTakenDamage": {
-      "意義": "最後受到的總傷害",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Camp": {
-      "意義": "陣營，有0跟1，同側為0，對側為1",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "特殊素質對象名稱": {
-      "意義": "意義",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "CombatField": {
-      "意義": "取得戰場目前資訊",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "特殊素質對象相關數值": {
-      "意義": "意義",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "MyUnitCount": {
-      "意義": "玩家側角色數量",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "OpponentUnitCount": {
-      "意義": "BOSS側角色數量",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "TurnCount": {
-      "意義": "回合數",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "LastAttackRoll": {
-      "意義": "最後骰出的攻擊骰",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "LastDefenseRoll": {
-      "意義": "最後骰出的防禦骰",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "特殊素質指令名稱": {
-      "意義": "意義",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Random\n隨機整數，返回最小值到最大值+1之間的隨機數\n支援算式": {
-      "意義": "最小值",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "": {
-      "意義": null,
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "Buff\n取得Buff的資訊": {
-      "意義": "Caster",
-      "對應遊戲文字": null,
-      "用法": null
-    },
-    "動畫名稱;\n時間_指令_參數;\n時間_指令_參數;\n時間_指令_參數": {
-      "意義": null,
-      "對應遊戲文字": null,
-      "用法": null
-    }
+[
+  {
+    "ID": 0,
+    "SP": 0,
+    "NameContextID": 0,
+    "DescriptionContextID": 0,
+    "IsDrop": 0
   },
-  "SkillData": {
-    "0": {
-      "SP": 0,
-      "NameContextID": 0,
-      "DescriptionContextID": 0,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "1": {
-      "SP": 0,
-      "NameContextID": 1,
-      "DescriptionContextID": 2,
-      "StoryContextID": null,
-      "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target",
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "普通攻擊",
-      "NOEX_技能說明(不輸出)": "對一個敵人造成130%攻擊值的傷害。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "2": {
-      "SP": 10,
-      "NameContextID": 3,
-      "DescriptionContextID": 4,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "5;6",
-      "Command": "OnActived\n{\n     GainBuff(Self, 1, 2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "普通防禦",
-      "NOEX_技能說明(不輸出)": "給予自己持續2回合的「防禦」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "101": {
-      "SP": 0,
-      "NameContextID": 101,
-      "DescriptionContextID": 102,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnBattleStarted\n{\n     SetStatus(Self, Hatred, Self.Defense * 3);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "先鋒",
-      "NOEX_技能說明(不輸出)": "戰鬥開始時，給予自己300%防禦值的仇恨值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "102": {
-      "SP": 0,
-      "NameContextID": 103,
-      "DescriptionContextID": 104,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "105;106",
-      "Command": "OnActived\n{\n     AddStatus(Self, Hatred, Self.Defense * 2);\n     GainBuff(Self, 101, 3);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "戰吼",
-      "NOEX_技能說明(不輸出)": "給予自己持續3回合的「鼓舞」後，給予自己200%防禦值的仇恨值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "103": {
-      "SP": 0,
-      "NameContextID": 107,
-      "DescriptionContextID": 108,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Defense * 0.85, 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "盾擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成85%防禦值的傷害。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "104": {
-      "SP": 0,
-      "NameContextID": 109,
-      "DescriptionContextID": 110,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 2.2, 0);\n     AddStatus(Self, HP, -Self.LastDealedDamage * 0.7);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "狂擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成220%攻擊值的傷害，並減少自己70%造成傷害的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "105": {
-      "SP": 0,
-      "NameContextID": 111,
-      "DescriptionContextID": 112,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "旋風斬",
-      "NOEX_技能說明(不輸出)": "對所有敵人造成130%攻擊值的傷害。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "106": {
-      "SP": 0,
-      "NameContextID": 113,
-      "DescriptionContextID": 114,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "115;116",
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.5, 0);\n     GainBuff(Self, 102, -1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "連擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成50%攻擊值的傷害，並給給予自己1個「連擊中」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "107": {
-      "SP": 0,
-      "NameContextID": 117,
-      "DescriptionContextID": 118,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "11;12",
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.7, 0, 0);\n}\n\nOnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill != 107);\n     Quit();\n     EndIf();\n\n     BeginIf(Target.HP / Target.MaxHP >= 0.76);\n     Quit();\n     EndIf();\n\n     BeginIf(Random(0, 100) <= (0.75 - (Target.HP / Target.MaxHP)) * 100);\n     GainBuff(LastSelected, 2, 1);\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "重擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成70%攻擊值的傷害。造成傷害後，以(75%-目標剩餘生命值百分比)的機率給予敵人持續2回合的「不能行動」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "108": {
-      "SP": 0,
-      "NameContextID": 119,
-      "DescriptionContextID": 120,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnAttackEnded_Self\n{\n     AddStatus(Self, Hatred, Self.Hatred * 1.2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "戰士之軀",
-      "NOEX_技能說明(不輸出)": "每次自己攻擊後，使自己仇恨值增加120%。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "109": {
-      "SP": 0,
-      "NameContextID": 121,
-      "DescriptionContextID": 122,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Hatred * 0.75, 0);\n     AddStatus(Self, Hatred, -Self.LastDealedDamage * 2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "復仇打擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成75%仇恨值的傷害，並減少自己200%造成傷害的仇恨值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "110": {
-      "SP": 10,
-      "NameContextID": 123,
-      "DescriptionContextID": 124,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "13;14",
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1, 0);\n     BeginIf(Random(1,100) <= 75);\n     GainBuff(LastSelected, 3, 3);\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "火球術",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成100%攻擊值的傷害，並有75%的機率給予敵人持續3回合的「燒傷」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "111": {
-      "SP": 10,
-      "NameContextID": 125,
-      "DescriptionContextID": 126,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "15;16",
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 0);\n     BeginIf(Random(1,100) <= 75);\n     GainBuff(LastSelected, 4, 2);\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "冰箭術",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成80%攻擊值的傷害，並有75%的機率給予敵人持續2回合的「冷凍」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "112": {
-      "SP": 10,
-      "NameContextID": 127,
-      "DescriptionContextID": 128,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * Random(130, 360) * 0.01, 0);\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "雷擊術",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成隨機130%~360%攻擊值的傷害。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "113": {
-      "SP": 60,
-      "NameContextID": 129,
-      "DescriptionContextID": 130,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "129;131",
-      "Command": "OnActived\n{\n     GainBuff(SelectOther(Opponent, Manual, 1), 103, 3);\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "詛咒",
-      "NOEX_技能說明(不輸出)": "給予1個敵人持續3回合的「詛咒」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "114": {
-      "SP": 30,
-      "NameContextID": 132,
-      "DescriptionContextID": 133,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "17;18",
-      "Command": "OnActived\n{\n     GainBuff(SelectOther(Opponent, Random, -1), 5, 5);\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "毒氣",
-      "NOEX_技能說明(不輸出)": "給予全部敵人持續5回合的「中毒」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "115": {
-      "SP": 0,
-      "NameContextID": 134,
-      "DescriptionContextID": 135,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddStatus(SelectOther(All, Manual, 1), HP, -Target.MaxHP * 0.03 * Buff(Target, 5, StackCount));\n     AddBuffStack(LastSelected, 5, -99);\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "毒爆",
-      "NOEX_技能說明(不輸出)": "指定一個單位，使其失去(3%x「中毒」層數)最大生命值的生命值。並消除目標的「中毒」狀態。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "116": {
-      "SP": 60,
-      "NameContextID": 136,
-      "DescriptionContextID": 137,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "13;14",
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 3, 0);\n     GainBuff(LastSelected, 3, 3);\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "末日",
-      "NOEX_技能說明(不輸出)": "對所有敵人造成300%攻擊值的傷害，並給予所有敵人持續3回合的「燒傷」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "117": {
-      "SP": 60,
-      "NameContextID": 138,
-      "DescriptionContextID": 139,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "15;16",
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.5, 0);\n     GainBuff(LastSelected, 4, 2);\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "冰河時代",
-      "NOEX_技能說明(不輸出)": "對所有敵人造成150%攻擊值的傷害，並給予所有敵人持續2回合的「冷凍」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "118": {
-      "SP": 0,
-      "NameContextID": 140,
-      "DescriptionContextID": 141,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), SP, 10);\n     AddStatus(Self, HP, -Self.MaxHP * 0.1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "生命轉換",
-      "NOEX_技能說明(不輸出)": "減少最大生命值10%的生命值，給予1個友軍10點SP。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "119": {
-      "SP": 0,
-      "NameContextID": 142,
-      "DescriptionContextID": 143,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnTurnStarted\n{\n     AddStatus(Self, SP, 5);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "自然能量",
-      "NOEX_技能說明(不輸出)": "每回合開始時，獲得5點SP",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "120": {
-      "SP": 60,
-      "NameContextID": 144,
-      "DescriptionContextID": 145,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "19;20",
-      "Command": "OnActived\n{\n     GainBuff(SelectOther(Opponent, Manual, 1), 6, 4);\n}",
-      "IsDrop": 1,
-      "Tag": 400001,
-      "NOEX_技能名稱(不輸出)": "石化術",
-      "NOEX_技能說明(不輸出)": "給予1個角色持續4回合的「石化」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "121": {
-      "SP": 0,
-      "NameContextID": 146,
-      "DescriptionContextID": 147,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnBattleStarted\n{\n     AddStatus(Self, Defense, Self.Defense * 0.3);\n     AddStatus(Self, Speed, -Self.Speed * 0.3);\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(-20%);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "岩之鎧甲",
-      "NOEX_技能說明(不輸出)": "防禦值增加30%，受到的傷害減少20%。速度減少30%。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "122": {
-      "SP": 0,
-      "NameContextID": 148,
-      "DescriptionContextID": 149,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     AddStatus(Self, HP, Self.LastDealedDamage);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "汲取",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成130%攻擊值的傷害。並使自己增加100%造成傷害的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "123": {
-      "SP": 0,
-      "NameContextID": 150,
-      "DescriptionContextID": 151,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n}\n\nOnDamageCalculated_Self\n{\n     BeginIf(Self.LastSkill != 123);\n     Quit();\n     EndIf();\n\n     BeginIf_Effect(Self, 1, 7);\n     AddDamage(100%);\n     EndIf();\n}\n\nOnAttackEnded_Self\n{\n     BeginIf(Self.LastSkill != 123);\n     Quit();\n     EndIf();\n\n     BeginIf_Effect(Self, 1, 7);\n     AddBuffStack(Self, 7, -99);\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "爆發",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成130%攻擊值的傷害。若擁有「激發」，增加100%造成的傷害，並消除「激發」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "124": {
-      "SP": 0,
-      "NameContextID": 152,
-      "DescriptionContextID": 153,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "21;22",
-      "Command": "OnStartToAttack_Self\n{\n     BeginIf(Random(0, 100) <= 30);\n     GainBuff(Self, 7, 2);\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "瞬發",
-      "NOEX_技能說明(不輸出)": "攻擊時，有30%的機率給予自己持續2回合的「激發」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "125": {
-      "SP": 0,
-      "NameContextID": 154,
-      "DescriptionContextID": 155,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "21;22",
-      "Command": "OnBattleStarted\n{\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n}\n\nOnTurnStarted\n{\n     GainBuff(Self, 7, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "攻擊架式",
-      "NOEX_技能說明(不輸出)": "防禦值減少30%。回合開始時，給予自己持續1回合的「激發」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "126": {
-      "SP": 0,
-      "NameContextID": 156,
-      "DescriptionContextID": 157,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "5;6",
-      "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, -Self.Attack * 0.3);\n}\n\nOnTurnStarted\n{\n     GainBuff(Self, 1, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "防禦架式",
-      "NOEX_技能說明(不輸出)": "攻擊值減少30%。回合開始時，給予自己持續1回合的「防禦」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "127": {
-      "SP": 10,
-      "NameContextID": 158,
-      "DescriptionContextID": 159,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 1, 0, 0);\n}",
-      "IsDrop": 1,
-      "Tag": 400002,
-      "NOEX_技能名稱(不輸出)": "治癒術",
-      "NOEX_技能說明(不輸出)": "增加1個友軍自己100%防禦值的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "128": {
-      "SP": 10,
-      "NameContextID": 160,
-      "DescriptionContextID": 161,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "162;163",
-      "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Random, -1), 104, 2);\n}",
-      "IsDrop": 1,
-      "Tag": 400002,
-      "NOEX_技能名稱(不輸出)": "聖所",
-      "NOEX_技能說明(不輸出)": "給予所有友軍持續2回合的「神之加護」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "129": {
-      "SP": 0,
-      "NameContextID": 164,
-      "DescriptionContextID": 165,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "23;24",
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.7, 0);\n     GainBuff(LastSelected, 8, 2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "破壞",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成70%攻擊值的傷害，並給予持續2回合的「防禦破壞」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "130": {
-      "SP": 0,
-      "NameContextID": 166,
-      "DescriptionContextID": 167,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDamageTaken_Self\n{\n     AddStatus(Target, HP, -Random(1, Self.Attack * 0.5));\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "焰之鎧甲",
-      "NOEX_技能說明(不輸出)": "受到傷害後，使攻擊者失去隨機(1~自己50%攻擊值)的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "131": {
-      "SP": 0,
-      "NameContextID": 168,
-      "DescriptionContextID": 169,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "15;16",
-      "Command": "OnDamageTaken_Self\n{\n     AddDamage(-10%);\n     BeginIf(Random(1, 100) <= 7);\n     GainBuff(Target, 4, 2);\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "冰之鎧甲",
-      "NOEX_技能說明(不輸出)": "受到的傷害減少10%。受到傷害後，有7%的機率給予攻擊者持續2回合的「冷凍」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "132": {
-      "SP": 0,
-      "NameContextID": 170,
-      "DescriptionContextID": 171,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "25;26",
-      "Command": "OnBattleStarted\n{\n     LockAddStatus(Self, SP);\n     LockAddStatus(Self, HP);\n     GainBuff(Self, 9, 3);\n     SetSkipCheckSP();\n}\n\nOnStartToTakeDamage_Self\n{\n     SetDamage(0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "魔神化",
-      "NOEX_技能說明(不輸出)": "戰鬥開始時，失去所有SP，並給予自己持續3回合的「滅亡倒數」。無法增加SP和生命值。將受到傷害時，使傷害變為0。使用技能時，不消耗SP。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "133": {
-      "SP": 35,
-      "NameContextID": 172,
-      "DescriptionContextID": 173,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 2, 0, 0);\n}",
-      "IsDrop": 1,
-      "Tag": 400002,
-      "NOEX_技能名稱(不輸出)": "強化治療",
-      "NOEX_技能說明(不輸出)": "增加1個友軍自己200%防禦值的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "134": {
-      "SP": 0,
-      "NameContextID": 174,
-      "DescriptionContextID": 175,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.HP * 5.5, 0);\n     SetStatus(Self, HP, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "最後一擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成550%剩餘生命值的傷害，並使自己剩餘的生命值變為1。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "135": {
-      "SP": 0,
-      "NameContextID": 176,
-      "DescriptionContextID": 177,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * Self.SP * 5 * 0.01, 0);\n     SetStatus(Self, SP, 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "奮力一擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成(剩餘SP值x5)%攻擊值的傷害。消耗所有剩餘的SP。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "136": {
-      "SP": 0,
-      "NameContextID": 178,
-      "DescriptionContextID": 179,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "25;26",
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.HP * Self.SP * 0.1, 0);\n     SetStatus(Self, SP, 0);\n     SetStatus(Self, HP, 1);\n     GainBuff(Self, 9, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "殆盡",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成(剩餘生命值x剩餘SP值x10%)點傷害，使自己剩餘的生命值變為1，消耗自己所有剩餘SP，並給予自己持續1回合的「滅亡倒數」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "137": {
-      "SP": 0,
-      "NameContextID": 180,
-      "DescriptionContextID": 181,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnStartToAttack_Self\n{\n     AddStatus(Self, Attack, Self.MaxHP - Self.HP);\n}\n\nOnAttackEnded_Self\n{\n     AddStatus(Self, Attack, -(Self.MaxHP - Self.HP));\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "血咒",
-      "NOEX_技能說明(不輸出)": "攻擊時，每失去1點生命值，就額外增加攻擊值1點。攻擊後失去增加的攻擊值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "138": {
-      "SP": 0,
-      "NameContextID": 182,
-      "DescriptionContextID": 183,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.LastTakenDamage + Self.HP != 1);\n     BeginIf(Self.HP <= 0);\n     SetStatus(Self, HP, 1);\n     GainBuff(2, Self, -1);\n     EndIf();\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "鋼鐵意志",
-      "NOEX_技能說明(不輸出)": "受到傷害後，若剩餘的生命值小於0，令剩餘的生命值變為1，並給予自己「不能行動」。生命值為1時不會發動。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "139": {
-      "SP": 100,
-      "NameContextID": 184,
-      "DescriptionContextID": 185,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "186;187",
-      "Command": "OnActived\n{\n     GainBuff(Self, 105, -1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "暴走",
-      "NOEX_技能說明(不輸出)": "給予自己「狂暴化」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "140": {
-      "SP": 0,
-      "NameContextID": 188,
-      "DescriptionContextID": 189,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent , Random, -1), Self.HP * 0.5, 1);\n     ForceDie(Self);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "自爆",
-      "NOEX_技能說明(不輸出)": "對所有敵方角色造成自己50%剩餘生命值的傷害後，使自己死亡。無視目標防禦值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "141": {
-      "SP": 0,
-      "NameContextID": 190,
-      "DescriptionContextID": 191,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnBattleStarted\n{\n     LockAddStatus(Self, HP);\n     LockAddStatus(Self, Hatred);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "靈體之軀",
-      "NOEX_技能說明(不輸出)": "不會獲得仇恨值。無法增加生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "142": {
-      "SP": 0,
-      "NameContextID": 192,
-      "DescriptionContextID": 193,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnStartToEndAction_Any\n{\n     BeginIf(Random(0, 100) <= 5);\n     AddExtraAction(Self, 1);\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "偷襲",
-      "NOEX_技能說明(不輸出)": "每當其他單位行動結束時，有5%的機率使自己立即行動1次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "143": {
-      "SP": 5,
-      "NameContextID": 194,
-      "DescriptionContextID": 195,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.Attack * 0.5);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "運氣調息",
-      "NOEX_技能說明(不輸出)": "增加自己50%攻擊值的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "144": {
-      "SP": 30,
-      "NameContextID": 196,
-      "DescriptionContextID": 197,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Random, -1), HP, Self.Defense * 0.35);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "聖域",
-      "NOEX_技能說明(不輸出)": "增加所有友軍自己35%防禦值的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "145": {
-      "SP": 20,
-      "NameContextID": 198,
-      "DescriptionContextID": 199,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddBuffStack(Select(All, Manual, 1), -1, -99);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "驅散",
-      "NOEX_技能說明(不輸出)": "消除1個單位身上所有狀態。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "146": {
-      "SP": 35,
-      "NameContextID": 200,
-      "DescriptionContextID": 201,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddBuffTime(Select(All, Manual, 1), -1, -2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "時間魔術・加速",
-      "NOEX_技能說明(不輸出)": "使1個單位身上狀態的持續回合減少2回合。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "147": {
-      "SP": 35,
-      "NameContextID": 202,
-      "DescriptionContextID": 203,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddBuffTime(Select(All, Manual, 1), -1, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "時間魔術・凝滯",
-      "NOEX_技能說明(不輸出)": "使1個單位身上狀態的持續回合增加1回合。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "148": {
-      "SP": 100,
-      "NameContextID": 204,
-      "DescriptionContextID": 205,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "11;12",
-      "Command": "OnActived\n{\n     GainBuff(SelectOther(All, Random, -1), 2, 4);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "時間魔術・暫停",
-      "NOEX_技能說明(不輸出)": "給予自己以外的所有單位持續4回合的「不能行動」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "149": {
-      "SP": 100,
-      "NameContextID": 206,
-      "DescriptionContextID": 207,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddBuffStack(Select(All, Random, -1), -1, -99);\n     AddStatus(Select(All, Random, -1), HP, Target.MaxHP * 2);\n     SetStatus(Select(All, Random, -1), SP, 100);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "時間魔術・重置",
-      "NOEX_技能說明(不輸出)": "消除雙方所有單位身上的狀態，並將生命值、SP值增加至全滿。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "150": {
-      "SP": 0,
-      "NameContextID": 208,
-      "DescriptionContextID": 209,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddStatus(Select(All, Manual, 1), HP, Self.MaxHP * 0.1);\n     AddStatus(Self, HP, -Self.MaxHP * 0.1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "犧牲",
-      "NOEX_技能說明(不輸出)": "減少自己最大生命值10%的生命值，增加1個單位等量的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "151": {
-      "SP": 15,
-      "NameContextID": 210,
-      "DescriptionContextID": 211,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "162;163",
-      "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Manual, 1), 104, 3);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "加護",
-      "NOEX_技能說明(不輸出)": "給予1個友軍持續3回合的「神之加護」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "152": {
-      "SP": 0,
-      "NameContextID": 212,
-      "DescriptionContextID": 213,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "214;215",
-      "Command": "OnActived\n{\n     GainBuff(Self, 106, 6);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "神格化",
-      "NOEX_技能說明(不輸出)": "給予自己持續6回合的「神格化」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "153": {
-      "SP": 0,
-      "NameContextID": 216,
-      "DescriptionContextID": 217,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDied_Any\n{\n     BeginIf(CurrentDyingUnit.Camp == Self.Camp);\n     AddStatus(Self, HP, Self.MaxHP * 2);\n     AddStatus(Self, SP, 100);\n     EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "憤慨",
-      "NOEX_技能說明(不輸出)": "每當有友軍死亡時，使自己的生命值和SP恢復至全滿。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "154": {
-      "SP": 0,
-      "NameContextID": 218,
-      "DescriptionContextID": 219,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "220;221",
-      "Command": "OnDied_Self\n{\n     GainBuff(Select(SameSide, Random, -1), 107, 4);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "安息",
-      "NOEX_技能說明(不輸出)": "死亡時，給予所有友軍持續4回合的「英靈守護」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "155": {
-      "SP": 0,
-      "NameContextID": 222,
-      "DescriptionContextID": 223,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddBuffStackByTag(Select(SameSide, Manual, 1), 400003, -99);\n     AddStatus(Self, Hatred, 10000);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "淨化",
-      "NOEX_技能說明(不輸出)": "消除1個友軍的所有異常狀態，並給予自己10000點仇恨值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "156": {
-      "SP": 0,
-      "NameContextID": 224,
-      "DescriptionContextID": 225,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), HP, Target.MaxHP * 0.45);\n     ReplaceSkill(156, 2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "緊急治療",
-      "NOEX_技能說明(不輸出)": "增加1個友軍其45%最大生命值的生命值，並將自己的技能「緊急治療」替換為「普通防禦」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "157": {
-      "SP": 0,
-      "NameContextID": 226,
-      "DescriptionContextID": 227,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDamageTaken_Self\n{\n  AddStatus(Self, SP, Self.LastDealedDamage / Self.MaxHP);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "愉悅",
-      "NOEX_技能說明(不輸出)": "每當自己受到傷害時，根據受到的傷害量增加SP值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "158": {
-      "SP": 30,
-      "NameContextID": 228,
-      "DescriptionContextID": 229,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "228;230",
-      "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Manual, 1), 108, 2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "守護",
-      "NOEX_技能說明(不輸出)": "給予1個友軍持續2回合的「守護」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "159": {
-      "SP": 10,
-      "NameContextID": 231,
-      "DescriptionContextID": 232,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "5;6;21;22",
-      "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Manual, 1), 3, 4);\n     GainBuff(Select(SameSide, Manual, 1), 21, 4);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "戰神之祝福",
-      "NOEX_技能說明(不輸出)": "給予1個友軍持續4回合的「防禦」和「激發」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "160": {
-      "SP": 0,
-      "NameContextID": 235,
-      "DescriptionContextID": 236,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "233;234",
-      "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <= 0);\n   SetStatus(Self, HP,1000);\n   GainBuff(Self, 109, 1);\n  EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "替身娃娃",
-      "NOEX_技能說明(不輸出)": "受到傷害後，若剩餘的生命值小於0，令剩餘的生命值變為1000，並給予自己持續1回合的「索命娃娃」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "161": {
-      "SP": 0,
-      "NameContextID": 237,
-      "DescriptionContextID": 238,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n DealDamage(Select(Opponent, Manual, 1), Self.Attack * 0.65 , 0);\n DealDamage(LastSelected, Self.Attack * 0.65 , 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "連續攻擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成65%攻擊值的傷害。連續2次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "162": {
-      "SP": 0,
-      "NameContextID": 239,
-      "DescriptionContextID": 240,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n DealDamage(Select(Opponent, Manual, 1), Self.Attack * 0.5 , 0);\n DealDamage(LastSelected, Self.Attack * 0.5 , 0);\n DealDamage(LastSelected, Self.Attack * 0.5 , 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "三連攻擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成50%攻擊值的傷害。連續3次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "163": {
-      "SP": 0,
-      "NameContextID": 241,
-      "DescriptionContextID": 242,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n DealDamage(Select(Opponent, Manual, 1), Self.Attack * 0.45 , 0);\n DealDamage(LastSelected, Self.Attack * 0.45 , 0);\n DealDamage(LastSelected, Self.Attack * 0.45 , 0);\n DealDamage(LastSelected, Self.Attack * 0.45 , 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "四連攻擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成45%攻擊值的傷害。連續4次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "164": {
-      "SP": 0,
-      "NameContextID": 243,
-      "DescriptionContextID": 244,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "17;18",
-      "Command": "OnDamageDealed_Self\n{\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(LastAttacked, 17, 2);\n   EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "毒刃",
-      "NOEX_技能說明(不輸出)": "造成傷害後，有15%的機率給予敵人持續2回合的「中毒」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "165": {
-      "SP": 0,
-      "NameContextID": 245,
-      "DescriptionContextID": 246,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDamageTaken_Any \n{\n    BeginIf(Target.Camp == Self.Camp);\n    AddStatus(Self, Hatred,Target.LastTakenDamage * 2);\n    EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "騎士精神",
-      "NOEX_技能說明(不輸出)": "每當友軍受到傷害時，使自己增加100%友軍受到傷害的仇恨值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "166": {
-      "SP": 0,
-      "NameContextID": 249,
-      "DescriptionContextID": 250,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "247;248",
-      "Command": "OnAttackEnded_Self \n{\n   BeginIf(Self.LastDealedDamage == 1);\n     GainBuff(Self, 110, 3);\n   EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "試探",
-      "NOEX_技能說明(不輸出)": "攻擊後，若造成的傷害為1，給予自己持續3回合的「看穿」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "167": {
-      "SP": 25,
-      "NameContextID": 251,
-      "DescriptionContextID": 252,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  SetStatus(Self, Hatred, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "隱身",
-      "NOEX_技能說明(不輸出)": "消除自己所有仇恨值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "168": {
-      "SP": 0,
-      "NameContextID": 253,
-      "DescriptionContextID": 254,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  AddStatus(Self, Hatred, 5000);\n  AddStatus(Self, Hatred, Self.Hatred * 0.50);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "嘲諷",
-      "NOEX_技能說明(不輸出)": "給予自己5000點仇恨值，並讓自己的仇恨值增加50%。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "169": {
-      "SP": 0,
-      "NameContextID": 255,
-      "DescriptionContextID": 256,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  DealDamage(Select(Opponent, Manual, 1), Self.Attack * 1.30 , 0);\n  BeginIf(Target.HP <= (Target.MaxHP*0.1) );\n  CastSkill(1);\n  EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "追擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成130%攻擊值的傷害。攻擊後，若目標的生命值低於其最大生命值的10%，追加使用「普通攻擊」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "170": {
-      "SP": 0,
-      "NameContextID": 257,
-      "DescriptionContextID": 258,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\nDealDamage(Select(Opponent, Manual, 1), Target.Attack * 1.30 , 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "借力打擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成130%目標攻擊值的傷害。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "171": {
-      "SP": 0,
-      "NameContextID": 259,
-      "DescriptionContextID": 260,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\nDealDamage(Select(Opponent, Manual, 1), Target.Defense * 1.20 , 0);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "共振打擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成120%目標防禦值的傷害。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "172": {
-      "SP": 0,
-      "NameContextID": 261,
-      "DescriptionContextID": 262,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\nDealDamage(Select(Opponent, Manual, 1), Self.Attack * 0.15 , 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "穿刺",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成15%攻擊值的傷害。無視目標防禦值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "173": {
-      "SP": 0,
-      "NameContextID": 263,
-      "DescriptionContextID": 264,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\nDealDamage(Select(Opponent, RandomByHatred, 1), Self.Attack * 1.10 , 0);\n}",
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "爆擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成110%攻擊值的傷害。攻擊骰必定為最大值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "174": {
-      "SP": 20,
-      "NameContextID": 265,
-      "DescriptionContextID": 266,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n GainBuff(Select(SameSide, Random, -1), 21,1);\n AddStatus(Select(SameSide, Random, -1), MaxHP, Target.MaxHP*0.04);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "號召",
-      "NOEX_技能說明(不輸出)": "給予所有友軍持續1回合的「激發」，並增加其他所有友軍其4%最大生命值的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "175": {
-      "SP": 0,
-      "NameContextID": 289,
-      "DescriptionContextID": 290,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n   DealDamage(CurrentActor, Self.Attack * 4, 0);\n}",
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "反擊",
-      "NOEX_技能說明(不輸出)": "對行動中的單位造成400%攻擊值的傷害。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "176": {
-      "SP": 35,
-      "NameContextID": 293,
-      "DescriptionContextID": 294,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "291;292",
-      "Command": "OnActived\n{\n GainBuff(Self, 122, 3);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "反擊姿勢",
-      "NOEX_技能說明(不輸出)": "給予自己持續3回合的「反擊預備」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "177": {
-      "SP": 0,
-      "NameContextID": 295,
-      "DescriptionContextID": 296,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "297;298",
-      "Command": "OnActived\n{\n ReplaceSkill(Self,177,178);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "居合預備",
-      "NOEX_技能說明(不輸出)": "將技能「居合預備」替換為「居合斬」",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "178": {
-      "SP": 0,
-      "NameContextID": 297,
-      "DescriptionContextID": 298,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n DealDamage(Select(Opponent, All), Self.Attack * 3.00 , 0);\n ReplaceSkill(Self,178,177);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "居合斬",
-      "NOEX_技能說明(不輸出)": "對所有敵人造成300%攻擊值的傷害，並將技能「居合斬」替換為「居合預備」",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "179": {
-      "SP": 25,
-      "NameContextID": 299,
-      "DescriptionContextID": 300,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "247;248",
-      "Command": "OnActived\n{\n GainBuff(Caster, 110, 1);\n AddExtraAction(Self, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "領域",
-      "NOEX_技能說明(不輸出)": "給予自己持續1回合的「看穿」後，立即再行動1次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "180": {
-      "SP": 0,
-      "NameContextID": 301,
-      "DescriptionContextID": 302,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "289;290",
-      "Command": "OnDamageTaken_Self \n{\n   BeginIf(Random(1,100) <= 15);\n      DealDamage(Self, 0 , 0);\n   EndIf();\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(Self, 175, 1);\n   EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "反射神經強化",
-      "NOEX_技能說明(不輸出)": "受到傷害時，有15%的機率使受到的傷害變為0，並有15%的機率施放「反擊」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "181": {
-      "SP": 0,
-      "NameContextID": 317,
-      "DescriptionContextID": 318,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnStartToEndAction_Self\n{\n   BeginIf(Random(1,100) <= 10);\n     AddExtraAction\n   EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "再之先",
-      "NOEX_技能說明(不輸出)": "行動結束時，有10%的機率在本回合追加1次行動。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "182": {
-      "SP": 0,
-      "NameContextID": 319,
-      "DescriptionContextID": 320,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActionStarted_Self\n{\n BeginIf(Self.ActionIndex == 0);\n GainBuff(Self, 110, 1);\n Endif();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "洞燭先機",
-      "NOEX_技能說明(不輸出)": "行動開始時，若自己是本回合第1個行動的單位，給予自己持續1回合的「看穿」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "183": {
-      "SP": 0,
-      "NameContextID": 345,
-      "DescriptionContextID": 346,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDamageTaken_Self\n{\n BeginIf(Self.HP <= 0);\n  ForceDie(Select(SameSide, Manual,1));\n  AddStatus(Self, HP, Self.MaxHP);\n EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "指定替死鬼",
-      "NOEX_技能說明(不輸出)": "受到傷害後，若剩餘的生命值小於0，指定1個友軍，使其立即死亡，並使自己的生命值增加至全滿。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "184": {
-      "SP": 0,
-      "NameContextID": 347,
-      "DescriptionContextID": 348,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDamageDealed_Self\n{\n   BeginIf_Effect(112);\n     Quit();\n   EndIf();\n\n   BeginIf( Target.LastTakenDamage<=Target.MaxHP*0.01 );\n     AddExtraAction(Self, 1);\n     GainBuff(Self, 112, 1);\n   EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "第二次機會",
-      "NOEX_技能說明(不輸出)": "造成傷害後，若造成的傷害小於目標1%最大生命值，則再追加1次行動。每回合僅能觸發1次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "185": {
-      "SP": 0,
-      "NameContextID": 349,
-      "DescriptionContextID": 350,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "287;288",
-      "Command": "OnActived\n{\n GainBuff(Self, 185, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "超載",
-      "NOEX_技能說明(不輸出)": "給予自己「超載」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "186": {
-      "SP": 0,
-      "NameContextID": 389,
-      "DescriptionContextID": 390,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "21;22",
-      "Command": "OnActived\n{\n GainBuff(Select(SameSide, Manual, 1), 7, 1);\n AddActionIndex(LastSelected, -3);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "腎上腺素",
-      "NOEX_技能說明(不輸出)": "給予1個友軍持續1回合的「激發」後，使其行動順位提前3位。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "187": {
-      "SP": 0,
-      "NameContextID": 391,
-      "DescriptionContextID": 392,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "21;22",
-      "Command": "OnActionStarted_Self\n{\n BeginIf(Self.ActionIndex >= CombatField.MyUnitCount + CombatField.OpponentUnitCount);\n GainBuff(Self, 21, 1);\n EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "決意",
-      "NOEX_技能說明(不輸出)": "行動開始時，若自己是本回合最後1個行動的單位，給予自己持續1回合的「激發」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "188": {
-      "SP": 0,
-      "NameContextID": 393,
-      "DescriptionContextID": 394,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n AddExtraAction(SelectOther(SameSide, Manual, 1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "錯置",
-      "NOEX_技能說明(不輸出)": "指定1個友軍，令其追加1次行動。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "189": {
-      "SP": 0,
-      "NameContextID": 395,
-      "DescriptionContextID": 396,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  DealDamage(Select(SameSide, Random, 1), Self.Attack * 0.3, 1);\n  AddBuffStackByTag(LastSelected, 400003, -99);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "衝擊療法",
-      "NOEX_技能說明(不輸出)": "對1個友軍造成30%攻擊值的傷害，並消除其異常狀態。無視目標防禦值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "190": {
-      "SP": 0,
-      "NameContextID": 397,
-      "DescriptionContextID": 398,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  DealDamage(Select(SameSide, Random, 1), Self.Attack * 0.3, 1);\n  AddActionIndex(LastSelected, -1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "鞭策",
-      "NOEX_技能說明(不輸出)": "對1個友軍造成30%攻擊值的傷害，使其行動順序提前1位。無視目標防禦值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "191": {
-      "SP": 0,
-      "NameContextID": 399,
-      "DescriptionContextID": 400,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n    DealDamage(Select(Opponent, Manual, 1), Self.Attack * CombatField.MyUnitCount * 0.45, 0);\n    SetStatus(Select(SameSide, Random, -1), Hatred, CurrentActor.LastDealedDamage);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "合擊",
-      "NOEX_技能說明(不輸出)": "對1個敵人造成(存活友軍數量x45%)攻擊值的傷害。攻擊後，使所有我方單位的仇恨值變為與傷害相同的值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "192": {
-      "SP": 10,
-      "NameContextID": 401,
-      "DescriptionContextID": 402,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": "21;22",
-      "Command": "OnActived\n{\n GainBuff(Select(SameSide, Random, -1), 21,2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "士氣提升",
-      "NOEX_技能說明(不輸出)": "給予所有友軍持續2回合的「激發」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "193": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "194": {
-      "SP": 0,
-      "NameContextID": 405,
-      "DescriptionContextID": 406,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\r\n{\r\n  AddStatus(Select(SameSide, All) , HP,Self.MaxHP*0.03);\r\n}",
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "後援",
-      "NOEX_技能說明(不輸出)": "每當友軍使用輔助技能時，也恢復所有友軍3%最大生命值的生命值。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "195": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "197": {
-      "SP": 0,
-      "NameContextID": 411,
-      "DescriptionContextID": 412,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n GainBuff(Select, 114, 2);\n GainBuff(Self, 110, 2);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "分析",
-      "NOEX_技能說明(不輸出)": "給予1個敵人持續2回合的「標記」，並給予自己持續2回合的「看穿」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "198": {
-      "SP": 0,
-      "NameContextID": 413,
-      "DescriptionContextID": 414,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDied_Any\n{\n  BeginIf(Caster.Camp == 0);\n  GainBuff(Self, 123, 1);\n  EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "靈魂收集者",
-      "NOEX_技能說明(不輸出)": "友軍死亡時，給予自己1個「靈魂」狀態。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "199": {
-      "SP": 0,
-      "NameContextID": 415,
-      "DescriptionContextID": 416,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\nBeginIf_Effect(123);\n  AddBuffStack(Self, 123, -1);\n  GainBuff(Self, 132, 6);\nEndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "吸收靈魂",
-      "NOEX_技能說明(不輸出)": "消除1個「靈魂」狀態，給予自己持續6回合的「附體」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "200": {
-      "SP": 0,
-      "NameContextID": 417,
-      "DescriptionContextID": 418,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\nBeginIf_Effect(123);\n  AddBuffStack(Self, 123, -1);\n  GainBuff(Self, 124, 6);\nEndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "靈魂盾",
-      "NOEX_技能說明(不輸出)": "消除1個「靈魂」狀態，給予自己持續6回合的「靈魂盾」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "201": {
-      "SP": 0,
-      "NameContextID": 419,
-      "DescriptionContextID": 420,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\nBeginIf_Effect(123);\n  AddBuffStack(Self, 123, -1);\n   DealDamage(Select(Opponent, Manual, 1), Self.Attack * 6.66 , 0);\nEndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "靈魂劍",
-      "NOEX_技能說明(不輸出)": "消除1個「靈魂」狀態，對1個敵人造成666%攻擊值的傷害。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "202": {
-      "SP": 0,
-      "NameContextID": 421,
-      "DescriptionContextID": 422,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\nBeginIf_Effect(123);\n  AddBuffStack(Self, 123, -1);\n  GainBuff(Self, 130, 1);\nEndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "靈魂連結",
-      "NOEX_技能說明(不輸出)": "消除1個「靈魂」狀態，給予自己「靈魂連結」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "203": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "204": {
-      "SP": 0,
-      "NameContextID": 425,
-      "DescriptionContextID": 426,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnDamageTaken_Self \n{\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(Self, 128, 2);\n   EndIf();\n   BeginIf(Random(1,100) <=  30);\n     GainBuff(Target, 128, 3);\n   EndIf();\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "恐慌蔓延",
-      "NOEX_技能說明(不輸出)": "受到傷害後，有15%的機率使自己獲得持續2回合的「恐慌」，並有30%的機率使行動中的單位獲得持續2回合的「恐慌」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "205": {
-      "SP": 0,
-      "NameContextID": 427,
-      "DescriptionContextID": 428,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n GainBuff(Select(Opponent, Manual, 1), 135, 2);\n GainBuff(LastSelected, 134, -1);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "封印術",
-      "NOEX_技能說明(不輸出)": "給予1個敵人持續2回合的「封印」以及永久的「封印抗性」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "206": {
-      "SP": 0,
-      "NameContextID": 439,
-      "DescriptionContextID": 440,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnBattleStarted \n{\n GainBuff(Self, 116, 10);\n}",
-      "IsDrop": 1,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "修練開始",
-      "NOEX_技能說明(不輸出)": "戰鬥開始時，給予自己持續10回合的「枷鎖」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10001": {
-      "SP": 0,
-      "NameContextID": 10001,
-      "DescriptionContextID": 10002,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.3, 0);\n   BeginIf(Random(1,100) <= 15);\r\n     GainBuff(LastAttacked, 17, 2);\r\n   EndIf();\n}",
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "嚙咬",
-      "NOEX_技能說明(不輸出)": "對仇恨值最高的敵方單位造成130%攻擊值的傷害。攻擊後，有15%的機率給予目標1個「中毒」。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10002": {
-      "SP": 0,
-      "NameContextID": 10007,
-      "DescriptionContextID": 10008,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.3, 0);\n  BeginIf(Random(1, 100) <= 30);\n     CastSkill(10003);\n   EndIf();\n}",
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "連抓",
-      "NOEX_技能說明(不輸出)": "對仇恨值最高的敵方單位造成130%攻擊值的傷害。攻擊後，有30%的機率追加連抓，最多3次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10003": {
-      "SP": 0,
-      "NameContextID": 10009,
-      "DescriptionContextID": 10008,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.3, 0);\n  BeginIf(Random(1, 100) <= 30);\n     CastSkill(10004);\n   EndIf();\n}",
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "連抓（二）",
-      "NOEX_技能說明(不輸出)": "對仇恨值最高的敵方單位造成130%攻擊值的傷害。攻擊後，有30%的機率追加連抓，最多3次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10004": {
-      "SP": 0,
-      "NameContextID": 10010,
-      "DescriptionContextID": 10008,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.3, 0);\n}",
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "連抓（三）",
-      "NOEX_技能說明(不輸出)": "對仇恨值最高的敵方單位造成130%攻擊值的傷害。攻擊後，有30%的機率追加連抓，最多3次。",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10005": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10006": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10007": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10008": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10009": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10010": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "10011": {
-      "SP": 0,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": 0,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    },
-    "": {
-      "SP": null,
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "AnimationInfo": null,
-      "ReferenceContextIDs": null,
-      "Command": null,
-      "IsDrop": null,
-      "Tag": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無",
-      "NOEX_技能故事(不輸出)": "無"
-    }
+  {
+    "ID": 1,
+    "SP": 0,
+    "NameContextID": 1,
+    "DescriptionContextID": 2,
+    "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n}",
+    "IsDrop": 1
   },
-  "BuffData": {
-    "0": {
-      "NameContextID": 0,
-      "DescriptionContextID": 0,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 0,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "1": {
-      "NameContextID": 5,
-      "DescriptionContextID": 6,
-      "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.3); \n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "防禦",
-      "NOEX_技能說明(不輸出)": "防禦值增加30%。"
-    },
-    "2": {
-      "NameContextID": 11,
-      "DescriptionContextID": 12,
-      "Command": "OnActived\n{\n    SetForceEndAction();\n}",
-      "Tag": 400003,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "不能行動",
-      "NOEX_技能說明(不輸出)": "行動將會被跳過。不會被連鎖技能。"
-    },
-    "3": {
-      "NameContextID": 13,
-      "DescriptionContextID": 14,
-      "Command": "OnActionStarted_Self\n{\n     AddStatus(Self, HP, -Random(500, 2000));\n}",
-      "Tag": 400003,
-      "MaxStackCount": 10,
-      "NOEX_技能名稱(不輸出)": "燃燒",
-      "NOEX_技能說明(不輸出)": "行動開始時，使自己的生命值減少隨機500~2000點。可重疊10次。"
-    },
-    "4": {
-      "NameContextID": 15,
-      "DescriptionContextID": 16,
-      "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(25%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffStack(Self, 4, -99);\n}",
-      "Tag": 400003,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "冷凍",
-      "NOEX_技能說明(不輸出)": "不能行動。受到的傷害增加25%。受到傷害後，消除這個狀態。"
-    },
-    "5": {
-      "NameContextID": 17,
-      "DescriptionContextID": 18,
-      "Command": "OnActionStarted_Self\n{\n     BeginIf(Self.HP >= Self.MaxHP * 0.01 + 1);\n     AddStatus(Self, HP, -Self.MaxHP * 0.01);\n     EndIf();\n}",
-      "Tag": 400003,
-      "MaxStackCount": 10,
-      "NOEX_技能名稱(不輸出)": "中毒",
-      "NOEX_技能說明(不輸出)": "行動開始時，若剩餘的生命值大於最大生命值的1%，失去最大生命值1%的生命值。可重疊10次。"
-    },
-    "6": {
-      "NameContextID": 19,
-      "DescriptionContextID": 20,
-      "Command": "OnActived\n{\n    SetForceEndAction();\n    AddStatus(Self, Defense, Self.Defense * 0.3); \n}",
-      "Tag": 400003,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "石化",
-      "NOEX_技能說明(不輸出)": "不能行動。防禦值增加30%。"
-    },
-    "7": {
-      "NameContextID": 21,
-      "DescriptionContextID": 22,
-      "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.3); \n}",
-      "Tag": 400003,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "激發",
-      "NOEX_技能說明(不輸出)": "攻擊值增加30%。"
-    },
-    "8": {
-      "NameContextID": 23,
-      "DescriptionContextID": 24,
-      "Command": "OnActived\n{\n     AddStatus(Self, Defense, -Self.Defense * 0.5); \n}",
-      "Tag": 400003,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "防禦破壞",
-      "NOEX_技能說明(不輸出)": "防禦值減少50%。"
-    },
-    "9": {
-      "NameContextID": 25,
-      "DescriptionContextID": 26,
-      "Command": "OnDeactived\n{\n     Destroy(Self);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "滅亡倒數",
-      "NOEX_技能說明(不輸出)": "狀態消除時，消滅自己。"
-    },
-    "10": {
-      "NameContextID": 27,
-      "DescriptionContextID": 28,
-      "Command": "OnActived\n{\n     AddStatus(Self, Attack, -Self.Attack * 0.5); \n}",
-      "Tag": 400003,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "攻擊破壞",
-      "NOEX_技能說明(不輸出)": "攻擊值減少50%。"
-    },
-    "101": {
-      "NameContextID": 105,
-      "DescriptionContextID": 106,
-      "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.15); \n     AddStatus(Self, Attack, Self.Attack * 0.15); \n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "鼓舞",
-      "NOEX_技能說明(不輸出)": "攻擊值和防禦值增加15%。"
-    },
-    "102": {
-      "NameContextID": 115,
-      "DescriptionContextID": 116,
-      "Command": "OnDamageCalculated_Self\n{\n     BeginIf(Self.LastSkill != 106);\n     AddBuffStack(Self, 102, -99);\n     Quit();\n     EndIf();\n\n     BeginIf(Self.LastSkill == 106);\n     AddDamage(Self.Attack * 0.01);\n     AddDamage(50%);\n     EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 10,
-      "NOEX_技能名稱(不輸出)": "連擊中",
-      "NOEX_技能說明(不輸出)": "使技能「連擊」造成的傷害增加與1%攻擊值相同的值後，再增加50%。使用其他技能時消除這個狀態。可重疊10次。"
-    },
-    "103": {
-      "NameContextID": 129,
-      "DescriptionContextID": 131,
-      "Command": "OnActived\n{\n     AddStatus(Self, Defense, -Self.Defense * 0.5); \n     AddStatus(Self, Attack, -Self.Attack * 0.5);\n     AddStatus(Self, Speed, -Self.Speed * 0.5);\n}",
-      "Tag": 400003,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "詛咒",
-      "NOEX_技能說明(不輸出)": "攻擊值、防禦值、速度減少50%。"
-    },
-    "104": {
-      "NameContextID": 162,
-      "DescriptionContextID": 163,
-      "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.05); \n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(-20%);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "神之加護",
-      "NOEX_技能說明(不輸出)": "立即獲得5%最大生命值的生命值。受到的傷害減少20%。"
-    },
-    "105": {
-      "NameContextID": 186,
-      "DescriptionContextID": 187,
-      "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defense, -Self.Defense * 0.7);\n     AddStatus(Self, Speed, Self.Speed * 0.7);\n     AddStatus(Self, MaxHP, Self.MaxHP);\n     AddStatus(Self, HP, Self.MaxHP * 2);\n     LockAddStatus(Self, HP);\n}\n\nOnDamageCalculated_Self\n{\n     AddDamage(100%);\n}\n\nOnStartToEndAction_Any\n{\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n}\n\nOnDeactived\n{\n     SetStatus(Self, HP, 1);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "狂暴化",
-      "NOEX_技能說明(不輸出)": "攻擊值、速度增加70%，防禦值減少70%。最大生命值增加100%。獲得狀態時，使生命值增加至全滿。造成的傷害增加100%。生命值無法增加。每當有人行動結束時，減少15%最大生命值的生命值。狀態被消除時，使生命值變為1。"
-    },
-    "106": {
-      "NameContextID": 214,
-      "DescriptionContextID": 215,
-      "Command": "OnActived\n{\n     SetStatus(Self, Hatred, 1);\n     SetStatus(Self, HP, 1);\n     AddBuffStackByTag(Self, 400003, -99);\n}\n\nOnTurnStarted\n{\n     SetStatus(Self, Hatred, 1);\n     SetStatus(Self, HP, 1);\n     AddBuffStackByTag(Self, 400003, -99);\n}\n\nOnStartToEndTurn\n{\n     SetStatus(Self, Hatred, 1);\n     SetStatus(Self, HP, 1);\n     AddBuffStackByTag(Self, 400003, -99);\n}\n\nOnStartToTakeDamage_Self\n{\n     SetDamage(1);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "神格化",
-      "NOEX_技能說明(不輸出)": "獲得狀態、回合開始與回合結束時，消除仇恨值以及所有異常狀態，並使生命值變為1。將受到傷害時，使傷害變為1。"
-    },
-    "107": {
-      "NameContextID": 220,
-      "DescriptionContextID": 221,
-      "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.15); \n     AddStatus(Self, Defense, Self.Defense * 0.3);\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(-15%);\n}\n\nOnTurnStarted\n{\n     AddStatus(Self, HP, Self.MaxHP * 0.03); \n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "英靈守護",
-      "NOEX_技能說明(不輸出)": "攻擊值增加15%，防禦值增加30%。減少受到的傷害15%。回合開始時，增加3%最大生命值的生命值。"
-    },
-    "108": {
-      "NameContextID": 228,
-      "DescriptionContextID": 230,
-      "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <=0);\n  SetStatus(Self, HP, 1);\n  EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "守護",
-      "NOEX_技能說明(不輸出)": "受到傷害後，若剩餘的生命值小於0，令剩餘的生命值變為1。"
-    },
-    "109": {
-      "NameContextID": 233,
-      "DescriptionContextID": 234,
-      "Command": "OnDeactived\n{\n  AddStatus(Self, HP, -1000);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "索命娃娃",
-      "NOEX_技能說明(不輸出)": "狀態消除時，減少1000點生命值。"
-    },
-    "110": {
-      "NameContextID": 247,
-      "DescriptionContextID": 248,
-      "Command": "OnDamageCalculated_Self\n{\n     AddDamage(Target.Defense * 0.2);\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(-30%);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "看穿",
-      "NOEX_技能說明(不輸出)": "增加與20%目標防禦值相同的傷害。減少30%受到的傷害。"
-    },
-    "111": {
-      "NameContextID": 267,
-      "DescriptionContextID": 268,
-      "Command": "OnActived\n{\r\n   AddStatus(Self, Speed,-Self.Speed*0.02);\r\n   AddStatus(Self, Attack,-Self.Attack*0.01);\r\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "撕裂",
-      "NOEX_技能說明(不輸出)": "速度減少2%，攻擊值減少1%。可重疊10次。"
-    },
-    "112": {
-      "NameContextID": 269,
-      "DescriptionContextID": 270,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "「第二次機會」冷卻",
-      "NOEX_技能說明(不輸出)": "狀態存續期間，不會觸發「第二次機會」。"
-    },
-    "113": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "114": {
-      "NameContextID": 273,
-      "DescriptionContextID": 274,
-      "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(30%);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "標記",
-      "NOEX_技能說明(不輸出)": "增加受到的傷害30%。"
-    },
-    "115": {
-      "NameContextID": 275,
-      "DescriptionContextID": 276,
-      "Command": "OnActived\n{\n AddStatus(Self, Attack,Self.Attack*1 );\n AddStatus(Self, Defense,Self.Defense*1) ;\n AddStatus(Self, Speed, Self.Speed*1 );\n}\nOnDeactived\n{\n  GainBuff(Self,115,-1);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "解放",
-      "NOEX_技能說明(不輸出)": "增加自己攻擊值、防禦值、速度100%。狀態消除時，給予自己1個「解放」。"
-    },
-    "116": {
-      "NameContextID": 277,
-      "DescriptionContextID": 278,
-      "Command": "OnActived\n{\n AddStatus(Self, Attack,-Self.Attack*0.75 );\n AddStatus(Self, Defense,-Self.Defense*0.75);\n AddStatus(Self, Speed, -Self.Speed*0.75);\n}\nOnDeactived{\n  GainBuff(Self,115,-1);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "枷鎖",
-      "NOEX_技能說明(不輸出)": "攻擊值、防禦值、速度減少75%。狀態消除時，給予自己1個「解放」。"
-    },
-    "117": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "118": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "119": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "120": {
-      "NameContextID": 285,
-      "DescriptionContextID": 286,
-      "Command": "OnActived\n{\n  AddStatus(Self, Speed, -Self.Speed*0.5);\n  AddStatus(Self, Defense,-Self.Defense*0.25 );\n}",
-      "Tag": null,
-      "MaxStackCount": 10,
-      "NOEX_技能名稱(不輸出)": "疲乏",
-      "NOEX_技能說明(不輸出)": "速度減少50%，防禦值減少25%。可重疊10次。"
-    },
-    "121": {
-      "NameContextID": 287,
-      "DescriptionContextID": 288,
-      "Command": "OnTurnStarted\n{\n  AddActionIndex(Self,3);\n}\nOnDeactived{\n  GainBuff(Self, 120, 3);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "超載",
-      "NOEX_技能說明(不輸出)": "回合開始時，使自己的行動順序提前3位。狀態消除時，給予自己持續3回合的「疲乏」。"
-    },
-    "122": {
-      "NameContextID": 291,
-      "DescriptionContextID": 292,
-      "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(-15%);\n}\n\nOnDamageTaken_Self\n{\n     CastSkill(175);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "反擊預備",
-      "NOEX_技能說明(不輸出)": "減少受到的傷害15%。受到攻擊後，施展技能「反擊」。"
-    },
-    "123": {
-      "NameContextID": 303,
-      "DescriptionContextID": 304,
-      "Command": "OnActionStarted_Self\n{\n AddStatus(Self, SP,  5);\n}",
-      "Tag": null,
-      "MaxStackCount": 10,
-      "NOEX_技能名稱(不輸出)": "靈魂",
-      "NOEX_技能說明(不輸出)": "被收割的靈魂能量，有再利用的可能。行動開始時，增加自己5點SP值。可重疊10次。"
-    },
-    "124": {
-      "NameContextID": 305,
-      "DescriptionContextID": 306,
-      "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(+75%);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "靈魂盾",
-      "NOEX_技能說明(不輸出)": "減少75%受到的傷害。"
-    },
-    "125": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "126": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "127": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "128": {
-      "NameContextID": 313,
-      "DescriptionContextID": 314,
-      "Command": "OnActionStarted_Self\n{\n  BeginIf(Random(1,100) <= 15);\n    DealDamage(Select(All, Random, 1), Self.Attack * 1.3 , 0);\n  EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "恐慌",
-      "NOEX_技能說明(不輸出)": "行動開始時，有15%的機率對隨機角色造成130%攻擊值的傷害。"
-    },
-    "129": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "130": {
-      "NameContextID": 321,
-      "DescriptionContextID": 322,
-      "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP<= 0);\n    AddStatus(Self, HP, Self.MaxHP);\n    AddBuffStack(Self, 130, -99);\n  EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "靈魂連結",
-      "NOEX_技能說明(不輸出)": "受到傷害後，若剩餘的生命值小於0，令生命值全滿，並消除此狀態。"
-    },
-    "131": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "132": {
-      "NameContextID": 325,
-      "DescriptionContextID": 326,
-      "Command": "OnActived\n{\r\n AddStatus(Self, Attack, Self.Attack*1 );\r\n AddStatus(Self, Defense, Self.Defense*1);\r\n AddStatus(Self, Speed, Self.Speed*1 );\r\n}\r\nOnStartToEndAction_Self\n{\r\n  AddStatus(Self, MaxHP,  Self.MaxHP*0.1);\r\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "附體",
-      "NOEX_技能說明(不輸出)": "攻擊值、防禦值、速度、最大生命值增加100%。行動結束時，增加最大生命值10%的生命值。"
-    },
-    "133": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "134": {
-      "NameContextID": 329,
-      "DescriptionContextID": 330,
-      "Command": "OnActionStarted_Self\n{\n  BeginIf(Random(1,100) <= 15);\n  AddBuffStack(Self, 135, -99);\n  EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 10,
-      "NOEX_技能名稱(不輸出)": "封印抗性",
-      "NOEX_技能說明(不輸出)": "回合開始時，有15%的機率消除「封印」。可重疊10次。"
-    },
-    "135": {
-      "NameContextID": 331,
-      "DescriptionContextID": 332,
-      "Command": "OnActived\n{\n  GainBuff(Target, 2, 1);\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "封印",
-      "NOEX_技能說明(不輸出)": "不能行動。"
-    },
-    "136": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "137": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "138": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "139": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "140": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "141": {
-      "NameContextID": 343,
-      "DescriptionContextID": 344,
-      "Command": "OnActived\n{\n  AddStatus(Target.Camp, 0, Defense * 0.05 );\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": null,
-      "NOEX_技能說明(不輸出)": null
-    },
-    "142": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "143": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "144": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "145": {
-      "NameContextID": 357,
-      "DescriptionContextID": 358,
-      "Command": "OnActived\n{\n  BeginIf_Skill(Self, 1, 145);\n    BeginIf_Skill(Self, 1, 146);\n      BeginIf_Skill(Self, 1, 147);\n        BeginIf_Skill(Self, 1, 148);\n           GainBuff(Self, 9, 7);\n        EndIf();\n      EndIf();\n   EndIf();\n EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "咒印：生",
-      "NOEX_技能說明(不輸出)": "獲得這個狀態時，若自己擁有四種不同的咒印，消除所有咒印，並給予自己持續7回合的「滅亡倒數」。"
-    },
-    "146": {
-      "NameContextID": 359,
-      "DescriptionContextID": 360,
-      "Command": "OnActived\n{\n  BeginIf_Skill(Self, 1, 145);\n    BeginIf_Skill(Self, 1, 146);\n      BeginIf_Skill(Self, 1, 147);\n        BeginIf_Skill(Self, 1, 148);\n           GainBuff(Self, 9, 7);\n        EndIf();\n      EndIf();\n   EndIf();\n EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "咒印：老",
-      "NOEX_技能說明(不輸出)": "獲得這個狀態時，若自己擁有四種不同的咒印，消除所有咒印，並給予自己持續7回合的「滅亡倒數」。"
-    },
-    "147": {
-      "NameContextID": 361,
-      "DescriptionContextID": 362,
-      "Command": "OnActived\n{\n  BeginIf_Skill(Self, 1, 145);\n    BeginIf_Skill(Self, 1, 146);\n      BeginIf_Skill(Self, 1, 147);\n        BeginIf_Skill(Self, 1, 148);\n           GainBuff(Self, 9, 7);\n        EndIf();\n      EndIf();\n   EndIf();\n EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "咒印：病",
-      "NOEX_技能說明(不輸出)": "獲得這個狀態時，若自己擁有四種不同的咒印，消除所有咒印，並給予自己持續7回合的「滅亡倒數」。"
-    },
-    "148": {
-      "NameContextID": 363,
-      "DescriptionContextID": 364,
-      "Command": "OnActived\n{\n  BeginIf_Skill(Self, 1, 145);\n    BeginIf_Skill(Self, 1, 146);\n      BeginIf_Skill(Self, 1, 147);\n        BeginIf_Skill(Self, 1, 148);\n           GainBuff(Self, 9, 7);\n        EndIf();\n      EndIf();\n   EndIf();\n EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "咒印：死",
-      "NOEX_技能說明(不輸出)": "獲得這個狀態時，若自己擁有四種不同的咒印，消除所有咒印，並給予自己持續7回合的「滅亡倒數」。"
-    },
-    "149": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "150": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": null,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "151": {
-      "NameContextID": 369,
-      "DescriptionContextID": 370,
-      "Command": "OnActived\n{\n    SetForceEndAction();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "速度提升",
-      "NOEX_技能說明(不輸出)": "速度值增加15%。"
-    },
-    "155": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 20,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "156": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 5,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "157": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "158": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "159": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "160": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "10001": {
-      "NameContextID": 10003,
-      "DescriptionContextID": 10004,
-      "Command": "OnAttackEnded_Self\n{\n  BeginIf(Random(1, 100) <= 30);\n    AddExtraAction(Self, 1);\n    GainBuff(Self, 10, 1);\n  EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "化學激素",
-      "NOEX_技能說明(不輸出)": "攻擊後有30%的機率立即追加行動，並給予自己持續1回合的「攻擊破壞」。"
-    },
-    "10002": {
-      "NameContextID": 10005,
-      "DescriptionContextID": 10006,
-      "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <= Self.MaxHP * 0.5);\n     AddStatus(Self, Attack, Self.Attack * 0.3);\n     AddStatus(Self, Speed, Self.Speed * 0.3);\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n  EndIf();\n}",
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "野性",
-      "NOEX_技能說明(不輸出)": "受到傷害後，若生命值低於50%，增加攻擊值與速度值30%，減少防禦值30%。效果只會發生一次。"
-    },
-    "10003": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "10004": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": 1,
-      "NOEX_技能名稱(不輸出)": "無",
-      "NOEX_技能說明(不輸出)": "無"
-    },
-    "": {
-      "NameContextID": null,
-      "DescriptionContextID": null,
-      "Command": null,
-      "Tag": null,
-      "MaxStackCount": null,
-      "NOEX_技能名稱(不輸出)": null,
-      "NOEX_技能說明(不輸出)": null
-    }
+  {
+    "ID": 2,
+    "SP": 10,
+    "NameContextID": 3,
+    "DescriptionContextID": 4,
+    "ReferenceContextIDs": "5;6",
+    "Command": "OnActived\n{\n     GainBuff(Self, 1, 2);\n}",
+    "IsDrop": 1
   },
-  "ContextData": {
-    "0": {
-      "zh_tw": "無",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1": {
-      "zh_tw": "普通攻擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "2": {
-      "zh_tw": "對一個敵人造成130%攻擊值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "3": {
-      "zh_tw": "普通防禦",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "4": {
-      "zh_tw": "給予自己持續2回合的「防禦」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "5": {
-      "zh_tw": "防禦",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "6": {
-      "zh_tw": "防禦值增加30%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "11": {
-      "zh_tw": "不能行動",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "12": {
-      "zh_tw": "行動將會被跳過。不會被連鎖技能。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "13": {
-      "zh_tw": "燃燒",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "14": {
-      "zh_tw": "行動開始時，使自己的生命值減少隨機500~2000點。可重疊10次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "15": {
-      "zh_tw": "冷凍",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "16": {
-      "zh_tw": "不能行動。受到的傷害增加25%。受到傷害後，消除這個狀態。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "17": {
-      "zh_tw": "中毒",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "18": {
-      "zh_tw": "行動開始時，若剩餘的生命值大於最大生命值的1%，失去最大生命值1%的生命值。可重疊10次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "19": {
-      "zh_tw": "石化",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "20": {
-      "zh_tw": "不能行動。防禦值增加30%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "21": {
-      "zh_tw": "激發",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "22": {
-      "zh_tw": "攻擊值增加30%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "23": {
-      "zh_tw": "防禦破壞",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "24": {
-      "zh_tw": "防禦值減少50%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "25": {
-      "zh_tw": "滅亡倒數",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "26": {
-      "zh_tw": "狀態消除時，消滅自己。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "27": {
-      "zh_tw": "攻擊破壞",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "28": {
-      "zh_tw": "攻擊值減少50%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "101": {
-      "zh_tw": "先鋒",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "102": {
-      "zh_tw": "戰鬥開始時，給予自己300%防禦值的仇恨值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "103": {
-      "zh_tw": "戰吼",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "104": {
-      "zh_tw": "給予自己持續3回合的「鼓舞」後，給予自己200%防禦值的仇恨值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "105": {
-      "zh_tw": "鼓舞",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "106": {
-      "zh_tw": "攻擊值和防禦值增加15%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "107": {
-      "zh_tw": "盾擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "108": {
-      "zh_tw": "對1個敵人造成85%防禦值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "109": {
-      "zh_tw": "狂擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "110": {
-      "zh_tw": "對1個敵人造成220%攻擊值的傷害，並減少自己70%造成傷害的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "111": {
-      "zh_tw": "旋風斬",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "112": {
-      "zh_tw": "對所有敵人造成130%攻擊值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "113": {
-      "zh_tw": "連擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "114": {
-      "zh_tw": "對1個敵人造成50%攻擊值的傷害，並給給予自己1個「連擊中」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "115": {
-      "zh_tw": "連擊中",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "116": {
-      "zh_tw": "使技能「連擊」造成的傷害增加與1%攻擊值相同的值後，再增加50%。使用其他技能時消除這個狀態。可重疊10次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "117": {
-      "zh_tw": "重擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "118": {
-      "zh_tw": "對1個敵人造成70%攻擊值的傷害。造成傷害後，以(75%-目標剩餘生命值百分比)的機率給予敵人持續2回合的「不能行動」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "119": {
-      "zh_tw": "戰士之軀",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "120": {
-      "zh_tw": "每次自己攻擊後，使自己仇恨值增加120%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "121": {
-      "zh_tw": "復仇打擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "122": {
-      "zh_tw": "對1個敵人造成75%仇恨值的傷害，並減少自己200%造成傷害的仇恨值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "123": {
-      "zh_tw": "火球術",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "124": {
-      "zh_tw": "對1個敵人造成100%攻擊值的傷害，並有75%的機率給予敵人持續3回合的「燒傷」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "125": {
-      "zh_tw": "冰箭術",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "126": {
-      "zh_tw": "對1個敵人造成80%攻擊值的傷害，並有75%的機率給予敵人持續2回合的「冷凍」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "127": {
-      "zh_tw": "雷擊術",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "128": {
-      "zh_tw": "對1個敵人造成隨機130%~360%攻擊值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "129": {
-      "zh_tw": "詛咒",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "130": {
-      "zh_tw": "給予1個敵人持續3回合的「詛咒」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "131": {
-      "zh_tw": "攻擊值、防禦值、速度減少50%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "132": {
-      "zh_tw": "毒氣",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "133": {
-      "zh_tw": "給予全部敵人持續5回合的「中毒」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "134": {
-      "zh_tw": "毒爆",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "135": {
-      "zh_tw": "指定一個單位，使其失去(3%x「中毒」層數)最大生命值的生命值。並消除目標的「中毒」狀態。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "136": {
-      "zh_tw": "末日",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "137": {
-      "zh_tw": "對所有敵人造成300%攻擊值的傷害，並給予所有敵人持續3回合的「燒傷」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "138": {
-      "zh_tw": "冰河時代",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "139": {
-      "zh_tw": "對所有敵人造成150%攻擊值的傷害，並給予所有敵人持續2回合的「冷凍」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "140": {
-      "zh_tw": "生命轉換",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "141": {
-      "zh_tw": "減少最大生命值10%的生命值，給予1個友軍10點SP。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "142": {
-      "zh_tw": "自然能量",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "143": {
-      "zh_tw": "每回合開始時，獲得5點SP",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "144": {
-      "zh_tw": "石化術",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "145": {
-      "zh_tw": "給予1個角色持續4回合的「石化」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "146": {
-      "zh_tw": "岩之鎧甲",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "147": {
-      "zh_tw": "防禦值增加30%，受到的傷害減少20%。速度減少30%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "148": {
-      "zh_tw": "汲取",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "149": {
-      "zh_tw": "對1個敵人造成130%攻擊值的傷害。並使自己增加100%造成傷害的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "150": {
-      "zh_tw": "爆發",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "151": {
-      "zh_tw": "對1個敵人造成130%攻擊值的傷害。若擁有「激發」，增加100%造成的傷害，並消除「激發」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "152": {
-      "zh_tw": "瞬發",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "153": {
-      "zh_tw": "攻擊時，有30%的機率給予自己持續2回合的「激發」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "154": {
-      "zh_tw": "攻擊架式",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "155": {
-      "zh_tw": "防禦值減少30%。回合開始時，給予自己持續1回合的「激發」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "156": {
-      "zh_tw": "防禦架式",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "157": {
-      "zh_tw": "攻擊值減少30%。回合開始時，給予自己持續1回合的「防禦」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "158": {
-      "zh_tw": "治癒術",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "159": {
-      "zh_tw": "增加1個友軍自己100%防禦值的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "160": {
-      "zh_tw": "聖所",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "161": {
-      "zh_tw": "給予所有友軍持續2回合的「神之加護」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "162": {
-      "zh_tw": "神之加護",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "163": {
-      "zh_tw": "立即獲得5%最大生命值的生命值。受到的傷害減少20%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "164": {
-      "zh_tw": "破壞",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "165": {
-      "zh_tw": "對1個敵人造成70%攻擊值的傷害，並給予持續2回合的「防禦破壞」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "166": {
-      "zh_tw": "焰之鎧甲",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "167": {
-      "zh_tw": "受到傷害後，使攻擊者失去隨機(1~自己50%攻擊值)的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "168": {
-      "zh_tw": "冰之鎧甲",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "169": {
-      "zh_tw": "受到的傷害減少10%。受到傷害後，有7%的機率給予攻擊者持續2回合的「冷凍」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "170": {
-      "zh_tw": "魔神化",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "171": {
-      "zh_tw": "戰鬥開始時，失去所有SP，並給予自己持續3回合的「滅亡倒數」。無法增加SP和生命值。將受到傷害時，使傷害變為0。使用技能時，不消耗SP。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "172": {
-      "zh_tw": "強化治療",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "173": {
-      "zh_tw": "增加1個友軍自己200%防禦值的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "174": {
-      "zh_tw": "最後一擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "175": {
-      "zh_tw": "對1個敵人造成550%剩餘生命值的傷害，並使自己剩餘的生命值變為1。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "176": {
-      "zh_tw": "奮力一擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "177": {
-      "zh_tw": "對1個敵人造成(剩餘SP值x5)%攻擊值的傷害。消耗所有剩餘的SP。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "178": {
-      "zh_tw": "殆盡",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "179": {
-      "zh_tw": "對1個敵人造成(剩餘生命值x剩餘SP值x10%)點傷害，使自己剩餘的生命值變為1，消耗自己所有剩餘SP，並給予自己持續1回合的「滅亡倒數」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "180": {
-      "zh_tw": "血咒",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "181": {
-      "zh_tw": "攻擊時，每失去1點生命值，就額外增加攻擊值1點。攻擊後失去增加的攻擊值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "182": {
-      "zh_tw": "鋼鐵意志",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "183": {
-      "zh_tw": "受到傷害後，若剩餘的生命值小於0，令剩餘的生命值變為1，並給予自己「不能行動」。生命值為1時不會發動。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "184": {
-      "zh_tw": "暴走",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "185": {
-      "zh_tw": "給予自己「狂暴化」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "186": {
-      "zh_tw": "狂暴化",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "187": {
-      "zh_tw": "攻擊值、速度增加70%，防禦值減少70%。最大生命值增加100%。獲得狀態時，使生命值增加至全滿。造成的傷害增加100%。生命值無法增加。每當有人行動結束時，減少15%最大生命值的生命值。狀態被消除時，使生命值變為1。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "188": {
-      "zh_tw": "自爆",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "189": {
-      "zh_tw": "對所有敵方角色造成自己50%剩餘生命值的傷害後，使自己死亡。無視目標防禦值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "190": {
-      "zh_tw": "靈體之軀",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "191": {
-      "zh_tw": "不會獲得仇恨值。無法增加生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "192": {
-      "zh_tw": "偷襲",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "193": {
-      "zh_tw": "每當其他單位行動結束時，有5%的機率使自己立即行動1次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "194": {
-      "zh_tw": "運氣調息",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "195": {
-      "zh_tw": "增加自己50%攻擊值的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "196": {
-      "zh_tw": "聖域",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "197": {
-      "zh_tw": "增加所有友軍自己35%防禦值的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "198": {
-      "zh_tw": "驅散",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "199": {
-      "zh_tw": "消除1個單位身上所有狀態。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200": {
-      "zh_tw": "時間魔術・加速",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "201": {
-      "zh_tw": "使1個單位身上狀態的持續回合減少2回合。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "202": {
-      "zh_tw": "時間魔術・凝滯",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "203": {
-      "zh_tw": "使1個單位身上狀態的持續回合增加1回合。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "204": {
-      "zh_tw": "時間魔術・暫停",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "205": {
-      "zh_tw": "給予自己以外的所有單位持續4回合的「不能行動」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "206": {
-      "zh_tw": "時間魔術・重置",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "207": {
-      "zh_tw": "消除雙方所有單位身上的狀態，並將生命值、SP值增加至全滿。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "208": {
-      "zh_tw": "犧牲",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "209": {
-      "zh_tw": "減少自己最大生命值10%的生命值，增加1個單位等量的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "210": {
-      "zh_tw": "加護",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "211": {
-      "zh_tw": "給予1個友軍持續3回合的「神之加護」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "212": {
-      "zh_tw": "神格化",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "213": {
-      "zh_tw": "給予自己持續6回合的「神格化」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "214": {
-      "zh_tw": "神格化",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "215": {
-      "zh_tw": "獲得狀態、回合開始與回合結束時，消除仇恨值以及所有異常狀態，並使生命值變為1。將受到傷害時，使傷害變為1。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "216": {
-      "zh_tw": "憤慨",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "217": {
-      "zh_tw": "每當有友軍死亡時，使自己的生命值和SP恢復至全滿。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "218": {
-      "zh_tw": "安息",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "219": {
-      "zh_tw": "死亡時，給予所有友軍持續4回合的「英靈守護」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "220": {
-      "zh_tw": "英靈守護",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "221": {
-      "zh_tw": "攻擊值增加15%，防禦值增加30%。減少受到的傷害15%。回合開始時，增加3%最大生命值的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "222": {
-      "zh_tw": "淨化",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "223": {
-      "zh_tw": "消除1個友軍的所有異常狀態，並給予自己10000點仇恨值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "224": {
-      "zh_tw": "緊急治療",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "225": {
-      "zh_tw": "增加1個友軍其45%最大生命值的生命值，並將自己的技能「緊急治療」替換為「普通防禦」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "226": {
-      "zh_tw": "愉悅",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "227": {
-      "zh_tw": "每當自己受到傷害時，根據受到的傷害量增加SP值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "228": {
-      "zh_tw": "守護",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "229": {
-      "zh_tw": "給予1個友軍持續2回合的「守護」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "230": {
-      "zh_tw": "受到傷害後，若剩餘的生命值小於0，令剩餘的生命值變為1。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "231": {
-      "zh_tw": "戰神之祝福",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "232": {
-      "zh_tw": "給予1個友軍持續4回合的「防禦」和「激發」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "233": {
-      "zh_tw": "索命娃娃",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "234": {
-      "zh_tw": "狀態消除時，減少1000點生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "235": {
-      "zh_tw": "替身娃娃",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "236": {
-      "zh_tw": "受到傷害後，若剩餘的生命值小於0，令剩餘的生命值變為1000，並給予自己持續1回合的「索命娃娃」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "237": {
-      "zh_tw": "連續攻擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "238": {
-      "zh_tw": "對1個敵人造成65%攻擊值的傷害。連續2次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "239": {
-      "zh_tw": "三連攻擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "240": {
-      "zh_tw": "對1個敵人造成50%攻擊值的傷害。連續3次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "241": {
-      "zh_tw": "四連攻擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "242": {
-      "zh_tw": "對1個敵人造成45%攻擊值的傷害。連續4次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "243": {
-      "zh_tw": "毒刃",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "244": {
-      "zh_tw": "造成傷害後，有15%的機率給予敵人持續2回合的「中毒」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "245": {
-      "zh_tw": "騎士精神",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "246": {
-      "zh_tw": "每當友軍受到傷害時，使自己增加100%友軍受到傷害的仇恨值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "247": {
-      "zh_tw": "看穿",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "248": {
-      "zh_tw": "增加與20%目標防禦值相同的傷害。減少30%受到的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "249": {
-      "zh_tw": "試探",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "250": {
-      "zh_tw": "攻擊後，若造成的傷害為1，給予自己持續3回合的「看穿」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "251": {
-      "zh_tw": "隱身",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "252": {
-      "zh_tw": "消除自己所有仇恨值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "253": {
-      "zh_tw": "嘲諷",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "254": {
-      "zh_tw": "給予自己5000點仇恨值，並讓自己的仇恨值增加50%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "255": {
-      "zh_tw": "追擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "256": {
-      "zh_tw": "對1個敵人造成130%攻擊值的傷害。攻擊後，若目標的生命值低於其最大生命值的10%，追加使用「普通攻擊」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "257": {
-      "zh_tw": "借力打擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "258": {
-      "zh_tw": "對1個敵人造成130%目標攻擊值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "259": {
-      "zh_tw": "共振打擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "260": {
-      "zh_tw": "對1個敵人造成120%目標防禦值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "261": {
-      "zh_tw": "穿刺",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "262": {
-      "zh_tw": "對1個敵人造成15%攻擊值的傷害。無視目標防禦值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "263": {
-      "zh_tw": "爆擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "264": {
-      "zh_tw": "對1個敵人造成110%攻擊值的傷害。攻擊骰必定為最大值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "265": {
-      "zh_tw": "號召",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "266": {
-      "zh_tw": "給予所有友軍持續1回合的「激發」，並增加其他所有友軍其4%最大生命值的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "267": {
-      "zh_tw": "撕裂",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "268": {
-      "zh_tw": "速度減少2%，攻擊值減少1%。可重疊10次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "269": {
-      "zh_tw": "「第二次機會」冷卻",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "270": {
-      "zh_tw": "狀態存續期間，不會觸發「第二次機會」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "271": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "272": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "273": {
-      "zh_tw": "標記",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "274": {
-      "zh_tw": "增加受到的傷害30%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "275": {
-      "zh_tw": "解放",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "276": {
-      "zh_tw": "增加自己攻擊值、防禦值、速度100%。狀態消除時，給予自己1個「解放」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "277": {
-      "zh_tw": "枷鎖",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "278": {
-      "zh_tw": "攻擊值、防禦值、速度減少75%。狀態消除時，給予自己1個「解放」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "279": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "280": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "281": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "282": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "283": {
-      "zh_tw": "看穿",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "284": {
-      "zh_tw": "增加30%造成的傷害。減少30%受到的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "285": {
-      "zh_tw": "疲乏",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "286": {
-      "zh_tw": "速度減少50%，防禦值減少25%。可重疊10次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "287": {
-      "zh_tw": "超載",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "288": {
-      "zh_tw": "回合開始時，使自己的行動順序提前3位。狀態消除時，給予自己持續3回合的「疲乏」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "289": {
-      "zh_tw": "反擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "290": {
-      "zh_tw": "對行動中的單位造成400%攻擊值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "291": {
-      "zh_tw": "反擊預備",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "292": {
-      "zh_tw": "減少受到的傷害15%。受到攻擊後，施展技能「反擊」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "293": {
-      "zh_tw": "反擊姿勢",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "294": {
-      "zh_tw": "給予自己持續3回合的「反擊預備」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "295": {
-      "zh_tw": "居合預備",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "296": {
-      "zh_tw": "將技能「居合預備」替換為「居合斬」",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "297": {
-      "zh_tw": "居合斬",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "298": {
-      "zh_tw": "對所有敵人造成300%攻擊值的傷害，並將技能「居合斬」替換為「居合預備」",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "299": {
-      "zh_tw": "領域",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "300": {
-      "zh_tw": "給予自己持續1回合的「看穿」後，立即再行動1次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "301": {
-      "zh_tw": "反射神經強化",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "302": {
-      "zh_tw": "受到傷害時，有15%的機率使受到的傷害變為0，並有15%的機率施放「反擊」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "303": {
-      "zh_tw": "靈魂",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "304": {
-      "zh_tw": "被收割的靈魂能量，有再利用的可能。行動開始時，增加自己5點SP值。可重疊10次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "305": {
-      "zh_tw": "靈魂盾",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "306": {
-      "zh_tw": "減少75%受到的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "307": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "308": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "309": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "310": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "311": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "312": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "313": {
-      "zh_tw": "恐慌",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "314": {
-      "zh_tw": "行動開始時，有15%的機率對隨機角色造成130%攻擊值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "315": {
-      "zh_tw": "劍使",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "316": {
-      "zh_tw": "獲得最大生命值15%的護盾。行動開始時，對1個敵人造成150%攻擊值的傷害。可重疊2次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "317": {
-      "zh_tw": "再之先",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "318": {
-      "zh_tw": "行動結束時，有10%的機率在本回合追加1次行動。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "319": {
-      "zh_tw": "洞燭先機",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "320": {
-      "zh_tw": "行動開始時，若自己是本回合第1個行動的單位，給予自己持續1回合的「看穿」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "321": {
-      "zh_tw": "靈魂連結",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "322": {
-      "zh_tw": "受到傷害後，若剩餘的生命值小於0，令生命值全滿，並消除此狀態。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "323": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "324": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "325": {
-      "zh_tw": "附體",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "326": {
-      "zh_tw": "攻擊值、防禦值、速度、最大生命值增加100%。行動結束時，增加最大生命值10%的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "329": {
-      "zh_tw": "封印抗性",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "330": {
-      "zh_tw": "回合開始時，有15%的機率消除「封印」。可重疊10次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "331": {
-      "zh_tw": "封印",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "332": {
-      "zh_tw": "不能行動。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "333": {
-      "zh_tw": "靈魂收集者",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "334": {
-      "zh_tw": "每當有友軍死亡時，給予自己1個「靈魂」狀態。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "335": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "336": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "337": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "338": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "339": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "340": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "341": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "342": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "343": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "344": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "345": {
-      "zh_tw": "指定替死鬼",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "346": {
-      "zh_tw": "受到傷害後，若剩餘的生命值小於0，指定1個友軍，使其立即死亡，並使自己的生命值增加至全滿。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "347": {
-      "zh_tw": "第二次機會",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "348": {
-      "zh_tw": "造成傷害後，若造成的傷害小於目標1%最大生命值，則再追加1次行動。每回合僅能觸發1次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "349": {
-      "zh_tw": "超載",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "350": {
-      "zh_tw": "給予自己「超載」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "351": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "352": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "353": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "354": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "355": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "356": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "357": {
-      "zh_tw": "咒印：生",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "358": {
-      "zh_tw": "獲得這個狀態時，若自己擁有四種不同的咒印，消除所有咒印，並給予自己持續7回合的「滅亡倒數」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "359": {
-      "zh_tw": "咒印：老",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "360": {
-      "zh_tw": "獲得這個狀態時，若自己擁有四種不同的咒印，消除所有咒印，並給予自己持續7回合的「滅亡倒數」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "361": {
-      "zh_tw": "咒印：病",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "362": {
-      "zh_tw": "獲得這個狀態時，若自己擁有四種不同的咒印，消除所有咒印，並給予自己持續7回合的「滅亡倒數」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "363": {
-      "zh_tw": "咒印：死",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "364": {
-      "zh_tw": "獲得這個狀態時，若自己擁有四種不同的咒印，消除所有咒印，並給予自己持續7回合的「滅亡倒數」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "365": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "366": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "367": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "368": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "369": {
-      "zh_tw": "速度提升",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "370": {
-      "zh_tw": "速度值增加15%。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "371": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "372": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "373": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "374": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "375": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "376": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "377": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "378": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "379": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "380": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "381": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "382": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "383": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "384": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "385": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "386": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "387": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "388": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "389": {
-      "zh_tw": "腎上腺素",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "390": {
-      "zh_tw": "給予1個友軍持續1回合的「激發」後，使其行動順位提前3位。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "391": {
-      "zh_tw": "決意",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "392": {
-      "zh_tw": "行動開始時，若自己是本回合最後1個行動的單位，給予自己持續1回合的「激發」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "393": {
-      "zh_tw": "錯置",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "394": {
-      "zh_tw": "指定1個友軍，令其追加1次行動。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "395": {
-      "zh_tw": "衝擊療法",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "396": {
-      "zh_tw": "對1個友軍造成30%攻擊值的傷害，並消除其異常狀態。無視目標防禦值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "397": {
-      "zh_tw": "鞭策",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "398": {
-      "zh_tw": "對1個友軍造成30%攻擊值的傷害，使其行動順序提前1位。無視目標防禦值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "399": {
-      "zh_tw": "合擊",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "400": {
-      "zh_tw": "對1個敵人造成(存活友軍數量x45%)攻擊值的傷害。攻擊後，使所有我方單位的仇恨值變為與傷害相同的值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "401": {
-      "zh_tw": "士氣提升",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "402": {
-      "zh_tw": "給予所有友軍持續2回合的「激發」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "403": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "404": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "405": {
-      "zh_tw": "後援",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "406": {
-      "zh_tw": "每當友軍使用輔助技能時，也恢復所有友軍3%最大生命值的生命值。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "407": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "408": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "409": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "410": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "411": {
-      "zh_tw": "分析",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "412": {
-      "zh_tw": "給予1個敵人持續2回合的「標記」，並給予自己持續2回合的「看穿」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "413": {
-      "zh_tw": "靈魂收集者",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "414": {
-      "zh_tw": "友軍死亡時，給予自己1個「靈魂」狀態。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "415": {
-      "zh_tw": "吸收靈魂",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "416": {
-      "zh_tw": "消除1個「靈魂」狀態，給予自己持續6回合的「附體」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "417": {
-      "zh_tw": "靈魂盾",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "418": {
-      "zh_tw": "消除1個「靈魂」狀態，給予自己持續6回合的「靈魂盾」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "419": {
-      "zh_tw": "靈魂劍",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "420": {
-      "zh_tw": "消除1個「靈魂」狀態，對1個敵人造成666%攻擊值的傷害。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "421": {
-      "zh_tw": "靈魂連結",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "422": {
-      "zh_tw": "消除1個「靈魂」狀態，給予自己「靈魂連結」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "423": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "424": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "425": {
-      "zh_tw": "恐慌蔓延",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "426": {
-      "zh_tw": "受到傷害後，有15%的機率使自己獲得持續2回合的「恐慌」，並有30%的機率使行動中的單位獲得持續2回合的「恐慌」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "427": {
-      "zh_tw": "封印術",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "428": {
-      "zh_tw": "給予1個敵人持續2回合的「封印」以及永久的「封印抗性」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "429": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "430": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "431": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "432": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "433": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "434": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "435": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "436": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "437": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "438": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "439": {
-      "zh_tw": "修練開始",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "440": {
-      "zh_tw": "戰鬥開始時，給予自己持續10回合的「枷鎖」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10001": {
-      "zh_tw": "嚙咬",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10002": {
-      "zh_tw": "對仇恨值最高的敵方單位造成130%攻擊值的傷害。攻擊後，有15%的機率給予目標1個「中毒」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10003": {
-      "zh_tw": "化學激素",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10004": {
-      "zh_tw": "攻擊後有30%的機率立即追加行動，並給予自己持續1回合的「攻擊破壞」。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10005": {
-      "zh_tw": "野性",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10006": {
-      "zh_tw": "受到傷害後，若生命值低於50%，增加攻擊值與速度值30%，減少防禦值30%。效果只會發生一次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10007": {
-      "zh_tw": "連抓",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10008": {
-      "zh_tw": "對仇恨值最高的敵方單位造成130%攻擊值的傷害。攻擊後，有30%的機率追加連抓，最多3次。",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10009": {
-      "zh_tw": "連抓（二）",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10010": {
-      "zh_tw": "連抓（三）",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10011": {
-      "zh_tw": "下水道老鼠",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10012": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10013": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10014": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10015": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10016": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10017": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10018": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10019": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10020": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10021": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10022": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10023": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10024": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10025": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10026": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10027": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10028": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10029": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10030": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10031": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10032": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "10033": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    },
-    "100001": {
-      "zh_tw": "角色名稱100001",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "100002": {
-      "zh_tw": "角色名稱100002",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "100003": {
-      "zh_tw": "角色名稱100003",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "100004": {
-      "zh_tw": "角色名稱100004",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "100005": {
-      "zh_tw": "角色名稱100005",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200001": {
-      "zh_tw": "實驗用武器",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200002": {
-      "zh_tw": "這是一件實驗用的武器。\\n擁有無窮潛力",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200003": {
-      "zh_tw": "實驗用頭盔",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200004": {
-      "zh_tw": "這是一件實驗用的頭盔。\n擁有無窮潛力",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200005": {
-      "zh_tw": "實驗用鎧甲",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200006": {
-      "zh_tw": "這是一件實驗用的頭盔。\n擁有無窮潛力",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200007": {
-      "zh_tw": "實驗用靴子",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "200008": {
-      "zh_tw": "這是一件實驗用的頭盔。\n擁有無窮潛力",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "300001": {
-      "zh_tw": "Lv. 1",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "300002": {
-      "zh_tw": "Lv. 5",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "300003": {
-      "zh_tw": "Lv. 10",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "300004": {
-      "zh_tw": "Lv. 20",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "300005": {
-      "zh_tw": "Lv. 40",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "300006": {
-      "zh_tw": "Lv. 80",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "300007": {
-      "zh_tw": "Lv. 100",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "400001": {
-      "zh_tw": "法術",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "400002": {
-      "zh_tw": "輔助",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "400003": {
-      "zh_tw": "負面狀態",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000001": {
-      "zh_tw": "角色",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000002": {
-      "zh_tw": "戰鬥",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000003": {
-      "zh_tw": "營地",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000004": {
-      "zh_tw": "商店",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000005": {
-      "zh_tw": "隊伍",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000006": {
-      "zh_tw": "裝備",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000007": {
-      "zh_tw": "技能",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000008": {
-      "zh_tw": "第 {0} 回合",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000009": {
-      "zh_tw": "追加行動",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000010": {
-      "zh_tw": "{0} 順序",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000011": {
-      "zh_tw": "開始行動",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000012": {
-      "zh_tw": "強制結束",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000013": {
-      "zh_tw": "死亡",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "1000014": {
-      "zh_tw": "消滅",
-      "en_us": null,
-      "ja_jp": null
-    },
-    "": {
-      "zh_tw": null,
-      "en_us": null,
-      "ja_jp": null
-    }
+  {},
+  {
+    "ID": 101,
+    "SP": 0,
+    "NameContextID": 101,
+    "DescriptionContextID": 102,
+    "Command": "OnBattleStarted\n{\n     SetStatus(Self, Hatred, Self.Defense * 3);\n}",
+    "IsDrop": 1
   },
-  "BossStageData": {
-    "0": {
-      "Index": -1,
-      "MainBossID": null,
-      "Stamina": null,
-      "BossIDs": null,
-      "DescriptionContextID": null,
-      "DropData": null,
-      "MinExp": 0,
-      "MaxExp": 0
-    },
-    "1": {
-      "Index": 1,
-      "MainBossID": 1,
-      "Stamina": 0,
-      "BossIDs": "1;1;1;1",
-      "DescriptionContextID": 300001,
-      "DropData": "1:25;\n2:25;\n3:25;\n4:25",
-      "MinExp": 8800,
-      "MaxExp": 17600
-    },
-    "2": {
-      "Index": 2,
-      "MainBossID": 2,
-      "Stamina": 0,
-      "BossIDs": "2;2;2;2",
-      "DescriptionContextID": 300002,
-      "DropData": "1:25;\n2:25;\n3:25;\n4:25",
-      "MinExp": 36800,
-      "MaxExp": 73600
-    },
-    "3": {
-      "Index": -1,
-      "MainBossID": null,
-      "Stamina": null,
-      "BossIDs": null,
-      "DescriptionContextID": null,
-      "DropData": "1:25;\n2:25;\n3:25;\n4:25",
-      "MinExp": 152800,
-      "MaxExp": 305600
-    },
-    "4": {
-      "Index": -1,
-      "MainBossID": null,
-      "Stamina": null,
-      "BossIDs": null,
-      "DescriptionContextID": null,
-      "DropData": "1:25;\n2:25;\n3:25;\n4:25",
-      "MinExp": 624800,
-      "MaxExp": 1249600
-    },
-    "5": {
-      "Index": -1,
-      "MainBossID": null,
-      "Stamina": null,
-      "BossIDs": null,
-      "DescriptionContextID": null,
-      "DropData": "1:25;\n2:25;\n3:25;\n4:25",
-      "MinExp": 2528800,
-      "MaxExp": 5057600
-    },
-    "6": {
-      "Index": -1,
-      "MainBossID": null,
-      "Stamina": null,
-      "BossIDs": null,
-      "DescriptionContextID": null,
-      "DropData": "1:25;\n2:25;\n3:25;\n4:25",
-      "MinExp": 3960800,
-      "MaxExp": 7921600
-    },
-    "7": {
-      "Index": -1,
-      "MainBossID": null,
-      "Stamina": null,
-      "BossIDs": null,
-      "DescriptionContextID": null,
-      "DropData": "1:25;\n2:25;\n3:25;\n4:25",
-      "MinExp": 3960800,
-      "MaxExp": 7921600
-    }
+  {
+    "ID": 102,
+    "SP": 0,
+    "NameContextID": 103,
+    "DescriptionContextID": 104,
+    "ReferenceContextIDs": "105;106",
+    "Command": "OnActived\n{\n     AddStatus(Self, Hatred, Self.Defense * 2);\n     GainBuff(Self, 101, 3);\n}",
+    "IsDrop": 1
   },
-  "BossData": {
-    "1": {
-      "NameContextID": 10011,
-      "CharacterSpriteID": 0,
-      "RankString": "Lv. 1 (B)",
-      "Attack": 60,
-      "Defense": 25,
-      "Speed": 30,
-      "HP": 350,
-      "SP": 100,
-      "BuffIDs": "10001;10002",
-      "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
-    },
-    "2": {
-      "NameContextID": 10011,
-      "CharacterSpriteID": 0,
-      "RankString": "Lv. 5 (B)",
-      "Attack": 375,
-      "Defense": 475,
-      "Speed": 75,
-      "HP": 1250,
-      "SP": 100,
-      "BuffIDs": "10001;10002",
-      "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
-    },
-    "3": {
-      "NameContextID": null,
-      "CharacterSpriteID": null,
-      "RankString": null,
-      "Attack": null,
-      "Defense": null,
-      "Speed": null,
-      "HP": null,
-      "SP": null,
-      "BuffIDs": null,
-      "AI": null
-    },
-    "4": {
-      "NameContextID": null,
-      "CharacterSpriteID": null,
-      "RankString": null,
-      "Attack": null,
-      "Defense": null,
-      "Speed": null,
-      "HP": null,
-      "SP": null,
-      "BuffIDs": null,
-      "AI": null
-    },
-    "5": {
-      "NameContextID": null,
-      "CharacterSpriteID": null,
-      "RankString": null,
-      "Attack": null,
-      "Defense": null,
-      "Speed": null,
-      "HP": null,
-      "SP": null,
-      "BuffIDs": null,
-      "AI": null
-    },
-    "6": {
-      "NameContextID": null,
-      "CharacterSpriteID": null,
-      "RankString": null,
-      "Attack": null,
-      "Defense": null,
-      "Speed": null,
-      "HP": null,
-      "SP": null,
-      "BuffIDs": null,
-      "AI": null
-    },
-    "7": {
-      "NameContextID": null,
-      "CharacterSpriteID": null,
-      "RankString": null,
-      "Attack": null,
-      "Defense": null,
-      "Speed": null,
-      "HP": null,
-      "SP": null,
-      "BuffIDs": null,
-      "AI": null
-    }
+  {
+    "ID": 103,
+    "SP": 0,
+    "NameContextID": 107,
+    "DescriptionContextID": 108,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Defense * 0.85, 0);\n}",
+    "IsDrop": 1
   },
-  "RandomSkillData": {
-    "10001": {
-      "SkillID1": 10001,
-      "Weight1": 50,
-      "SkillID2": 10002,
-      "Weight2": 20,
-      "SkillID3": 10005,
-      "Weight3": 20,
-      "SkillID4": 10006,
-      "Weight4": 10,
-      "SkillID5": null,
-      "Weight5": null
-    }
+  {
+    "ID": 104,
+    "SP": 0,
+    "NameContextID": 109,
+    "DescriptionContextID": 110,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 2.2, 0);\n     AddStatus(Self, HP, -Self.LastDealedDamage * 0.7);\n}",
+    "IsDrop": 1
   },
-  "ExpData": {
-    "0": {
-      "Require": 100,
-      "Owning": 0
-    },
-    "1": {
-      "Require": 100,
-      "Owning": 100
-    },
-    "2": {
-      "Require": 200,
-      "Owning": 200
-    },
-    "3": {
-      "Require": 300,
-      "Owning": 400
-    },
-    "4": {
-      "Require": 400,
-      "Owning": 700
-    },
-    "5": {
-      "Require": 500,
-      "Owning": 1100
-    },
-    "6": {
-      "Require": 600,
-      "Owning": 1600
-    },
-    "7": {
-      "Require": 700,
-      "Owning": 2200
-    },
-    "8": {
-      "Require": 800,
-      "Owning": 2900
-    },
-    "9": {
-      "Require": 900,
-      "Owning": 3700
-    },
-    "10": {
-      "Require": 1000,
-      "Owning": 4600
-    },
-    "11": {
-      "Require": 1100,
-      "Owning": 5600
-    },
-    "12": {
-      "Require": 1200,
-      "Owning": 6700
-    },
-    "13": {
-      "Require": 1300,
-      "Owning": 7900
-    },
-    "14": {
-      "Require": 1400,
-      "Owning": 9200
-    },
-    "15": {
-      "Require": 1500,
-      "Owning": 10600
-    },
-    "16": {
-      "Require": 1600,
-      "Owning": 12100
-    },
-    "17": {
-      "Require": 1700,
-      "Owning": 13700
-    },
-    "18": {
-      "Require": 1800,
-      "Owning": 15400
-    },
-    "19": {
-      "Require": 1900,
-      "Owning": 17200
-    },
-    "20": {
-      "Require": 2000,
-      "Owning": 19100
-    },
-    "21": {
-      "Require": 2100,
-      "Owning": 21100
-    },
-    "22": {
-      "Require": 2200,
-      "Owning": 23200
-    },
-    "23": {
-      "Require": 2300,
-      "Owning": 25400
-    },
-    "24": {
-      "Require": 2400,
-      "Owning": 27700
-    },
-    "25": {
-      "Require": 2500,
-      "Owning": 30100
-    },
-    "26": {
-      "Require": 2600,
-      "Owning": 32600
-    },
-    "27": {
-      "Require": 2700,
-      "Owning": 35200
-    },
-    "28": {
-      "Require": 2800,
-      "Owning": 37900
-    },
-    "29": {
-      "Require": 2900,
-      "Owning": 40700
-    },
-    "30": {
-      "Require": 3000,
-      "Owning": 43600
-    },
-    "31": {
-      "Require": 3100,
-      "Owning": 46600
-    },
-    "32": {
-      "Require": 3200,
-      "Owning": 49700
-    },
-    "33": {
-      "Require": 3300,
-      "Owning": 52900
-    },
-    "34": {
-      "Require": 3400,
-      "Owning": 56200
-    },
-    "35": {
-      "Require": 3500,
-      "Owning": 59600
-    },
-    "36": {
-      "Require": 3600,
-      "Owning": 63100
-    },
-    "37": {
-      "Require": 3700,
-      "Owning": 66700
-    },
-    "38": {
-      "Require": 3800,
-      "Owning": 70400
-    },
-    "39": {
-      "Require": 3900,
-      "Owning": 74200
-    },
-    "40": {
-      "Require": 4000,
-      "Owning": 78100
-    },
-    "41": {
-      "Require": 4100,
-      "Owning": 82100
-    },
-    "42": {
-      "Require": 4200,
-      "Owning": 86200
-    },
-    "43": {
-      "Require": 4300,
-      "Owning": 90400
-    },
-    "44": {
-      "Require": 4400,
-      "Owning": 94700
-    },
-    "45": {
-      "Require": 4500,
-      "Owning": 99100
-    },
-    "46": {
-      "Require": 4600,
-      "Owning": 103600
-    },
-    "47": {
-      "Require": 4700,
-      "Owning": 108200
-    },
-    "48": {
-      "Require": 4800,
-      "Owning": 112900
-    },
-    "49": {
-      "Require": 4900,
-      "Owning": 117700
-    },
-    "50": {
-      "Require": 5000,
-      "Owning": 122600
-    },
-    "51": {
-      "Require": 5100,
-      "Owning": 127600
-    },
-    "52": {
-      "Require": 5200,
-      "Owning": 132700
-    },
-    "53": {
-      "Require": 5300,
-      "Owning": 137900
-    },
-    "54": {
-      "Require": 5400,
-      "Owning": 143200
-    },
-    "55": {
-      "Require": 5500,
-      "Owning": 148600
-    },
-    "56": {
-      "Require": 5600,
-      "Owning": 154100
-    },
-    "57": {
-      "Require": 5700,
-      "Owning": 159700
-    },
-    "58": {
-      "Require": 5800,
-      "Owning": 165400
-    },
-    "59": {
-      "Require": 5900,
-      "Owning": 171200
-    },
-    "60": {
-      "Require": 6000,
-      "Owning": 177100
-    },
-    "61": {
-      "Require": 6100,
-      "Owning": 183100
-    },
-    "62": {
-      "Require": 6200,
-      "Owning": 189200
-    },
-    "63": {
-      "Require": 6300,
-      "Owning": 195400
-    },
-    "64": {
-      "Require": 6400,
-      "Owning": 201700
-    },
-    "65": {
-      "Require": 6500,
-      "Owning": 208100
-    },
-    "66": {
-      "Require": 6600,
-      "Owning": 214600
-    },
-    "67": {
-      "Require": 6700,
-      "Owning": 221200
-    },
-    "68": {
-      "Require": 6800,
-      "Owning": 227900
-    },
-    "69": {
-      "Require": 6900,
-      "Owning": 234700
-    },
-    "70": {
-      "Require": 7000,
-      "Owning": 241600
-    },
-    "71": {
-      "Require": 7100,
-      "Owning": 248600
-    },
-    "72": {
-      "Require": 7200,
-      "Owning": 255700
-    },
-    "73": {
-      "Require": 7300,
-      "Owning": 262900
-    },
-    "74": {
-      "Require": 7400,
-      "Owning": 270200
-    },
-    "75": {
-      "Require": 7500,
-      "Owning": 277600
-    },
-    "76": {
-      "Require": 7600,
-      "Owning": 285100
-    },
-    "77": {
-      "Require": 7700,
-      "Owning": 292700
-    },
-    "78": {
-      "Require": 7800,
-      "Owning": 300400
-    },
-    "79": {
-      "Require": 7900,
-      "Owning": 308200
-    },
-    "80": {
-      "Require": 8000,
-      "Owning": 316100
-    },
-    "81": {
-      "Require": 8100,
-      "Owning": 324100
-    },
-    "82": {
-      "Require": 8200,
-      "Owning": 332200
-    },
-    "83": {
-      "Require": 8300,
-      "Owning": 340400
-    },
-    "84": {
-      "Require": 8400,
-      "Owning": 348700
-    },
-    "85": {
-      "Require": 8500,
-      "Owning": 357100
-    },
-    "86": {
-      "Require": 8600,
-      "Owning": 365600
-    },
-    "87": {
-      "Require": 8700,
-      "Owning": 374200
-    },
-    "88": {
-      "Require": 8800,
-      "Owning": 382900
-    },
-    "89": {
-      "Require": 8900,
-      "Owning": 391700
-    },
-    "90": {
-      "Require": 9000,
-      "Owning": 400600
-    },
-    "91": {
-      "Require": 9100,
-      "Owning": 409600
-    },
-    "92": {
-      "Require": 9200,
-      "Owning": 418700
-    },
-    "93": {
-      "Require": 9300,
-      "Owning": 427900
-    },
-    "94": {
-      "Require": 9400,
-      "Owning": 437200
-    },
-    "95": {
-      "Require": 9500,
-      "Owning": 446600
-    },
-    "96": {
-      "Require": 9600,
-      "Owning": 456100
-    },
-    "97": {
-      "Require": 9700,
-      "Owning": 465700
-    },
-    "98": {
-      "Require": 9800,
-      "Owning": 475400
-    },
-    "99": {
-      "Require": 9900,
-      "Owning": 485200
-    },
-    "100": {
-      "Require": -1,
-      "Owning": 495100
-    }
+  {
+    "ID": 105,
+    "SP": 0,
+    "NameContextID": 111,
+    "DescriptionContextID": 112,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n}",
+    "IsDrop": 1
   },
-  "AbilityData": {
-    "1": {
-      "Type": "HP",
-      "RankString": "S",
-      "MinValue": 700,
-      "MaxValue": 1000,
-      "Weight": 6
-    },
-    "2": {
-      "Type": "HP",
-      "RankString": "A",
-      "MinValue": 600,
-      "MaxValue": 900,
-      "Weight": 35
-    },
-    "3": {
-      "Type": "HP",
-      "RankString": "B",
-      "MinValue": 500,
-      "MaxValue": 800,
-      "Weight": 70
-    },
-    "4": {
-      "Type": "HP",
-      "RankString": "C",
-      "MinValue": 400,
-      "MaxValue": 700,
-      "Weight": 100
-    },
-    "5": {
-      "Type": "HP",
-      "RankString": "D",
-      "MinValue": 300,
-      "MaxValue": 600,
-      "Weight": 50
-    },
-    "6": {
-      "Type": "HP",
-      "RankString": "E",
-      "MinValue": 200,
-      "MaxValue": 500,
-      "Weight": 25
-    },
-    "7": {
-      "Type": "HP",
-      "RankString": "F",
-      "MinValue": 100,
-      "MaxValue": 400,
-      "Weight": 12
-    },
-    "8": {
-      "Type": "HP",
-      "RankString": "T",
-      "MinValue": 0,
-      "MaxValue": 300,
-      "Weight": 6
-    },
-    "11": {
-      "Type": "Attack",
-      "RankString": "S",
-      "MinValue": 70,
-      "MaxValue": 100,
-      "Weight": 6
-    },
-    "12": {
-      "Type": "Attack",
-      "RankString": "A",
-      "MinValue": 60,
-      "MaxValue": 90,
-      "Weight": 35
-    },
-    "13": {
-      "Type": "Attack",
-      "RankString": "B",
-      "MinValue": 50,
-      "MaxValue": 80,
-      "Weight": 70
-    },
-    "14": {
-      "Type": "Attack",
-      "RankString": "C",
-      "MinValue": 40,
-      "MaxValue": 70,
-      "Weight": 100
-    },
-    "15": {
-      "Type": "Attack",
-      "RankString": "D",
-      "MinValue": 30,
-      "MaxValue": 60,
-      "Weight": 50
-    },
-    "16": {
-      "Type": "Attack",
-      "RankString": "E",
-      "MinValue": 20,
-      "MaxValue": 50,
-      "Weight": 25
-    },
-    "17": {
-      "Type": "Attack",
-      "RankString": "F",
-      "MinValue": 10,
-      "MaxValue": 40,
-      "Weight": 12
-    },
-    "18": {
-      "Type": "Attack",
-      "RankString": "T",
-      "MinValue": 0,
-      "MaxValue": 30,
-      "Weight": 6
-    },
-    "21": {
-      "Type": "Defense",
-      "RankString": "S",
-      "MinValue": 70,
-      "MaxValue": 100,
-      "Weight": 6
-    },
-    "22": {
-      "Type": "Defense",
-      "RankString": "A",
-      "MinValue": 60,
-      "MaxValue": 90,
-      "Weight": 35
-    },
-    "23": {
-      "Type": "Defense",
-      "RankString": "B",
-      "MinValue": 50,
-      "MaxValue": 80,
-      "Weight": 70
-    },
-    "24": {
-      "Type": "Defense",
-      "RankString": "C",
-      "MinValue": 40,
-      "MaxValue": 70,
-      "Weight": 100
-    },
-    "25": {
-      "Type": "Defense",
-      "RankString": "D",
-      "MinValue": 30,
-      "MaxValue": 60,
-      "Weight": 50
-    },
-    "26": {
-      "Type": "Defense",
-      "RankString": "E",
-      "MinValue": 20,
-      "MaxValue": 50,
-      "Weight": 25
-    },
-    "27": {
-      "Type": "Defense",
-      "RankString": "F",
-      "MinValue": 10,
-      "MaxValue": 40,
-      "Weight": 12
-    },
-    "28": {
-      "Type": "Defense",
-      "RankString": "T",
-      "MinValue": 0,
-      "MaxValue": 30,
-      "Weight": 6
-    },
-    "31": {
-      "Type": "Speed",
-      "RankString": "S",
-      "MinValue": 70,
-      "MaxValue": 100,
-      "Weight": 6
-    },
-    "32": {
-      "Type": "Speed",
-      "RankString": "A",
-      "MinValue": 60,
-      "MaxValue": 90,
-      "Weight": 35
-    },
-    "33": {
-      "Type": "Speed",
-      "RankString": "B",
-      "MinValue": 50,
-      "MaxValue": 80,
-      "Weight": 70
-    },
-    "34": {
-      "Type": "Speed",
-      "RankString": "C",
-      "MinValue": 40,
-      "MaxValue": 70,
-      "Weight": 100
-    },
-    "35": {
-      "Type": "Speed",
-      "RankString": "D",
-      "MinValue": 30,
-      "MaxValue": 60,
-      "Weight": 50
-    },
-    "36": {
-      "Type": "Speed",
-      "RankString": "E",
-      "MinValue": 20,
-      "MaxValue": 50,
-      "Weight": 25
-    },
-    "37": {
-      "Type": "Speed",
-      "RankString": "F",
-      "MinValue": 10,
-      "MaxValue": 40,
-      "Weight": 12
-    },
-    "38": {
-      "Type": "Speed",
-      "RankString": "T",
-      "MinValue": 0,
-      "MaxValue": 30,
-      "Weight": 6
-    },
-    "": {
-      "Type": null,
-      "RankString": null,
-      "MinValue": null,
-      "MaxValue": null,
-      "Weight": null
-    }
+  {
+    "ID": 106,
+    "SP": 0,
+    "NameContextID": 113,
+    "DescriptionContextID": 114,
+    "ReferenceContextIDs": "115;116",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.5, 0);\n     GainBuff(Self, 102, -1);\n}",
+    "IsDrop": 1
   },
-  "AppearanceData": {
-    "1": {
-      "SpriteAssetPath": null,
-      "NameContextID": 100001,
-      "DefaultSkillSet": "1;2;0;0"
-    },
-    "2": {
-      "SpriteAssetPath": null,
-      "NameContextID": 100002,
-      "DefaultSkillSet": "1;2;0;0"
-    },
-    "3": {
-      "SpriteAssetPath": null,
-      "NameContextID": 100003,
-      "DefaultSkillSet": "1;2;0;0"
-    },
-    "4": {
-      "SpriteAssetPath": null,
-      "NameContextID": 100004,
-      "DefaultSkillSet": "1;2;0;0"
-    },
-    "5": {
-      "SpriteAssetPath": null,
-      "NameContextID": 100005,
-      "DefaultSkillSet": "1;2;0;0"
-    }
+  {
+    "ID": 107,
+    "SP": 0,
+    "NameContextID": 117,
+    "DescriptionContextID": 118,
+    "ReferenceContextIDs": "11;12",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.7, 0, 0);\n}\n\nOnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill != 107);\n     Quit();\n     EndIf();\n\n     BeginIf(Target.HP / Target.MaxHP >= 0.76);\n     Quit();\n     EndIf();\n\n     BeginIf(Random(0, 100) <= (0.75 - (Target.HP / Target.MaxHP)) * 100);\n     GainBuff(LastSelected, 2, 1);\n     EndIf();\n}",
+    "IsDrop": 1
   },
-  "RawEquipmentData": {
-    "0": {
-      "NameContextID": 0,
-      "AbilityPool": null,
-      "BuffIDs": null,
-      "EquipmentType": null,
-      "DescriptionContextID": 0,
-      "StoryContextID": null,
-      "NOEX_裝備名稱(不輸出)": "無",
-      "NOEX_裝備說明(不輸出)": "無",
-      "NOEX_裝備故事(不輸出)": "無"
-    },
-    "1": {
-      "NameContextID": 200001,
-      "AbilityPool": "Attack:1~50;\nDefense:1~50;\nSpeed:1~50;\nHP:10~500;",
-      "BuffIDs": null,
-      "EquipmentType": "Hand",
-      "DescriptionContextID": 0,
-      "StoryContextID": 200002,
-      "NOEX_裝備名稱(不輸出)": "實驗用武器",
-      "NOEX_裝備說明(不輸出)": "無",
-      "NOEX_裝備故事(不輸出)": "這是一件實驗用的武器。\\n擁有無窮潛力"
-    },
-    "2": {
-      "NameContextID": 200003,
-      "AbilityPool": "Attack:1~50;\nDefense:1~50;\nSpeed:1~50;\nHP:10~500;",
-      "BuffIDs": null,
-      "EquipmentType": "Head",
-      "DescriptionContextID": 0,
-      "StoryContextID": 200004,
-      "NOEX_裝備名稱(不輸出)": "實驗用頭盔",
-      "NOEX_裝備說明(不輸出)": "無",
-      "NOEX_裝備故事(不輸出)": "這是一件實驗用的頭盔。\n擁有無窮潛力"
-    },
-    "3": {
-      "NameContextID": 200005,
-      "AbilityPool": "Attack:1~50;\nDefense:1~50;\nSpeed:1~50;\nHP:10~500;",
-      "BuffIDs": null,
-      "EquipmentType": "Body",
-      "DescriptionContextID": 0,
-      "StoryContextID": 200006,
-      "NOEX_裝備名稱(不輸出)": "實驗用鎧甲",
-      "NOEX_裝備說明(不輸出)": "無",
-      "NOEX_裝備故事(不輸出)": "這是一件實驗用的頭盔。\n擁有無窮潛力"
-    },
-    "4": {
-      "NameContextID": 200007,
-      "AbilityPool": "Attack:1~50;\nDefense:1~50;\nSpeed:1~50;\nHP:10~500;",
-      "BuffIDs": null,
-      "EquipmentType": "Foot",
-      "DescriptionContextID": 0,
-      "StoryContextID": 200008,
-      "NOEX_裝備名稱(不輸出)": "實驗用靴子",
-      "NOEX_裝備說明(不輸出)": "無",
-      "NOEX_裝備故事(不輸出)": "這是一件實驗用的頭盔。\n擁有無窮潛力"
-    },
-    "": {
-      "NameContextID": null,
-      "AbilityPool": null,
-      "BuffIDs": null,
-      "EquipmentType": null,
-      "DescriptionContextID": null,
-      "StoryContextID": null,
-      "NOEX_裝備名稱(不輸出)": "無",
-      "NOEX_裝備說明(不輸出)": "無",
-      "NOEX_裝備故事(不輸出)": "無"
-    }
-  }
-}
+  {
+    "ID": 108,
+    "SP": 0,
+    "NameContextID": 119,
+    "DescriptionContextID": 120,
+    "Command": "OnAttackEnded_Self\n{\n     AddStatus(Self, Hatred, Self.Hatred * 1.2);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 109,
+    "SP": 0,
+    "NameContextID": 121,
+    "DescriptionContextID": 122,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Hatred * 0.75, 0);\n     AddStatus(Self, Hatred, -Self.LastDealedDamage * 2);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 110,
+    "SP": 10,
+    "NameContextID": 123,
+    "DescriptionContextID": 124,
+    "ReferenceContextIDs": "13;14",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1, 0);\n     BeginIf(Random(1,100) <= 75);\n     GainBuff(LastSelected, 3, 3);\n     EndIf();\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 111,
+    "SP": 10,
+    "NameContextID": 125,
+    "DescriptionContextID": 126,
+    "ReferenceContextIDs": "15;16",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 0);\n     BeginIf(Random(1,100) <= 75);\n     GainBuff(LastSelected, 4, 2);\n     EndIf();\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 112,
+    "SP": 10,
+    "NameContextID": 127,
+    "DescriptionContextID": 128,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * Random(130, 360) * 0.01, 0);\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 113,
+    "SP": 60,
+    "NameContextID": 129,
+    "DescriptionContextID": 130,
+    "ReferenceContextIDs": "129;131",
+    "Command": "OnActived\n{\n     GainBuff(SelectOther(Opponent, Manual, 1), 103, 3);\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 114,
+    "SP": 30,
+    "NameContextID": 132,
+    "DescriptionContextID": 133,
+    "ReferenceContextIDs": "17;18",
+    "Command": "OnActived\n{\n     GainBuff(SelectOther(Opponent, Random, -1), 5, 5);\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 115,
+    "SP": 0,
+    "NameContextID": 134,
+    "DescriptionContextID": 135,
+    "Command": "OnActived\n{\n     AddStatus(SelectOther(All, Manual, 1), HP, -Target.MaxHP * 0.03 * Buff(Target, 5, StackCount));\n     AddBuffStack(LastSelected, 5, -99);\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 116,
+    "SP": 60,
+    "NameContextID": 136,
+    "DescriptionContextID": 137,
+    "ReferenceContextIDs": "13;14",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 3, 0);\n     GainBuff(LastSelected, 3, 3);\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 117,
+    "SP": 60,
+    "NameContextID": 138,
+    "DescriptionContextID": 139,
+    "ReferenceContextIDs": "15;16",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.5, 0);\n     GainBuff(LastSelected, 4, 2);\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 118,
+    "SP": 0,
+    "NameContextID": 140,
+    "DescriptionContextID": 141,
+    "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), SP, 10);\n     AddStatus(Self, HP, -Self.MaxHP * 0.1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 119,
+    "SP": 0,
+    "NameContextID": 142,
+    "DescriptionContextID": 143,
+    "Command": "OnTurnStarted\n{\n     AddStatus(Self, SP, 5);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 120,
+    "SP": 60,
+    "NameContextID": 144,
+    "DescriptionContextID": 145,
+    "ReferenceContextIDs": "19;20",
+    "Command": "OnActived\n{\n     GainBuff(SelectOther(Opponent, Manual, 1), 6, 4);\n}",
+    "IsDrop": 1,
+    "Tag": 400001
+  },
+  {
+    "ID": 121,
+    "SP": 0,
+    "NameContextID": 146,
+    "DescriptionContextID": 147,
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, Defense, Self.Defense * 0.3);\n     AddStatus(Self, Speed, -Self.Speed * 0.3);\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(-20%);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 122,
+    "SP": 0,
+    "NameContextID": 148,
+    "DescriptionContextID": 149,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     AddStatus(Self, HP, Self.LastDealedDamage);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 123,
+    "SP": 0,
+    "NameContextID": 150,
+    "DescriptionContextID": 151,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n}\n\nOnDamageCalculated_Self\n{\n     BeginIf(Self.LastSkill != 123);\n     Quit();\n     EndIf();\n\n     BeginIf_Effect(Self, 1, 7);\n     AddDamage(100%);\n     EndIf();\n}\n\nOnAttackEnded_Self\n{\n     BeginIf(Self.LastSkill != 123);\n     Quit();\n     EndIf();\n\n     BeginIf_Effect(Self, 1, 7);\n     AddBuffStack(Self, 7, -99);\n     EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 124,
+    "SP": 0,
+    "NameContextID": 152,
+    "DescriptionContextID": 153,
+    "ReferenceContextIDs": "21;22",
+    "Command": "OnStartToAttack_Self\n{\n     BeginIf(Random(0, 100) <= 30);\n     GainBuff(Self, 7, 2);\n     EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 125,
+    "SP": 0,
+    "NameContextID": 154,
+    "DescriptionContextID": 155,
+    "ReferenceContextIDs": "21;22",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n}\n\nOnTurnStarted\n{\n     GainBuff(Self, 7, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 126,
+    "SP": 0,
+    "NameContextID": 156,
+    "DescriptionContextID": 157,
+    "ReferenceContextIDs": "5;6",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, -Self.Attack * 0.3);\n}\n\nOnTurnStarted\n{\n     GainBuff(Self, 1, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 127,
+    "SP": 10,
+    "NameContextID": 158,
+    "DescriptionContextID": 159,
+    "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 1, 0, 0);\n}",
+    "IsDrop": 1,
+    "Tag": 400002
+  },
+  {
+    "ID": 128,
+    "SP": 10,
+    "NameContextID": 160,
+    "DescriptionContextID": 161,
+    "ReferenceContextIDs": "162;163",
+    "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Random, -1), 104, 2);\n}",
+    "IsDrop": 1,
+    "Tag": 400002
+  },
+  {
+    "ID": 129,
+    "SP": 0,
+    "NameContextID": 164,
+    "DescriptionContextID": 165,
+    "ReferenceContextIDs": "23;24",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.7, 0);\n     GainBuff(LastSelected, 8, 2);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 130,
+    "SP": 0,
+    "NameContextID": 166,
+    "DescriptionContextID": 167,
+    "Command": "OnDamageTaken_Self\n{\n     AddStatus(Target, HP, -Random(1, Self.Attack * 0.5));\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 131,
+    "SP": 0,
+    "NameContextID": 168,
+    "DescriptionContextID": 169,
+    "ReferenceContextIDs": "15;16",
+    "Command": "OnDamageTaken_Self\n{\n     AddDamage(-10%);\n     BeginIf(Random(1, 100) <= 7);\n     GainBuff(Target, 4, 2);\n     EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 132,
+    "SP": 0,
+    "NameContextID": 170,
+    "DescriptionContextID": 171,
+    "ReferenceContextIDs": "25;26",
+    "Command": "OnBattleStarted\n{\n     LockAddStatus(Self, SP);\n     LockAddStatus(Self, HP);\n     GainBuff(Self, 9, 3);\n     SetSkipCheckSP();\n}\n\nOnStartToTakeDamage_Self\n{\n     SetDamage(0);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 133,
+    "SP": 35,
+    "NameContextID": 172,
+    "DescriptionContextID": 173,
+    "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 2, 0, 0);\n}",
+    "IsDrop": 1,
+    "Tag": 400002
+  },
+  {
+    "ID": 134,
+    "SP": 0,
+    "NameContextID": 174,
+    "DescriptionContextID": 175,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.HP * 5.5, 0);\n     SetStatus(Self, HP, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 135,
+    "SP": 0,
+    "NameContextID": 176,
+    "DescriptionContextID": 177,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * Self.SP * 5 * 0.01, 0);\n     SetStatus(Self, SP, 0);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 136,
+    "SP": 0,
+    "NameContextID": 178,
+    "DescriptionContextID": 179,
+    "ReferenceContextIDs": "25;26",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.HP * Self.SP * 0.1, 0);\n     SetStatus(Self, SP, 0);\n     SetStatus(Self, HP, 1);\n     GainBuff(Self, 9, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 137,
+    "SP": 0,
+    "NameContextID": 180,
+    "DescriptionContextID": 181,
+    "Command": "OnStartToAttack_Self\n{\n     AddStatus(Self, Attack, Self.MaxHP - Self.HP);\n}\n\nOnAttackEnded_Self\n{\n     AddStatus(Self, Attack, -(Self.MaxHP - Self.HP));\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 138,
+    "SP": 0,
+    "NameContextID": 182,
+    "DescriptionContextID": 183,
+    "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.LastTakenDamage + Self.HP != 1);\n     BeginIf(Self.HP <= 0);\n     SetStatus(Self, HP, 1);\n     GainBuff(2, Self, -1);\n     EndIf();\n     EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 139,
+    "SP": 100,
+    "NameContextID": 184,
+    "DescriptionContextID": 185,
+    "ReferenceContextIDs": "186;187",
+    "Command": "OnActived\n{\n     GainBuff(Self, 105, -1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 140,
+    "SP": 0,
+    "NameContextID": 188,
+    "DescriptionContextID": 189,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent , Random, -1), Self.HP * 0.5, 1);\n     ForceDie(Self);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 141,
+    "SP": 0,
+    "NameContextID": 190,
+    "DescriptionContextID": 191,
+    "Command": "OnBattleStarted\n{\n     LockAddStatus(Self, HP);\n     LockAddStatus(Self, Hatred);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 142,
+    "SP": 0,
+    "NameContextID": 192,
+    "DescriptionContextID": 193,
+    "Command": "OnStartToEndAction_Any\n{\n     BeginIf(Random(0, 100) <= 5);\n     AddExtraAction(Self, 1);\n     EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 143,
+    "SP": 5,
+    "NameContextID": 194,
+    "DescriptionContextID": 195,
+    "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.Attack * 0.5);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 144,
+    "SP": 30,
+    "NameContextID": 196,
+    "DescriptionContextID": 197,
+    "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Random, -1), HP, Self.Defense * 0.35);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 145,
+    "SP": 20,
+    "NameContextID": 198,
+    "DescriptionContextID": 199,
+    "Command": "OnActived\n{\n     AddBuffStack(Select(All, Manual, 1), -1, -99);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 146,
+    "SP": 35,
+    "NameContextID": 200,
+    "DescriptionContextID": 201,
+    "Command": "OnActived\n{\n     AddBuffTime(Select(All, Manual, 1), -1, -2);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 147,
+    "SP": 35,
+    "NameContextID": 202,
+    "DescriptionContextID": 203,
+    "Command": "OnActived\n{\n     AddBuffTime(Select(All, Manual, 1), -1, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 148,
+    "SP": 100,
+    "NameContextID": 204,
+    "DescriptionContextID": 205,
+    "ReferenceContextIDs": "11;12",
+    "Command": "OnActived\n{\n     GainBuff(SelectOther(All, Random, -1), 2, 4);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 149,
+    "SP": 100,
+    "NameContextID": 206,
+    "DescriptionContextID": 207,
+    "Command": "OnActived\n{\n     AddBuffStack(Select(All, Random, -1), -1, -99);\n     AddStatus(Select(All, Random, -1), HP, Target.MaxHP * 2);\n     SetStatus(Select(All, Random, -1), SP, 100);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 150,
+    "SP": 0,
+    "NameContextID": 208,
+    "DescriptionContextID": 209,
+    "Command": "OnActived\n{\n     AddStatus(Select(All, Manual, 1), HP, Self.MaxHP * 0.1);\n     AddStatus(Self, HP, -Self.MaxHP * 0.1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 151,
+    "SP": 15,
+    "NameContextID": 210,
+    "DescriptionContextID": 211,
+    "ReferenceContextIDs": "162;163",
+    "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Manual, 1), 104, 3);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 152,
+    "SP": 0,
+    "NameContextID": 212,
+    "DescriptionContextID": 213,
+    "ReferenceContextIDs": "214;215",
+    "Command": "OnActived\n{\n     GainBuff(Self, 106, 6);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 153,
+    "SP": 0,
+    "NameContextID": 216,
+    "DescriptionContextID": 217,
+    "Command": "OnDied_Any\n{\n     BeginIf(CurrentDyingUnit.Camp == Self.Camp);\n     AddStatus(Self, HP, Self.MaxHP * 2);\n     AddStatus(Self, SP, 100);\n     EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 154,
+    "SP": 0,
+    "NameContextID": 218,
+    "DescriptionContextID": 219,
+    "ReferenceContextIDs": "220;221",
+    "Command": "OnDied_Self\n{\n     GainBuff(Select(SameSide, Random, -1), 107, 4);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 155,
+    "SP": 0,
+    "NameContextID": 222,
+    "DescriptionContextID": 223,
+    "Command": "OnActived\n{\n     AddBuffStackByTag(Select(SameSide, Manual, 1), 400003, -99);\n     AddStatus(Self, Hatred, 10000);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 156,
+    "SP": 0,
+    "NameContextID": 224,
+    "DescriptionContextID": 225,
+    "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), HP, Target.MaxHP * 0.45);\n     ReplaceSkill(156, 2);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 157,
+    "SP": 0,
+    "NameContextID": 226,
+    "DescriptionContextID": 227,
+    "Command": "OnDamageTaken_Self\n{\n  AddStatus(Self, SP, Self.LastDealedDamage / Self.MaxHP);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 158,
+    "SP": 30,
+    "NameContextID": 228,
+    "DescriptionContextID": 229,
+    "ReferenceContextIDs": "228;230",
+    "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Manual, 1), 108, 2);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 159,
+    "SP": 10,
+    "NameContextID": 231,
+    "DescriptionContextID": 232,
+    "ReferenceContextIDs": "5;6;21;22",
+    "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Manual, 1), 3, 4);\n     GainBuff(Select(SameSide, Manual, 1), 21, 4);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 160,
+    "SP": 0,
+    "NameContextID": 235,
+    "DescriptionContextID": 236,
+    "ReferenceContextIDs": "233;234",
+    "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP <= 0);\n   SetStatus(Self, HP,1000);\n   GainBuff(Self, 109, 1);\n  EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 161,
+    "SP": 0,
+    "NameContextID": 237,
+    "DescriptionContextID": 238,
+    "Command": "OnActived\n{\n DealDamage(Select(Opponent, Manual, 1), Self.Attack * 0.65 , 0);\n DealDamage(LastSelected, Self.Attack * 0.65 , 0);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 162,
+    "SP": 0,
+    "NameContextID": 239,
+    "DescriptionContextID": 240,
+    "Command": "OnActived\n{\n DealDamage(Select(Opponent, Manual, 1), Self.Attack * 0.5 , 0);\n DealDamage(LastSelected, Self.Attack * 0.5 , 0);\n DealDamage(LastSelected, Self.Attack * 0.5 , 0);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 163,
+    "SP": 0,
+    "NameContextID": 241,
+    "DescriptionContextID": 242,
+    "Command": "OnActived\n{\n DealDamage(Select(Opponent, Manual, 1), Self.Attack * 0.45 , 0);\n DealDamage(LastSelected, Self.Attack * 0.45 , 0);\n DealDamage(LastSelected, Self.Attack * 0.45 , 0);\n DealDamage(LastSelected, Self.Attack * 0.45 , 0);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 164,
+    "SP": 0,
+    "NameContextID": 243,
+    "DescriptionContextID": 244,
+    "ReferenceContextIDs": "17;18",
+    "Command": "OnDamageDealed_Self\n{\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(LastAttacked, 17, 2);\n   EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 165,
+    "SP": 0,
+    "NameContextID": 245,
+    "DescriptionContextID": 246,
+    "Command": "OnDamageTaken_Any \n{\n    BeginIf(Target.Camp == Self.Camp);\n    AddStatus(Self, Hatred,Target.LastTakenDamage * 2);\n    EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 166,
+    "SP": 0,
+    "NameContextID": 249,
+    "DescriptionContextID": 250,
+    "ReferenceContextIDs": "247;248",
+    "Command": "OnAttackEnded_Self \n{\n   BeginIf(Self.LastDealedDamage == 1);\n     GainBuff(Self, 110, 3);\n   EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 167,
+    "SP": 25,
+    "NameContextID": 251,
+    "DescriptionContextID": 252,
+    "Command": "OnActived\n{\n  SetStatus(Self, Hatred, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 168,
+    "SP": 0,
+    "NameContextID": 253,
+    "DescriptionContextID": 254,
+    "Command": "OnActived\n{\n  AddStatus(Self, Hatred, 5000);\n  AddStatus(Self, Hatred, Self.Hatred * 0.50);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 169,
+    "SP": 0,
+    "NameContextID": 255,
+    "DescriptionContextID": 256,
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, Manual, 1), Self.Attack * 1.30 , 0);\n  BeginIf(Target.HP <= (Target.MaxHP*0.1) );\n  CastSkill(1);\n  EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 170,
+    "SP": 0,
+    "NameContextID": 257,
+    "DescriptionContextID": 258,
+    "Command": "OnActived\n{\nDealDamage(Select(Opponent, Manual, 1), Target.Attack * 1.30 , 0);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 171,
+    "SP": 0,
+    "NameContextID": 259,
+    "DescriptionContextID": 260,
+    "Command": "OnActived\n{\nDealDamage(Select(Opponent, Manual, 1), Target.Defense * 1.20 , 0);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 172,
+    "SP": 0,
+    "NameContextID": 261,
+    "DescriptionContextID": 262,
+    "Command": "OnActived\n{\nDealDamage(Select(Opponent, Manual, 1), Self.Attack * 0.15 , 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 173,
+    "SP": 0,
+    "NameContextID": 263,
+    "DescriptionContextID": 264,
+    "Command": "OnActived\n{\nDealDamage(Select(Opponent, RandomByHatred, 1), Self.Attack * 1.10 , 0);\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 174,
+    "SP": 20,
+    "NameContextID": 265,
+    "DescriptionContextID": 266,
+    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Random, -1), 21,1);\n AddStatus(Select(SameSide, Random, -1), MaxHP, Target.MaxHP*0.04);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 175,
+    "SP": 0,
+    "NameContextID": 289,
+    "DescriptionContextID": 290,
+    "Command": "OnActived\n{\n   DealDamage(CurrentActor, Self.Attack * 4, 0);\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 176,
+    "SP": 35,
+    "NameContextID": 293,
+    "DescriptionContextID": 294,
+    "ReferenceContextIDs": "291;292",
+    "Command": "OnActived\n{\n GainBuff(Self, 122, 3);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 177,
+    "SP": 0,
+    "NameContextID": 295,
+    "DescriptionContextID": 296,
+    "ReferenceContextIDs": "297;298",
+    "Command": "OnActived\n{\n ReplaceSkill(Self,177,178);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 178,
+    "SP": 0,
+    "NameContextID": 297,
+    "DescriptionContextID": 298,
+    "Command": "OnActived\n{\n DealDamage(Select(Opponent, All), Self.Attack * 3.00 , 0);\n ReplaceSkill(Self,178,177);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 179,
+    "SP": 25,
+    "NameContextID": 299,
+    "DescriptionContextID": 300,
+    "ReferenceContextIDs": "247;248",
+    "Command": "OnActived\n{\n GainBuff(Caster, 110, 1);\n AddExtraAction(Self, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 180,
+    "SP": 0,
+    "NameContextID": 301,
+    "DescriptionContextID": 302,
+    "ReferenceContextIDs": "289;290",
+    "Command": "OnDamageTaken_Self \n{\n   BeginIf(Random(1,100) <= 15);\n      DealDamage(Self, 0 , 0);\n   EndIf();\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(Self, 175, 1);\n   EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 181,
+    "SP": 0,
+    "NameContextID": 317,
+    "DescriptionContextID": 318,
+    "Command": "OnStartToEndAction_Self\n{\n   BeginIf(Random(1,100) <= 10);\n     AddExtraAction\n   EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 182,
+    "SP": 0,
+    "NameContextID": 319,
+    "DescriptionContextID": 320,
+    "Command": "OnActionStarted_Self\n{\n BeginIf(Self.ActionIndex == 0);\n GainBuff(Self, 110, 1);\n Endif();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 183,
+    "SP": 0,
+    "NameContextID": 345,
+    "DescriptionContextID": 346,
+    "Command": "OnDamageTaken_Self\n{\n BeginIf(Self.HP <= 0);\n  ForceDie(Select(SameSide, Manual,1));\n  AddStatus(Self, HP, Self.MaxHP);\n EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 184,
+    "SP": 0,
+    "NameContextID": 347,
+    "DescriptionContextID": 348,
+    "Command": "OnDamageDealed_Self\n{\n   BeginIf_Effect(112);\n     Quit();\n   EndIf();\n\n   BeginIf( Target.LastTakenDamage<=Target.MaxHP*0.01 );\n     AddExtraAction(Self, 1);\n     GainBuff(Self, 112, 1);\n   EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 185,
+    "SP": 0,
+    "NameContextID": 349,
+    "DescriptionContextID": 350,
+    "ReferenceContextIDs": "287;288",
+    "Command": "OnActived\n{\n GainBuff(Self, 185, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 186,
+    "SP": 0,
+    "NameContextID": 389,
+    "DescriptionContextID": 390,
+    "ReferenceContextIDs": "21;22",
+    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Manual, 1), 7, 1);\n AddActionIndex(LastSelected, -3);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 187,
+    "SP": 0,
+    "NameContextID": 391,
+    "DescriptionContextID": 392,
+    "ReferenceContextIDs": "21;22",
+    "Command": "OnActionStarted_Self\n{\n BeginIf(Self.ActionIndex >= CombatField.MyUnitCount + CombatField.OpponentUnitCount);\n GainBuff(Self, 21, 1);\n EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 188,
+    "SP": 0,
+    "NameContextID": 393,
+    "DescriptionContextID": 394,
+    "Command": "OnActived\n{\n AddExtraAction(SelectOther(SameSide, Manual, 1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 189,
+    "SP": 0,
+    "NameContextID": 395,
+    "DescriptionContextID": 396,
+    "Command": "OnActived\n{\n  DealDamage(Select(SameSide, Random, 1), Self.Attack * 0.3, 1);\n  AddBuffStackByTag(LastSelected, 400003, -99);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 190,
+    "SP": 0,
+    "NameContextID": 397,
+    "DescriptionContextID": 398,
+    "Command": "OnActived\n{\n  DealDamage(Select(SameSide, Random, 1), Self.Attack * 0.3, 1);\n  AddActionIndex(LastSelected, -1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 191,
+    "SP": 0,
+    "NameContextID": 399,
+    "DescriptionContextID": 400,
+    "Command": "OnActived\n{\n    DealDamage(Select(Opponent, Manual, 1), Self.Attack * CombatField.MyUnitCount * 0.45, 0);\n    SetStatus(Select(SameSide, Random, -1), Hatred, CurrentActor.LastDealedDamage);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 192,
+    "SP": 10,
+    "NameContextID": 401,
+    "DescriptionContextID": 402,
+    "ReferenceContextIDs": "21;22",
+    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Random, -1), 21,2);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 193,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 194,
+    "SP": 0,
+    "NameContextID": 405,
+    "DescriptionContextID": 406,
+    "Command": "OnActived\r\n{\r\n  AddStatus(Select(SameSide, All) , HP,Self.MaxHP*0.03);\r\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 195,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 197,
+    "SP": 0,
+    "NameContextID": 411,
+    "DescriptionContextID": 412,
+    "Command": "OnActived\n{\n GainBuff(Select, 114, 2);\n GainBuff(Self, 110, 2);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 198,
+    "SP": 0,
+    "NameContextID": 413,
+    "DescriptionContextID": 414,
+    "Command": "OnDied_Any\n{\n  BeginIf(Caster.Camp == 0);\n  GainBuff(Self, 123, 1);\n  EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 199,
+    "SP": 0,
+    "NameContextID": 415,
+    "DescriptionContextID": 416,
+    "Command": "OnActived\n{\nBeginIf_Effect(123);\n  AddBuffStack(Self, 123, -1);\n  GainBuff(Self, 132, 6);\nEndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 200,
+    "SP": 0,
+    "NameContextID": 417,
+    "DescriptionContextID": 418,
+    "Command": "OnActived\n{\nBeginIf_Effect(123);\n  AddBuffStack(Self, 123, -1);\n  GainBuff(Self, 124, 6);\nEndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 201,
+    "SP": 0,
+    "NameContextID": 419,
+    "DescriptionContextID": 420,
+    "Command": "OnActived\n{\nBeginIf_Effect(123);\n  AddBuffStack(Self, 123, -1);\n   DealDamage(Select(Opponent, Manual, 1), Self.Attack * 6.66 , 0);\nEndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 202,
+    "SP": 0,
+    "NameContextID": 421,
+    "DescriptionContextID": 422,
+    "Command": "OnActived\n{\nBeginIf_Effect(123);\n  AddBuffStack(Self, 123, -1);\n  GainBuff(Self, 130, 1);\nEndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 203,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 204,
+    "SP": 0,
+    "NameContextID": 425,
+    "DescriptionContextID": 426,
+    "ReferenceContextIDs": "313;314",
+    "Command": "OnDamageTaken_Self \n{\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(Self, 128, 2);\n   EndIf();\n   BeginIf(Random(1,100) <=  30);\n     GainBuff(Target, 128, 3);\n   EndIf();\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 205,
+    "SP": 0,
+    "NameContextID": 427,
+    "DescriptionContextID": 428,
+    "ReferenceContextIDs": "331;332;329;330",
+    "Command": "OnActived\n{\n GainBuff(Select(Opponent, Manual, 1), 135, 2);\n GainBuff(LastSelected, 134, -1);\n}",
+    "IsDrop": 1
+  },
+  {
+    "ID": 206,
+    "SP": 0,
+    "NameContextID": 439,
+    "DescriptionContextID": 440,
+    "ReferenceContextIDs": "277;278",
+    "Command": "OnBattleStarted \n{\n GainBuff(Self, 116, 10);\n}",
+    "IsDrop": 1
+  },
+  {
+    "Command": ""
+  },
+  {
+    "ID": 10001,
+    "SP": 0,
+    "NameContextID": 10001,
+    "DescriptionContextID": 10002,
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.3, 0);\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(LastAttacked, 17, 2);\n   EndIf();\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 10002,
+    "SP": 0,
+    "NameContextID": 10007,
+    "DescriptionContextID": 10008,
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.3, 0);\n  BeginIf(Random(1, 100) <= 30);\n     CastSkill(10003);\n   EndIf();\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 10003,
+    "SP": 0,
+    "NameContextID": 10009,
+    "DescriptionContextID": 10008,
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.3, 0);\n  BeginIf(Random(1, 100) <= 30);\n     CastSkill(10004);\n   EndIf();\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 10004,
+    "SP": 0,
+    "NameContextID": 10010,
+    "DescriptionContextID": 10008,
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.3, 0);\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 10005,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 10006,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 10007,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 10008,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 10009,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 10010,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 10011,
+    "SP": 0,
+    "IsDrop": 0
+  },
+  {
+    "IsDrop": 0
+  },
+  {},
+  {},
+  {}
+]
