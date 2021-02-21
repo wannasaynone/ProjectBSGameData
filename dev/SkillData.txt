@@ -340,7 +340,7 @@
     "NameContextID": 178,
     "DescriptionContextID": 179,
     "ReferenceContextIDs": "25;26",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.HP * Self.SP * 0.1, 0);\n     SetStatus(Self, SP, 0);\n     GainBuff(Self, 9, 1);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.HP * Self.SP * 0.1, 0);\n     SetStatus(Self, SP, 0);\n     SetStatus(Self, HP, 1);\n     GainBuff(Self, 9, 1);\n}",
     "IsDrop": 1
   },
   {
