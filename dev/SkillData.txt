@@ -722,7 +722,7 @@
     "SP": 0,
     "NameContextID": 319,
     "DescriptionContextID": 320,
-    "Command": "OnActionStarted_Self\n{\n BeginIf(Self.ActionIndex == 0);\n GainBuff(Self, 110, 1);\n Endif();\n}",
+    "Command": "OnActionStarted_Self\n{\n BeginIf(Self.ActionIndex == 0);\n GainBuff(Self, 110, 1);\n EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -908,6 +908,7 @@
     "IsDrop": 1
   },
   {
+    "ReferenceContextIDs": "f",
     "Command": ""
   },
   {
