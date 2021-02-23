@@ -1,14 +1,41 @@
-[{"ID":1,"NameContextID":10011,"CharacterSpriteID":0,"RankString":"Lv. 1 (B)","Attack":60,"Defense":25,"Speed":30,"HP":350,"SP":100,"BuffIDs":"10001;10002","AI":"BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);
-       CastSkill(10002);
-       Quit();
-    EndIf();
-EndIf();
-
-CastSkill(10001);"},
-{"ID":2,"NameContextID":10011,"CharacterSpriteID":0,"RankString":"Lv. 5 (B)","Attack":375,"Defense":475,"Speed":75,"HP":1250,"SP":100,"BuffIDs":"10001;10002","AI":"BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);
-       CastSkill(10002);
-       Quit();
-    EndIf();
-EndIf();
-
-CastSkill(10001);"}]
+[
+  {
+    "ID": 1,
+    "AppearanceDataID": 10001,
+    "RankString": "Lv. 1 (B)",
+    "Attack": 60,
+    "Defense": 25,
+    "Speed": 30,
+    "HP": 350,
+    "SP": 100,
+    "BuffIDs": "10001;10002",
+    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
+  },
+  {
+    "ID": 2,
+    "AppearanceDataID": 10001,
+    "RankString": "Lv. 5 (B)",
+    "Attack": 375,
+    "Defense": 475,
+    "Speed": 75,
+    "HP": 1250,
+    "SP": 100,
+    "BuffIDs": "10001;10002",
+    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
+  },
+  {
+    "ID": 3
+  },
+  {
+    "ID": 4
+  },
+  {
+    "ID": 5
+  },
+  {
+    "ID": 6
+  },
+  {
+    "ID": 7
+  }
+]
