@@ -742,7 +742,7 @@
     "SP": 0,
     "NameContextID": 347,
     "DescriptionContextID": 348,
-    "Command": "OnDamageDealed_Self\n{\n   BeginIf_Effect(112);\n     Quit();\n   EndIf();\n\n   BeginIf( Target.LastTakenDamage<=Target.MaxHP*0.01 );\n     AddExtraAction(Self, 1);\n     GainBuff(Self, 112, 1);\n   EndIf();\n}",
+    "Command": "OnDamageDealed_Self\n{\n   BeginIf_Effect(1, 112);\n     Quit();\n   EndIf();\n\n   BeginIf( Target.LastTakenDamage<=Target.MaxHP*0.01 );\n     AddExtraAction(Self, 1);\n     GainBuff(Self, 112, 1);\n   EndIf();\n}",
     "IsDrop": 1
   },
   {
