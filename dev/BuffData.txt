@@ -145,7 +145,7 @@
     "ID": 109,
     "NameContextID": 233,
     "DescriptionContextID": 234,
-    "Command": "OnDeactived\n{\n  AddStatus(Self, HP, -1000);\n}",
+    "Command": "OnDeactived\n{\n  AddStatus(Self, HP, -3000);\n}",
     "MaxStackCount": 1
   },
   {
@@ -337,32 +337,16 @@
     "MaxStackCount": 1
   },
   {
-    "ID": 145,
-    "NameContextID": 357,
-    "DescriptionContextID": 358,
-    "Command": "OnActived\n{\n  BeginIf_Skill(Self, 1, 145);\n    BeginIf_Skill(Self, 1, 146);\n      BeginIf_Skill(Self, 1, 147);\n        BeginIf_Skill(Self, 1, 148);\n           GainBuff(Self, 9, 7);\n        EndIf();\n      EndIf();\n   EndIf();\n EndIf();\n}",
-    "MaxStackCount": 1
+    "ID": 145
   },
   {
-    "ID": 146,
-    "NameContextID": 359,
-    "DescriptionContextID": 360,
-    "Command": "OnActived\n{\n  BeginIf_Skill(Self, 1, 145);\n    BeginIf_Skill(Self, 1, 146);\n      BeginIf_Skill(Self, 1, 147);\n        BeginIf_Skill(Self, 1, 148);\n           GainBuff(Self, 9, 7);\n        EndIf();\n      EndIf();\n   EndIf();\n EndIf();\n}",
-    "MaxStackCount": 1
+    "ID": 146
   },
   {
-    "ID": 147,
-    "NameContextID": 361,
-    "DescriptionContextID": 362,
-    "Command": "OnActived\n{\n  BeginIf_Skill(Self, 1, 145);\n    BeginIf_Skill(Self, 1, 146);\n      BeginIf_Skill(Self, 1, 147);\n        BeginIf_Skill(Self, 1, 148);\n           GainBuff(Self, 9, 7);\n        EndIf();\n      EndIf();\n   EndIf();\n EndIf();\n}",
-    "MaxStackCount": 1
+    "ID": 147
   },
   {
-    "ID": 148,
-    "NameContextID": 363,
-    "DescriptionContextID": 364,
-    "Command": "OnActived\n{\n  BeginIf_Skill(Self, 1, 145);\n    BeginIf_Skill(Self, 1, 146);\n      BeginIf_Skill(Self, 1, 147);\n        BeginIf_Skill(Self, 1, 148);\n           GainBuff(Self, 9, 7);\n        EndIf();\n      EndIf();\n   EndIf();\n EndIf();\n}",
-    "MaxStackCount": 1
+    "ID": 148
   },
   {
     "ID": 149

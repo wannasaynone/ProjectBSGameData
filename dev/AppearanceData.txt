@@ -33,5 +33,17 @@
     "SpriteAssetPath": "Icon/icon_animal_26",
     "NameContextID": 10011,
     "IsDrop": 0
+  },
+  {
+    "ID": 10002,
+    "SpriteAssetPath": "Icon/icon_game_100",
+    "NameContextID": 10012,
+    "IsDrop": 0
+  },
+  {
+    "ID": 10003,
+    "SpriteAssetPath": "Icon/icon_game_100",
+    "NameContextID": 10019,
+    "IsDrop": 0
   }
 ]

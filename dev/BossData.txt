@@ -2,32 +2,43 @@
   {
     "ID": 1,
     "AppearanceDataID": 10001,
-    "RankString": "Lv. 1 (B)",
     "Attack": 60,
     "Defense": 25,
     "Speed": 30,
     "HP": 350,
     "SP": 100,
-    "BuffIDs": "10001;10002",
-    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
+    "AI": "CastSkill(10001);"
   },
   {
     "ID": 2,
-    "AppearanceDataID": 10001,
-    "RankString": "Lv. 5 (B)",
-    "Attack": 375,
-    "Defense": 475,
-    "Speed": 75,
-    "HP": 1250,
+    "AppearanceDataID": 10002,
+    "Attack": 500,
+    "Defense": 500,
+    "Speed": 500,
+    "HP": 10000,
     "SP": 100,
-    "BuffIDs": "10001;10002",
-    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 50);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
+    "SkillIDs": 10005,
+    "AI": "CastSkill(10007);"
   },
   {
-    "ID": 3
+    "ID": 3,
+    "AppearanceDataID": 10003,
+    "Attack": 500,
+    "Defense": 500,
+    "Speed": 500,
+    "HP": 10000,
+    "SP": 100,
+    "AI": "RandomCastSkill(10002);"
   },
   {
-    "ID": 4
+    "ID": 4,
+    "AppearanceDataID": 10001,
+    "Attack": 1000,
+    "Defense": 1000,
+    "Speed": 1000,
+    "HP": 10000,
+    "SP": 100,
+    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\r\n   BeginIf(Random(1, 100) <= 50);\r\n       CastSkill(10002);\r\n       Quit();\r\n    EndIf();\r\nEndIf();\r\n\r\nCastSkill(10001);"
   },
   {
     "ID": 5
