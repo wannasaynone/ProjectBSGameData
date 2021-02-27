@@ -706,7 +706,7 @@
     "NameContextID": 301,
     "DescriptionContextID": 302,
     "ReferenceContextIDs": "289;290",
-    "Command": "OnStartToTakeDamage_Self\n{\n   BeginIf(Random(1,100) <= 15);\n      SetDamage(0);\n      CastSkill(175);\n   EndIf();\n}",
+    "Command": "OnStartToTakeDamage_Self\n{\n   BeginIf(Random(1,100) <= 100);\n      SetDamage(0);\n      CastSkill(175);\n   EndIf();\n}",
     "IsDrop": 1
   },
   {
