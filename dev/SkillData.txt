@@ -714,7 +714,7 @@
     "SP": 0,
     "NameContextID": 317,
     "DescriptionContextID": 318,
-    "Command": "OnStartToEndAction_Self\n{\n   BeginIf(Random(1,100) <= 10);\n     AddExtraAction\n   EndIf();\n}",
+    "Command": "OnStartToEndAction_Self\n{\n   BeginIf(Random(1,100) <= 10);\n     AddExtraAction(Self, 1);\n   EndIf();\n}",
     "IsDrop": 1
   },
   {
