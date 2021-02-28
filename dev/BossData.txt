@@ -39,7 +39,7 @@
     "HP": 8000,
     "SP": 100,
     "BuffIDs": "10001;10002",
-    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\r\n   BeginIf(Random(1, 100) <= 50);\r\n       CastSkill(10002);\r\n       Quit();\r\n    EndIf();\r\nEndIf();\r\n\r\nCastSkill(10001);"
+    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 75);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
   },
   {
     "ID": 5
