@@ -303,43 +303,31 @@
     "MaxStackCount": 1
   },
   {
-    "ID": 136,
-    "MaxStackCount": 1
+    "ID": 136
   },
   {
-    "ID": 137,
-    "MaxStackCount": 1
+    "ID": 137
   },
   {
-    "ID": 138,
-    "MaxStackCount": 1
+    "ID": 138
   },
   {
-    "ID": 139,
-    "MaxStackCount": 1
+    "ID": 139
   },
   {
-    "ID": 140,
-    "MaxStackCount": 1
+    "ID": 140
   },
   {
-    "ID": 141,
-    "NameContextID": 343,
-    "DescriptionContextID": 344,
-    "Command": "OnActived\n{\n  AddStatus(Target.Camp, 0, Defense * 0.05 );\n}",
-    "MaxStackCount": 1
+    "ID": 141
   },
   {
-    "ID": 142,
-    "MaxStackCount": 1
+    "ID": 142
   },
   {
-    "ID": 143,
-    "MaxStackCount": 1
+    "ID": 143
   },
   {
-    "ID": 144,
-    "MaxStackCount": 1
+    "ID": 144
   },
   {
     "ID": 145
@@ -363,32 +351,26 @@
     "ID": 151,
     "NameContextID": 369,
     "DescriptionContextID": 370,
-    "Command": "OnActived\n{\n    SetForceEndAction();\n}",
+    "Command": "OnActived\r\n{\r\n     AddStatus(Self, Speed, Self.Speed*0.15);\r\n}",
     "MaxStackCount": 1
   },
   {
-    "ID": 155,
-    "MaxStackCount": 20
+    "ID": 155
   },
   {
-    "ID": 156,
-    "MaxStackCount": 5
+    "ID": 156
   },
   {
-    "ID": 157,
-    "MaxStackCount": 1
+    "ID": 157
   },
   {
-    "ID": 158,
-    "MaxStackCount": 1
+    "ID": 158
   },
   {
-    "ID": 159,
-    "MaxStackCount": 1
+    "ID": 159
   },
   {
-    "ID": 160,
-    "MaxStackCount": 1
+    "ID": 160
   },
   {},
   {
@@ -407,10 +389,58 @@
   },
   {
     "ID": 10003,
+    "NameContextID": 10031,
+    "DescriptionContextID": 10032,
+    "Command": "OnActived\r\n{\r\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n     AddStatus(Self, Speed, -Self.Speed * 0.3);\n}",
     "MaxStackCount": 1
   },
   {
     "ID": 10004,
+    "NameContextID": 10037,
+    "DescriptionContextID": 10038,
+    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Defense * 0.7);\n     AddStatus(Self, Defense, -Self.Attack * 0.3);\n     AddStatus(Self, Speed, -Self.Speed * 0.3);\n}",
     "MaxStackCount": 1
-  }
+  },
+  {
+    "ID": 10005,
+    "NameContextID": 10045,
+    "DescriptionContextID": 10046,
+    "Command": "OnActived\n{\n     AddStatus(Self, Speed, Self.Speed * 0.7);\n     AddStatus(Self, Defense, -Self.Attack * 0.3);\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n}",
+    "MaxStackCount": 1
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {}
 ]

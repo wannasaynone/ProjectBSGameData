@@ -16,5 +16,14 @@
     "Weight1": 50,
     "SkillID2": 10009,
     "Weight2": 50
+  },
+  {
+    "ID": 10003,
+    "SkillID1": 10013,
+    "Weight1": 50,
+    "SkillID2": 10015,
+    "Weight2": 50,
+    "SkillID3": 10018,
+    "Weight3": 50
   }
 ]
