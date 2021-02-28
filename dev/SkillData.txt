@@ -575,7 +575,7 @@
     "NameContextID": 243,
     "DescriptionContextID": 244,
     "ReferenceContextIDs": "17;18",
-    "Command": "OnDamageDealed_Self\n{\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(LastAttacked, 17, 2);\n   EndIf();\n}",
+    "Command": "OnDamageDealed_Self\n{\n   BeginIf(Random(1,100) <= 15);\n     GainBuff(LastAttacked, 5, 2);\n   EndIf();\n}",
     "IsDrop": 1
   },
   {
