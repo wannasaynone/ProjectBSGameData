@@ -770,7 +770,7 @@
     "SP": 0,
     "NameContextID": 393,
     "DescriptionContextID": 394,
-    "Command": "OnActived\n{\n AddExtraAction(SelectOther(SameSide, Manual, 1);\n}",
+    "Command": "OnActived\n{\n AddExtraAction(SelectOther(SameSide, Manual, 1), 1);\n}",
     "IsDrop": 1
   },
   {
