@@ -1046,7 +1046,7 @@
     "SP": 0,
     "NameContextID": 10041,
     "DescriptionContextID": 10042,
-    "Command": "OnDamageTaken_Self\n{\n     BeginIf_Effect(Self, 1, 10004);\n          BeginIf(Self.LastTakenDamage <= Self.MaxHP * 0.05);\n               CastSkill(175);\n          EndIf();\n     EndIf();\n}",
+    "Command": "OnDamageTaken_Self\n{\n     BeginIf_Effect(Self, 1, 10004);\n          BeginIf(Self.LastTakenDamage <= Self.MaxHP * 0.03);\n               CastSkill(175);\n          EndIf();\n     EndIf();\n}",
     "IsDrop": 0
   },
   {
