@@ -681,7 +681,7 @@
     "SP": 0,
     "NameContextID": 295,
     "DescriptionContextID": 296,
-    "Command": "OnActived\n{\n ReplaceSkill(Self,177,178);\n}",
+    "Command": "OnActived\n{\n ReplaceSkill(177,178);\n}",
     "IsDrop": 1
   },
   {
@@ -689,7 +689,7 @@
     "SP": 0,
     "NameContextID": 297,
     "DescriptionContextID": 298,
-    "Command": "OnActived\n{\n DealDamage(Select(Opponent, All), Self.Attack * 3.00 , 0);\n ReplaceSkill(Self,178,177);\n}",
+    "Command": "OnActived\n{\n DealDamage(Select(Opponent, All), Self.Attack * 3.00 , 0);\n ReplaceSkill(178,177);\n}",
     "IsDrop": 0
   },
   {
