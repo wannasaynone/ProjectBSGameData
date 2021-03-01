@@ -36,8 +36,24 @@
     "DescriptionContextID": 0,
     "StoryContextID": 200008
   },
-  {},
-  {},
+  {
+    "ID": 5,
+    "NameContextID": 200009,
+    "AbilityPool": "Attack:2~10;",
+    "BuffIDs": 200001,
+    "EquipmentType": "Hand",
+    "DescriptionContextID": 200010,
+    "StoryContextID": 200011
+  },
+  {
+    "ID": 6,
+    "NameContextID": 200012,
+    "AbilityPool": "Speed:2~10;",
+    "BuffIDs": 200002,
+    "EquipmentType": "Foot",
+    "DescriptionContextID": 200013,
+    "StoryContextID": 200014
+  },
   {},
   {},
   {},

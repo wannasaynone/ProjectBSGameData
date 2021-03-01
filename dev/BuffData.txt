@@ -218,7 +218,7 @@
     "ID": 121,
     "NameContextID": 287,
     "DescriptionContextID": 288,
-    "Command": "OnTurnStarted\n{\n  AddActionIndex(Self,3);\n}\nOnDeactived{\n  GainBuff(Self, 120, 3);\n}",
+    "Command": "OnTurnStarted\n{\n  AddActionIndex(Self, -3);\n}\nOnDeactived{\n  GainBuff(Self, 120, 3);\n}",
     "Tag": 400003,
     "MaxStackCount": 1
   },
@@ -351,7 +351,7 @@
     "ID": 151,
     "NameContextID": 369,
     "DescriptionContextID": 370,
-    "Command": "OnActived\r\n{\r\n     AddStatus(Self, Speed, Self.Speed*0.15);\r\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Speed, Self.Speed*0.3);\n}",
     "MaxStackCount": 1
   },
   {
@@ -409,8 +409,20 @@
     "MaxStackCount": 1
   },
   {},
-  {},
-  {},
+  {
+    "ID": 200001,
+    "NameContextID": 200009,
+    "DescriptionContextID": 200010,
+    "Command": "OnStartToEndAction_Self\n{\n     AddStatus(Self, HP, -Self.Attack * 0.1);\n     BeginIf_LastSkillTag(400001);\n          AddStatus(Self, SP, 10);\n     EndIf();\n}",
+    "MaxStackCount": 1
+  },
+  {
+    "ID": 200002,
+    "NameContextID": 200012,
+    "DescriptionContextID": 200013,
+    "Command": "OnTurnStarted\n{\n    BeginIf(Random(1, 100) <= 8);\n         AddActionIndex(Self, -1);\n     EndIf();\n}",
+    "MaxStackCount": 1
+  },
   {},
   {},
   {},

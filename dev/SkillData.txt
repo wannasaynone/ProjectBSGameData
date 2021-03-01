@@ -280,7 +280,7 @@
     "NameContextID": 164,
     "DescriptionContextID": 165,
     "ReferenceBuffIDs": 8,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.7, 0);\n     GainBuff(LastSelected, 8, 2);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     GainBuff(LastSelected, 8, 2);\n}",
     "IsDrop": 1
   },
   {
@@ -463,7 +463,7 @@
     "SP": 15,
     "NameContextID": 210,
     "DescriptionContextID": 211,
-    "ReferenceBuffIDs": 108,
+    "ReferenceBuffIDs": 104,
     "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Manual, 1), 104, 3);\n}",
     "IsDrop": 1
   },
@@ -644,7 +644,11 @@
   },
   {
     "ID": 173,
-    "SP": 0,
+    "SP": 40,
+    "NameContextID": 263,
+    "DescriptionContextID": 264,
+    "ReferenceBuffIDs": 151,
+    "Command": "OnActived\n{\n GainBuff(Select(SameSide, Random, -1), 151, 4);\n}",
     "IsDrop": 0
   },
   {
@@ -767,7 +771,7 @@
   },
   {
     "ID": 188,
-    "SP": 0,
+    "SP": 15,
     "NameContextID": 393,
     "DescriptionContextID": 394,
     "Command": "OnActived\n{\n AddExtraAction(SelectOther(SameSide, Manual, 1), 1);\n}",
@@ -809,15 +813,19 @@
   {
     "ID": 193,
     "SP": 0,
-    "IsDrop": 0
+    "NameContextID": 271,
+    "DescriptionContextID": 272,
+    "ReferenceBuffIDs": 10,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     GainBuff(LastSelected, 10, 2);\n}",
+    "IsDrop": 1
   },
   {
     "ID": 194,
     "SP": 0,
     "NameContextID": 405,
     "DescriptionContextID": 406,
-    "Command": "OnActived\r\n{\r\n  AddStatus(Select(SameSide, All) , HP,Self.MaxHP*0.03);\r\n}",
-    "IsDrop": 0
+    "Command": "OnStartToEndAction_Other\n{\n     BeginIf(CurrentActor.Camp == 0);\n         BeginIf_LastSkillTag(400002);\n              AddStatus(Select(SameSide, Random, -1), HP, Target.MaxHP * 0.03);\n         EndIf();\n     EndIf();\n}",
+    "IsDrop": 1
   },
   {
     "ID": 195,
