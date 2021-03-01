@@ -13,8 +13,8 @@
     "BossIDs": 1,
     "DescriptionContextID": 300001,
     "DropData": "1:25;\n2:25;\n3:25;\n4:25;\n5:25;\n6:25",
-    "MinExp": 8800,
-    "MaxExp": 17600
+    "MinExp": 17600,
+    "MaxExp": 35200
   },
   {
     "ID": 2,
