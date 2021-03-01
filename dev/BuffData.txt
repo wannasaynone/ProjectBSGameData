@@ -413,7 +413,7 @@
     "ID": 200001,
     "NameContextID": 200009,
     "DescriptionContextID": 200010,
-    "Command": "OnStartToEndAction_Self\n{\n     AddStatus(Self, HP, -Self.Attack * 0.1);\n     BeginIf_LastSkillTag(400001);\n          AddStatus(Self, SP, 10);\n     EndIf();\n}",
+    "Command": "OnStartToEndAction_Self\n{\n     AddStatus(Self, HP, -Self.Attack * 0.1);\n     BeginIf_LastSkillTag(Self, 1, 400001);\n          AddStatus(Self, SP, 10);\n     EndIf();\n}",
     "MaxStackCount": 1
   },
   {
