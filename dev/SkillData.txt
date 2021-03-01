@@ -824,7 +824,7 @@
     "SP": 0,
     "NameContextID": 405,
     "DescriptionContextID": 406,
-    "Command": "OnStartToEndAction_Other\n{\n     BeginIf(CurrentActor.Camp == 0);\n         BeginIf_LastSkillTag(400002);\n              AddStatus(Select(SameSide, Random, -1), HP, Target.MaxHP * 0.03);\n         EndIf();\n     EndIf();\n}",
+    "Command": "OnStartToEndAction_Other\n{\n     BeginIf(CurrentActor.Camp == 0);\n         BeginIf_LastSkillTag(CurrentActor, 1, 400002);\n              AddStatus(Select(SameSide, Random, -1), HP, Target.MaxHP * 0.03);\n         EndIf();\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
