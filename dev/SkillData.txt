@@ -621,7 +621,7 @@
     "SP": 0,
     "NameContextID": 10029,
     "DescriptionContextID": 10030,
-    "Command": "OnActived\n{\n     AddBuffStack(Self, -1, -99);\n     GainBuff(Self, 10003, 4);\n}",
+    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10003, 4);\n}",
     "IsDrop": 0
   },
   {
@@ -637,7 +637,7 @@
     "SP": 0,
     "NameContextID": 10035,
     "DescriptionContextID": 10036,
-    "Command": "OnActived\n{\n     AddBuffStack(Self, -1, -99);\n     GainBuff(Self, 10004, 4);\n}",
+    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 4);\n}",
     "IsDrop": 0
   },
   {
@@ -661,7 +661,7 @@
     "SP": 0,
     "NameContextID": 10043,
     "DescriptionContextID": 10044,
-    "Command": "OnActived\n{\n     AddBuffStack(Self, -1, -99);\n     GainBuff(Self, 10005, 4);\n}",
+    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10005, 4);\n}",
     "IsDrop": 0
   },
   {
