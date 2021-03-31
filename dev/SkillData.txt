@@ -277,7 +277,7 @@
   },
   {
     "ID": 130,
-    "SP": "０",
+    "SP": 0,
     "NameContextID": 163,
     "DescriptionContextID": 164,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Speed, Self.Speed * 0.12);\n}",
