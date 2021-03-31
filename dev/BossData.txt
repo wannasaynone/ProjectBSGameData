@@ -28,7 +28,7 @@
     "Speed": 300,
     "HP": 11000,
     "SP": 100,
-    "AI": "BeginIf_Effect(Self, 1, 110);\n    RandomCastSkill(10002);\n    Quit();\nEndIf();\n\nCastSkill(10012);"
+    "AI": "BeginIf_Effect(Self, 1, 7);\n    RandomCastSkill(10002);\n    Quit();\nEndIf();\n\nCastSkill(10012);"
   },
   {
     "ID": 4,
