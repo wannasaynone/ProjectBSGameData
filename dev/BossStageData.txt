@@ -12,7 +12,6 @@
     "Stamina": 0,
     "BossIDs": 1,
     "DescriptionContextID": 300001,
-    "DropData": "1:25;\n2:25;\n3:25;\n4:25;\n5:25;\n6:25",
     "MinExp": 17600,
     "MaxExp": 35200
   },
@@ -24,7 +23,6 @@
     "BossIDs": "2;3",
     "DescriptionContextID": 300002,
     "FrontStageIDs": 1,
-    "DropData": "1:25;\n2:25;\n3:25;\n4:25;\n5:25;\n6:25",
     "MinExp": 36800,
     "MaxExp": 73600
   },
@@ -36,7 +34,6 @@
     "BossIDs": "4;4;4;4",
     "DescriptionContextID": 300003,
     "FrontStageIDs": 2,
-    "DropData": "1:25;\n2:25;\n3:25;\n4:25;\n5:25;\n6:25",
     "MinExp": 152800,
     "MaxExp": 305600
   },
@@ -48,7 +45,6 @@
     "BossIDs": 5,
     "DescriptionContextID": 300004,
     "FrontStageIDs": 3,
-    "DropData": "1:25;\n2:25;\n3:25;\n4:25",
     "MinExp": 624800,
     "MaxExp": 1249600
   }
