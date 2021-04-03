@@ -24,7 +24,7 @@
     "ID": 3,
     "NameContextID": 13,
     "DescriptionContextID": 14,
-    "Command": "OnActionStarted_Self\n{\n     AddStatus(Self, HP, -Random(100, 4000));\n}",
+    "Command": "OnActionStarted_Self\n{\n     AddStatus(Self, HP, -Random(0, Self.MaxHP * 0.04));\n}",
     "Tag": 400003,
     "MaxStackCount": 10
   },
