@@ -526,11 +526,11 @@
     "Tag": 400002
   },
   {
-    "ID": 159,
+    "ID": 158,
     "SP": 0,
     "NameContextID": 221,
     "DescriptionContextID": 222,
-    "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(400002);\n          AddStatus(SkillLastSelected(CurrentActor), HP, Self.MaxHP * 0.2);\n    EndIf();\n}",
+    "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400002);\n          AddStatus(SkillLastSelected(CurrentActor), HP, Self.MaxHP * 0.2);\n    EndIf();\n}",
     "IsDrop": 1
   },
   {
