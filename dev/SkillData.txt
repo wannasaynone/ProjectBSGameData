@@ -495,7 +495,7 @@
     "NameContextID": 213,
     "DescriptionContextID": 214,
     "Command": "OnActived\n{\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 0.65);\n}",
-    "IsDrop": 0,
+    "IsDrop": 1,
     "Tag": 400002
   },
   {
@@ -526,7 +526,7 @@
     "Tag": 400002
   },
   {
-    "ID": 158,
+    "ID": 159,
     "SP": 0,
     "NameContextID": 221,
     "DescriptionContextID": 222,
