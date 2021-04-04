@@ -256,7 +256,7 @@
     "SP": 0,
     "NameContextID": 157,
     "DescriptionContextID": 158,
-    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.16);\n     AddStatus(Self, HP, Self.MaxHP * 0.32);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.16);\n}",
     "IsDrop": 1
   },
   {
@@ -288,7 +288,7 @@
     "SP": 0,
     "NameContextID": 165,
     "DescriptionContextID": 166,
-    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.6);\n     AddStatus(Self, HP, Self.MaxHP * 0.12);\n     AddStatus(Self, Attack, Self.Attack * 0.6);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.6);\n     AddStatus(Self, Attack, Self.Attack * 0.6);\n}",
     "IsDrop": 1
   },
   {
@@ -296,7 +296,7 @@
     "SP": 0,
     "NameContextID": 167,
     "DescriptionContextID": 168,
-    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.6);\n     AddStatus(Self, HP, Self.MaxHP * 0.12);\n     AddStatus(Self, Defense, Self.Defense * 0.6);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.6);\n     AddStatus(Self, Defense, Self.Defense * 0.6);\n}",
     "IsDrop": 1
   },
   {
@@ -304,7 +304,7 @@
     "SP": 0,
     "NameContextID": 169,
     "DescriptionContextID": 170,
-    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.6);\n     AddStatus(Self, HP, Self.MaxHP * 0.12);\n     AddStatus(Self, Speed, Self.Speed * 0.6);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.6);\n     AddStatus(Self, Speed, Self.Speed * 0.6);\n}",
     "IsDrop": 1
   },
   {
@@ -336,7 +336,7 @@
     "SP": 0,
     "NameContextID": 177,
     "DescriptionContextID": 178,
-    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.04);\n     AddStatus(Self, HP, Self.MaxHP * 0.08);\n     AddStatus(Self, Attack, Self.Attack * 0.04);\n     AddStatus(Self, Defense, Self.Defense * 0.04);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.04);\n     AddStatus(Self, Attack, Self.Attack * 0.04);\n     AddStatus(Self, Defense, Self.Defense * 0.04);\n}",
     "IsDrop": 1
   },
   {
@@ -344,7 +344,7 @@
     "SP": 0,
     "NameContextID": 179,
     "DescriptionContextID": 180,
-    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.04);\n     AddStatus(Self, HP, Self.MaxHP * 0.08);\n     AddStatus(Self, Attack, Self.Attack * 0.04);\n     AddStatus(Self, Speed, Self.Speed * 0.04);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.04);\n     AddStatus(Self, Attack, Self.Attack * 0.04);\n     AddStatus(Self, Speed, Self.Speed * 0.04);\n}",
     "IsDrop": 1
   },
   {
@@ -360,7 +360,7 @@
     "SP": 0,
     "NameContextID": 183,
     "DescriptionContextID": 184,
-    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.03);\n     AddStatus(Self, HP, Self.MaxHP * 0.06);\n     AddStatus(Self, Attack, Self.Attack * 0.03);\n     AddStatus(Self, Defense, Self.Defense * 0.03);\n     AddStatus(Self, Speed, Self.Speed * 0.03);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.03);\n     AddStatus(Self, Attack, Self.Attack * 0.03);\n     AddStatus(Self, Defense, Self.Defense * 0.03);\n     AddStatus(Self, Speed, Self.Speed * 0.03);\n}",
     "IsDrop": 1
   },
   {
