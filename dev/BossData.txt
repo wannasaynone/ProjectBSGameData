@@ -28,7 +28,7 @@
     "Speed": 300,
     "HP": 11000,
     "SP": 100,
-    "AI": "BeginIf_Effect(Self, 1, 7);\n    RandomCastSkill(10002);\n    Quit();\nEndIf();\n\nCastSkill(10012);"
+    "AI": "BeginIf_Buff(Self, 1, 7);\n    RandomCastSkill(10002);\n    Quit();\nEndIf();\n\nCastSkill(10012);"
   },
   {
     "ID": 4,
@@ -50,7 +50,7 @@
     "HP": 112000,
     "SP": 100,
     "SkillIDs": 10017,
-    "AI": "BeginIf_Effect(Self, 1, 10003);\n    CastSkill(10014);\n    Quit();\nEndIf();\n\nBeginIf_Effect(Self, 1, 10004);\n    CastSkill(10016);\n    Quit();\nEndIf();\n\nBeginIf_Effect(Self, 1, 10005);\n    CastSkill(10019);\n    Quit();\nEndIf();\n\nRandomCastSkill(10003);"
+    "AI": "BeginIf_Buff(Self, 1, 10003);\n    CastSkill(10014);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10004);\n    CastSkill(10016);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10005);\n    CastSkill(10019);\n    Quit();\nEndIf();\n\nRandomCastSkill(10003);"
   },
   {
     "ID": 6
