@@ -32,7 +32,7 @@
     "DescriptionContextID": 102,
     "ReferenceSkillIDs": "1;102",
     "ReferenceBuffIDs": 101,
-    "Command": "OnAttackEnded_Self\n{\n     BeginIf(Self.LastSkill == 1);\n          GainBuff(Self, 101, 1);\n     EndIf();\n}",
+    "Command": "OnAttackEnded_Self\n{\n     BeginIf(Self.LastSkill == 1);\n          GainBuff(Self, 101, -1);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -536,80 +536,87 @@
   },
   {
     "ID": 160,
-    "SP": 0,
+    "SP": 15,
     "NameContextID": 223,
     "DescriptionContextID": 224,
-    "IsDrop": 0
+    "Command": "OnActived\n{\n    AddBuffAmountByTag(Select(SameSide, Manual, 1), 400003, -99);\n}",
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 161,
-    "SP": 0,
+    "SP": 30,
     "NameContextID": 225,
     "DescriptionContextID": 226,
-    "IsDrop": 0
+    "Command": "OnActived\n{\n    AddBuffAmountByTag(Select(SameSide, Random, -1), 400003, -99);\n}",
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 162,
-    "SP": 0,
+    "SP": 40,
     "NameContextID": 227,
     "DescriptionContextID": 228,
-    "IsDrop": 0
+    "Command": "OnActived\n{\n    AddBuffAmount(Select(All, Manual, 1), -1, -99);\n}",
+    "IsDrop": 1
   },
   {
     "ID": 163,
     "SP": 0,
     "NameContextID": 229,
     "DescriptionContextID": 230,
-    "IsDrop": 0
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, Hatred, Self.Defense * 2);\n}",
+    "IsDrop": 1
   },
   {
     "ID": 164,
     "SP": 0,
     "NameContextID": 231,
     "DescriptionContextID": 232,
-    "IsDrop": 0
+    "Command": "OnActived\n{\n     AddStatus(Self, Hatred, Self.Defense * 0.75);\n}",
+    "IsDrop": 1
   },
   {
     "ID": 165,
     "SP": 0,
     "NameContextID": 233,
     "DescriptionContextID": 234,
-    "IsDrop": 0
+    "Command": "OnBeAttackedEnded_Other\n{\n     BeginIf(Caster.Camp == 0);\n          AddStatus(Self, Hatred, Caster.LastTakenDamage);\n     EndIf();\n}",
+    "IsDrop": 1
   },
   {
     "ID": 166,
     "SP": 0,
     "NameContextID": 235,
     "DescriptionContextID": 236,
-    "IsDrop": 0
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Defense * 1, 0);\n}",
+    "IsDrop": 1
   },
   {
     "ID": 167,
-    "SP": 0,
+    "SP": 30,
     "NameContextID": 237,
     "DescriptionContextID": 238,
-    "IsDrop": 0
+    "ReferenceBuffIDs": 103,
+    "Command": "OnActived\n{\n     GainBuff(Self, 103, 3);\n}",
+    "IsDrop": 1
   },
   {
     "ID": 168,
     "SP": 0,
-    "NameContextID": 239,
-    "DescriptionContextID": 240,
-    "IsDrop": 0
+    "NameContextID": 241,
+    "DescriptionContextID": 242,
+    "ReferenceBuffIDs": 103,
+    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 1, 103);\n          DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 2.6, 0);\n          AddBuffAmount(Self, 103. -99);\n          Quit();\n     EndIf();\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n}",
+    "IsDrop": 1
   },
   {
     "ID": 169,
     "SP": 0,
-    "NameContextID": 241,
-    "DescriptionContextID": 242,
-    "IsDrop": 0
-  },
-  {
-    "ID": 170,
-    "SP": 0,
     "NameContextID": 243,
     "DescriptionContextID": 244,
-    "IsDrop": 0
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * (1.3 + Self.Hatred / Self.MaxHP), 0);\n}",
+    "IsDrop": 1
   },
   {
     "ReferenceBuffIDs": "f",
