@@ -580,7 +580,7 @@
     "SP": 0,
     "NameContextID": 233,
     "DescriptionContextID": 234,
-    "Command": "OnBeAttackedEnded_Other\n{\n     BeginIf(Caster.Camp == 0);\n          AddStatus(Self, Hatred, Caster.LastTakenDamage);\n     EndIf();\n}",
+    "Command": "OnDamageTaken_Other\n{\n     BeginIf(Caster.Camp == 0);\n          AddStatus(Self, Hatred, Caster.LastTakenDamage);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
