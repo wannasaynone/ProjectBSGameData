@@ -117,7 +117,7 @@
     "SP": 0,
     "NameContextID": 125,
     "DescriptionContextID": 126,
-    "Command": "OnDamageTaken_Self\n{\n     AddStatus(Self, SP, Self.LastTakenDamage / Sefl.MaxHP)\n}",
+    "Command": "OnDamageTaken_Self\n{\n     AddStatus(Self, SP, Self.LastTakenDamage / Self.MaxHP)\n}",
     "IsDrop": 1
   },
   {
