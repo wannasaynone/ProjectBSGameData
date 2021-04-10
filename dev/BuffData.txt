@@ -101,7 +101,7 @@
     "ID": 103,
     "NameContextID": 239,
     "DescriptionContextID": 240,
-    "Command": "OnActived\n{\n     SetStatus(Self, Hatred, 1);\n}\n\nOnStartToEndAction_Self\n{\n     SetStatus(Self, Hatred, 1);\n}",
+    "Command": "OnStartToEndAction_Self\n{\n     SetStatus(Self, Hatred, 1);\n}\n\nOnDamageTaken_Self\r\n{\r\n      AddBuffAmount(Self, 103, -99);\r\n}",
     "MaxAmount": 1
   },
   {},
