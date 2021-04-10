@@ -1,104 +1,129 @@
 [
   {
     "ID": 0,
-    "zh_tw": "無"
+    "zh_tw": "無",
+    "en_us": "None"
   },
   {
     "ID": 1,
-    "zh_tw": "普通攻擊"
+    "zh_tw": "普通攻擊",
+    "en_us": "Normal Attack"
   },
   {
     "ID": 2,
-    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害。"
+    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害。",
+    "en_us": "Deals 130% of Attack value damage to 1 enemy unit."
   },
   {
     "ID": 3,
-    "zh_tw": "普通防禦"
+    "zh_tw": "普通防禦",
+    "en_us": "Normal Defense"
   },
   {
     "ID": 4,
-    "zh_tw": "給予自己持續2回合的「防禦」。"
+    "zh_tw": "給予自己持續2回合的「防禦」。",
+    "en_us": "Gives you \"Defense\" for 2 turns."
   },
   {
     "ID": 5,
-    "zh_tw": "防禦"
+    "zh_tw": "防禦",
+    "en_us": "Defense"
   },
   {
     "ID": 6,
-    "zh_tw": "防禦值增加30%。"
+    "zh_tw": "防禦值增加30%。",
+    "en_us": "Defense value is increased by 30%."
   },
   {},
   {
     "ID": 11,
-    "zh_tw": "不能行動"
+    "zh_tw": "不能行動",
+    "en_us": "Cannot Act"
   },
   {
     "ID": 12,
-    "zh_tw": "行動將會被跳過。不會被連鎖技能。"
+    "zh_tw": "行動將會被跳過。不會被連鎖技能。",
+    "en_us": "Action will be skipped. Will not be Chained."
   },
   {
     "ID": 13,
-    "zh_tw": "燃燒"
+    "zh_tw": "燃燒",
+    "en_us": "Burn"
   },
   {
     "ID": 14,
-    "zh_tw": "行動開始時，使自己的生命值減少相當於隨機0%~4%最大生命值的值。可重疊10次。"
+    "zh_tw": "行動開始時，使自己的生命值減少相當於隨機0%~4%最大生命值的值。最多擁有10個。",
+    "en_us": "At the start of an action, reduce your life by a value equal to 0% to 4% of your Max HP at random. Have up to 10 of them."
   },
   {
     "ID": 15,
-    "zh_tw": "冰凍"
+    "zh_tw": "冰凍",
+    "en_us": "Freeze"
   },
   {
     "ID": 16,
-    "zh_tw": "不能行動。受到的傷害增加25%。受到傷害後，消除這個狀態。"
+    "zh_tw": "不能行動。受到的傷害增加25%。受到傷害後，消除這個狀態。",
+    "en_us": "Cannot act. Damage taken is increased by 25%. After taking damage, this Buff is removed."
   },
   {
     "ID": 17,
-    "zh_tw": "中毒"
+    "zh_tw": "中毒",
+    "en_us": "Poison"
   },
   {
     "ID": 18,
-    "zh_tw": "行動開始時，若剩餘的生命值大於最大生命值的2%，失去2%最大生命值的生命值。可重疊10次。"
+    "zh_tw": "行動開始時，若剩餘的生命值大於最大生命值的2%，失去2%最大生命值的生命值。最多擁有10個。",
+    "en_us": "At the start of the action, if your remaining HP value is greater than 2% of the Max HP, reduce your HP by a value equal to 2% of the Max HP. Have up to 10 of them."
   },
   {
     "ID": 19,
-    "zh_tw": "石化"
+    "zh_tw": "石化",
+    "en_us": "Stone Curse"
   },
   {
     "ID": 20,
-    "zh_tw": "不能行動。防禦值增加30%。"
+    "zh_tw": "不能行動。防禦值增加30%。",
+    "en_us": "Cannot act. Defense value is increased by 30%."
   },
   {
     "ID": 21,
-    "zh_tw": "激發"
+    "zh_tw": "激發",
+    "en_us": "Strengthen"
   },
   {
     "ID": 22,
-    "zh_tw": "攻擊值增加30%。"
+    "zh_tw": "攻擊值增加30%。",
+    "en_us": "Attack value is increased by 30%."
   },
   {
     "ID": 23,
-    "zh_tw": "防禦破壞"
+    "zh_tw": "防禦破壞",
+    "en_us": "Defense Break"
   },
   {
     "ID": 24,
-    "zh_tw": "防禦值減少50%。"
+    "zh_tw": "防禦值減少50%。",
+    "en_us": "Defense value is reduced by 50%."
   },
   {
     "ID": 25,
-    "zh_tw": "滅亡倒數"
+    "zh_tw": "滅亡倒數",
+    "en_us": "Extinction Countdown"
   },
   {
     "ID": 26,
-    "zh_tw": "狀態消除時，消滅自己。"
+    "zh_tw": "狀態消除時，消滅自己。",
+    "en_us": "When the Buff is removed, destroy yourself."
   },
   {
     "ID": 27,
-    "zh_tw": "攻擊破壞"
+    "zh_tw": "攻擊破壞",
+    "en_us": "Attack Break"
   },
   {
     "ID": 28,
-    "zh_tw": "攻擊值減少50%。"
+    "zh_tw": "攻擊值減少50%。",
+    "en_us": "Attack value is reduced by 50%."
   },
   {},
   {
@@ -115,7 +140,7 @@
   },
   {
     "ID": 104,
-    "zh_tw": "將造成傷害時，若使用的技能為「普通攻擊」，增加10%造成的傷害。獲得狀態時，若已擁有10個，消除這個狀態並將「普通攻擊」替換為「普通攻擊+」。"
+    "zh_tw": "獲得狀態時，若已擁有10個，消除這個狀態並將「普通攻擊」替換為「普通攻擊+」。"
   },
   {
     "ID": 105,
@@ -868,7 +893,7 @@
   },
   {
     "ID": 10048,
-    "zh_tw": "對隨機的敵方單位造成相當於雙方速度值差距的傷害，無視防禦。重複4次。"
+    "zh_tw": "對隨機的敵方單位造成相當於150%雙方速度值差距的傷害，無視防禦。重複4次。"
   },
   {
     "ID": 10049,
@@ -877,6 +902,34 @@
   {
     "ID": 10050,
     "zh_tw": "對目前正在行動的單位造成260%防禦值的傷害。"
+  },
+  {
+    "ID": 10051,
+    "zh_tw": "北方的守城高崙"
+  },
+  {
+    "ID": 10052,
+    "zh_tw": "沉寂了百年的高崙"
+  },
+  {
+    "ID": 10053,
+    "zh_tw": "戰鬥開始時，給予自己持續20回合的「休眠模式」。"
+  },
+  {
+    "ID": 10054,
+    "zh_tw": "休眠模式"
+  },
+  {
+    "ID": 10055,
+    "zh_tw": "不能行動。受到攻擊後，減少持續時間1回合。"
+  },
+  {
+    "ID": 10056,
+    "zh_tw": "高級殲滅模組"
+  },
+  {
+    "ID": 10057,
+    "zh_tw": "對仇恨值最高的敵方單位造成330%攻擊值的傷害。連續3次。其後給予自己持續20回合的「休眠模式」。"
   },
   {},
   {
@@ -1162,5 +1215,17 @@
   {
     "ID": 1000024,
     "zh_tw": "SP值"
+  },
+  {
+    "ID": 1000025,
+    "zh_tw": "勝利"
+  },
+  {
+    "ID": 1000026,
+    "zh_tw": "經驗值"
+  },
+  {
+    "ID": 1000027,
+    "zh_tw": "戰敗"
   }
 ]
