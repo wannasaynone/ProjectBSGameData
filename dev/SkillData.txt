@@ -616,7 +616,7 @@
     "SP": 0,
     "NameContextID": 243,
     "DescriptionContextID": 244,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * (1.3 + Self.Hatred / Self.MaxHP), 0);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * (1.3 + Self.Hatred / Self.MaxHP), 0);\n     SetStatus(Self, Hatred, 1);\n}",
     "IsDrop": 1
   },
   {
