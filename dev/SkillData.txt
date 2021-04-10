@@ -443,7 +443,7 @@
     "NameContextID": 201,
     "DescriptionContextID": 202,
     "ReferenceBuffIDs": 3,
-    "Command": "OnActived\n{\n     GainBuff(SelectOther(Opponent, Manual, 1), 3, 3);\n     DealDamage(LastSelected, Buff(Target, 4, Amount) * Self.Attack * 0.26, 0);\n}",
+    "Command": "OnActived\n{\n     GainBuff(SelectOther(Opponent, Manual, 1), 3, 3);\n     DealDamage(LastSelected, Buff(Target, 3, Amount) * Self.Attack * 0.26, 0);\n}",
     "IsDrop": 1
   },
   {
