@@ -82,7 +82,7 @@
     "Speed": 5000,
     "HP": 130000,
     "SP": 100,
-    "SkillIDs": 10028,
-    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.7);\nBeginIf_Buff(Self, 0, 10009);\n     BeginIf(Random(0, 100) <= 50);\n          CastSkill(10031);\n          Quit();\n      EndIf();\n      CastSkill(10030);\nEndIf();\nEndIf();\n\nCastSkill(10030);"
+    "SkillIDs": "10028;10029",
+    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.7);\nBeginIf_Buff(Self, 0, 10009);\n     BeginIf(Random(0, 100) <= 50);\n          CastSkill(10031);\n          Quit();\n      EndIf();\n      CastSkill(10030);\n      Quit();\nEndIf();\nEndIf();\n\nCastSkill(10030);"
   }
 ]
