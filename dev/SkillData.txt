@@ -808,7 +808,7 @@
     "SP": 0,
     "NameContextID": 10059,
     "DescriptionContextID": 10060,
-    "Command": "OnBattleStarted\n{\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n}\n\nOnStartToEndAction_Self\n{\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n}",
+    "Command": "OnBattleStarted\n{\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n}\n\nOnStartToEndAction_Self\n{\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n    GainBuff(Self, 10007, -1);\n}\n\nOnDamageTaken_Self\r\n{\r\n     AddBuffAmount(Self, 10007, -1);\r\n}",
     "IsDrop": 0
   },
   {
@@ -848,7 +848,7 @@
     "SP": 0,
     "NameContextID": 10072,
     "DescriptionContextID": 10073,
-    "Command": "OnBattleStarted\n{\n    GainBuff(Self, 10008, -1);\n    GainBuff(Self, 10008, -1);    \n    GainBuff(Self, 10008, -1);\n}\n\nOnStartToEndAction_Self\n{\n    GainBuff(Self, 10008, -1);\n    GainBuff(Self, 10008, -1);\n    GainBuff(Self, 10008, -1);\n}",
+    "Command": "OnBattleStarted\n{\n    GainBuff(Self, 10008, -1);\n    GainBuff(Self, 10008, -1);    \n    GainBuff(Self, 10008, -1);\n}\n\nOnStartToEndAction_Self\n{\n    GainBuff(Self, 10008, -1);\n    GainBuff(Self, 10008, -1);\n    GainBuff(Self, 10008, -1);\n}\n\nOnDamageTaken_Self\r\n{\r\n     AddBuffAmount(Self, 10008, -1);\r\n}",
     "IsDrop": 0
   },
   {

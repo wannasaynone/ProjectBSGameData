@@ -151,14 +151,13 @@
     "ID": 10007,
     "NameContextID": 10061,
     "DescriptionContextID": 10062,
-    "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(-30%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 10007, -1);\n}",
+    "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(-30%);\n}",
     "MaxAmount": 8
   },
   {
     "ID": 10008,
     "NameContextID": 10074,
     "DescriptionContextID": 10075,
-    "Command": "OnDamageTaken_Self\r\n{\r\n     AddBuffAmount(Self, 10008, -1);\r\n}",
     "MaxAmount": 3
   },
   {
