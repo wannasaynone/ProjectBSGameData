@@ -3,56 +3,56 @@
     "ID": 1,
     "Type": "HP",
     "RankString": "S",
-    "MinValue": 140,
-    "MaxValue": 200,
+    "MinValue": 350,
+    "MaxValue": 500,
     "Weight": 6
   },
   {
     "ID": 2,
     "Type": "HP",
     "RankString": "A",
-    "MinValue": 120,
-    "MaxValue": 180,
+    "MinValue": 300,
+    "MaxValue": 450,
     "Weight": 35
   },
   {
     "ID": 3,
     "Type": "HP",
     "RankString": "B",
-    "MinValue": 100,
-    "MaxValue": 160,
+    "MinValue": 250,
+    "MaxValue": 400,
     "Weight": 70
   },
   {
     "ID": 4,
     "Type": "HP",
     "RankString": "C",
-    "MinValue": 80,
-    "MaxValue": 140,
+    "MinValue": 200,
+    "MaxValue": 350,
     "Weight": 100
   },
   {
     "ID": 5,
     "Type": "HP",
     "RankString": "D",
-    "MinValue": 60,
-    "MaxValue": 120,
+    "MinValue": 150,
+    "MaxValue": 300,
     "Weight": 50
   },
   {
     "ID": 6,
     "Type": "HP",
     "RankString": "E",
-    "MinValue": 40,
-    "MaxValue": 100,
+    "MinValue": 100,
+    "MaxValue": 250,
     "Weight": 25
   },
   {
     "ID": 7,
     "Type": "HP",
     "RankString": "F",
-    "MinValue": 20,
-    "MaxValue": 80,
+    "MinValue": 50,
+    "MaxValue": 200,
     "Weight": 12
   },
   {
@@ -60,7 +60,7 @@
     "Type": "HP",
     "RankString": "T",
     "MinValue": 0,
-    "MaxValue": 60,
+    "MaxValue": 150,
     "Weight": 6
   },
   {},

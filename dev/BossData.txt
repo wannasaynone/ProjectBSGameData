@@ -5,7 +5,7 @@
     "Attack": 75,
     "Defense": 35,
     "Speed": 75,
-    "HP": 140,
+    "HP": 350,
     "SP": 100,
     "AI": "CastSkill(10001);"
   },
@@ -15,7 +15,7 @@
     "Attack": 0,
     "Defense": 400,
     "Speed": 1350,
-    "HP": 3600,
+    "HP": 9000,
     "SP": 100,
     "SkillIDs": 10005,
     "AI": "CastSkill(10007);"
@@ -26,7 +26,7 @@
     "Attack": 900,
     "Defense": 350,
     "Speed": 700,
-    "HP": 2800,
+    "HP": 7000,
     "SP": 100,
     "AI": "RandomCastSkill(10002);"
   },
@@ -36,7 +36,7 @@
     "Attack": 1500,
     "Defense": 700,
     "Speed": 1500,
-    "HP": 1400,
+    "HP": 3500,
     "SP": 100,
     "BuffIDs": "10001;10002",
     "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 75);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
@@ -47,7 +47,7 @@
     "Attack": 2200,
     "Defense": 2200,
     "Speed": 2200,
-    "HP": 17600,
+    "HP": 44000,
     "SP": 100,
     "SkillIDs": 10017,
     "AI": "BeginIf_Buff(Self, 1, 10003);\n    CastSkill(10014);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10004);\n    CastSkill(10016);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10005);\n    CastSkill(10019);\n    Quit();\nEndIf();\n\nRandomCastSkill(10003);"
@@ -58,7 +58,7 @@
     "Attack": 7200,
     "Defense": 4800,
     "Speed": 1200,
-    "HP": 35200,
+    "HP": 88000,
     "SP": 100,
     "SkillIDs": 10021,
     "AI": "CastSkill(10022);"
@@ -69,7 +69,7 @@
     "Attack": 5600,
     "Defense": 2800,
     "Speed": 5600,
-    "HP": 28800,
+    "HP": 72000,
     "SP": 100,
     "SkillIDs": 10023,
     "AI": "BeginIf(Buff(Self, 10007, Amount) >= 2);\n     CastSkill(10027);\n     Quit();\nEndIf();\n\nBeginIf(Self.HP <= Self.MaxHP * 0.7);\n     BeginIf(Random(0, 100) <= 50);\n          CastSkill(10024);\n          Quit();\n      EndIf();\n      CastSkill(10025);\nEndIf();\n\nCastSkill(10024);"
@@ -80,7 +80,7 @@
     "Attack": 4400,
     "Defense": 4400,
     "Speed": 4400,
-    "HP": 35200,
+    "HP": 88000,
     "SP": 100,
     "SkillIDs": "10028;10029",
     "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.7);\nBeginIf_Buff(Self, 0, 10009);\n     BeginIf(Random(0, 100) <= 50);\n          CastSkill(10031);\n          Quit();\n      EndIf();\n      CastSkill(10030);\n      Quit();\nEndIf();\nEndIf();\n\nCastSkill(10030);"
