@@ -72,7 +72,7 @@
     "HP": 72000,
     "SP": 100,
     "SkillIDs": 10023,
-    "AI": "BeginIf(Buff(Self, 10007, Amount) >= 2);\n     CastSkill(10027);\n     Quit();\nEndIf();\n\nBeginIf(Self.HP <= Self.MaxHP * 0.7);\n     BeginIf(Random(0, 100) <= 50);\n          CastSkill(10024);\n          Quit();\n      EndIf();\n      CastSkill(10025);\nEndIf();\n\nCastSkill(10024);"
+    "AI": "BeginIf(Buff(Self, 10007, Amount) >= 2);\n     CastSkill(10027);\n     Quit();\nEndIf();\n\nBeginIf(Self.HP <= Self.MaxHP * 0.7);\n     BeginIf(Random(0, 100) <= 50);\n          CastSkill(10024);\n          Quit();\n      EndIf();\n      CastSkill(10025);\n      Quit();\nEndIf();\n\nCastSkill(10024);"
   },
   {
     "ID": 8,
