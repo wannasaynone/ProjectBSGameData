@@ -680,7 +680,7 @@
     "SP": 0,
     "NameContextID": 10017,
     "DescriptionContextID": 10018,
-    "Command": "OnActived\n{\n    AddStatus(Self, Hatred, Self.HP * 6);\n    AddStatus(Self, HP, Self.Hatred * 0.01);\n}",
+    "Command": "OnActived\n{\n    AddStatus(Self, Hatred, Self.HP * 6);\n    AddStatus(Self, HP, Self.Hatred * 0.03);\n}",
     "IsDrop": 0
   },
   {
@@ -696,7 +696,7 @@
     "SP": 0,
     "NameContextID": 10022,
     "DescriptionContextID": 10023,
-    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * (1.5 + ((Target.MaxHP-Target.HP)/Target.MaxHP)), 0);\n}\n\nOnAttackEnded_Self\n{\n  BeginIf(Self.LastSkill != 10009)\n     Quit();\n  EndIf();\n\n  BeginIf(Random(1, 100) <= ((Target.MaxHP-Target.HP)/Target.MaxHP)) * 100);\n     CastSkill(10010);\n  EndIf();\n}",
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * (1.5 + ((Target.MaxHP-Target.HP)/Target.MaxHP)), 0);\n}\n\nOnAttackEnded_Self\n{\n  BeginIf(Self.LastSkill != 10009)\n     Quit();\n  EndIf();\n\n  BeginIf(Random(1, 100) <= (Target.HP/Target.MaxHP) * 100);\n     CastSkill(10010);\n  EndIf();\n}",
     "IsDrop": 0
   },
   {
@@ -704,7 +704,7 @@
     "SP": 0,
     "NameContextID": 10026,
     "DescriptionContextID": 10023,
-    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * (1.5 + ((Target.MaxHP-Target.HP)/Target.MaxHP)), 0);\n}\n\nOnAttackEnded_Self\n{\n  BeginIf(Self.LastSkill != 10010)\n     Quit();\n  EndIf();\n\n  BeginIf(Random(1, 100) <= ((Target.MaxHP-Target.HP)/Target.MaxHP)) * 100);\n     CastSkill(10011);\n  EndIf();\n}",
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * (1.5 + ((Target.MaxHP-Target.HP)/Target.MaxHP)), 0);\n}\n\nOnAttackEnded_Self\n{\n  BeginIf(Self.LastSkill != 10010)\n     Quit();\n  EndIf();\n\n  BeginIf(Random(1, 100) <= (Target.HP/Target.MaxHP) * 100);\n     CastSkill(10011);\n  EndIf();\n}",
     "IsDrop": 0
   },
   {
