@@ -28,7 +28,7 @@
     "Speed": 500,
     "HP": 1000,
     "SP": 100,
-    "AI": "BeginIf_Buff(Self, 1, 7);\n    RandomCastSkill(10002);\n    Quit();\nEndIf();\n\nCastSkill(10012);"
+    "AI": "RandomCastSkill(10002);"
   },
   {
     "ID": 4,
