@@ -3,64 +3,64 @@
     "ID": 1,
     "Type": "HP",
     "RankString": "S",
-    "MinValue": 80,
-    "MaxValue": 100,
+    "MinValue": 350,
+    "MaxValue": 500,
     "Weight": 6
   },
   {
     "ID": 2,
     "Type": "HP",
     "RankString": "A",
-    "MinValue": 70,
-    "MaxValue": 90,
+    "MinValue": 300,
+    "MaxValue": 450,
     "Weight": 35
   },
   {
     "ID": 3,
     "Type": "HP",
     "RankString": "B",
-    "MinValue": 60,
-    "MaxValue": 80,
+    "MinValue": 250,
+    "MaxValue": 400,
     "Weight": 70
   },
   {
     "ID": 4,
     "Type": "HP",
     "RankString": "C",
-    "MinValue": 50,
-    "MaxValue": 70,
+    "MinValue": 200,
+    "MaxValue": 350,
     "Weight": 100
   },
   {
     "ID": 5,
     "Type": "HP",
     "RankString": "D",
-    "MinValue": 40,
-    "MaxValue": 60,
+    "MinValue": 150,
+    "MaxValue": 300,
     "Weight": 50
   },
   {
     "ID": 6,
     "Type": "HP",
     "RankString": "E",
-    "MinValue": 30,
-    "MaxValue": 50,
+    "MinValue": 100,
+    "MaxValue": 250,
     "Weight": 25
   },
   {
     "ID": 7,
     "Type": "HP",
     "RankString": "F",
-    "MinValue": 20,
-    "MaxValue": 40,
+    "MinValue": 50,
+    "MaxValue": 200,
     "Weight": 12
   },
   {
     "ID": 8,
     "Type": "HP",
     "RankString": "T",
-    "MinValue": 10,
-    "MaxValue": 30,
+    "MinValue": 0,
+    "MaxValue": 150,
     "Weight": 6
   },
   {},
@@ -68,7 +68,7 @@
     "ID": 11,
     "Type": "Attack",
     "RankString": "S",
-    "MinValue": 80,
+    "MinValue": 70,
     "MaxValue": 100,
     "Weight": 6
   },
@@ -76,7 +76,7 @@
     "ID": 12,
     "Type": "Attack",
     "RankString": "A",
-    "MinValue": 70,
+    "MinValue": 60,
     "MaxValue": 90,
     "Weight": 35
   },
@@ -84,7 +84,7 @@
     "ID": 13,
     "Type": "Attack",
     "RankString": "B",
-    "MinValue": 60,
+    "MinValue": 50,
     "MaxValue": 80,
     "Weight": 70
   },
@@ -92,7 +92,7 @@
     "ID": 14,
     "Type": "Attack",
     "RankString": "C",
-    "MinValue": 50,
+    "MinValue": 40,
     "MaxValue": 70,
     "Weight": 100
   },
@@ -100,7 +100,7 @@
     "ID": 15,
     "Type": "Attack",
     "RankString": "D",
-    "MinValue": 40,
+    "MinValue": 30,
     "MaxValue": 60,
     "Weight": 50
   },
@@ -108,7 +108,7 @@
     "ID": 16,
     "Type": "Attack",
     "RankString": "E",
-    "MinValue": 30,
+    "MinValue": 20,
     "MaxValue": 50,
     "Weight": 25
   },
@@ -116,7 +116,7 @@
     "ID": 17,
     "Type": "Attack",
     "RankString": "F",
-    "MinValue": 20,
+    "MinValue": 10,
     "MaxValue": 40,
     "Weight": 12
   },
@@ -124,7 +124,7 @@
     "ID": 18,
     "Type": "Attack",
     "RankString": "T",
-    "MinValue": 10,
+    "MinValue": 0,
     "MaxValue": 30,
     "Weight": 6
   },
@@ -133,7 +133,7 @@
     "ID": 21,
     "Type": "Defense",
     "RankString": "S",
-    "MinValue": 80,
+    "MinValue": 70,
     "MaxValue": 100,
     "Weight": 6
   },
@@ -141,7 +141,7 @@
     "ID": 22,
     "Type": "Defense",
     "RankString": "A",
-    "MinValue": 70,
+    "MinValue": 60,
     "MaxValue": 90,
     "Weight": 35
   },
@@ -149,7 +149,7 @@
     "ID": 23,
     "Type": "Defense",
     "RankString": "B",
-    "MinValue": 60,
+    "MinValue": 50,
     "MaxValue": 80,
     "Weight": 70
   },
@@ -157,7 +157,7 @@
     "ID": 24,
     "Type": "Defense",
     "RankString": "C",
-    "MinValue": 50,
+    "MinValue": 40,
     "MaxValue": 70,
     "Weight": 100
   },
@@ -165,7 +165,7 @@
     "ID": 25,
     "Type": "Defense",
     "RankString": "D",
-    "MinValue": 40,
+    "MinValue": 30,
     "MaxValue": 60,
     "Weight": 50
   },
@@ -173,7 +173,7 @@
     "ID": 26,
     "Type": "Defense",
     "RankString": "E",
-    "MinValue": 30,
+    "MinValue": 20,
     "MaxValue": 50,
     "Weight": 25
   },
@@ -181,7 +181,7 @@
     "ID": 27,
     "Type": "Defense",
     "RankString": "F",
-    "MinValue": 20,
+    "MinValue": 10,
     "MaxValue": 40,
     "Weight": 12
   },
@@ -189,7 +189,7 @@
     "ID": 28,
     "Type": "Defense",
     "RankString": "T",
-    "MinValue": 10,
+    "MinValue": 0,
     "MaxValue": 30,
     "Weight": 6
   },
@@ -198,7 +198,7 @@
     "ID": 31,
     "Type": "Speed",
     "RankString": "S",
-    "MinValue": 80,
+    "MinValue": 70,
     "MaxValue": 100,
     "Weight": 6
   },
@@ -206,7 +206,7 @@
     "ID": 32,
     "Type": "Speed",
     "RankString": "A",
-    "MinValue": 70,
+    "MinValue": 60,
     "MaxValue": 90,
     "Weight": 35
   },
@@ -214,7 +214,7 @@
     "ID": 33,
     "Type": "Speed",
     "RankString": "B",
-    "MinValue": 60,
+    "MinValue": 50,
     "MaxValue": 80,
     "Weight": 70
   },
@@ -222,7 +222,7 @@
     "ID": 34,
     "Type": "Speed",
     "RankString": "C",
-    "MinValue": 50,
+    "MinValue": 40,
     "MaxValue": 70,
     "Weight": 100
   },
@@ -230,7 +230,7 @@
     "ID": 35,
     "Type": "Speed",
     "RankString": "D",
-    "MinValue": 40,
+    "MinValue": 30,
     "MaxValue": 60,
     "Weight": 50
   },
@@ -238,7 +238,7 @@
     "ID": 36,
     "Type": "Speed",
     "RankString": "E",
-    "MinValue": 30,
+    "MinValue": 20,
     "MaxValue": 50,
     "Weight": 25
   },
@@ -246,7 +246,7 @@
     "ID": 37,
     "Type": "Speed",
     "RankString": "F",
-    "MinValue": 20,
+    "MinValue": 10,
     "MaxValue": 40,
     "Weight": 12
   },
@@ -254,7 +254,7 @@
     "ID": 38,
     "Type": "Speed",
     "RankString": "T",
-    "MinValue": 10,
+    "MinValue": 0,
     "MaxValue": 30,
     "Weight": 6
   }
