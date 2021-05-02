@@ -1,6 +1,6 @@
 {
-   "MaxDropCount" : 21,
-   "MinDropCount" : 10,
+   "MaxDropCount" : 11,
+   "MinDropCount" : 5,
    "DropNormalSkillChance" : 90,
    "PressDownShowInfoTime" : 0.25,
    "MaxPassedTimeCount" : 16400,
