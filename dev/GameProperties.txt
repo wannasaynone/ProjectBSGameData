@@ -7,4 +7,6 @@
    "MaxStamina": 100,
    "AddStaminaPerSec" : 60,
    "AddStaminaPerTime" : 1,
+   "DrawCharacterCost" : 500000,
+   "AddCharacterCountPerDraw" : 11
 }
