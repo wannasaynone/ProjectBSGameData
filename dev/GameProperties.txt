@@ -11,5 +11,5 @@
    "AddCharacterCountPerDraw" : 11,
    "UpdateMainMenuHintTime" : 3,
    "MainMenuHintMinID" : 2000001,
-   "MainMenuHintMaxID" : 2000012
+   "MainMenuHintMaxID" : 2000014
 }
