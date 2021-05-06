@@ -680,7 +680,7 @@
     "SP": 0,
     "NameContextID": 10017,
     "DescriptionContextID": 10018,
-    "Command": "OnActived\n{\n    AddStatus(Self, Hatred, Self.HP * 1);\n    AddStatus(Self, HP, Self.Hatred * 0.02);\n    SetStatus(SelectOther(SameSide, Random, -1), Hatred, 1);\n}",
+    "Command": "OnActived\n{\n    AddStatus(Self, Hatred, Self.MaxHP * 1);\n    AddStatus(Self, HP, Self.Hatred * 0.02);\n    SetStatus(SelectOther(SameSide, Random, -1), Hatred, 1);\n}",
     "IsDrop": 0
   },
   {
