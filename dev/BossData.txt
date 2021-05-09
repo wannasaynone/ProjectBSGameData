@@ -4,7 +4,7 @@
     "AppearanceDataID": 10001,
     "Attack": 75,
     "Defense": 35,
-    "Speed": 75,
+    "Speed": 0,
     "HP": 350,
     "SP": 100,
     "AI": "CastSkill(10001);"
