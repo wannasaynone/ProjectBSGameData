@@ -109,7 +109,7 @@
     "ID": 10001,
     "NameContextID": 10003,
     "DescriptionContextID": 10004,
-    "Command": "OnAttackEnded_Self\n{\n   BeginIf(Random(1,100) <= 45);\n     GainBuff(LastAttacked, 5, 1x2);\n   EndIf();\n\n  BeginIf(Random(1, 100) <= 30);\n    AddExtraAction(Self, 1x1);\n  EndIf();\n}",
+    "Command": "OnAttackEnded_Self\n{\n   BeginIf(Random(1,100) <= 45);\n     GainBuff(LastAttacked, 5, 1t2);\n   EndIf();\n\n  BeginIf(Random(1, 100) <= 30);\n    AddExtraAction(Self, 1);\n  EndIf();\n}",
     "MaxAmount": 1
   },
   {
