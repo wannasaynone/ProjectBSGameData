@@ -150,7 +150,7 @@
     "NameContextID": 133,
     "DescriptionContextID": 134,
     "ReferenceBuffIDs": 3,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 20);\n         GainBuff(LastSelected, 3, 1t3);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 40);\n         GainBuff(LastSelected, 3, 1t3);\n     EndIf();\n}",
     "IsDrop": 1,
     "Tag": "400001;400004"
   },
@@ -160,7 +160,7 @@
     "NameContextID": 135,
     "DescriptionContextID": 136,
     "ReferenceBuffIDs": 3,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 2), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 30);\n         GainBuff(LastSelected, 3, 1t3);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 2), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 40);\n         GainBuff(LastSelected, 3, 1t3);\n     EndIf();\n}",
     "IsDrop": 1,
     "Tag": "400001;400004"
   },
@@ -170,7 +170,7 @@
     "NameContextID": 137,
     "DescriptionContextID": 138,
     "ReferenceBuffIDs": 3,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 20);\n         GainBuff(LastSelected, 3, 1t3);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 40);\n         GainBuff(LastSelected, 3, 1t3);\n     EndIf();\n}",
     "IsDrop": 1,
     "Tag": "400001;400004;400005"
   },
@@ -180,7 +180,7 @@
     "NameContextID": 139,
     "DescriptionContextID": 140,
     "ReferenceBuffIDs": 3,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 40);\n         GainBuff(LastSelected, 3, 1t3);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 80);\n         GainBuff(LastSelected, 3, 1t3);\n     EndIf();\n}",
     "IsDrop": 1,
     "Tag": "400001;400004;400005"
   },
@@ -368,7 +368,7 @@
     "NameContextID": 185,
     "DescriptionContextID": 186,
     "ReferenceBuffIDs": 4,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 20);\n         GainBuff(LastSelected, 4, 1t3);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 40);\n         GainBuff(LastSelected, 4, 1t3);\n     EndIf();\n}",
     "IsDrop": 1,
     "Tag": "400001;400006"
   },
@@ -378,7 +378,7 @@
     "NameContextID": 187,
     "DescriptionContextID": 188,
     "ReferenceBuffIDs": 4,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 2), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 30);\n         GainBuff(LastSelected, 4, 1t3);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 2), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 40);\n         GainBuff(LastSelected, 4, 1t3);\n     EndIf();\n}",
     "IsDrop": 1,
     "Tag": "400001;400006"
   },
@@ -388,7 +388,7 @@
     "NameContextID": 189,
     "DescriptionContextID": 190,
     "ReferenceBuffIDs": 4,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 20);\n         GainBuff(LastSelected, 4, 1t3);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 40);\n         GainBuff(LastSelected, 4, 1t3);\n     EndIf();\n}",
     "IsDrop": 1,
     "Tag": "400001;400006;400005"
   },
@@ -398,7 +398,7 @@
     "NameContextID": 191,
     "DescriptionContextID": 192,
     "ReferenceBuffIDs": 4,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 40);\n         GainBuff(LastSelected, 4, 1t3);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) <= 80);\n         GainBuff(LastSelected, 4, 1t3);\n     EndIf();\n}",
     "IsDrop": 1,
     "Tag": "400001;400006;400005"
   },
@@ -434,7 +434,7 @@
     "NameContextID": 199,
     "DescriptionContextID": 200,
     "ReferenceBuffIDs": 3,
-    "Command": "OnActived\n{\n     TriggerBuff(Select(All, Manual, 1), 3, OnActionStarted_Self);\n}",
+    "Command": "OnActived\n{\n     TriggerBuff(Select(All, Manual, 1), 3, OnActionStarted_Self);\n     TriggerBuff(LastSelected, 3, OnActionStarted_Self);\n}",
     "IsDrop": 1
   },
   {
@@ -457,7 +457,7 @@
   },
   {
     "ID": 151,
-    "SP": 0,
+    "SP": 10,
     "NameContextID": 205,
     "DescriptionContextID": 206,
     "ReferenceBuffIDs": 5,
@@ -466,11 +466,11 @@
   },
   {
     "ID": 152,
-    "SP": 30,
+    "SP": 90,
     "NameContextID": 207,
     "DescriptionContextID": 208,
     "ReferenceBuffIDs": 5,
-    "Command": "OnActived\n{\n     GainBuff(Select(Opponent, Random, -1), 5, 1t3);\n}",
+    "Command": "OnActived\n{\n     GainBuff(Select(Opponent, Random, -1), 5, 3t3);\n}",
     "IsDrop": 1
   },
   {
@@ -479,7 +479,7 @@
     "NameContextID": 209,
     "DescriptionContextID": 210,
     "ReferenceBuffIDs": 5,
-    "Command": "OnActived\n{\n     TriggerBuff(Select(All, Manual, 1), 5, OnActionStarted_Self);\n}",
+    "Command": "OnActived\n{\n     TriggerBuff(Select(All, Manual, 1), 5, OnActionStarted_Self);\n     TriggerBuff(LastSelected, 5, OnActionStarted_Self);\n}",
     "IsDrop": 1
   },
   {
@@ -571,10 +571,10 @@
   },
   {
     "ID": 164,
-    "SP": 0,
+    "SP": 20,
     "NameContextID": 231,
     "DescriptionContextID": 232,
-    "Command": "OnActived\n{\n     AddStatus(Self, Hatred, Self.Defense * 0.85);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Hatred, Self.Defense * 1.85);\n}",
     "IsDrop": 1
   },
   {
@@ -587,10 +587,10 @@
   },
   {
     "ID": 166,
-    "SP": 0,
+    "SP": 20,
     "NameContextID": 235,
     "DescriptionContextID": 236,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Defense * 1, 0);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Defense * 1.5, 0);\n}",
     "IsDrop": 1
   },
   {
@@ -728,7 +728,7 @@
     "SP": 0,
     "NameContextID": 10029,
     "DescriptionContextID": 10030,
-    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10003, 1t4);\n}",
+    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10003, 1t4);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -744,7 +744,7 @@
     "SP": 0,
     "NameContextID": 10035,
     "DescriptionContextID": 10036,
-    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 1t4);\n}",
+    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 1t4);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -752,7 +752,7 @@
     "SP": 0,
     "NameContextID": 10039,
     "DescriptionContextID": 10040,
-    "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.Defense);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.Defense );\n}",
     "IsDrop": 0
   },
   {
@@ -768,7 +768,7 @@
     "SP": 0,
     "NameContextID": 10043,
     "DescriptionContextID": 10044,
-    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10005, 1t4);\n}",
+    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10005, 1t4);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -776,7 +776,7 @@
     "SP": 0,
     "NameContextID": 10047,
     "DescriptionContextID": 10048,
-    "Command": "OnActived\n{\n     DealDamage(Select(Opponent, Random, 1), Self.Speed * 1.5, 0);\n     DealDamage(Select(Opponent, Random, 1), Self.Speed * 1.5, 0);\n     DealDamage(Select(Opponent, Random, 1), Self.Speed * 1.5, 0);\n     DealDamage(Select(Opponent, Random, 1), Self.Speed * 1.5, 0);\n}",
+    "Command": "OnActived\n{\n     DealDamage(Select(Opponent, Random, 1), Self.Speed * 2, 0);\n     DealDamage(Select(Opponent, Random, 1), Self.Speed * 2, 0);\n     DealDamage(Select(Opponent, Random, 1), Self.Speed * 2, 0);\n     DealDamage(Select(Opponent, Random, 1), Self.Speed * 2, 0);\n}",
     "IsDrop": 0
   },
   {
