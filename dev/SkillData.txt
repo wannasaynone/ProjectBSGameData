@@ -689,7 +689,8 @@
     "NameContextID": 10020,
     "DescriptionContextID": 10021,
     "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.5, 0);\n}",
-    "IsDrop": 0
+    "IsDrop": 0,
+    "Tag": 400005
   },
   {
     "ID": 10009,
@@ -753,7 +754,8 @@
     "NameContextID": 10039,
     "DescriptionContextID": 10040,
     "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.Defense * 2);\n}",
-    "IsDrop": 0
+    "IsDrop": 0,
+    "Tag": 400002
   },
   {
     "ID": 10017,
@@ -817,7 +819,8 @@
     "NameContextID": 10063,
     "DescriptionContextID": 10064,
     "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 2, 0);\n     AddBuffAmount(Self, 10007, -1);\n}",
-    "IsDrop": 0
+    "IsDrop": 0,
+    "Tag": 400005
   },
   {
     "ID": 10025,
@@ -865,7 +868,8 @@
     "NameContextID": 10078,
     "DescriptionContextID": 10079,
     "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10008);\n          DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n          Quit();\n     EndIf();\n\n    DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 2.6, 0);\n}",
-    "IsDrop": 0
+    "IsDrop": 0,
+    "Tag": 400005
   },
   {
     "ID": 10031,
