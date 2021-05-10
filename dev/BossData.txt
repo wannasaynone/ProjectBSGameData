@@ -44,10 +44,10 @@
   {
     "ID": 5,
     "AppearanceDataID": 10004,
-    "Attack": 2200,
-    "Defense": 2200,
-    "Speed": 2200,
-    "HP": 44000,
+    "Attack": 1400,
+    "Defense": 1400,
+    "Speed": 1400,
+    "HP": 92000,
     "SP": 100,
     "SkillIDs": 10017,
     "AI": "BeginIf_Buff(Self, 1, 10003);\n    CastSkill(10014);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10004);\n    CastSkill(10016);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10005);\n    CastSkill(10019);\n    Quit();\nEndIf();\n\nRandomCastSkill(10003);"
