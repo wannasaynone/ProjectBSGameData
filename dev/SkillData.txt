@@ -629,7 +629,7 @@
     "NameContextID": 10001,
     "DescriptionContextID": 10002,
     "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Hit16_Target",
-    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.5, 0);\n}",
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1, 0);\n}",
     "IsDrop": 0
   },
   {
