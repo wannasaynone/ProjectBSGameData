@@ -752,7 +752,7 @@
     "SP": 0,
     "NameContextID": 10039,
     "DescriptionContextID": 10040,
-    "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.Defense );\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.Defense * 2);\n}",
     "IsDrop": 0
   },
   {
