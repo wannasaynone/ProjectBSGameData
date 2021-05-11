@@ -7,7 +7,7 @@
    "MaxStamina": 300,
    "AddStaminaPerSec" : 30,
    "AddStaminaPerTime" : 1,
-   "DrawCharacterCost" : 500000,
+   "DrawCharacterCost" : 100000,
    "AddCharacterCountPerDraw" : 11,
    "UpdateMainMenuHintTime" : 3,
    "MainMenuHintMinID" : 2000001,
