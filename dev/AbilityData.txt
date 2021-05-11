@@ -3,7 +3,7 @@
     "ID": 1,
     "Type": "HP",
     "RankString": "S",
-    "MinValue": 350,
+    "MinValue": 450,
     "MaxValue": 500,
     "Weight": 6
   },
@@ -11,7 +11,7 @@
     "ID": 2,
     "Type": "HP",
     "RankString": "A",
-    "MinValue": 300,
+    "MinValue": 400,
     "MaxValue": 450,
     "Weight": 35
   },
@@ -19,7 +19,7 @@
     "ID": 3,
     "Type": "HP",
     "RankString": "B",
-    "MinValue": 250,
+    "MinValue": 350,
     "MaxValue": 400,
     "Weight": 70
   },
@@ -27,7 +27,7 @@
     "ID": 4,
     "Type": "HP",
     "RankString": "C",
-    "MinValue": 200,
+    "MinValue": 300,
     "MaxValue": 350,
     "Weight": 100
   },
@@ -35,7 +35,7 @@
     "ID": 5,
     "Type": "HP",
     "RankString": "D",
-    "MinValue": 150,
+    "MinValue": 250,
     "MaxValue": 300,
     "Weight": 50
   },
@@ -43,7 +43,7 @@
     "ID": 6,
     "Type": "HP",
     "RankString": "E",
-    "MinValue": 100,
+    "MinValue": 200,
     "MaxValue": 250,
     "Weight": 25
   },
@@ -51,7 +51,7 @@
     "ID": 7,
     "Type": "HP",
     "RankString": "F",
-    "MinValue": 50,
+    "MinValue": 150,
     "MaxValue": 200,
     "Weight": 12
   },
@@ -59,7 +59,7 @@
     "ID": 8,
     "Type": "HP",
     "RankString": "T",
-    "MinValue": 0,
+    "MinValue": 100,
     "MaxValue": 150,
     "Weight": 6
   },
@@ -68,7 +68,7 @@
     "ID": 11,
     "Type": "Attack",
     "RankString": "S",
-    "MinValue": 70,
+    "MinValue": 90,
     "MaxValue": 100,
     "Weight": 6
   },
@@ -76,7 +76,7 @@
     "ID": 12,
     "Type": "Attack",
     "RankString": "A",
-    "MinValue": 60,
+    "MinValue": 80,
     "MaxValue": 90,
     "Weight": 35
   },
@@ -84,7 +84,7 @@
     "ID": 13,
     "Type": "Attack",
     "RankString": "B",
-    "MinValue": 50,
+    "MinValue": 70,
     "MaxValue": 80,
     "Weight": 70
   },
@@ -92,7 +92,7 @@
     "ID": 14,
     "Type": "Attack",
     "RankString": "C",
-    "MinValue": 40,
+    "MinValue": 60,
     "MaxValue": 70,
     "Weight": 100
   },
@@ -100,7 +100,7 @@
     "ID": 15,
     "Type": "Attack",
     "RankString": "D",
-    "MinValue": 30,
+    "MinValue": 50,
     "MaxValue": 60,
     "Weight": 50
   },
@@ -108,7 +108,7 @@
     "ID": 16,
     "Type": "Attack",
     "RankString": "E",
-    "MinValue": 20,
+    "MinValue": 40,
     "MaxValue": 50,
     "Weight": 25
   },
@@ -116,7 +116,7 @@
     "ID": 17,
     "Type": "Attack",
     "RankString": "F",
-    "MinValue": 10,
+    "MinValue": 30,
     "MaxValue": 40,
     "Weight": 12
   },
@@ -124,7 +124,7 @@
     "ID": 18,
     "Type": "Attack",
     "RankString": "T",
-    "MinValue": 0,
+    "MinValue": 20,
     "MaxValue": 30,
     "Weight": 6
   },
