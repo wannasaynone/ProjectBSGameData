@@ -5,7 +5,7 @@
     "RankString": "S",
     "MinValue": 450,
     "MaxValue": 500,
-    "Weight": 100
+    "Weight": 80
   },
   {
     "ID": 2,
@@ -13,7 +13,7 @@
     "RankString": "A",
     "MinValue": 400,
     "MaxValue": 450,
-    "Weight": 100
+    "Weight": 70
   },
   {
     "ID": 3,
@@ -21,7 +21,7 @@
     "RankString": "B",
     "MinValue": 350,
     "MaxValue": 400,
-    "Weight": 100
+    "Weight": 60
   },
   {
     "ID": 4,
@@ -29,7 +29,7 @@
     "RankString": "C",
     "MinValue": 300,
     "MaxValue": 350,
-    "Weight": 100
+    "Weight": 50
   },
   {
     "ID": 5,
@@ -37,7 +37,7 @@
     "RankString": "D",
     "MinValue": 250,
     "MaxValue": 300,
-    "Weight": 100
+    "Weight": 40
   },
   {
     "ID": 6,
@@ -45,7 +45,7 @@
     "RankString": "E",
     "MinValue": 200,
     "MaxValue": 250,
-    "Weight": 100
+    "Weight": 30
   },
   {
     "ID": 7,
@@ -53,7 +53,7 @@
     "RankString": "F",
     "MinValue": 150,
     "MaxValue": 200,
-    "Weight": 100
+    "Weight": 20
   },
   {
     "ID": 8,
@@ -61,7 +61,7 @@
     "RankString": "T",
     "MinValue": 100,
     "MaxValue": 150,
-    "Weight": 100
+    "Weight": 10
   },
   {},
   {
@@ -70,7 +70,7 @@
     "RankString": "S",
     "MinValue": 90,
     "MaxValue": 100,
-    "Weight": 100
+    "Weight": 80
   },
   {
     "ID": 12,
@@ -78,7 +78,7 @@
     "RankString": "A",
     "MinValue": 80,
     "MaxValue": 90,
-    "Weight": 100
+    "Weight": 70
   },
   {
     "ID": 13,
@@ -86,7 +86,7 @@
     "RankString": "B",
     "MinValue": 70,
     "MaxValue": 80,
-    "Weight": 100
+    "Weight": 60
   },
   {
     "ID": 14,
@@ -94,7 +94,7 @@
     "RankString": "C",
     "MinValue": 60,
     "MaxValue": 70,
-    "Weight": 100
+    "Weight": 50
   },
   {
     "ID": 15,
@@ -102,7 +102,7 @@
     "RankString": "D",
     "MinValue": 50,
     "MaxValue": 60,
-    "Weight": 100
+    "Weight": 40
   },
   {
     "ID": 16,
@@ -110,7 +110,7 @@
     "RankString": "E",
     "MinValue": 40,
     "MaxValue": 50,
-    "Weight": 100
+    "Weight": 30
   },
   {
     "ID": 17,
@@ -118,7 +118,7 @@
     "RankString": "F",
     "MinValue": 30,
     "MaxValue": 40,
-    "Weight": 100
+    "Weight": 20
   },
   {
     "ID": 18,
@@ -126,7 +126,7 @@
     "RankString": "T",
     "MinValue": 20,
     "MaxValue": 30,
-    "Weight": 100
+    "Weight": 10
   },
   {},
   {
@@ -135,7 +135,7 @@
     "RankString": "S",
     "MinValue": 90,
     "MaxValue": 100,
-    "Weight": 100
+    "Weight": 80
   },
   {
     "ID": 22,
@@ -143,7 +143,7 @@
     "RankString": "A",
     "MinValue": 80,
     "MaxValue": 90,
-    "Weight": 100
+    "Weight": 70
   },
   {
     "ID": 23,
@@ -151,7 +151,7 @@
     "RankString": "B",
     "MinValue": 70,
     "MaxValue": 80,
-    "Weight": 100
+    "Weight": 60
   },
   {
     "ID": 24,
@@ -159,7 +159,7 @@
     "RankString": "C",
     "MinValue": 60,
     "MaxValue": 70,
-    "Weight": 100
+    "Weight": 50
   },
   {
     "ID": 25,
@@ -167,7 +167,7 @@
     "RankString": "D",
     "MinValue": 50,
     "MaxValue": 60,
-    "Weight": 100
+    "Weight": 40
   },
   {
     "ID": 26,
@@ -175,7 +175,7 @@
     "RankString": "E",
     "MinValue": 40,
     "MaxValue": 50,
-    "Weight": 100
+    "Weight": 30
   },
   {
     "ID": 27,
@@ -183,7 +183,7 @@
     "RankString": "F",
     "MinValue": 30,
     "MaxValue": 40,
-    "Weight": 100
+    "Weight": 20
   },
   {
     "ID": 28,
@@ -191,7 +191,7 @@
     "RankString": "T",
     "MinValue": 20,
     "MaxValue": 30,
-    "Weight": 100
+    "Weight": 10
   },
   {},
   {
@@ -200,7 +200,7 @@
     "RankString": "S",
     "MinValue": 90,
     "MaxValue": 100,
-    "Weight": 100
+    "Weight": 80
   },
   {
     "ID": 32,
@@ -208,7 +208,7 @@
     "RankString": "A",
     "MinValue": 80,
     "MaxValue": 90,
-    "Weight": 100
+    "Weight": 70
   },
   {
     "ID": 33,
@@ -216,7 +216,7 @@
     "RankString": "B",
     "MinValue": 70,
     "MaxValue": 80,
-    "Weight": 100
+    "Weight": 60
   },
   {
     "ID": 34,
@@ -224,7 +224,7 @@
     "RankString": "C",
     "MinValue": 60,
     "MaxValue": 70,
-    "Weight": 100
+    "Weight": 50
   },
   {
     "ID": 35,
@@ -232,7 +232,7 @@
     "RankString": "D",
     "MinValue": 50,
     "MaxValue": 60,
-    "Weight": 100
+    "Weight": 40
   },
   {
     "ID": 36,
@@ -240,7 +240,7 @@
     "RankString": "E",
     "MinValue": 40,
     "MaxValue": 50,
-    "Weight": 100
+    "Weight": 30
   },
   {
     "ID": 37,
@@ -248,7 +248,7 @@
     "RankString": "F",
     "MinValue": 30,
     "MaxValue": 40,
-    "Weight": 100
+    "Weight": 20
   },
   {
     "ID": 38,
@@ -256,6 +256,6 @@
     "RankString": "T",
     "MinValue": 20,
     "MaxValue": 30,
-    "Weight": 100
+    "Weight": 10
   }
 ]
