@@ -29,7 +29,7 @@
     "SP": 0,
     "NameContextID": 101,
     "DescriptionContextID": 102,
-    "References": "S:1:B:101;S:102",
+    "References": "S:1;B:101;S:102",
     "Command": "OnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill == 1);\n          GainBuff(Self, 101, 1t-1);\n     EndIf();\n}",
     "IsDrop": 1
   },
