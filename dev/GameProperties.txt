@@ -9,7 +9,7 @@
    "AddStaminaPerTime" : 1,
    "DrawCharacterCost" : 500000,
    "AddCharacterCountPerDraw" : 11,
-   "UpdateMainMenuHintTime" : 5,
+   "UpdateMainMenuHintTime" : 6,
    "MainMenuHintMinID" : 2000001,
    "MainMenuHintMaxID" : 2000016,
    "AddStaminaByAd" : 80
