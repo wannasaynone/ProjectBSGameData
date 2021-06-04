@@ -20,7 +20,7 @@
     "SP": 10,
     "NameContextID": 3,
     "DescriptionContextID": 4,
-    "References": "B:8",
+    "References": "B:2",
     "Command": "OnActived\n{\n     GainBuff(Self, 1, 1t2);\n}",
     "IsDrop": 1
   },
@@ -992,7 +992,7 @@
     "SP": 0,
     "NameContextID": 345,
     "DescriptionContextID": 346,
-    "Command": "OnActionStarted_Self\n{\n     AddStatus(Self, Attack, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Attack);\n     AddStatus(Self, Defense, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Defense);\n     AddStatus(Self, Speed, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Speed);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Attack);\n     AddStatus(Self, Defense, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Defense);\n     AddStatus(Self, Speed, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Speed);\n}",
     "IsDrop": 1
   },
   {

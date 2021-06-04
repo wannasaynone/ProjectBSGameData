@@ -196,7 +196,7 @@
     "ID": 113,
     "NameContextID": 349,
     "DescriptionContextID": 350,
-    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.45); \n}\n\nOnAttackEnded_Self\n{\n     AddBuffAmount(Self, 113 -99);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.45); \n}\n\nOnAttackEnded_Self\n{\n     AddBuffAmount(Self, 113, -99);\n}",
     "MaxAmount": 1
   },
   {
