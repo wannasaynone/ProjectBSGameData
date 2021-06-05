@@ -1026,7 +1026,7 @@
     "SP": 0,
     "NameContextID": 355,
     "DescriptionContextID": 356,
-    "References": "S:114",
+    "References": "B:114",
     "Command": "OnTurnStarted\n{\n     BeginIf(Self.HP >= Self.MaxHP * 0.1);\n          GainBuff(Self, 114, 1t1);\n     EndIf();\n}",
     "IsDrop": 1
   },
