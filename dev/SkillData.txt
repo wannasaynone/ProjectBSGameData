@@ -750,7 +750,7 @@
     "NameContextID": 273,
     "DescriptionContextID": 274,
     "References": "B:104;B:105",
-    "Command": "OnActived\n{\n     GainBuff(Select(Opponent, Manual, 1), 104, 1t3);\n     GainBuff(Select(Opponent, Manual, 1), 105, 1t-1);\n}",
+    "Command": "OnActived\n{\n     GainBuff(Select(Opponent, Manual, 1), 104, 1t3);\n     GainBuff(LastSelected, 105, 1t-1);\n}",
     "IsDrop": 1
   },
   {
