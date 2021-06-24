@@ -803,7 +803,7 @@
     "SP": 0,
     "NameContextID": 289,
     "DescriptionContextID": 290,
-    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400005);\n          AddDamage(20%);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400006);\r\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400007);\r\n          AddDamage(-80%);\r\n      EndIf();\n}",
+    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          AddDamage(20%);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          AddDamage(-80%);\n      EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -811,7 +811,7 @@
     "SP": 0,
     "NameContextID": 291,
     "DescriptionContextID": 292,
-    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          AddDamage(20%);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400005);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          AddDamage(-80%);\n      EndIf();\n}",
+    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          AddDamage(20%);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          AddDamage(-80%);\n      EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -819,7 +819,7 @@
     "SP": 0,
     "NameContextID": 293,
     "DescriptionContextID": 294,
-    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          AddDamage(20%);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400005);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          AddDamage(-80%);\n      EndIf();\n}",
+    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          AddDamage(20%);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          AddDamage(-80%);\n      EndIf();\n}",
     "IsDrop": 1
   },
   {
