@@ -75,6 +75,7 @@
     "SP": 10,
     "NameContextID": 113,
     "DescriptionContextID": 114,
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Hit16_Target",
     "References": "B:102",
     "Command": "OnActived\n{\n     GainBuff(Select(SameSide, Manual, 1), 102, 1t3);\n}",
     "IsDrop": 1
@@ -1368,8 +1369,18 @@
     "Command": "OnActived\n{\n     BeginIf_Buff(Self, 1, 10008);\n          GainBuff(Self, 10009, 1t3);\n          Quit();\n     EndIf();\n\n    GainBuff(Self, 10008, 3t-1);\n    AddStatus(Self, HP, Self.Defense * 1.3);\n}",
     "IsDrop": 0
   },
-  {},
-  {},
+  {
+    "Command": ""
+  },
+  {
+    "ID": 999999,
+    "SP": 0,
+    "NameContextID": 100,
+    "DescriptionContextID": 100,
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Hit16_Target",
+    "Command": "OnActived\n{\n     AddActionIndex(Select(SameSide, Manual, 1), -1);\n}",
+    "IsDrop": 0
+  },
   {},
   {},
   {},
