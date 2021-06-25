@@ -1378,7 +1378,7 @@
     "NameContextID": 100,
     "DescriptionContextID": 100,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Hit16_Target",
-    "Command": "OnActived\n{\n     AddActionIndex(Select(SameSide, Manual, 1), -1);\n}",
+    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddActionIndex(Select(SameSide, Manual, 1), -1);\n}",
     "IsDrop": 0
   },
   {},
