@@ -24,7 +24,7 @@
     "ID": 3,
     "NameContextID": 13,
     "DescriptionContextID": 14,
-    "Command": "OnActionStarted_Self\n{\n     ShowVFX(Flame, 2);\n     AddStatus(Self, HP, -Random(0, Self.MaxHP * 0.04));\n     SetWaitOnPhaseEnd();\n}",
+    "Command": "OnActionStarted_Self\n{\n     ShowVFX(Flame, 2);\n     AddStatus(Self, HP, -Random(0, Self.MaxHP * 0.04));\n}",
     "Tag": 400003,
     "MaxAmount": 10
   },
@@ -40,7 +40,7 @@
     "ID": 5,
     "NameContextID": 17,
     "DescriptionContextID": 18,
-    "Command": "OnActionStarted_Self\n{\n     BeginIf(Self.HP >= Self.MaxHP * 0.02 + 1);\n         ShowVFX(Fog1, 2);\n         AddStatus(Self, HP, -Self.MaxHP * 0.02);\n         SetWaitOnPhaseEnd();\n     EndIf();\n}",
+    "Command": "OnActionStarted_Self\n{\n     BeginIf(Self.HP >= Self.MaxHP * 0.02 + 1);\n         ShowVFX(Fog1, 2);\n         AddStatus(Self, HP, -Self.MaxHP * 0.02);\n     EndIf();\n}",
     "Tag": 400003,
     "MaxAmount": 10
   },

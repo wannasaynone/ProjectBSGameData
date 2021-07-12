@@ -549,7 +549,7 @@
     "SP": 0,
     "NameContextID": 221,
     "DescriptionContextID": 222,
-    "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400002);\n          AddStatus(SkillLastSelected(CurrentActor), HP, Self.Defense * 0.3);\n          ShowVFXOnTarget(Heal1, 1.5);\n          SetWaitOnPhaseEnd();\n    EndIf();\n}",
+    "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400002);\n          AddStatus(SkillLastSelected(CurrentActor), HP, Self.Defense * 0.3);\n          ShowVFXOnTarget(Heal1, 1.5);\n    EndIf();\n}",
     "IsDrop": 1
   },
   {
