@@ -1472,7 +1472,7 @@
     "NameContextID": 99,
     "DescriptionContextID": 99,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Hit16_Target",
-    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     SetStatus(Self, SP, 0);\n}",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    AddBuffAmount(Select(SameSide, Manual, 1), -1, -99);\n}",
     "IsDrop": 0
   },
   {},
