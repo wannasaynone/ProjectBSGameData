@@ -573,7 +573,8 @@
     "SP": 30,
     "NameContextID": 225,
     "DescriptionContextID": 226,
-    "Command": "OnActived\n{\n    AddBuffAmountByTag(Select(SameSide, Random, -1), 400003, -99);\n}",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Aura1_Target",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    AddBuffAmountByTag(Select(SameSide, Random, -1), 400003, -99);\n}",
     "IsDrop": 1,
     "Tag": 400002
   },
