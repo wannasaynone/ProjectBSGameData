@@ -563,7 +563,7 @@
     "SP": 15,
     "NameContextID": 223,
     "DescriptionContextID": 224,
-    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Arua1_Target",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Aura1_Target",
     "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    AddBuffAmountByTag(Select(SameSide, Manual, 1), 400003, -99);\n}",
     "IsDrop": 1,
     "Tag": 400002
