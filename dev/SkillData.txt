@@ -525,7 +525,7 @@
     "SP": 20,
     "NameContextID": 215,
     "DescriptionContextID": 216,
-    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal1_Target;\n0.25_Show_Heal1_Target;\n0.25_Apply",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal2_Target;\n0.25_Apply",
     "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 1.5);\n}",
     "IsDrop": 1,
     "Tag": 400002
@@ -535,7 +535,7 @@
     "SP": 30,
     "NameContextID": 217,
     "DescriptionContextID": 218,
-    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal1_Target;\n0.25_Show_Heal1_Target;\n0.25_Show_Heal1_Target;\n0.25_Apply",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal3_Target;\n0.25_Apply",
     "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 2.25);\n}",
     "IsDrop": 1,
     "Tag": 400002
@@ -545,7 +545,7 @@
     "SP": 40,
     "NameContextID": 219,
     "DescriptionContextID": 220,
-    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal1_Target;\n0.25_Show_Heal1_Target;\n0.25_Show_Heal1_Target;\n0.25_Show_Heal1_Target;\n0.25_Apply",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal4_Target;\n0.25_Apply",
     "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 3);\n}",
     "IsDrop": 1,
     "Tag": 400002
