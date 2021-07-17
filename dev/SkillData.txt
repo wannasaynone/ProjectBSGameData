@@ -1463,7 +1463,7 @@
     "NameContextID": 98,
     "DescriptionContextID": 98,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Hit16_Target",
-    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     SetStatus(Self, SP, 0);\n}",
+    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Select(Opponent, Random, -1), 5, 3t3);\n}",
     "IsDrop": 0
   },
   {
