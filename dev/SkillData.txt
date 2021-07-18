@@ -594,7 +594,7 @@
     "SP": 0,
     "NameContextID": 229,
     "DescriptionContextID": 230,
-    "Command": "OnBattleStarted\n{\n     ShowVFX(Temp, 1);\n     AddStatus(Self, Hatred, Self.Defense * 2);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, Hatred, Self.Defense * 2);\n}",
     "IsDrop": 1
   },
   {
