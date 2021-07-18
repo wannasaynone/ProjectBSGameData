@@ -1231,7 +1231,7 @@
     "NameContextID": 10015,
     "DescriptionContextID": 10016,
     "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\n0.25_Apply",
-    "Command": "OnActived\n{\n    SetPlayAnimation();\n    AddStatus(SelectOther(SameSide, Random, -1), HP, Self.Defense * 4.5);\n}",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    AddStatus(SelectOther(SameSide, Random, -1), HP, Self.Defense * 4.5);\n}",
     "IsDrop": 0
   },
   {
@@ -1240,7 +1240,7 @@
     "NameContextID": 10017,
     "DescriptionContextID": 10018,
     "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\n0.25_Apply",
-    "Command": "OnActived\n{\n    SetPlayAnimation();\n    AddStatus(Self, Hatred, Self.MaxHP * 1);\n    AddStatus(Self, HP, Self.Hatred * 0.02);\n    SetStatus(SelectOther(SameSide, Random, -1), Hatred, 1);\n}",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    AddStatus(Self, Hatred, Self.MaxHP * 1);\n    AddStatus(Self, HP, Self.Hatred * 0.02);\n    SetStatus(SelectOther(SameSide, Random, -1), Hatred, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -1286,7 +1286,7 @@
     "NameContextID": 10024,
     "DescriptionContextID": 10025,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply",
-    "Command": "OnActived\n{\n     GainBuff(Self, 7, 1t4);\n}",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n     GainBuff(Self, 7, 1t4);\n}",
     "IsDrop": 0
   },
   {
@@ -1313,7 +1313,7 @@
     "NameContextID": 10035,
     "DescriptionContextID": 10036,
     "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\r\n0.25_Apply",
-    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 1t2);\n     AddExtraAction(Self, 1);\n}",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -1339,7 +1339,7 @@
     "NameContextID": 10043,
     "DescriptionContextID": 10044,
     "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\r\n0.25_Apply",
-    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10005, 1t2);\n     AddExtraAction(Self, 1);\n}",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10005, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
   {
