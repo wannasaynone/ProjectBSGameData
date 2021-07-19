@@ -11,7 +11,7 @@
     "SP": 0,
     "NameContextID": 1,
     "DescriptionContextID": 2,
-    "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;",
+    "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Temp2_Target;",
     "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.5, 0);\n}",
     "IsDrop": 1
   },
@@ -1321,7 +1321,8 @@
     "SP": 0,
     "NameContextID": 10039,
     "DescriptionContextID": 10040,
-    "Command": "OnActived\n{\n     AddStatus(Self, HP, Self.Defense * 2);\n}",
+    "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Heal1_Target;\r\n0.25_Apply",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n     AddStatus(Self, HP, Self.Defense * 2);\n}",
     "IsDrop": 0,
     "Tag": 400002
   },
