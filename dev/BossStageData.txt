@@ -17,6 +17,7 @@
     "Stamina": 5,
     "BossIDs": 1,
     "DescriptionContextID": 300001,
+    "DropData": "1:25;2:25",
     "MinExp": 18400,
     "MaxExp": 36800
   },
