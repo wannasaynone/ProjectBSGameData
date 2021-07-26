@@ -11,7 +11,7 @@
     "SP": 0,
     "NameContextID": 1,
     "DescriptionContextID": 2,
-    "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Temp2_Target;",
+    "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;",
     "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.5, 0);\n}",
     "IsDrop": 1
   },
@@ -659,7 +659,7 @@
     "DescriptionContextID": 246,
     "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Temp_Target;",
     "References": "B:11",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Target.LastTakenDamage);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n}",
     "IsDrop": 1,
     "Tag": "400001;400007"
   },
@@ -670,7 +670,7 @@
     "DescriptionContextID": 248,
     "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Temp_Target;",
     "References": "B:11",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 2), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(20, 30) * 0.01 * Target.LastTakenDamage);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 2), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(20, 30) * 0.01 * Self.Speed);\n}",
     "IsDrop": 1,
     "Tag": "400001;400007"
   },
@@ -681,7 +681,7 @@
     "DescriptionContextID": 250,
     "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_Damage_1;",
     "References": "B:11",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(20, 30) * 0.01 * Target.LastTakenDamage);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(20, 30) * 0.01 * Self.Speed);\n}",
     "IsDrop": 1,
     "Tag": "400001;400007;400005"
   },
@@ -692,7 +692,7 @@
     "DescriptionContextID": 252,
     "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_Damage_1;",
     "References": "B:11",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(30, 40) * 0.01 * Target.LastTakenDamage);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(30, 40) * 0.01 * Self.Speed);\n}",
     "IsDrop": 1,
     "Tag": "400001;400007;400005"
   },
@@ -703,7 +703,7 @@
     "DescriptionContextID": 254,
     "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_Damage_1;",
     "References": "B:11",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(All, Random, -1), Self.Attack * 2.6, 0);\n     AddStatus(LastSelected, HP, -Random(50, 60) * 0.01 * Target.LastTakenDamage);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(All, Random, -1), Self.Attack * 2.6, 0);\n     AddStatus(LastSelected, HP, -Random(50, 60) * 0.01 * Self.Speed);\n}",
     "IsDrop": 1,
     "Tag": "400001;400007;400005"
   },
@@ -1176,6 +1176,34 @@
     "SP": 0,
     "NameContextID": 377,
     "DescriptionContextID": 0,
+    "IsDrop": 0
+  },
+  {
+    "ID": 226,
+    "SP": 30,
+    "NameContextID": 378,
+    "DescriptionContextID": 379,
+    "IsDrop": 0
+  },
+  {
+    "ID": 227,
+    "SP": 30,
+    "NameContextID": 380,
+    "DescriptionContextID": 381,
+    "IsDrop": 0
+  },
+  {
+    "ID": 228,
+    "SP": 45,
+    "NameContextID": 382,
+    "DescriptionContextID": 383,
+    "IsDrop": 0
+  },
+  {
+    "ID": 229,
+    "SP": 30,
+    "NameContextID": 384,
+    "DescriptionContextID": 385,
     "IsDrop": 0
   },
   {
