@@ -1204,7 +1204,7 @@
     "SP": 30,
     "NameContextID": 384,
     "DescriptionContextID": 385,
-    "References": "S:10013;S:10015;S:10019",
+    "References": "S:10013;S:10015;S:10018",
     "Command": "OnActived\n{\n     RandomCastSkill(10003);\n}",
     "IsDrop": 0
   },
