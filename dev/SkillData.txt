@@ -1204,6 +1204,8 @@
     "SP": 30,
     "NameContextID": 384,
     "DescriptionContextID": 385,
+    "References": "S:10013;S:10015;S:10019",
+    "Command": "OnActived\n{\n     RandomCastSkill(10003);\n}",
     "IsDrop": 0
   },
   {
@@ -1323,6 +1325,7 @@
     "NameContextID": 10029,
     "DescriptionContextID": 10030,
     "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\r\n0.25_Apply",
+    "References": "B:10003",
     "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10003, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
@@ -1341,6 +1344,7 @@
     "NameContextID": 10035,
     "DescriptionContextID": 10036,
     "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\r\n0.25_Apply",
+    "References": "B:10004",
     "Command": "OnActived\n{\n    SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
@@ -1368,6 +1372,7 @@
     "NameContextID": 10043,
     "DescriptionContextID": 10044,
     "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\r\n0.25_Apply",
+    "References": "B:10005",
     "Command": "OnActived\n{\n    SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10005, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },

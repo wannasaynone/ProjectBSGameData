@@ -50,6 +50,7 @@
     "BossIDs": 5,
     "DescriptionContextID": 300004,
     "FrontStageIDs": 3,
+    "DropData": "229:10",
     "MinExp": 409400,
     "MaxExp": 818800
   },
