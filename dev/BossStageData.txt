@@ -14,7 +14,7 @@
     "ID": 1,
     "Index": -1,
     "MainBossID": 1,
-    "Stamina": 5,
+    "Stamina": 0,
     "BossIDs": 1,
     "DescriptionContextID": 300001,
     "FrontStageIDs": 0,
