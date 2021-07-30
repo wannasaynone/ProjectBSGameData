@@ -12,17 +12,18 @@
   },
   {
     "ID": 1,
-    "Index": 1,
+    "Index": -1,
     "MainBossID": 1,
     "Stamina": 5,
     "BossIDs": 1,
     "DescriptionContextID": 300001,
+    "FrontStageIDs": 0,
     "MinExp": 18400,
     "MaxExp": 36800
   },
   {
     "ID": 2,
-    "Index": 2,
+    "Index": 1,
     "MainBossID": 3,
     "Stamina": 10,
     "BossIDs": "2;3",
@@ -33,7 +34,7 @@
   },
   {
     "ID": 3,
-    "Index": 3,
+    "Index": 2,
     "MainBossID": 4,
     "Stamina": 20,
     "BossIDs": "4;4;4;4",
@@ -44,7 +45,7 @@
   },
   {
     "ID": 4,
-    "Index": 4,
+    "Index": 3,
     "MainBossID": 5,
     "Stamina": 40,
     "BossIDs": 5,
@@ -56,7 +57,7 @@
   },
   {
     "ID": 5,
-    "Index": 5,
+    "Index": 4,
     "MainBossID": 6,
     "Stamina": 80,
     "BossIDs": 6,
@@ -67,7 +68,7 @@
   },
   {
     "ID": 6,
-    "Index": 6,
+    "Index": 5,
     "MainBossID": 7,
     "Stamina": 80,
     "BossIDs": 7,
@@ -78,7 +79,7 @@
   },
   {
     "ID": 7,
-    "Index": 7,
+    "Index": 6,
     "MainBossID": 8,
     "Stamina": 80,
     "BossIDs": 8,
