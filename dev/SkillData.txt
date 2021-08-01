@@ -1183,6 +1183,7 @@
     "SP": 30,
     "NameContextID": 378,
     "DescriptionContextID": 379,
+    "Command": "OnActived\n{\n     RandomCastSkill(10004);\n}",
     "IsDrop": 0
   },
   {
@@ -1190,6 +1191,7 @@
     "SP": 30,
     "NameContextID": 380,
     "DescriptionContextID": 381,
+    "Command": "OnActionStarted_Self\n{\n    ShowVFX(Temp);\n    AddStatus(Select(Opponent, Random, -1), HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}\n\nOnStartToEndAction_Self\n{\n    ShowVFX(Temp);\n    AddStatus(Select(Opponent, Random, -1), HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}",
     "IsDrop": 0
   },
   {
@@ -1197,6 +1199,7 @@
     "SP": 45,
     "NameContextID": 382,
     "DescriptionContextID": 383,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n}",
     "IsDrop": 0
   },
   {
@@ -1206,6 +1209,38 @@
     "DescriptionContextID": 385,
     "References": "S:10013;B:10003;S:10015;B:10004;S:10018;B:10005",
     "Command": "OnActived\n{\n     RandomCastSkill(10003);\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 230,
+    "SP": 0,
+    "NameContextID": 386,
+    "DescriptionContextID": 387,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 231,
+    "SP": 0,
+    "NameContextID": 388,
+    "DescriptionContextID": 389,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 232,
+    "SP": 0,
+    "NameContextID": 390,
+    "DescriptionContextID": 391,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 233,
+    "SP": 0,
+    "NameContextID": 392,
+    "DescriptionContextID": 393,
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -1226,7 +1261,7 @@
     "NameContextID": 10007,
     "DescriptionContextID": 10008,
     "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Hit16_Target;\n0.58_Shake",
-    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1.5, 0);\n  BeginIf(Random(1, 100) <= 60);\n     CastSkill(10003);\n   EndIf();\n}",
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1, 0);\n}",
     "IsDrop": 0
   },
   {
