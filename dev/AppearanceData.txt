@@ -52,6 +52,27 @@
     "DefaultSkillSet": "1;2",
     "IsDrop": 1
   },
+  {
+    "ID": 14,
+    "SpriteAssetPath": "Temp",
+    "NameContextID": 100006,
+    "DefaultSkillSet": "1;2;226",
+    "IsDrop": 1
+  },
+  {
+    "ID": 15,
+    "SpriteAssetPath": "Temp",
+    "NameContextID": 100007,
+    "DefaultSkillSet": "1;2;227",
+    "IsDrop": 1
+  },
+  {
+    "ID": 16,
+    "SpriteAssetPath": "Temp",
+    "NameContextID": 100008,
+    "DefaultSkillSet": "1;2;228",
+    "IsDrop": 1
+  },
   {},
   {
     "ID": 10001,
