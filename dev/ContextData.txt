@@ -7,7 +7,7 @@
   {
     "ID": 1,
     "zh_tw": "普通攻擊",
-    "en_us": "Normal Attack"
+    "en_us": "General Attack"
   },
   {
     "ID": 2,
@@ -17,17 +17,17 @@
   {
     "ID": 3,
     "zh_tw": "普通防禦",
-    "en_us": "Normal Defense"
+    "en_us": "General Defense"
   },
   {
     "ID": 4,
     "zh_tw": "給予自己持續2回合的「防禦值上升」。",
-    "en_us": "Gives you \"Defense\" for 2 turns."
+    "en_us": "Gives you \"Defense Up\" for 2 turns."
   },
   {
     "ID": 5,
     "zh_tw": "防禦值上升",
-    "en_us": "Defense"
+    "en_us": "Defense Up"
   },
   {
     "ID": 6,
@@ -88,7 +88,7 @@
   {
     "ID": 21,
     "zh_tw": "攻擊值上升",
-    "en_us": "Strengthen"
+    "en_us": "Attack Up"
   },
   {
     "ID": 22,
@@ -97,7 +97,8 @@
   },
   {
     "ID": 23,
-    "zh_tw": "防禦值下降"
+    "zh_tw": "防禦值下降",
+    "en_us": "Defense Down"
   },
   {
     "ID": 24,
@@ -116,7 +117,8 @@
   },
   {
     "ID": 27,
-    "zh_tw": "攻擊值下降"
+    "zh_tw": "攻擊值下降",
+    "en_us": "Attack Down"
   },
   {
     "ID": 28,
@@ -125,117 +127,145 @@
   },
   {
     "ID": 29,
-    "zh_tw": "麻痺"
+    "zh_tw": "麻痺",
+    "en_us": "Paralysis"
   },
   {
     "ID": 30,
-    "zh_tw": "不能行動。行動結束時，消除這個狀態。"
+    "zh_tw": "不能行動。行動結束時，消除這個狀態。",
+    "en_us": "Cannot act. At the end of action, remove this buff."
   },
   {
     "ID": 31,
-    "zh_tw": "速度值下降"
+    "zh_tw": "速度值下降",
+    "en_us": "Speed Down"
   },
   {
     "ID": 32,
-    "zh_tw": "速度值減少50%。"
+    "zh_tw": "速度值減少50%。",
+    "en_us": "Speed value is reduced by 50%."
   },
   {
     "ID": 33,
-    "zh_tw": "速度值上升"
+    "zh_tw": "速度值上升",
+    "en_us": "Speed Up"
   },
   {
     "ID": 34,
-    "zh_tw": "速度值增加30%。"
+    "zh_tw": "速度值增加30%。",
+    "en_us": "Speed value is increased by 30%."
   },
   {},
   {
     "ID": 90,
-    "zh_tw": "測試用技能1"
+    "zh_tw": "測試用技能1",
+    "en_us": "Test Skill1"
   },
   {
     "ID": 91,
-    "zh_tw": "測試用技能2"
+    "zh_tw": "測試用技能2",
+    "en_us": "Test Skill2"
   },
   {
     "ID": 92,
-    "zh_tw": "測試用技能3"
+    "zh_tw": "測試用技能3",
+    "en_us": "Test Skill3"
   },
   {
     "ID": 93,
-    "zh_tw": "測試用技能4"
+    "zh_tw": "測試用技能4",
+    "en_us": "Test Skill4"
   },
   {
     "ID": 94,
-    "zh_tw": "測試用技能5"
+    "zh_tw": "測試用技能5",
+    "en_us": "Test Skill5"
   },
   {
     "ID": 95,
-    "zh_tw": "測試用技能6"
+    "zh_tw": "測試用技能6",
+    "en_us": "Test Skill6"
   },
   {
     "ID": 96,
-    "zh_tw": "測試用技能7"
+    "zh_tw": "測試用技能7",
+    "en_us": "Test Skill7"
   },
   {
     "ID": 97,
-    "zh_tw": "測試用技能8"
+    "zh_tw": "測試用技能8",
+    "en_us": "Test Skill8"
   },
   {
     "ID": 98,
-    "zh_tw": "測試用技能9"
+    "zh_tw": "測試用技能9",
+    "en_us": "Test Skill9"
   },
   {
     "ID": 99,
-    "zh_tw": "測試用技能10"
+    "zh_tw": "測試用技能10",
+    "en_us": "Test Skill10"
   },
   {},
   {
     "ID": 101,
-    "zh_tw": "普通攻擊專精"
+    "zh_tw": "普通攻擊專精",
+    "en_us": "General Attack Expertise"
   },
   {
     "ID": 102,
-    "zh_tw": "每當使用「普通攻擊」造成傷害後，給予自己1個「普通攻擊熟練」。"
+    "zh_tw": "每當使用「普通攻擊」造成傷害後，給予自己1個「普通攻擊熟練」。",
+    "en_us": "Whenever you use \"General Attack\" to deal damage, give yourself 1 \"General Attack Proficiency\"."
   },
   {
     "ID": 103,
-    "zh_tw": "普通攻擊熟練"
+    "zh_tw": "普通攻擊熟練",
+    "en_us": "General Attack Proficiency"
   },
   {
     "ID": 104,
-    "zh_tw": "獲得狀態時，若已擁有10個，消除這個狀態並將「普通攻擊」替換為「普通攻擊+」。"
+    "zh_tw": "獲得狀態時，若已擁有10個，消除這個狀態並將「普通攻擊」替換為「普通攻擊+」。",
+    "en_us": "If you have 10 of them when you get the buff, remove this buff and replace \"General Attack\" with \"General Attack+\"."
   },
   {
     "ID": 105,
-    "zh_tw": "普通攻擊+"
+    "zh_tw": "普通攻擊+",
+    "en_us": "General Attack+"
   },
   {
     "ID": 106,
-    "zh_tw": "對1個敵方單位造成150%攻擊值的傷害，無視防禦。"
+    "zh_tw": "對1個敵方單位造成150%攻擊值的傷害，無視防禦。",
+    "en_us": "Deals 150% of Attack value damage to 1 enemy unit, ignoring Defense."
   },
   {
     "ID": 107,
-    "zh_tw": "雙重加速"
+    "zh_tw": "雙重加速",
+    "en_us": "Double Acceleration"
   },
   {
     "ID": 108,
-    "zh_tw": "每當使用「普通攻擊」造成傷害後，有15%的機率再使用1次「普通攻擊」。"
+    "zh_tw": "每當使用「普通攻擊」造成傷害後，有15%的機率再使用1次「普通攻擊」。",
+    "en_us": "Whenever you use \"General Attack\" to deal damage, you have a 15% chance of using \"General Attack\" again."
   },
   {
     "ID": 109,
-    "zh_tw": "四重加速"
+    "zh_tw": "四重加速",
+    "en_us": "Quadruple Acceleration"
   },
   {
     "ID": 110,
-    "zh_tw": "每當使用「普通攻擊」造成傷害後，有30%的機率減少20點SP值並再使用1次「普通攻擊」。SP值不足20點時不會發動。"
+    "zh_tw": "每當使用「普通攻擊」造成傷害後，有30%的機率減少20點SP值並再使用1次「普通攻擊」。SP值不足20點時不會發動。",
+    "en_us": "Whenever you use \"General Attack\" to deal damage, you have a 30% chance that you will reduce your SP by 20 points and use \"General Attack\" once more. It will not fire when the SP value is less than 20."
   },
   {
     "ID": 111,
-    "zh_tw": "八重加速"
+    "zh_tw": "八重加速",
+    "en_us": "Eight-times acceleration"
   },
   {
     "ID": 112,
-    "zh_tw": "每當使用「普通攻擊」造成傷害後，有60%的機率減少40點SP值並再使用1次「普通攻擊」。SP值不足40點時不會發動。"
+    "zh_tw": "每當使用「普通攻擊」造成傷害後，有60%的機率減少40點SP值並再使用1次「普通攻擊」。SP值不足40點時不會發動。",
+    "en_us": "Whenever you use \"General Attack\" to deal damage, you have a 60% chance that you will reduce your SP by 40 points and use \"General Attack\" once more. It will not fire when the SP value is less than 40."
   },
   {
     "ID": 113,
@@ -1311,7 +1341,7 @@
   },
   {
     "ID": 381,
-    "zh_tw": "自己行動開始與結束時，使所有敵方單位失去相當於(「冰凍」個數 * 2%)的生命值。"
+    "zh_tw": "每當有人行動開始時，使所有敵方單位失去相當於(「冰凍」個數 * 2%)的生命值。"
   },
   {
     "ID": 382,
@@ -1319,7 +1349,7 @@
   },
   {
     "ID": 383,
-    "zh_tw": "對隨機2個敵方單位造成160%攻擊值的傷害。其後使目標失去相當於隨機10%~20%目標受到傷害值的生命值。"
+    "zh_tw": "對隨機2個敵方單位造成120%攻擊值的傷害，其後使目標失去相當於隨機10%~20%自己速度值的生命值。重複3次。"
   },
   {
     "ID": 384,
@@ -1697,397 +1727,494 @@
   {},
   {
     "ID": 100001,
-    "zh_tw": "先鋒構築範例"
+    "zh_tw": "先鋒構築範例",
+    "en_us": "Tank Example"
   },
   {
     "ID": 100002,
-    "zh_tw": "輔助構築範例"
+    "zh_tw": "輔助構築範例",
+    "en_us": "Healer Example"
   },
   {
     "ID": 100003,
-    "zh_tw": "法術構築範例"
+    "zh_tw": "法術構築範例",
+    "en_us": "Mage Example"
   },
   {
     "ID": 100004,
-    "zh_tw": "普通攻擊範例"
+    "zh_tw": "普通攻擊範例",
+    "en_us": "General Example"
   },
   {
     "ID": 100005,
-    "zh_tw": "一般戰鬥素體"
+    "zh_tw": "一般戰鬥素體",
+    "en_us": "Normal Unit"
   },
   {
     "ID": 100006,
-    "zh_tw": "火使者薩恩"
+    "zh_tw": "火使者薩恩",
+    "en_us": "Fire Messenger Sarn"
   },
   {
     "ID": 100007,
-    "zh_tw": "冰使者傑士"
+    "zh_tw": "冰使者傑士",
+    "en_us": "Ice Messenger Jesse"
   },
   {
     "ID": 100008,
-    "zh_tw": "雷使者無名"
+    "zh_tw": "雷使者無名",
+    "en_us": "Thunder Messenger Nameless"
   },
   {},
   {
     "ID": 300001,
-    "zh_tw": "建議等級：Lv. 1\n一隻普通的地下水道老鼠，阻擋了你的去路。"
+    "zh_tw": "建議等級：Lv. 1\n一隻普通的地下水道老鼠，阻擋了你的去路。",
+    "en_us": "Suggested Level: Lv. 1\nA common underground waterway rat is blocking your way."
   },
   {
     "ID": 300002,
-    "zh_tw": "建議等級：Lv. 10\n站立在拱門前的兩名機械守衛。\n儘管早已沒了看守的對象，但程式依然在運轉。"
+    "zh_tw": "建議等級：Lv. 10\n站立在拱門前的兩名機械守衛。\n儘管早已沒了看守的對象，但程式依然在運轉。",
+    "en_us": "Recommended level: Lv. 10\nThe two mechanical guards standing in front of the archway.\nThe program is still running despite the fact that there are no more guards left."
   },
   {
     "ID": 300003,
-    "zh_tw": "建議等級：Lv. 20\n在荒蕪的城市裡面建立新統治權的，是一群老鼠。\n你對此毫不意外。是的，一隻老鼠很弱。那，一群呢？"
+    "zh_tw": "建議等級：Lv. 20\n在荒蕪的城市裡面建立新統治權的，是一群老鼠。\n你對此毫不意外。是的，一隻老鼠很弱。那，一群呢？",
+    "en_us": "Recommended level: Lv. 20\nThe new ruler of the deserted city is a bunch of rats.\nYou are not surprised by this. Yes, one rat is weak. What about a pack?"
   },
   {
     "ID": 300004,
-    "zh_tw": "建議等級：Lv. 40\n魯米諾依照你的指令，在城市的中心建造了營地。\n而變動劇烈的能量波觸發了沉睡的古代核心高崙。"
+    "zh_tw": "建議等級：Lv. 40\n魯米諾依照你的指令，在城市的中心建造了營地。\n而變動劇烈的能量波觸發了沉睡的古代核心高崙。",
+    "en_us": "Recommended level: Lv. 40\nLumino has built a camp in the center of the city according to your instructions.\nAnd the violent energy wave of the change triggered the ancient core of the sleeping Goren."
   },
   {
     "ID": 300005,
-    "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n北方的路通往永凍之地。\n偌大的巨型高崙有如堡壘，鎮守在北方的城門。"
+    "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n北方的路通往永凍之地。\n偌大的巨型高崙有如堡壘，鎮守在北方的城門。",
+    "en_us": "Recommended level: Lv. 100\nLumino's investigation report :\nThe road to the north leads to the land of eternal freeze.\nA large, giant Gaulan is like a fortress, guarding the northern gates of the city."
   },
   {
     "ID": 300006,
-    "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n東方的路通往蓊鬱之森。\n佈滿植披的高崙彷彿古木，鎮守在東方的城門。"
+    "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n東方的路通往蓊鬱之森。\n佈滿植披的高崙彷彿古木，鎮守在東方的城門。",
+    "en_us": "Recommended level: Lv. 100\nLumino's investigation report : \nThe road to the east leads to the luxuriant forest.\nThe planted gorgonians are like ancient trees, guarding the gates of the East."
   },
   {
     "ID": 300007,
-    "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n西方的路通往貧脊之地。\n受風砂侵蝕高崙也化為風砂，鎮守在西方的城門。"
+    "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n西方的路通往貧脊之地。\n受風砂侵蝕高崙也化為風砂，鎮守在西方的城門。",
+    "en_us": "Recommended level: Lv. 100\nLumino's investigation report : \nThe road to the west leads to the land of the poor ridge.\nThe wind sand eroded Gaulan also turned into wind sand and guarded the western gate."
   },
   {},
   {
     "ID": 400001,
-    "zh_tw": "法術"
+    "zh_tw": "法術",
+    "en_us": "Spell"
   },
   {
     "ID": 400002,
-    "zh_tw": "輔助"
+    "zh_tw": "輔助",
+    "en_us": "Support"
   },
   {
     "ID": 400003,
-    "zh_tw": "負面"
+    "zh_tw": "負面",
+    "en_us": "Debuff"
   },
   {
     "ID": 400004,
-    "zh_tw": "火焰"
+    "zh_tw": "火焰",
+    "en_us": "Fire"
   },
   {
     "ID": 400005,
-    "zh_tw": "群體"
+    "zh_tw": "群體",
+    "en_us": "AOE"
   },
   {
     "ID": 400006,
-    "zh_tw": "冰凍"
+    "zh_tw": "冰凍",
+    "en_us": "Ice"
   },
   {
     "ID": 400007,
-    "zh_tw": "雷電"
+    "zh_tw": "雷電",
+    "en_us": "Thunder"
   },
   {},
   {
     "ID": 500001,
-    "zh_tw": "{0}「{1}」技能效果發動"
+    "zh_tw": "{0}「{1}」技能效果發動",
+    "en_us": "{0}\"{1}\" skill effect activation"
   },
   {
     "ID": 500002,
-    "zh_tw": "{0}「{1}」狀態效果發動"
+    "zh_tw": "{0}「{1}」狀態效果發動",
+    "en_us": "{0}\"{1}\" buff effect activation"
   },
   {
     "ID": 500003,
-    "zh_tw": "{0} 行動順序提前 {1} 位"
+    "zh_tw": "{0} 行動順序提前 {1} 位",
+    "en_us": "{0} Action order advance {1} bit"
   },
   {
     "ID": 500004,
-    "zh_tw": "{0} 行動順序延後 {1} 位"
+    "zh_tw": "{0} 行動順序延後 {1} 位",
+    "en_us": "{0} Postpone the action sequence by {1} bit"
   },
   {
     "ID": 500005,
-    "zh_tw": "{0} 增加 {1} 個「{2}」"
+    "zh_tw": "{0} 增加 {1} 個「{2}」",
+    "en_us": "{0} Increase {1} \"{2}\""
   },
   {
     "ID": 500006,
-    "zh_tw": "{0} 減少 {1} 個「{2}」"
+    "zh_tw": "{0} 減少 {1} 個「{2}」",
+    "en_us": "{0} Decrease {1} \"{2}\""
   },
   {
     "ID": 500007,
-    "zh_tw": "{0} 「{1}」狀態持續時間增加 {2} 回合"
+    "zh_tw": "{0} 「{1}」狀態持續時間增加 {2} 回合",
+    "en_us": "{0} \"{1}\" state duration increased {2} rounds"
   },
   {
     "ID": 500008,
-    "zh_tw": "{0} 「{1}」狀態持續時間減少 {2} 回合"
+    "zh_tw": "{0} 「{1}」狀態持續時間減少 {2} 回合",
+    "en_us": "{0} \"{1}\" status duration decreased {2} rounds"
   },
   {
     "ID": 500009,
-    "zh_tw": "增加對 {0} 造成的傷害 {1} 點"
+    "zh_tw": "增加對 {0} 造成的傷害 {1} 點",
+    "en_us": "Increases the damage dealt to {0} by {1} point(s)"
   },
   {
     "ID": 500010,
-    "zh_tw": "{0} 受到的傷害增加 {1} 點"
+    "zh_tw": "{0} 受到的傷害增加 {1} 點",
+    "en_us": "Increases the damage dealt to {0} by {1} point(s)"
   },
   {
     "ID": 500011,
-    "zh_tw": "減少對 {0} 造成的傷害 {1} 點"
+    "zh_tw": "減少對 {0} 造成的傷害 {1} 點",
+    "en_us": "Decrease damage to {0} by {1} point(s)"
   },
   {
     "ID": 500012,
-    "zh_tw": "{0} 受到的傷害減少 {1} 點"
+    "zh_tw": "{0} 受到的傷害減少 {1} 點",
+    "en_us": "Decrease damage to {0} by {1} point(s)"
   },
   {
     "ID": 500013,
-    "zh_tw": "{0} 追加行動"
+    "zh_tw": "{0} 追加行動",
+    "en_us": "{0} add action"
   },
   {
     "ID": 500014,
-    "zh_tw": "{0} 立即追加行動"
+    "zh_tw": "{0} 立即追加行動",
+    "en_us": "{0} immediately add an action"
   },
   {
     "ID": 500015,
-    "zh_tw": "{0} 獲得 {1} 點護盾值"
+    "zh_tw": "{0} 獲得 {1} 點護盾值",
+    "en_us": "{0} gains {1} point(s) of Shield value"
   },
   {
     "ID": 500016,
-    "zh_tw": "{0} 增加 {1} 點 {2}"
+    "zh_tw": "{0} 增加 {1} 點 {2}",
+    "en_us": "{0} increases {1} point(s) {2}"
   },
   {
     "ID": 500017,
-    "zh_tw": "{0} 減少 {1} 點 {2}"
+    "zh_tw": "{0} 減少 {1} 點 {2}",
+    "en_us": "{0} decreases {1} point(s) {2}"
   },
   {
     "ID": 500018,
-    "zh_tw": "{0} 追加使用技能「{1}」"
+    "zh_tw": "{0} 追加使用技能「{1}」",
+    "en_us": "{0} uses of skill \"{1}"
   },
   {
     "ID": 500019,
-    "zh_tw": "連鎖技能「{0}」"
+    "zh_tw": "連鎖技能「{0}」",
+    "en_us": "Chain skill \"{0}\""
   },
   {
     "ID": 500020,
-    "zh_tw": "{0} 的攻擊"
+    "zh_tw": "{0} 的攻擊",
+    "en_us": "{0}'s attack"
   },
   {
     "ID": 500021,
-    "zh_tw": "攻擊方 {0} ({1}) → 防禦方 {2} ({3})"
+    "zh_tw": "攻擊方 {0} ({1}) → 防禦方 {2} ({3})",
+    "en_us": "Attacker {0} ({1}) → Defender {2} ({3})"
   },
   {
     "ID": 500022,
-    "zh_tw": "最終傷害：{0}"
+    "zh_tw": "最終傷害：{0}",
+    "en_us": "Final damage: {0}"
   },
   {
     "ID": 500023,
-    "zh_tw": "消滅 {0}"
+    "zh_tw": "消滅 {0}",
+    "en_us": "Destroy {0}"
   },
   {
     "ID": 500024,
-    "zh_tw": "強制 {0} 死亡"
+    "zh_tw": "強制 {0} 死亡",
+    "en_us": "Forced {0} Death"
   },
   {
     "ID": 500025,
-    "zh_tw": "{0} 獲得「{1}」狀態"
+    "zh_tw": "{0} 獲得「{1}」狀態",
+    "en_us": "{0} obtain \"{1}\" buff"
   },
   {
     "ID": 500026,
-    "zh_tw": "隨機觸發技能！"
+    "zh_tw": "隨機觸發技能！",
+    "en_us": "Trigger a skill at random!"
   },
   {
     "ID": 500027,
-    "zh_tw": "{0} 的「{1}」被替換為「{2}」了"
+    "zh_tw": "{0} 的「{1}」被替換為「{2}」了",
+    "en_us": "{0}'s \"{1}\" has been replaced with \"{2}\""
   },
   {
     "ID": 500028,
-    "zh_tw": "對 {0} 傷害被強制設定為 {1} 了"
+    "zh_tw": "對 {0} 傷害被強制設定為 {1} 了",
+    "en_us": "Damage to {0} is now forcibly set to {1}"
   },
   {
     "ID": 500029,
-    "zh_tw": "{0} 的 {1} 被強制設定為 {2} 了"
+    "zh_tw": "{0} 的 {1} 被強制設定為 {2} 了",
+    "en_us": "{1} of {0} has been forcibly set to {2}"
   },
   {
     "ID": 500030,
-    "zh_tw": "強制觸發 {0} 的「{1}」狀態"
+    "zh_tw": "強制觸發 {0} 的「{1}」狀態",
+    "en_us": "{0}'s \"{1}\" state is forcibly triggered"
   },
   {
     "ID": 500031,
-    "zh_tw": "{0} 失去「{1}」狀態"
+    "zh_tw": "{0} 失去「{1}」狀態",
+    "en_us": "{0} lost \"{1}\" buff"
   },
   {
     "ID": 3
   },
   {
     "ID": 1000001,
-    "zh_tw": "角色"
+    "zh_tw": "角色",
+    "en_us": "Unit"
   },
   {
     "ID": 1000002,
-    "zh_tw": "戰鬥"
+    "zh_tw": "戰鬥",
+    "en_us": "Combat"
   },
   {
     "ID": 1000003,
-    "zh_tw": "營地"
+    "zh_tw": "營地",
+    "en_us": "Camp"
   },
   {
     "ID": 1000004,
-    "zh_tw": "商店"
+    "zh_tw": "商店",
+    "en_us": "Shop"
   },
   {
     "ID": 1000005,
-    "zh_tw": "隊伍"
+    "zh_tw": "隊伍",
+    "en_us": "Team"
   },
   {
     "ID": 1000006,
-    "zh_tw": "裝備"
+    "zh_tw": "裝備",
+    "en_us": "Equipment"
   },
   {
     "ID": 1000007,
-    "zh_tw": "技能"
+    "zh_tw": "技能",
+    "en_us": "Skill"
   },
   {
     "ID": 1000008,
-    "zh_tw": "第 {0} 回合"
+    "zh_tw": "第 {0} 回合",
+    "en_us": "Turn {0}"
   },
   {
     "ID": 1000009,
-    "zh_tw": "追加行動"
+    "zh_tw": "追加行動",
+    "en_us": "Add Action"
   },
   {
     "ID": 1000010,
-    "zh_tw": "{0} 順序"
+    "zh_tw": "{0} 順序",
+    "en_us": "{0} Order"
   },
   {
     "ID": 1000011,
-    "zh_tw": "開始行動"
+    "zh_tw": "開始行動",
+    "en_us": "Start Action"
   },
   {
     "ID": 1000012,
-    "zh_tw": "強制結束"
+    "zh_tw": "強制結束",
+    "en_us": "Force End"
   },
   {
     "ID": 1000013,
-    "zh_tw": "死亡"
+    "zh_tw": "死亡",
+    "en_us": "Died"
   },
   {
     "ID": 1000014,
-    "zh_tw": "消滅"
+    "zh_tw": "消滅",
+    "en_us": "Destroy"
   },
   {
     "ID": 1000015,
-    "zh_tw": "點擊掃蕩"
+    "zh_tw": "點擊掃蕩",
+    "en_us": "Sweep"
   },
   {
     "ID": 1000016,
-    "zh_tw": "角色不可少於4人"
+    "zh_tw": "角色不可少於4人",
+    "en_us": "No less than 4 characters"
   },
   {
     "ID": 1000017,
-    "zh_tw": "不可分解已編組角色"
+    "zh_tw": "不可分解已編組角色",
+    "en_us": "Cannot be broken down into the team's unit"
   },
   {
     "ID": 1000018,
-    "zh_tw": "最大生命值"
+    "zh_tw": "最大生命值",
+    "en_us": "Max HP"
   },
   {
     "ID": 1000019,
-    "zh_tw": "生命值"
+    "zh_tw": "生命值",
+    "en_us": "HP"
   },
   {
     "ID": 1000020,
-    "zh_tw": "攻擊值"
+    "zh_tw": "攻擊值",
+    "en_us": "Attack"
   },
   {
     "ID": 1000021,
-    "zh_tw": "防禦值"
+    "zh_tw": "防禦值",
+    "en_us": "Defense"
   },
   {
     "ID": 1000022,
-    "zh_tw": "速度值"
+    "zh_tw": "速度值",
+    "en_us": "Speed"
   },
   {
     "ID": 1000023,
-    "zh_tw": "仇恨值"
+    "zh_tw": "仇恨值",
+    "en_us": "Hatred"
   },
   {
     "ID": 1000024,
-    "zh_tw": "SP值"
+    "zh_tw": "SP值",
+    "en_us": "SP"
   },
   {
     "ID": 1000025,
-    "zh_tw": "勝利"
+    "zh_tw": "勝利",
+    "en_us": "Victory"
   },
   {
     "ID": 1000026,
-    "zh_tw": "經驗值"
+    "zh_tw": "經驗值",
+    "en_us": "Exp"
   },
   {
     "ID": 1000027,
-    "zh_tw": "戰敗"
+    "zh_tw": "戰敗",
+    "en_us": "Lose"
   },
   {
     "ID": 1000028,
-    "zh_tw": "SP值不足！"
+    "zh_tw": "SP值不足！",
+    "en_us": "Not enough SP!"
   },
   {
     "ID": 1000029,
-    "zh_tw": "{0} {1}個"
+    "zh_tw": "{0} {1}個",
+    "en_us": "{0} {1}"
   },
   {
     "ID": 1000030,
-    "zh_tw": "確認投降？"
+    "zh_tw": "確認投降？",
+    "en_us": "Confirm surrender?"
   },
   {
     "ID": 1000031,
-    "zh_tw": "經驗值不足！需求經驗值：{0}"
+    "zh_tw": "經驗值不足！需求經驗值：{0}",
+    "en_us": "Insufficient experience! Required experience value: {0}"
   },
   {
     "ID": 1000032,
-    "zh_tw": "是否觀看廣告補充體力{0}點？"
+    "zh_tw": "是否觀看廣告補充體力{0}點？",
+    "en_us": "Whether to watch ads to replenish the Stamina {0} points?"
   },
   {
     "ID": 1000033,
-    "zh_tw": "體力不足！"
+    "zh_tw": "體力不足！",
+    "en_us": "Not enough Stamina!"
   },
   {
     "ID": 1000034,
-    "zh_tw": "{0} {1}回合"
+    "zh_tw": "{0} {1}回合",
+    "en_us": "{0} {1} round"
   },
   {
     "ID": 1000035,
-    "zh_tw": "打造屬於自己的角色\n點擊前往角色頁面"
+    "zh_tw": "打造屬於自己的角色\n點擊前往角色頁面",
+    "en_us": "Create your own unit\nClick to go to the unit page"
   },
   {
     "ID": 1000036,
-    "zh_tw": "這是技能欄位\n點擊選擇技能裝備\n\n* 之後長按可以顯示技能資訊"
+    "zh_tw": "這是技能欄位\n點擊選擇技能裝備\n\n* 之後長按可以顯示技能資訊",
+    "en_us": "This is the skill field\nClick to select skill to equip\n\n* long press can display the skill information"
   },
   {
     "ID": 1000037,
-    "zh_tw": "點擊選擇技能"
+    "zh_tw": "點擊選擇技能",
+    "en_us": "Click to select skills"
   },
   {
     "ID": 1000038,
-    "zh_tw": "選擇目標"
+    "zh_tw": "選擇目標",
+    "en_us": "Select a target"
   },
   {
     "ID": 1000039,
-    "zh_tw": "數值越低\n受到傷害越低"
+    "zh_tw": "數值越低\n受到傷害越低",
+    "en_us": "The lower the value\nthe lower the damage received"
   },
   {
     "ID": 1000040,
-    "zh_tw": "角色的仇恨值\n角色攻擊、治癒時增加\n角色受到傷害時減少"
+    "zh_tw": "角色的仇恨值\n角色攻擊、治癒時增加\n角色受到傷害時減少",
+    "en_us": "* Character's hate value\n* Increases when the character attacks or heals\n* Decrease when the character takes damage"
   },
   {
     "ID": 1000041,
-    "zh_tw": "點擊選擇技能\n\n* 技能可以透過關卡、商店或合成取得\n* 除特定技能，均為隨機掉落"
+    "zh_tw": "點擊選擇技能\n\n* 技能可以透過關卡、商店或合成取得\n* 除特定技能，均為隨機掉落",
+    "en_us": "Click to select a skill\n\n* Skills can be obtained through levels, stores or synthesis\n* All skills are randomly dropped except for certain skills"
   },
   {
     "ID": 1000042,
-    "zh_tw": "一個隊伍包含四個角色\n現在加入了之前缺少的隊員們\n之後可以在角色頁面確認內容"
+    "zh_tw": "一個隊伍包含四個角色\n現在加入了之前缺少的隊員們\n之後可以在角色頁面確認內容",
+    "en_us": "A team contains four units\nNow the missing team members are added\nAfter that, you can confirm the content on the unit page"
   },
   {
     "ID": 1000043,
-    "zh_tw": "隊伍中有角色等級遠低於建議等級\n是否仍要開始戰鬥？\n\n* 可以前往角色頁面進行升級"
+    "zh_tw": "隊伍中有角色等級遠低於建議等級\n是否仍要開始戰鬥？\n\n* 可以前往角色頁面進行升級",
+    "en_us": "There are characters in the team whose level is much lower than the recommended level.\nDo I still want to start the battle?\n\n* You can go to the unit page to upgrade"
   },
   {
     "ID": 1000044,
-    "zh_tw": "點擊角色進入角色編輯頁面\n\n* 角色可以在商店取得\n* 在角色分頁可以將角色編入隊伍"
+    "zh_tw": "點擊角色進入角色編輯頁面\n\n* 角色可以在商店取得\n* 在角色分頁可以將角色編入隊伍",
+    "en_us": "Click on the character to enter the unit edit page\n\n* Characters can be obtained from the Shop\n* You can assign characters to a team in the unit subpage"
   },
   {
     "ID": 1000045,
@@ -2099,55 +2226,68 @@
   },
   {
     "ID": 1000047,
-    "zh_tw": "- 無 -"
+    "zh_tw": "- 無 -",
+    "en_us": "- None -"
   },
   {
     "ID": 1000048,
-    "zh_tw": "選擇技能總數必須為偶數，目前選擇數量：{0}"
+    "zh_tw": "選擇技能總數必須為偶數，目前選擇數量：{0}",
+    "en_us": "The total number of skills selected must be even, the current number of selections: {0}"
   },
   {
     "ID": 1000049,
-    "zh_tw": "搜尋技能"
+    "zh_tw": "搜尋技能",
+    "en_us": "Search Skill"
   },
   {
     "ID": 1000050,
-    "zh_tw": "請輸入關鍵字 (不輸入則顯示全部技能)"
+    "zh_tw": "請輸入關鍵字",
+    "en_us": "Please enter the keywords"
   },
   {
     "ID": 1000051,
-    "zh_tw": "持有的技能"
+    "zh_tw": "持有的技能",
+    "en_us": "Held skills"
   },
   {
     "ID": 1000052,
-    "zh_tw": "選擇的技能"
+    "zh_tw": "選擇的技能",
+    "en_us": "Selected skills"
   },
   {
     "ID": 1000053,
-    "zh_tw": "合成技能"
+    "zh_tw": "合成技能",
+    "en_us": "Combine Skill"
   },
   {
     "ID": 1000054,
-    "zh_tw": "長按技能可以查看詳細資訊"
+    "zh_tw": "長按技能可以查看詳細資訊",
+    "en_us": "Long press the skill to view detailed information"
   },
   {
     "ID": 1000055,
-    "zh_tw": "使用技能失敗"
+    "zh_tw": "使用技能失敗",
+    "en_us": "Fail to use skill"
   },
   {
     "ID": 1000056,
-    "zh_tw": "護盾 {0}"
+    "zh_tw": "護盾 {0}",
+    "en_us": "Shield {0}"
   },
   {
     "ID": 1000057,
-    "zh_tw": "永久"
+    "zh_tw": "永久",
+    "en_us": "Permanent"
   },
   {
     "ID": 1000058,
-    "zh_tw": "剩餘"
+    "zh_tw": "剩餘",
+    "en_us": "Remaining"
   },
   {
     "ID": 1000059,
-    "zh_tw": "回合"
+    "zh_tw": "回合",
+    "en_us": "Turns"
   },
   {
     "ID": 1000060,
@@ -2179,175 +2319,130 @@
   },
   {
     "ID": 1000067,
-    "zh_tw": "[長按確認特殊掉落]"
+    "zh_tw": "[長按確認特殊掉落]",
+    "en_us": "[Long press to confirm special drop]"
   },
   {
     "ID": 1000068,
-    "zh_tw": "(掉落機率 {0}%)"
+    "zh_tw": "(掉落機率 {0}%)",
+    "en_us": "(Drop rate {0}%)"
   },
   {
     "ID": 1000069,
-    "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能"
+    "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能",
+    "en_us": "- Sweep cleared levels to gain skills and experience\n\n- Go to the character page and use experience points to upgrade heroes\n\n- Configure your team and skills according to the characteristics of the Demon King"
   },
   {
     "ID": 1000070,
-    "zh_tw": "被動"
+    "zh_tw": "被動",
+    "en_us": "Passive"
   },
   {},
   {
     "ID": 2000001,
-    "zh_tw": "分解角色時，會返回該角色的一半經驗值。"
+    "zh_tw": "分解角色時，會返回該角色的一半經驗值。",
+    "en_us": "When you dismantle a unit, half of the unit experience will be returned."
   },
   {
     "ID": 2000002,
-    "zh_tw": "敵人的技能資訊是隱藏的，戰鬥時需要謹慎進攻。"
+    "zh_tw": "敵人的技能資訊是隱藏的，戰鬥時需要謹慎進攻。",
+    "en_us": "Enemies' skill information is hidden, so you need to be careful when fighting."
   },
   {
     "ID": 2000003,
-    "zh_tw": "點擊角色資訊面版右上角的圖樣，可以將角色設定至隊伍中。"
+    "zh_tw": "點擊角色資訊面版右上角的圖樣，可以將角色設定至隊伍中。",
+    "en_us": "Click on the icon in the upper right corner of the unit information screen to assign a unit to a team."
   },
   {
     "ID": 2000004,
-    "zh_tw": "角色不能記憶兩個同樣的技能。"
+    "zh_tw": "角色不能記憶兩個同樣的技能。",
+    "en_us": "A unit cannot memorize two skills of the same."
   },
   {
     "ID": 2000005,
-    "zh_tw": "攻擊與防禦時，都有機率可以用更高的數值動作。"
+    "zh_tw": "攻擊與防禦時，都有機率可以用更高的數值動作。",
+    "en_us": "When attacking and defending, there is a chance that you can use a higher value action."
   },
   {
     "ID": 2000006,
-    "zh_tw": "追加使用的技能，會在執行技能後、行動結束前使用。"
+    "zh_tw": "追加使用的技能，會在執行技能後、行動結束前使用。",
+    "en_us": "Skills that are used retroactively will be used after the execution of the skill and before the end of the action."
   },
   {
     "ID": 2000007,
-    "zh_tw": "追加使用的技能，較後追加的技能會較先執行。"
+    "zh_tw": "追加使用的技能，較後追加的技能會較先執行。",
+    "en_us": "For additional skills, the skill that is added later will be executed first."
   },
   {
     "ID": 2000008,
-    "zh_tw": "所有角色行動結束後，才會結束回合。"
+    "zh_tw": "所有角色行動結束後，才會結束回合。",
+    "en_us": "The turn will end when all units have finished their actions."
   },
   {
     "ID": 2000009,
-    "zh_tw": "行動順序會即時顯示在戰場上。"
+    "zh_tw": "行動順序會即時顯示在戰場上。",
+    "en_us": "The order of actions will be displayed on the battlefield immediately."
   },
   {
     "ID": 2000010,
-    "zh_tw": "技能的選擇沒有限制，但是傷害會依仇恨值百分比減少。"
+    "zh_tw": "技能的選擇沒有限制，但是傷害會依仇恨值百分比減少。",
+    "en_us": "There is no limit to the choice of skills, but the damage will be reduced by the percentage of hate value."
   },
   {
     "ID": 2000011,
-    "zh_tw": "速度值除了會影響行動順序，也會依照與目標的速度差距影響傷害量。"
+    "zh_tw": "速度值除了會影響行動順序，也會依照與目標的速度差距影響傷害量。",
+    "en_us": "The speed value not only affects the order of actions, but also the amount of damage according to the speed difference with the target."
   },
   {
     "ID": 2000012,
-    "zh_tw": "角色資訊面板上的數值條，代表目前能力值與可能的最大值的比例。"
+    "zh_tw": "角色資訊面板上的數值條，代表目前能力值與可能的最大值的比例。",
+    "en_us": "The value bar on the unit information panel represents the ratio of the current ability value to the maximum possible value."
   },
   {
     "ID": 2000013,
-    "zh_tw": "戰鬥失敗與投降時不會扣減體力。"
+    "zh_tw": "戰鬥失敗與投降時不會扣減體力。",
+    "en_us": "Strength will not be deducted when you lose a battle or surrender."
   },
   {
     "ID": 2000014,
-    "zh_tw": "輪到自己角色行動時，可以點擊右上角的圖樣投降。"
+    "zh_tw": "輪到自己角色行動時，可以點擊右上角的圖樣投降。",
+    "en_us": "When it is your unit turn to act, you can surrender by clicking on the icon in the upper right corner."
   },
   {
     "ID": 2000015,
-    "zh_tw": "大多數的按鈕，都可以藉由長壓取得更詳細的資訊。"
+    "zh_tw": "大多數的按鈕，都可以藉由長壓取得更詳細的資訊。",
+    "en_us": "Most of the buttons can be used to obtain more detailed information by long press."
   },
   {
     "ID": 2000016,
-    "zh_tw": "戰鬥時，長壓角色的圖樣，可以取得素質以及持有狀態的詳細資訊。"
+    "zh_tw": "戰鬥時，長壓角色的圖樣，可以取得素質以及持有狀態的詳細資訊。",
+    "en_us": "When fighting, press and hold your character's icon to get more detailed information about your qualities and holding status."
   },
   {
     "ID": 2000017,
-    "zh_tw": "大多數的技能都可以透過關卡隨機取得"
+    "zh_tw": "大多數的技能都可以透過關卡隨機取得",
+    "en_us": "Most of the skills can be obtained randomly through the level."
   },
   {
     "ID": 2000018,
-    "zh_tw": "少部分的技能為角色特有的技能"
+    "zh_tw": "少部分的技能為角色特有的技能",
+    "en_us": "A small number of skills are unique to the unit."
+  },
+  {},
+  {
+    "ID": 3000001,
+    "zh_tw": "1. 廢棄的王城"
   },
   {
-    "ID": 2000019
+    "ID": 3000002,
+    "zh_tw": "2. 北方雪原"
   },
   {
-    "ID": 2000020
+    "ID": 3000003,
+    "zh_tw": "3. 東方森林"
   },
   {
-    "ID": 2000021
-  },
-  {
-    "ID": 2000022
-  },
-  {
-    "ID": 2000023
-  },
-  {
-    "ID": 2000024
-  },
-  {
-    "ID": 2000025
-  },
-  {
-    "ID": 2000026
-  },
-  {
-    "ID": 2000027
-  },
-  {
-    "ID": 2000028
-  },
-  {
-    "ID": 2000029
-  },
-  {
-    "ID": 2000030
-  },
-  {
-    "ID": 2000031
-  },
-  {
-    "ID": 2000032
-  },
-  {
-    "ID": 2000033
-  },
-  {
-    "ID": 2000034
-  },
-  {
-    "ID": 2000035
-  },
-  {
-    "ID": 2000036
-  },
-  {
-    "ID": 2000037
-  },
-  {
-    "ID": 2000038
-  },
-  {
-    "ID": 2000039
-  },
-  {
-    "ID": 2000040
-  },
-  {
-    "ID": 2000041
-  },
-  {
-    "ID": 2000042
-  },
-  {
-    "ID": 2000043
-  },
-  {
-    "ID": 2000044
-  },
-  {
-    "ID": 2000045
-  },
-  {
-    "ID": 2000046
+    "ID": 3000004,
+    "zh_tw": "4. 西方沙漠"
   }
 ]
