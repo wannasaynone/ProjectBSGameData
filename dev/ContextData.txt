@@ -2208,8 +2208,8 @@
   },
   {
     "ID": 1000043,
-    "zh_tw": "隊伍中有角色等級遠低於建議等級\n是否仍要開始戰鬥？\n\n* 可以前往角色頁面進行升級",
-    "en_us": "There are characters in the team whose level is much lower than the recommended level.\nDo I still want to start the battle?\n\n* You can go to the unit page to upgrade"
+    "zh_tw": "隊伍中有角色等級遠低於建議等級\n是否仍要開始戰鬥？\n\n* 掃蕩關卡可以取得經驗值\n* 可以前往角色頁面進行升級",
+    "en_us": "There are characters in the team whose level is much lower than the recommended level.\nDo I still want to start the battle?\n\n* Sweep levels can gain exp\n* You can go to the unit page to upgrade"
   },
   {
     "ID": 1000044,
