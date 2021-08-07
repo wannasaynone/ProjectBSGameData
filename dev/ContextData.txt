@@ -2004,7 +2004,7 @@
   {
     "ID": 1000002,
     "zh_tw": "戰鬥",
-    "en_us": "Combat"
+    "en_us": "Battle"
   },
   {
     "ID": 1000003,
@@ -2339,8 +2339,8 @@
   },
   {
     "ID": 1000071,
-    "zh_tw": "解鎖新區域 {0}",
-    "en_us": "Unlock new area {0}"
+    "zh_tw": "解鎖新區域 {0}\n\n* 透過戰鬥頁面下方的選單可以切換區域",
+    "en_us": "Unlock new area {0}\n\n* You can switch areas through the menu at the bottom of the Battle page."
   },
   {},
   {
