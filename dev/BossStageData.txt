@@ -15,7 +15,7 @@
   {
     "ID": 1,
     "AreaID": 1,
-    "Index": -1,
+    "Index": 0,
     "MainBossID": 1,
     "RequireLevel": 0,
     "Stamina": 0,
