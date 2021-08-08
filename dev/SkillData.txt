@@ -1191,7 +1191,7 @@
     "SP": 30,
     "NameContextID": 380,
     "DescriptionContextID": 381,
-    "Command": "OnActionStarted_Self\n{\n    ShowVFX(Temp);\n    AddStatus(Select(Opponent, Random, -1), HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}\n\nOnStartToEndAction_Self\n{\n    ShowVFX(Temp);\n    AddStatus(Select(Opponent, Random, -1), HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}",
+    "Command": "OnActionStarted_Self\n{\n    Remamber(Select(Opponent, Random, -1));\n    ShowVFXOnTarget(Temp);\n    AddStatus(LastSelected, HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}\n\nOnActionStarted_Other\n{\n    Remamber(Select(Opponent, Random, -1));\n    ShowVFXOnTarget(Temp);\n    AddStatus(LastSelected, HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}",
     "IsDrop": 0
   },
   {
@@ -1199,7 +1199,7 @@
     "SP": 45,
     "NameContextID": 382,
     "DescriptionContextID": 383,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.3, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n}",
     "IsDrop": 0
   },
   {
@@ -1342,7 +1342,7 @@
     "NameContextID": 10027,
     "DescriptionContextID": 10023,
     "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_Shake",
-    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * (1 + ((Target.MaxHP-Target.HP)/Target.MaxHP)), 0);\n}",
+    "Command": "OnActived\n{\n  DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * (1.1 + ((Target.MaxHP-Target.HP)/Target.MaxHP)), 0);\n}",
     "IsDrop": 0
   },
   {
