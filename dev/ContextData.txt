@@ -2342,6 +2342,11 @@
     "zh_tw": "解鎖新區域 {0}\n\n* 透過戰鬥頁面下方的選單可以切換區域",
     "en_us": "Unlock new area {0}\n\n* You can switch areas through the menu at the bottom of the Battle page."
   },
+  {
+    "ID": 1000072,
+    "zh_tw": "* 透過合成取得隨機技能\n* 選取任意2個或以上數量技能進行合成\n* 每2個技能合成後將得到1個新技能\n* 以下兩種技能無法取得: \n        1. 關卡限定掉落的技能\n        2. 角色持有的獨特技能",
+    "en_us": "* Obtain random skills through combining\n* Select any 2 or more skills to combine\n* Every 2 skills combined will result in 1 new skill\n* The following two types of skills cannot be obtained: \n        1. skills with limited drops from the boss\n        2. Unique skills held by the unique unit"
+  },
   {},
   {
     "ID": 2000001,
