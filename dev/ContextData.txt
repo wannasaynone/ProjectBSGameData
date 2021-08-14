@@ -2194,7 +2194,7 @@
   {
     "ID": 1000040,
     "zh_tw": "角色的仇恨值\n角色攻擊、治癒時增加\n角色受到傷害時減少",
-    "en_us": "* Character's hate value\n* Increases when the character attacks or heals\n* Decrease when the character takes damage"
+    "en_us": "* Hatred value\n* Increases when the unit attacks or heals\n* Decrease when the unit takes damage"
   },
   {
     "ID": 1000041,
@@ -2346,6 +2346,10 @@
     "ID": 1000072,
     "zh_tw": "* 透過合成取得隨機技能\n* 選取任意2個或以上數量技能進行合成\n* 每2個技能合成後將得到1個新技能\n* 以下兩種技能無法取得: \n        1. 關卡限定掉落的技能\n        2. 角色持有的獨特技能",
     "en_us": "* Obtain random skills through combining\n* Select any 2 or more skills to combine\n* Every 2 skills combined will result in 1 new skill\n* The following two types of skills cannot be obtained: \n        1. skills with limited drops from the boss\n        2. Unique skills held by the unique unit"
+  },
+  {
+    "ID": 1000073,
+    "zh_tw": "獲得體力{0}點"
   },
   {},
   {
