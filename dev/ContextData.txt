@@ -2329,7 +2329,7 @@
   },
   {
     "ID": 1000069,
-    "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能",
+    "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能\n\n- 善用搜尋功能搜尋魔王的技能資訊",
     "en_us": "- Sweep cleared levels to gain skills and experience\n\n- Go to the character page and use experience points to upgrade heroes\n\n- Configure your team and skills according to the characteristics of the Demon King"
   },
   {
