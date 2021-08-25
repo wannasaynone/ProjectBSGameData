@@ -1,4 +1,4 @@
 {
-   "DevAccountIDs" : "wannasaynone@gmail.com",
+   "DevAccountIDs" : "wannasaynone@gmail.com,alexlee7171@gmail.com",
    "UATAccountIDs" : "kaha@minidragon.net"
 }
