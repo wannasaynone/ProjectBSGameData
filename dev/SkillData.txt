@@ -1183,7 +1183,7 @@
     "SP": 30,
     "NameContextID": 378,
     "DescriptionContextID": 379,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n}",
     "IsDrop": 0,
     "Tag": 400004
   },
