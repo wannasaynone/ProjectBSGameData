@@ -954,7 +954,7 @@
     "NameContextID": 317,
     "DescriptionContextID": 318,
     "References": "B:109",
-    "Command": "OnStartToAttack_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Buff2, 1);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
+    "Command": "OnAttackTaregtSelected_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Buff2, 1);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -963,7 +963,7 @@
     "NameContextID": 319,
     "DescriptionContextID": 320,
     "References": "B:109",
-    "Command": "OnStartToAttack_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Buff2, 1);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
+    "Command": "OnAttackTaregtSelected_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Buff2, 1);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -972,7 +972,7 @@
     "NameContextID": 321,
     "DescriptionContextID": 322,
     "References": "B:109",
-    "Command": "OnStartToAttack_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Buff2, 1);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
+    "Command": "OnAttackTaregtSelected_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Buff2, 1);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -981,7 +981,7 @@
     "NameContextID": 323,
     "DescriptionContextID": 324,
     "References": "B:109",
-    "Command": "OnStartToAttack_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400001);\n          ShowVFX(Buff2, 1);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
+    "Command": "OnAttackTaregtSelected_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400001);\n          ShowVFX(Buff2, 1);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -990,7 +990,7 @@
     "NameContextID": 327,
     "DescriptionContextID": 328,
     "References": "B:110",
-    "Command": "OnStartToAttack_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400004);\n               ShowVFX(Circle1, 1);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
+    "Command": "OnAttackTaregtSelected_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400004);\n               ShowVFX(Circle1, 1);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -999,7 +999,7 @@
     "NameContextID": 329,
     "DescriptionContextID": 330,
     "References": "B:110",
-    "Command": "OnStartToAttack_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400006);\n               ShowVFX(Circle1, 1);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
+    "Command": "OnAttackTaregtSelected_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400006);\n               ShowVFX(Circle1, 1);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -1008,7 +1008,7 @@
     "NameContextID": 331,
     "DescriptionContextID": 332,
     "References": "B:110",
-    "Command": "OnStartToAttack_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400007);\n               ShowVFX(Circle1, 1);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
+    "Command": "OnAttackTaregtSelected_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400007);\n               ShowVFX(Circle1, 1);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -1017,7 +1017,7 @@
     "NameContextID": 333,
     "DescriptionContextID": 334,
     "References": "B:110",
-    "Command": "OnStartToAttack_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400001);\n               ShowVFX(Circle1, 1);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
+    "Command": "OnAttackTaregtSelected_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400001);\n               ShowVFX(Circle1, 1);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -1183,7 +1183,7 @@
     "SP": 30,
     "NameContextID": 378,
     "DescriptionContextID": 379,
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 75);\n          Quit();\n     EndIf();\n\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 75);\r\n          Quit();\r\n     EndIf();\n\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\r\n     BeginIf(Random(0, 100) <= 75);\r\n          Quit();\r\n     EndIf();\n\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n}",
     "IsDrop": 0,
     "Tag": 400004
   },
@@ -1200,7 +1200,7 @@
     "SP": 45,
     "NameContextID": 382,
     "DescriptionContextID": 383,
-    "Command": "OnActived\n{\n     Remember(Select(Opponent, Manual, 1));\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(Opponent, Manual, 1));\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n}",
     "IsDrop": 0,
     "Tag": 400007
   },
