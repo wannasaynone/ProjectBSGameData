@@ -2,12 +2,12 @@
   {
     "ID": 1,
     "AppearanceDataID": 10001,
-    "Attack": 75,
+    "Attack": 50,
     "Defense": 0,
     "Speed": 0,
     "HP": 250,
     "SP": 100,
-    "AI": "CastSkill(10001);"
+    "AI": "CastSkill(10000);"
   },
   {
     "ID": 2,
@@ -23,9 +23,9 @@
   {
     "ID": 3,
     "AppearanceDataID": 10003,
-    "Attack": 650,
+    "Attack": 550,
     "Defense": 100,
-    "Speed": 1500,
+    "Speed": 1600,
     "HP": 1000,
     "SP": 100,
     "AI": "RandomCastSkill(10002);"

@@ -24,7 +24,7 @@
     "ID": 3,
     "NameContextID": 13,
     "DescriptionContextID": 14,
-    "Command": "OnActionStarted_Self\n{\n     ShowVFX(Flame, 2);\n     AddStatus(Self, HP, -Random(0, Self.MaxHP * 0.04));\n}",
+    "Command": "OnActionStarted_Self\n{\n     ShowVFX(Flame, 2);\n     PlaySFX(Burn);\n     AddStatus(Self, HP, -Random(0, Self.MaxHP * 0.04));\n}",
     "Tag": 400003,
     "MaxAmount": 10
   },
@@ -34,13 +34,13 @@
     "DescriptionContextID": 16,
     "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(25%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 4, -99);\n}",
     "Tag": 400003,
-    "MaxAmount": 1
+    "MaxAmount": 3
   },
   {
     "ID": 5,
     "NameContextID": 17,
     "DescriptionContextID": 18,
-    "Command": "OnActionStarted_Self\n{\n     BeginIf(Self.HP >= Self.MaxHP * 0.02 + 1);\n         ShowVFX(Fog1, 2);\n         AddStatus(Self, HP, -Self.MaxHP * 0.02);\n     EndIf();\n}",
+    "Command": "OnActionStarted_Self\n{\n     BeginIf(Self.HP >= Self.MaxHP * 0.02 + 1);\n         ShowVFX(Fog1, 2);\n         PlaySFX(Posion);\n         AddStatus(Self, HP, -Self.MaxHP * 0.02);\n     EndIf();\n}",
     "Tag": 400003,
     "MaxAmount": 10
   },
@@ -211,7 +211,7 @@
     "ID": 10001,
     "NameContextID": 10003,
     "DescriptionContextID": 10004,
-    "Command": "OnAttackEnded_Self\n{\n   BeginIf(Random(1,100) <= 45);\n     Remember(LastAttacked);\n     ShowVFXOnTarget(Fog1, 2);\n     GainBuff(LastAttacked, 5, 1t2);\n   EndIf();\n\n  BeginIf(Random(1, 100) <= 30);\n    ShowVFX(Temp, 2);\n    GainBuff(Self, 10, 1t1);\n    AddExtraAction(Self, 1);\n  EndIf();\n}",
+    "Command": "OnAttackEnded_Self\n{\n   BeginIf(Random(1,100) <= 45);\n     Remember(LastAttacked);\n     ShowVFXOnTarget(Fog1, 2);\n     PlaySFX(Posion);\n     GainBuff(LastAttacked, 5, 1t2);\n   EndIf();\n\n  BeginIf(Random(1, 100) <= 30);\n    ShowVFX(Temp, 2);\n    GainBuff(Self, 10, 1t1);\n    PlaySFX(AddStatus);\n    AddExtraAction(Self, 1);\n  EndIf();\n}",
     "MaxAmount": 1
   },
   {
@@ -253,7 +253,7 @@
     "ID": 10007,
     "NameContextID": 10061,
     "DescriptionContextID": 10062,
-    "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(-30%);\n}",
+    "Command": "OnStartToTakeDamage_Self\n{\n     PlaySFX(DefenseBuff);\n     ShowVFX(Temp);\n     AddDamage(-30%);\n}",
     "MaxAmount": 8
   },
   {
