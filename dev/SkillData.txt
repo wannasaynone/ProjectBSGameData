@@ -1485,8 +1485,8 @@
     "SP": 0,
     "NameContextID": 10065,
     "DescriptionContextID": 10066,
-    "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Heal1_Target;\r\n0.25_Apply;\r\n0.25_SFX_HealingSmall",
-    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     AddStatus(Self, HP, Self.Defense * 2.6);\n     AddBuffAmount(Self, 10007, -1);\n}",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal1_Target;\n0.25_Apply;\n0.25_SFX_HealingSmall",
+    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Self, HP, Self.Defense * 2.6);\n     AddBuffAmount(Self, 10007, -1);\n}",
     "IsDrop": 0
   },
   {
@@ -1495,7 +1495,7 @@
     "NameContextID": 10067,
     "DescriptionContextID": 10068,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
-    "Command": "OnActived\n{\n    GainBuff(Self, 2, 2);\n    GainBuff(Self, 10007, 4t-1);\n}",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    GainBuff(Self, 2, 2);\n    GainBuff(Self, 10007, 4t-1);\n}",
     "IsDrop": 0
   },
   {
@@ -1504,7 +1504,7 @@
     "NameContextID": 10069,
     "DescriptionContextID": 10070,
     "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_Clean2;",
-    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     AddStatus(Select(All, Random, -1), HP, -Self.MaxHP * 0.05);\n     AddBuffAmount(Self, 10007, -1);\n\n     BeginIf_Buff(Self, 1, 10007);\n          CastSkill(10027);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Select(All, Random, -1), HP, -Self.MaxHP * 0.05);\n     AddBuffAmount(Self, 10007, -1);\n\n     BeginIf_Buff(Self, 1, 10007);\n          CastSkill(10027);\n     EndIf();\n}",
     "IsDrop": 0
   },
   {
