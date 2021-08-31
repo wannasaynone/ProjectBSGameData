@@ -56,9 +56,9 @@
     "ID": 6,
     "AppearanceDataID": 10005,
     "Attack": 9000,
-    "Defense": 6000,
-    "Speed": 1500,
-    "HP": 110000,
+    "Defense": 7000,
+    "Speed": 0,
+    "HP": 120000,
     "SP": 100,
     "SkillIDs": 10021,
     "AI": "CastSkill(10022);"
