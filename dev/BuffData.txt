@@ -253,7 +253,7 @@
     "ID": 10007,
     "NameContextID": 10061,
     "DescriptionContextID": 10062,
-    "Command": "OnStartToTakeDamage_Self\n{\n     PlaySFX(DefenseBuff);\n     ShowVFX(Temp);\n     AddDamage(-30%);\n}",
+    "Command": "OnStartToTakeDamage_Self\n{\n     PlaySFX(DefenseBuff);\n     ShowVFX(Temp, 1);\n     AddDamage(-30%);\n}",
     "MaxAmount": 8
   },
   {
