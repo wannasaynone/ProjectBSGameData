@@ -1476,7 +1476,7 @@
     "NameContextID": 10063,
     "DescriptionContextID": 10064,
     "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_SFX_NormalHit",
-    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 2, 0);\n     AddBuffAmount(Self, 10007, -1);\n}",
+    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          ShowSkillFailed();\n          Quit();\n     EndIf();\n\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 2, 0);\n     AddBuffAmount(Self, 10007, -1);\n}",
     "IsDrop": 0,
     "Tag": 400005
   },
@@ -1486,7 +1486,7 @@
     "NameContextID": 10065,
     "DescriptionContextID": 10066,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal1_Target;\n0.25_Apply;\n0.25_SFX_HealingSmall",
-    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Self, HP, Self.Defense * 2.6);\n     AddBuffAmount(Self, 10007, -1);\n}",
+    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          ShowSkillFailed();\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Self, HP, Self.Defense * 2.6);\n     AddBuffAmount(Self, 10007, -1);\n}",
     "IsDrop": 0
   },
   {
@@ -1504,7 +1504,7 @@
     "NameContextID": 10069,
     "DescriptionContextID": 10070,
     "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_Clean2;\n0.75_Apply;",
-    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Select(All, Random, -1), HP, -Self.MaxHP * 0.05);\n     AddBuffAmount(Self, 10007, -1);\n\n     BeginIf_Buff(Self, 1, 10007);\n          CastSkill(10027);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          ShowSkillFailed();\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Select(All, Random, -1), HP, -Self.MaxHP * 0.05);\n     AddBuffAmount(Self, 10007, -1);\n\n     BeginIf_Buff(Self, 1, 10007);\n          CastSkill(10027);\n     EndIf();\n}",
     "IsDrop": 0
   },
   {
