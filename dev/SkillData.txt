@@ -1503,7 +1503,7 @@
     "SP": 0,
     "NameContextID": 10069,
     "DescriptionContextID": 10070,
-    "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_Clean2;",
+    "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_Clean2;\n0.75_Apply;",
     "Command": "OnActived\n{\n     BeginIf_Buff(Self, 0, 10007);\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Select(All, Random, -1), HP, -Self.MaxHP * 0.05);\n     AddBuffAmount(Self, 10007, -1);\n\n     BeginIf_Buff(Self, 1, 10007);\n          CastSkill(10027);\n     EndIf();\n}",
     "IsDrop": 0
   },
