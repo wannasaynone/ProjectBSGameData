@@ -1450,7 +1450,7 @@
     "SP": 0,
     "NameContextID": 10052,
     "DescriptionContextID": 10053,
-    "Command": "OnBattleStarted\n{\n    GainBuff(Self, 10006, 1t20);\n}",
+    "Command": "OnBattleStarted\n{\n    GainBuff(Self, 10006, 1t10);\n}",
     "IsDrop": 0
   },
   {
