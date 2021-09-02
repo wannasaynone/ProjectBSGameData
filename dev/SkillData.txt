@@ -1188,7 +1188,7 @@
     "SP": 0,
     "NameContextID": 380,
     "DescriptionContextID": 381,
-    "Command": "OnActionStarted_Self\n{\n    Remember(Select(Opponent, Random, -1));\n    ShowVFXOnTarget(Temp,1.5);\n    PlaySFX(Posion);\n    AddStatus(LastSelected, HP, -Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}\n\nOnActionStarted_Other\n{\n    Remember(Select(Opponent, Random, -1));\n    ShowVFXOnTarget(Temp,1.5);\n    PlaySFX(Posion);\n    AddStatus(LastSelected, HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}",
+    "Command": "OnActionStarted_Self\n{\n    Remember(Select(Opponent, Random, -1));\n    ShowVFXOnTarget(Temp,1.5);\n    PlaySFX(Posion);\n    AddStatus(LastSelected, HP, -Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}\n\nOnActionStarted_Other\n{\n    Remember(Select(Opponent, Random, -1));\n    ShowVFXOnTarget(Temp,1.5);\n    PlaySFX(Posion);\n    AddStatus(LastSelected, HP, -Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}",
     "IsDrop": 0
   },
   {
