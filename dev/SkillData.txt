@@ -1377,7 +1377,7 @@
     "DescriptionContextID": 10030,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
     "References": "B:10003",
-    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10003, 1t2);\n     AddExtraAction(Self, 1);\n}",
+    "Command": "OnActived\n{\n     AddBuffAmount(Self, -1, -99);\n     SetPlayAnimationNext();\n     GainBuff(Self, 10003, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -1396,7 +1396,7 @@
     "DescriptionContextID": 10036,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\r\n0.25_SFX_AddBuff",
     "References": "B:10004",
-    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 1t2);\n     AddExtraAction(Self, 1);\n}",
+    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -1424,7 +1424,7 @@
     "DescriptionContextID": 10044,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff;",
     "References": "B:10005",
-    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10005, 1t2);\n     AddExtraAction(Self, 1);\n}",
+    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10005, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
   },
   {
