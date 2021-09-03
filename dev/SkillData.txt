@@ -1520,7 +1520,7 @@
     "SP": 0,
     "NameContextID": 10076,
     "DescriptionContextID": 10077,
-    "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_Buff(Self, 0, 10008);\n          SetDamage(0);\n          ShowVFX(Temp);\n          PlaySFX(DefenseBuff);\n     EndIf();\n}",
+    "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_Buff(Self, 0, 10008);\n          SetDamage(0);\n          ShowVFX(Temp, 1);\n          PlaySFX(DefenseBuff);\n     EndIf();\n}",
     "IsDrop": 0
   },
   {
