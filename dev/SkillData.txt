@@ -95,7 +95,7 @@
     "NameContextID": 119,
     "DescriptionContextID": 120,
     "AnimationInfo": "Support;\n0.085_ShowMessage;\n0.085_Apply;\n0.085_SFX_AddSP;\n0.085_Show_Aura7_Target",
-    "Command": "OnActived\n{\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), SP, 15);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n     SetPlayAnimationNext();\n     AddStatus(LastSelected, SP, 15);\n}",
     "IsDrop": 1
   },
   {
@@ -1188,7 +1188,7 @@
     "SP": 0,
     "NameContextID": 380,
     "DescriptionContextID": 381,
-    "Command": "OnActionStarted_Self\n{\n    Remember(Select(Opponent, Random, -1));\n    ShowVFXOnTarget(Temp,1.5);\n    PlaySFX(Posion);\n    AddStatus(LastSelected, HP, -Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}\n\nOnActionStarted_Other\n{\n    Remember(Select(Opponent, Random, -1));\n    ShowVFXOnTarget(Temp,1.5);\n    PlaySFX(Posion);\n    AddStatus(LastSelected, HP, -Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n}",
+    "Command": "OnActionStarted_Self\n{\n    Remember(Select(Opponent, Random, -1));\n    BeginIf_Buff(LastSelected, 1, 4);\n         ShowVFXOnTarget(Temp, 1);\n         PlaySFX(Posion);\n         AddStatus(LastSelected, HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n    EndIf();\n}\n\nOnActionStarted_Other\n{\n    Remember(Select(Opponent, Random, -1));\n    BeginIf_Buff(LastSelected, 1, 4);\n         ShowVFXOnTarget(Temp, 1);\n         PlaySFX(Posion);\n         AddStatus(LastSelected, HP, Target.MaxHP * 0.01 * Buff(Target, 4, Amount));\n    EndIf();\n}",
     "IsDrop": 0
   },
   {
