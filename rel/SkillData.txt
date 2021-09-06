@@ -95,7 +95,7 @@
     "NameContextID": 119,
     "DescriptionContextID": 120,
     "AnimationInfo": "Support;\n0.085_ShowMessage;\n0.085_Apply;\n0.085_SFX_AddSP;\n0.085_Show_Aura7_Target",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n     SetPlayAnimationNext();\n     AddStatus(LastSelected, SP, 15);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     SetPlayAnimationNext();\n     AddStatus(LastSelected, SP, 15);\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n}",
     "IsDrop": 1
   },
   {
