@@ -1128,7 +1128,7 @@
     "DescriptionContextID": 368,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:7",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Random, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n}",
     "IsDrop": 1
   },
   {
@@ -1138,7 +1138,7 @@
     "DescriptionContextID": 370,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:1",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Random, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 1, 1t3);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 1, 1t3);\n}",
     "IsDrop": 1
   },
   {
@@ -1148,7 +1148,7 @@
     "DescriptionContextID": 372,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:7;B:1",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Random, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n     GainBuff(LastSelected, 1, 1t3);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n     GainBuff(LastSelected, 1, 1t3);\n}",
     "IsDrop": 1
   },
   {
@@ -1158,7 +1158,7 @@
     "DescriptionContextID": 374,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:13",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Random, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 13, 1t3);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 13, 1t3);\n}",
     "IsDrop": 1
   },
   {
