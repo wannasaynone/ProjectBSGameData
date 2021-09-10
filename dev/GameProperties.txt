@@ -14,6 +14,6 @@
    "UpdateMainMenuHintTime" : 6,
    "MainMenuHintMinID" : 2000001,
    "MainMenuHintMaxID" : 2000016,
-   "AddStaminaByAd" : 80,
+   "AddStaminaByAd" : 200,
    "MaxCharacterAmount" : 100
 }

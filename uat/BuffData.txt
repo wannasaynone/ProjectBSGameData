@@ -109,7 +109,7 @@
     "ID": 101,
     "NameContextID": 103,
     "DescriptionContextID": 104,
-    "Command": "OnActived\n{\n     BeginIf(Buff(Owner, 101, Amount) >= 10);\n         AddBuffAmount(Self, 101, -99);\n         ReplaceSkill(1, 102);\n    EndIf();\n}",
+    "Command": "OnActived\n{\n     BeginIf_Skill(Self,1,102);\n          Quit();\n     EndIf();\n\n     BeginIf(Buff(Owner, 101, Amount) >= 10);\n         AddBuffAmount(Self, 101, -99);\n         ReplaceSkill(1, 102);\n    EndIf();\n}\n\nOnDamageCalculated_Self\n{\n      BeginIf(Self.LastSkill == 102);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddStatus);\n          AddDamage(5%);\n     EndIf();\n}",
     "MaxAmount": 10
   },
   {
