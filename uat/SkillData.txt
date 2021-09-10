@@ -95,7 +95,7 @@
     "NameContextID": 119,
     "DescriptionContextID": 120,
     "AnimationInfo": "Support;\n0.085_ShowMessage;\n0.085_Apply;\n0.085_SFX_AddSP;\n0.085_Show_Aura7_Target",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n     SetPlayAnimationNext();\n     AddStatus(LastSelected, SP, 15);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     SetPlayAnimationNext();\n     AddStatus(LastSelected, SP, 15);\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n}",
     "IsDrop": 1
   },
   {
@@ -464,7 +464,7 @@
     "DescriptionContextID": 204,
     "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_IceSpellHit;\n0.75_Damage_1;",
     "References": "B:4",
-    "Command": "OnActived\n{\n     BeginIf_Buff(Self, 1, 4);\n          DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 2.6, 0);\n          Quit();\n     EndIf();\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.3, 0);\n}",
+    "Command": "OnActived\n{\n     Remember(SelectOther(Opponent, Manual, 1));\n     BeginIf_Buff(LastSelected, 1, 4);\n          DealDamage(LastSelected, Self.Attack * 2.6, 0);\n          Quit();\n     EndIf();\n     DealDamage(LastSelected, Self.Attack * 1.3, 0);\n}",
     "IsDrop": 1
   },
   {
@@ -1128,7 +1128,7 @@
     "DescriptionContextID": 368,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:7",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Random, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n}",
     "IsDrop": 1
   },
   {
@@ -1138,7 +1138,7 @@
     "DescriptionContextID": 370,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:1",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Random, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 1, 1t3);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 1, 1t3);\n}",
     "IsDrop": 1
   },
   {
@@ -1148,7 +1148,7 @@
     "DescriptionContextID": 372,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:7;B:1",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Random, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n     GainBuff(LastSelected, 1, 1t3);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n     GainBuff(LastSelected, 1, 1t3);\n}",
     "IsDrop": 1
   },
   {
@@ -1158,7 +1158,7 @@
     "DescriptionContextID": 374,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:13",
-    "Command": "OnActived\n{\n     Remember(Select(SameSide, Random, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 13, 1t3);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 13, 1t3);\n}",
     "IsDrop": 1
   },
   {
