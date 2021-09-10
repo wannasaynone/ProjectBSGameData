@@ -602,7 +602,7 @@
     "NameContextID": 231,
     "DescriptionContextID": 232,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus",
-    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Self, Hatred, Self.Defense * 1.85);\n}",
+    "Command": "OnActived\n{\n     Remember(Self);\n     SetPlayAnimationNext();\n     AddStatus(LastSelected, Hatred, Self.Defense * 1.85);\n}",
     "IsDrop": 1
   },
   {
