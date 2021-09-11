@@ -1065,7 +1065,7 @@
     "NameContextID": 351,
     "DescriptionContextID": 352,
     "Command": "OnDied_Self\n{\n     DealDamage(CurrentActor, Self.Attack * 3, 0);\n}",
-    "IsDrop": 1
+    "IsDrop": 0
   },
   {
     "ID": 215,
