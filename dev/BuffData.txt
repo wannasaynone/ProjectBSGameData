@@ -247,6 +247,7 @@
     "NameContextID": 10054,
     "DescriptionContextID": 10055,
     "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnDamageTaken_Self\n{\n     AddBuffTime(Self, 10006, -1);\n}\n\nOnDeactived\n{\n     GainBuff(Self, 10007, 1t2);\n}",
+    "Tag": 400003,
     "MaxAmount": 1
   },
   {
