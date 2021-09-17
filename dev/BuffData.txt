@@ -246,31 +246,36 @@
     "ID": 10006,
     "NameContextID": 10054,
     "DescriptionContextID": 10055,
-    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnDamageTaken_Self\n{\n    AddBuffTime(Self, 10006, -1);\n}",
+    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnDamageTaken_Self\n{\n     AddBuffTime(Self, 10006, -1);\n}\n\nOnDeactived\n{\n     GainBuff(Self, 10007, 1t2);\n}",
     "MaxAmount": 1
   },
   {
     "ID": 10007,
-    "NameContextID": 10061,
-    "DescriptionContextID": 10062,
-    "Command": "OnStartToTakeDamage_Self\n{\n     PlaySFX(DefenseBuff);\n     ShowVFX(Temp, 1);\n     AddDamage(-30%);\n}",
-    "MaxAmount": 8
+    "NameContextID": 10058,
+    "DescriptionContextID": 10059,
+    "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(30%);\n}\n\nOnDeactived\n{\n     GainBuff(Self, 10006, 1t5);\n}",
+    "MaxAmount": 1
   },
   {
     "ID": 10008,
-    "NameContextID": 10074,
-    "DescriptionContextID": 10075,
-    "MaxAmount": 3
+    "NameContextID": 10065,
+    "DescriptionContextID": 10066
   },
   {
     "ID": 10009,
-    "NameContextID": 10082,
-    "DescriptionContextID": 10083,
-    "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.8); \n}",
-    "MaxAmount": 1
+    "NameContextID": 10074,
+    "DescriptionContextID": 10075
   },
-  {},
-  {},
+  {
+    "ID": 10010,
+    "NameContextID": 10080,
+    "DescriptionContextID": 10081
+  },
+  {
+    "ID": 10011,
+    "NameContextID": 10086,
+    "DescriptionContextID": 10087
+  },
   {},
   {},
   {},
