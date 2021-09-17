@@ -601,7 +601,7 @@
     "SP": 20,
     "NameContextID": 231,
     "DescriptionContextID": 232,
-    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddStatus",
     "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(Self,Manual,1), Hatred, Self.Defense * 1.85);\n}",
     "IsDrop": 1
   },
