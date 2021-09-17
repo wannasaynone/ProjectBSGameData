@@ -1458,7 +1458,7 @@
     "SP": 0,
     "NameContextID": 10056,
     "DescriptionContextID": 10057,
-    "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_HasBuffTag(Self, 1, 400003);\n          ShowVFX(Shield1, 1);\n          PlaySFX(Protection);\n         AddDamage(-75%);\n     EndIf();\n}",
+    "Command": "OnStartToTakeDamage_Self\n{\n     EffectCommand_BeginIf_HasBuffTag(Self, 1, 400003);\n          ShowVFX(Shield1, 1);\n          PlaySFX(Protection);\n         AddDamage(-75%);\n     EndIf();\n}",
     "IsDrop": 0
   },
   {
