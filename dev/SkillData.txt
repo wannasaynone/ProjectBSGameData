@@ -1206,7 +1206,7 @@
     "NameContextID": 384,
     "DescriptionContextID": 385,
     "References": "S:10013;B:10003;S:10015;B:10004;S:10018;B:10005",
-    "Command": "OnActived\n{\n     Remember(Select(Opponent, Manual, 1));\n     RandomCastSkill(10003);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(Self, Manual, 1));\n     RandomCastSkill(10003);\n}",
     "IsDrop": 0
   },
   {
