@@ -33,8 +33,7 @@
     "DescriptionContextID": 102,
     "References": "S:1;B:101;S:102",
     "Command": "OnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill == 1);\n          GainBuff(Self, 101, 1t-1);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 102,
@@ -52,8 +51,7 @@
     "DescriptionContextID": 108,
     "References": "S:1;S:102",
     "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 15);\n               ShowVFX(Hit22, 1);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 104,
@@ -62,8 +60,7 @@
     "DescriptionContextID": 110,
     "References": "S:1;S:102",
     "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n    BeginIf(Self.SP <= 19);\n        Quit();\n    EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 30);\n               ShowVFX(Hit22, 1);\n               AddStatus(Self, SP, -20);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 105,
@@ -72,8 +69,7 @@
     "DescriptionContextID": 112,
     "References": "S:1;S:102",
     "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n    BeginIf(Self.SP <= 39);\n        Quit();\n    EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 60);\n               ShowVFX(Hit22, 1);\n               AddStatus(Self, SP, -40);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 106,
@@ -91,8 +87,7 @@
     "NameContextID": 117,
     "DescriptionContextID": 118,
     "Command": "OnTurnStarted\n{\n     ShowVFX(Aura7, 1);\n     PlaySFX(AddSP);\n     AddStatus(Self, SP, 10);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 108,
@@ -101,8 +96,7 @@
     "DescriptionContextID": 120,
     "AnimationInfo": "Support;\n0.085_ShowMessage;\n0.085_Apply;\n0.085_SFX_AddSP;\n0.085_Show_Aura7_Target",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     SetPlayAnimationNext();\n     AddStatus(LastSelected, SP, 15);\n     AddStatus(Self, HP, -Self.MaxHP * 0.15);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 109,
@@ -111,8 +105,7 @@
     "DescriptionContextID": 122,
     "AnimationInfo": "Support;\n0.085_ShowMessage;\n0.085_Apply;\n0.085_SFX_AddSP;\n0.085_Show_Aura7_Target",
     "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), SP, 20);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 110,
@@ -129,8 +122,7 @@
     "NameContextID": 125,
     "DescriptionContextID": 126,
     "Command": "OnDamageTaken_Self\n{\n     ShowVFX(Buff6, 1);\n     PlaySFX(AddSP);\n     AddStatus(Self, SP, Self.LastTakenDamage / Self.MaxHP * 100);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 112,
@@ -138,8 +130,7 @@
     "NameContextID": 127,
     "DescriptionContextID": 128,
     "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf(Self.SP >= 10);\n          ShowVFX(Shield1, 1);\n          PlaySFX(Protection);\n          AddStatus(Self, SP, -10);\n          AddDamage(-20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 113,
@@ -147,8 +138,7 @@
     "NameContextID": 129,
     "DescriptionContextID": 130,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf(Self.SP >= 10);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddStatus);\n          AddStatus(Self, SP, -10);\n          AddDamage(20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 114,
@@ -219,8 +209,7 @@
     "NameContextID": 143,
     "DescriptionContextID": 144,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400001);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddStatus);\n          AddDamage(20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 121,
@@ -228,8 +217,7 @@
     "NameContextID": 145,
     "DescriptionContextID": 146,
     "Command": "OnAttackEnded_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400001);\n          ShowVFX(Hit4, 1);\n          PlaySFX(AddSP);\n          AddStatus(Self, SP, 10);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 122,
@@ -237,8 +225,7 @@
     "NameContextID": 147,
     "DescriptionContextID": 148,
     "Command": "OnStartToTakeDamage_Self\n{\n      AddDamage(-5%);\n      BeginIf_LastSkillTag(CurrentActor, 1, 400001);\n          ShowVFX(EnergyWall1, 1);\n          PlaySFX(Protection);\n          AddDamage(-20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 123,
@@ -246,8 +233,7 @@
     "NameContextID": 149,
     "DescriptionContextID": 150,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddStatus);\n          AddDamage(20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 124,
@@ -255,8 +241,7 @@
     "NameContextID": 151,
     "DescriptionContextID": 152,
     "Command": "OnStartToTakeDamage_Self\n{\n      AddDamage(-5%);\n      BeginIf_LastSkillTag(CurrentActor, 1, 400004);\n          ShowVFX(EnergyWall1, 1);\n          PlaySFX(Protection);\n          AddDamage(-20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 125,
@@ -264,8 +249,7 @@
     "NameContextID": 153,
     "DescriptionContextID": 154,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400005);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddStatus);\n          AddDamage(20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 126,
@@ -273,8 +257,7 @@
     "NameContextID": 155,
     "DescriptionContextID": 156,
     "Command": "OnStartToTakeDamage_Self\n{\n      AddDamage(-5%);\n      BeginIf_LastSkillTag(CurrentActor, 1, 400005);\n          ShowVFX(EnergyWall1, 1);\n          PlaySFX(Protection);\n          AddDamage(-20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 127,
@@ -282,8 +265,7 @@
     "NameContextID": 157,
     "DescriptionContextID": 158,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.12);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 128,
@@ -291,8 +273,7 @@
     "NameContextID": 159,
     "DescriptionContextID": 160,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, Self.Attack * 0.12);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 129,
@@ -300,8 +281,7 @@
     "NameContextID": 161,
     "DescriptionContextID": 162,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Defense, Self.Defense * 0.12);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 130,
@@ -309,8 +289,7 @@
     "NameContextID": 163,
     "DescriptionContextID": 164,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Speed, Self.Speed * 0.12);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 131,
@@ -318,8 +297,7 @@
     "NameContextID": 165,
     "DescriptionContextID": 166,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.06);\n     AddStatus(Self, Attack, Self.Attack * 0.6);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 132,
@@ -327,8 +305,7 @@
     "NameContextID": 167,
     "DescriptionContextID": 168,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.06);\n     AddStatus(Self, Defense, Self.Defense * 0.06);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 133,
@@ -336,8 +313,7 @@
     "NameContextID": 169,
     "DescriptionContextID": 170,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.06);\n     AddStatus(Self, Speed, Self.Speed * 0.06);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 134,
@@ -345,8 +321,7 @@
     "NameContextID": 171,
     "DescriptionContextID": 172,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, Self.Attack * 0.06);\n     AddStatus(Self, Defense, Self.Defense * 0.06);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 135,
@@ -354,8 +329,7 @@
     "NameContextID": 173,
     "DescriptionContextID": 174,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, Self.Attack * 0.06);\n     AddStatus(Self, Speed, Self.Speed * 0.06);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 136,
@@ -363,8 +337,7 @@
     "NameContextID": 175,
     "DescriptionContextID": 176,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Defense, Self.Defense * 0.06);\n     AddStatus(Self, Speed, Self.Speed * 0.06);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 137,
@@ -372,8 +345,7 @@
     "NameContextID": 177,
     "DescriptionContextID": 178,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.04);\n     AddStatus(Self, Attack, Self.Attack * 0.04);\n     AddStatus(Self, Defense, Self.Defense * 0.04);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 138,
@@ -381,8 +353,7 @@
     "NameContextID": 179,
     "DescriptionContextID": 180,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.04);\n     AddStatus(Self, Attack, Self.Attack * 0.04);\n     AddStatus(Self, Speed, Self.Speed * 0.04);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 139,
@@ -390,8 +361,7 @@
     "NameContextID": 181,
     "DescriptionContextID": 182,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, Self.Attack * 0.04);\n     AddStatus(Self, Defense, Self.Defense * 0.04);\n     AddStatus(Self, Speed, Self.Speed * 0.04);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 140,
@@ -399,8 +369,7 @@
     "NameContextID": 183,
     "DescriptionContextID": 184,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, MaxHP, Self.MaxHP * 0.03);\n     AddStatus(Self, Attack, Self.Attack * 0.03);\n     AddStatus(Self, Defense, Self.Defense * 0.03);\n     AddStatus(Self, Speed, Self.Speed * 0.03);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 141,
@@ -463,8 +432,7 @@
     "NameContextID": 195,
     "DescriptionContextID": 196,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddStatus);\n          AddDamage(20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 147,
@@ -472,8 +440,7 @@
     "NameContextID": 197,
     "DescriptionContextID": 198,
     "Command": "OnStartToTakeDamage_Self\n{\n      AddDamage(-5%);\n      BeginIf_LastSkillTag(CurrentActor, 1, 400006);\n          ShowVFX(EnergyWall1, 1);\n          PlaySFX(Protection);\n          AddDamage(-20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 148,
@@ -590,8 +557,7 @@
     "NameContextID": 221,
     "DescriptionContextID": 222,
     "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400002);\n          AddStatus(SkillLastSelected(CurrentActor), HP, Self.Defense * 0.15);\n          ShowVFXOnTarget(Heal1, 1.5);\n          PlaySFX(HealingSmall);\n    EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 160,
@@ -628,8 +594,7 @@
     "NameContextID": 229,
     "DescriptionContextID": 230,
     "Command": "OnBattleStarted\n{\n     AddStatus(Self, Hatred, Self.Defense * 2);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 164,
@@ -646,8 +611,7 @@
     "NameContextID": 233,
     "DescriptionContextID": 234,
     "Command": "OnDamageTaken_Other\n{\n     BeginIf(Caster.Camp == 0);\n          ShowVFX(Temp, 1);\n          AddStatus(Self, Hatred, Caster.LastTakenDamage);\n          PlaySFX(AddStatus);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 166,
@@ -743,8 +707,7 @@
     "NameContextID": 255,
     "DescriptionContextID": 256,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 176,
@@ -752,8 +715,7 @@
     "NameContextID": 257,
     "DescriptionContextID": 258,
     "Command": "OnStartToTakeDamage_Self\n{\n      AddDamage(-5%);\n      BeginIf_LastSkillTag(CurrentActor, 1, 400007);\n          ShowVFX(EnergyWall1, 1);\n          PlaySFX(Protection);\n          AddDamage(-20%);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 177,
@@ -888,8 +850,7 @@
     "NameContextID": 289,
     "DescriptionContextID": 290,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 191,
@@ -897,8 +858,7 @@
     "NameContextID": 291,
     "DescriptionContextID": 292,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 192,
@@ -906,8 +866,7 @@
     "NameContextID": 293,
     "DescriptionContextID": 294,
     "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 193,
@@ -971,8 +930,7 @@
     "NameContextID": 311,
     "DescriptionContextID": 312,
     "Command": "OnDamageTaken_Self\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(DefenseBuff);\n     AddStatus(CurrentActor, HP, -Self.LastTakenDamage * 0.2)\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 200,
@@ -991,8 +949,7 @@
     "DescriptionContextID": 318,
     "References": "B:109",
     "Command": "OnAttackTaregtSelected_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddBuff);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 202,
@@ -1001,8 +958,7 @@
     "DescriptionContextID": 320,
     "References": "B:109",
     "Command": "OnAttackTaregtSelected_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddBuff);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 203,
@@ -1011,8 +967,7 @@
     "DescriptionContextID": 322,
     "References": "B:109",
     "Command": "OnAttackTaregtSelected_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddBuff);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 204,
@@ -1021,8 +976,7 @@
     "DescriptionContextID": 324,
     "References": "B:109",
     "Command": "OnAttackTaregtSelected_Self\n{\n     BeginIf_LastSkillTag(Self, 1, 400001);\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddBuff);\n          GainBuff(Self, 109, 1t1);\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 205,
@@ -1031,8 +985,7 @@
     "DescriptionContextID": 328,
     "References": "B:110",
     "Command": "OnAttackTaregtSelected_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400004);\n               ShowVFX(Circle1, 1);\n               PlaySFX(DefenseBuff);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 206,
@@ -1041,8 +994,7 @@
     "DescriptionContextID": 330,
     "References": "B:110",
     "Command": "OnAttackTaregtSelected_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400006);\n               ShowVFX(Circle1, 1);\n               PlaySFX(DefenseBuff);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 207,
@@ -1051,8 +1003,7 @@
     "DescriptionContextID": 332,
     "References": "B:110",
     "Command": "OnAttackTaregtSelected_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400007);\n               ShowVFX(Circle1, 1);\n               PlaySFX(DefenseBuff);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 208,
@@ -1061,8 +1012,7 @@
     "DescriptionContextID": 334,
     "References": "B:110",
     "Command": "OnAttackTaregtSelected_Other\n{\n     BeginIf(CurrentActor.Camp == 1);\n          BeginIf_LastSkillTag(CurrentActor, 1, 400001);\n               ShowVFX(Circle1, 1);\n               PlaySFX(DefenseBuff);\n               GainBuff(Self, 110, 1t1);\n          EndIf();\n     EndIf();\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 209,
@@ -1107,8 +1057,7 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_DarkSpellHit;\n0.25_SFX_AddStatus",
     "References": "B:113",
     "Command": "OnActived\n{\n     AddStatus(Self, HP, -Self.Attack);\n     GainBuff(Self, 113, 1t1);\n     AddExtraAction(Self, 1);\n}",
-    "IsDrop": 1,
-    "Tag": 400008
+    "IsDrop": 1
   },
   {
     "ID": 214,
@@ -1116,8 +1065,7 @@
     "NameContextID": 351,
     "DescriptionContextID": 352,
     "Command": "OnDied_Self\n{\n     DealDamage(CurrentActor, Self.Attack * 3, 0);\n}",
-    "IsDrop": 0,
-    "Tag": 400008
+    "IsDrop": 0
   },
   {
     "ID": 215,
@@ -1126,8 +1074,7 @@
     "DescriptionContextID": 354,
     "References": "S:2;B:8",
     "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP <= 0);\n          SetStatus(Self, HP, 1);\n          ReplaceSkill(215, 2);\n     EndIf();\n}",
-    "IsDrop": 0,
-    "Tag": 400008
+    "IsDrop": 0
   },
   {
     "ID": 216,
@@ -1223,8 +1170,7 @@
     "SP": 0,
     "NameContextID": 377,
     "DescriptionContextID": 0,
-    "IsDrop": 0,
-    "Tag": 400008
+    "IsDrop": 0
   },
   {
     "ID": 226,
@@ -1357,8 +1303,7 @@
     "NameContextID": 10013,
     "DescriptionContextID": 10014,
     "Command": "OnDamageTaken_Other\n{\n    BeginIf(Caster.Camp == 1);\n    CastSkill(10006);\n    EndIf();\n}",
-    "IsDrop": 0,
-    "Tag": 400008
+    "IsDrop": 0
   },
   {
     "ID": 10006,
@@ -1469,8 +1414,7 @@
     "NameContextID": 10041,
     "DescriptionContextID": 10042,
     "Command": "OnDamageTaken_Self\n{\n     BeginIf_Buff(Self, 1, 10004);\n          BeginIf(Self.LastTakenDamage <= Self.MaxHP * 0.01);\n               CastSkill(10020);\n               PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n}",
-    "IsDrop": 0,
-    "Tag": 400008
+    "IsDrop": 0
   },
   {
     "ID": 10018,
@@ -1507,8 +1451,7 @@
     "DescriptionContextID": 10053,
     "References": "B:10006",
     "Command": "OnBattleStarted\n{\n     GainBuff(Self, 10006, 1t4);\n}",
-    "IsDrop": 0,
-    "Tag": 400008
+    "IsDrop": 0
   },
   {
     "ID": 10022,
@@ -1516,8 +1459,7 @@
     "NameContextID": 10056,
     "DescriptionContextID": 10057,
     "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_HasBuffTag(Self, 1, 400003);\n          ShowVFX(Shield1, 1);\n          PlaySFX(Protection);\n         AddDamage(-75%);\n     EndIf();\n}",
-    "IsDrop": 0,
-    "Tag": 400008
+    "IsDrop": 0
   },
   {
     "ID": 10023,
