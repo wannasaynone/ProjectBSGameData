@@ -16,11 +16,11 @@
   {
     "ID": 3,
     "NameContextID": 3000003,
-    "FrontStageIDs": 4
+    "FrontStageIDs": 99999
   },
   {
     "ID": 4,
     "NameContextID": 3000004,
-    "FrontStageIDs": 4
+    "FrontStageIDs": 99999
   }
 ]

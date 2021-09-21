@@ -61,8 +61,8 @@
     "Speed": 100,
     "HP": 82000,
     "SP": 100,
-    "SkillIDs": 10021,
-    "AI": "CastSkill(10022);"
+    "SkillIDs": "10021;10022",
+    "AI": "CastSkill(10023);"
   },
   {
     "ID": 7,
@@ -71,9 +71,7 @@
     "Defense": 2100,
     "Speed": 5100,
     "HP": 122000,
-    "SP": 100,
-    "SkillIDs": 10023,
-    "AI": "BeginIf(Buff(Self, 10007, Amount) >= 2);\n     CastSkill(10027);\n     Quit();\nEndIf();\n\nBeginIf(Self.HP <= Self.MaxHP * 0.7);\n     BeginIf(Random(0, 100) <= 50);\n          CastSkill(10024);\n          Quit();\n      EndIf();\n      CastSkill(10025);\n      Quit();\nEndIf();\n\nCastSkill(10024);"
+    "SP": 100
   },
   {
     "ID": 8,
@@ -82,8 +80,6 @@
     "Defense": 4100,
     "Speed": 4100,
     "HP": 82000,
-    "SP": 100,
-    "SkillIDs": "10028;10029",
-    "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.7);\nBeginIf_Buff(Self, 0, 10009);\n     BeginIf(Random(0, 100) <= 50);\n          CastSkill(10031);\n          Quit();\n      EndIf();\n      CastSkill(10030);\n      Quit();\nEndIf();\nEndIf();\n\nCastSkill(10030);"
+    "SP": 100
   }
 ]
