@@ -254,7 +254,7 @@
     "ID": 10007,
     "NameContextID": 10058,
     "DescriptionContextID": 10059,
-    "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(30%);\n}\n\nOnDeactived\n{\n     GainBuff(Self, 10006, 1t5);\n}",
+    "Command": "OnDeactived\n{\n     GainBuff(Self, 10006, 1t5);\n}",
     "MaxAmount": 1
   },
   {
