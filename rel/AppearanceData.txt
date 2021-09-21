@@ -29,28 +29,28 @@
     "SpriteAssetPath": "icon_game_100",
     "NameContextID": 100005,
     "DefaultSkillSet": "1;2",
-    "IsDrop": 1
+    "IsDrop": 3
   },
   {
     "ID": 11,
     "SpriteAssetPath": "icon_game_14",
     "NameContextID": 100005,
     "DefaultSkillSet": "1;2",
-    "IsDrop": 1
+    "IsDrop": 3
   },
   {
     "ID": 12,
     "SpriteAssetPath": "icon_game_91",
     "NameContextID": 100005,
     "DefaultSkillSet": "1;2",
-    "IsDrop": 1
+    "IsDrop": 3
   },
   {
     "ID": 13,
     "SpriteAssetPath": "icon_game_97",
     "NameContextID": 100005,
     "DefaultSkillSet": "1;2",
-    "IsDrop": 1
+    "IsDrop": 3
   },
   {
     "ID": 14,
@@ -107,7 +107,7 @@
   {
     "ID": 10006,
     "SpriteAssetPath": "icon_game_100",
-    "NameContextID": 10058,
+    "NameContextID": 10062,
     "IsDrop": 0
   },
   {
