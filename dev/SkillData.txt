@@ -1475,7 +1475,7 @@
     "SP": 0,
     "NameContextID": 10063,
     "DescriptionContextID": 10064,
-    "Command": "OnTurnStarted\n{\n     GainBuff(Select(All, Random, -1), 10008, 1t-1);\n     ShowVFXOnTarget(Temp, 1);\n     PlaySFX(AddBuff);\n}",
+    "Command": "OnTurnStarted\n{\n     Remember(Select(All, Random, -1));\n     ShowVFXOnTarget(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(LastSelected, 10008, 1t-1);\n}",
     "IsDrop": 0
   },
   {
