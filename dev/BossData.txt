@@ -67,10 +67,10 @@
   {
     "ID": 7,
     "AppearanceDataID": 10006,
-    "Attack": 3100,
+    "Attack": 1100,
     "Defense": 6100,
     "Speed": 1100,
-    "HP": 122000,
+    "HP": 162000,
     "SP": 100,
     "SkillIDs": "10024;10025",
     "AI": "CastSkill(10026);"
