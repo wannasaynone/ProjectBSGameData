@@ -1492,7 +1492,7 @@
     "NameContextID": 10069,
     "DescriptionContextID": 10070,
     "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Temp_Target;\r\n0.58_Shake;\r\n0.58_SFX_FireSpellHit",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * Buff(Self,10008,Amount) * 0.2 , 0);\n     SetStatus(Select(Opponent, Random, -1), Hatred, 1000);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * Buff(Self,10008,Amount) , 0);\n     SetStatus(Select(Opponent, Random, -1), Hatred, 1000);\n}",
     "IsDrop": 0
   },
   {
