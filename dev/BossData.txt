@@ -67,9 +67,9 @@
   {
     "ID": 7,
     "AppearanceDataID": 10006,
-    "Attack": 1100,
+    "Attack": 2100,
     "Defense": 6100,
-    "Speed": 1100,
+    "Speed": 100,
     "HP": 162000,
     "SP": 100,
     "SkillIDs": "10024;10025",
