@@ -2608,7 +2608,7 @@
   },
   {
     "ID": 2000011,
-    "zh_tw": "速度值除了會影響行動順序，也會依照與目標的速度差距影響傷害量。",
+    "zh_tw": "回合開始前，將根據速度值隨機增減10%後的數值決定行動順序。",
     "en_us": "The speed value not only affects the order of actions, but also the amount of damage according to the speed difference with the target."
   },
   {
@@ -2645,6 +2645,17 @@
     "ID": 2000018,
     "zh_tw": "少部分的技能為角色特有的技能",
     "en_us": "A small number of skills are unique to the unit."
+  },
+  {
+    "ID": 2000019,
+    "zh_tw": "滿級時的素質為隨機骰得，隨機範圍根據評價而定。可以透過面板上的數值條確認目前數值與最大值的比例。"
+  },
+  {
+    "ID": 2000020,
+    "zh_tw": "已經通過的關卡，可以透過長按關卡後，點擊「Replay」重複進行遊玩。"
+  },
+  {
+    "ID": 2000021
   },
   {},
   {
