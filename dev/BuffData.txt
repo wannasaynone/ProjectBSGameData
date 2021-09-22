@@ -130,7 +130,7 @@
     "ID": 104,
     "NameContextID": 275,
     "DescriptionContextID": 276,
-    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnStartToEndAction_Other\n{\n    BeginIf(Random(0, 100) <= Buff(Owner, 105, Amount) * 10);\n         AddBuffAmount(Self, 104 -99);\n         Quit();\n    EndIf();\n}",
+    "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnStartToEndAction_Other\n{\n    BeginIf(Random(0, 100) <= Buff(Owner, 105, Amount) * 10);\n         AddBuffAmount(Self, 104, -99);\n         Quit();\n    EndIf();\n}",
     "Tag": 400003,
     "MaxAmount": 1
   },
