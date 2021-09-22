@@ -902,7 +902,7 @@
     "NameContextID": 303,
     "DescriptionContextID": 304,
     "AnimationInfo": "Attack0;\n0.01_CastDarkSpell;\n0.58_Damage_1;\n0.58_Show_Temp_Target;\n0.58_SFX_BigHit",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.LastTakenDamage * 0.2, 0);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.LastTakenDamage * 2, 0);\n}",
     "IsDrop": 1
   },
   {
@@ -1474,19 +1474,26 @@
     "ID": 10024,
     "SP": 0,
     "NameContextID": 10063,
-    "DescriptionContextID": 10064
+    "DescriptionContextID": 10064,
+    "Command": "OnTurnStarted\n{\n     GainBuff(Select(All, Random, -1), 10008, 1t-1);\n     ShowVFXOnTarget(Temp, 1);\n     PlaySFX(AddBuff);\n}",
+    "IsDrop": 0
   },
   {
     "ID": 10025,
     "SP": 0,
     "NameContextID": 10067,
-    "DescriptionContextID": 10068
+    "DescriptionContextID": 10068,
+    "Command": "OnDamageDealed_Self\n{\n     AddStatus(Self, HP, Self.LastDealedDamage);\n     ShowVFX(Heal1, 1);\n     PlaySFX(HealingSmall);\n}",
+    "IsDrop": 0
   },
   {
     "ID": 10026,
     "SP": 0,
     "NameContextID": 10069,
-    "DescriptionContextID": 10070
+    "DescriptionContextID": 10070,
+    "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Temp_Target;\r\n0.58_Shake;\r\n0.58_SFX_FireSpellHit",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * Buff(Self,10008,Amount) * 0.2 , 0);\n     SetStatus(Select(Opponent, Random, -1), Hatred, 1000);\n}",
+    "IsDrop": 0
   },
   {
     "ID": 10027,
