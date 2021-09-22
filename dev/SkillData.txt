@@ -789,7 +789,7 @@
     "SP": 40,
     "NameContextID": 273,
     "DescriptionContextID": 274,
-    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_DecreaseStatus",
     "References": "B:104;B:105",
     "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Select(Opponent, Manual, 1), 104, 1t3);\n     GainBuff(LastSelected, 105, 1t-1);\n}",
     "IsDrop": 1
@@ -1483,7 +1483,7 @@
     "SP": 0,
     "NameContextID": 10067,
     "DescriptionContextID": 10068,
-    "Command": "OnDamageDealed_Self\n{\n     AddStatus(Self, HP, Self.LastDealedDamage);\n     ShowVFX(Heal1, 1);\n     PlaySFX(HealingSmall);\n}",
+    "Command": "OnDamageDealed_Self\n{\n     AddStatus(Self, HP, Self.LastDealedDamage);\n     ShowVFX(Heal1, 1);\n}",
     "IsDrop": 0
   },
   {
@@ -1492,7 +1492,7 @@
     "NameContextID": 10069,
     "DescriptionContextID": 10070,
     "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Temp_Target;\r\n0.58_Shake;\r\n0.58_SFX_FireSpellHit",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * Buff(Self,10008,Amount) * 0.2 , 1);\n     SetStatus(Select(Opponent, Random, -1), Hatred, 1000);\n}",
+    "Command": "OnActived\n{\n     BeginIf(Buff(Self,10008,Amount) <= 3);\n          DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * Buff(Self,10008,Amount) * 0.75 , 1);\n          Quit();\n     EndIf();\n\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 3 * 0.75 , 1);\n     SetStatus(Select(Opponent, Random, -1), Hatred, 1000);\n}",
     "IsDrop": 0
   },
   {
