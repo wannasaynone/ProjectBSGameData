@@ -1072,9 +1072,9 @@
     "SP": 0,
     "NameContextID": 353,
     "DescriptionContextID": 354,
-    "References": "S:2;B:8",
+    "References": "S:2;B:1",
     "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP <= 0);\n          SetStatus(Self, HP, 1);\n          ReplaceSkill(215, 2);\n     EndIf();\n}",
-    "IsDrop": 0
+    "IsDrop": 1
   },
   {
     "ID": 216,
@@ -1083,7 +1083,7 @@
     "DescriptionContextID": 356,
     "References": "B:114",
     "Command": "OnTurnStarted\n{\n     BeginIf(Self.HP >= Self.MaxHP * 0.1);\n          ShowVFX(Temp, 1);\n          GainBuff(Self, 114, 1t1);\n     EndIf();\n}",
-    "IsDrop": 0
+    "IsDrop": 1
   },
   {
     "ID": 217,
