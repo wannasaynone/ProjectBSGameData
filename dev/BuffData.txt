@@ -261,7 +261,7 @@
     "ID": 10008,
     "NameContextID": 10065,
     "DescriptionContextID": 10066,
-    "Command": "OnActionStarted_Self\n{\n         ShowVFX(Temp, 2);\r\n         PlaySFX(Posion);\r\n         AddStatus(Self, HP, -Self.MaxHP * 0.02);\n}",
+    "Command": "OnActionStarted_Self\n{\n         ShowVFX(Temp, 2);\n         PlaySFX(Posion);\n         AddStatus(Self, HP, -600);\n}",
     "Tag": 400003,
     "MaxAmount": 20
   },
