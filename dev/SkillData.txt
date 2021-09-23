@@ -1484,7 +1484,7 @@
     "SP": 0,
     "NameContextID": 10067,
     "DescriptionContextID": 10068,
-    "Command": "OnDamageDealed_Self\n{\n     AddStatus(Self, HP, Self.LastDealedDamage);\n     ShowVFX(Heal1, 1);\n}",
+    "Command": "OnDamageDealed_Self\n{\n     AddStatus(Self, HP, Self.LastDealedDamage * 0.8);\n     ShowVFX(Heal1, 1);\n}",
     "IsDrop": 0
   },
   {
