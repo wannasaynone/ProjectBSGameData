@@ -575,7 +575,7 @@
     "NameContextID": 225,
     "DescriptionContextID": 226,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Aura1_Target;\n0.25_SFX_Clean;\n0.25_Apply",
-    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    AddBuffAmountByTag(Select(SameSide, Manual, -1), 400003, -99);\n}",
+    "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    Remember(Select(SameSide, Manual, -1));\n    AddBuffAmountByTag(LastSelected, 400003, -99);\n}",
     "IsDrop": 1,
     "Tag": 400002
   },
