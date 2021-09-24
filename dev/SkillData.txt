@@ -1393,7 +1393,7 @@
     "SP": 0,
     "NameContextID": 10035,
     "DescriptionContextID": 10036,
-    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\r\n0.25_SFX_AddBuff",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
     "References": "B:10004",
     "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddBuffAmount(Self, -1, -99);\n     GainBuff(Self, 10004, 1t2);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 0
@@ -1501,7 +1501,7 @@
     "SP": 0,
     "NameContextID": 10072,
     "DescriptionContextID": 10073,
-    "Command": "OnTurnStarted\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}\n\nOnStartToEndAction_Self\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}",
+    "Command": "OnBattleStarted\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}\n\nOnStartToEndAction_Self\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}",
     "IsDrop": 0
   },
   {
@@ -1525,6 +1525,8 @@
     "SP": 0,
     "NameContextID": 10082,
     "DescriptionContextID": 10083,
+    "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Temp_Target;\r\n0.58_Shake;\r\n0.58_SFX_FireSpellHit",
+    "Command": "OnActived\n{\n    BeginIf_Buff(Self, 0, 10009);\n         DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 2, 0);\n         Quit();\n    EndIf();\n\n    DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * Buff(Self,10009,Amount) * 1 , 0);\n}",
     "IsDrop": 0
   },
   {
@@ -1532,6 +1534,8 @@
     "SP": 0,
     "NameContextID": 10084,
     "DescriptionContextID": 10085,
+    "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\r\n0.25_Apply;\r\n0.25_SFX_AddBuff",
+    "Command": "OnActived\n{\n    BeginIf_Buff(Self, 0, 10009);\n         GainBuff(Self, 10009, 3t-1);\n         Quit();\n    EndIf();\n\n     AddBuffAmount(Self, 10009, -1);\n     GainBuff(Self, 10011, 1t6);\n}",
     "IsDrop": 0
   },
   {
