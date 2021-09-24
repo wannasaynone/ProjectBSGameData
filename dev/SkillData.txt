@@ -1178,7 +1178,7 @@
     "NameContextID": 378,
     "DescriptionContextID": 379,
     "AnimationInfo": "Attack0;\n0.58_Fire_Spell4_0.3;\n0.58_SFX_\n0.88_Show_Hit16_Target;\n0.88_SFX_FireSpellHit;\n0.9_Damage_1;\n0.9_Show_ShortFlame_Target;",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n     BeginIf(Random(0, 100) <= 70);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.8, 1);\n}",
     "IsDrop": 0,
     "Tag": 400004
   },
@@ -1500,31 +1500,39 @@
     "ID": 10027,
     "SP": 0,
     "NameContextID": 10072,
-    "DescriptionContextID": 10073
+    "DescriptionContextID": 10073,
+    "Command": "OnTurnStarted\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}\n\nOnStartToEndAction_Self\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}",
+    "IsDrop": 0
   },
   {
     "ID": 10028,
     "SP": 0,
     "NameContextID": 10076,
-    "DescriptionContextID": 10077
+    "DescriptionContextID": 10077,
+    "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_Buff(Self, 0, 10009);\n          ShowVFX(Temp, 1);\n          PlaySFX(Protection);\n          SetDamage(0);\n     EndIf();\n}",
+    "IsDrop": 0
   },
   {
     "ID": 10029,
     "SP": 0,
     "NameContextID": 10078,
-    "DescriptionContextID": 10079
+    "DescriptionContextID": 10079,
+    "Command": "OnStartToEndAction_Self\n{\n      BeginIf_Buff(Self, 0, 10009);\n          Quit();\n      EndIf();\n\n      BeginIf_Buff(Self, 1, 10010);\n          Quit();\n      EndIf();\n\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     AddBuffAmount(Self, 10009, -1);\n     AddExtraAction(Self, 1);\n     GainBuff(Self, 10010, 1t1);\n}",
+    "IsDrop": 0
   },
   {
     "ID": 10030,
     "SP": 0,
     "NameContextID": 10082,
-    "DescriptionContextID": 10083
+    "DescriptionContextID": 10083,
+    "IsDrop": 0
   },
   {
     "ID": 10031,
     "SP": 0,
     "NameContextID": 10084,
-    "DescriptionContextID": 10085
+    "DescriptionContextID": 10085,
+    "IsDrop": 0
   },
   {
     "Command": ""
