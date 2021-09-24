@@ -281,7 +281,7 @@
     "ID": 10011,
     "NameContextID": 10086,
     "DescriptionContextID": 10087,
-    "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.7);\n     AddStatus(Self, Speed, -Self.Speed * 0.5);\n}\n\nOnDamageTaken_Self\n{\n     AddStatus(Self, HP, Self,Defense * 1.5);\n     AddBuffTime(Self, 10011, -1);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.7);\n     AddStatus(Self, Speed, -Self.Speed * 0.5);\n}\n\nOnDamageTaken_Self\n{\n     AddStatus(Self, HP, Self.Defense * 1.5);\n     AddBuffTime(Self, 10011, -1);\n}",
     "MaxAmount": 1
   },
   {},
