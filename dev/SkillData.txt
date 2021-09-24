@@ -1501,7 +1501,7 @@
     "SP": 0,
     "NameContextID": 10072,
     "DescriptionContextID": 10073,
-    "Command": "OnBattleStarted\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}\n\nOnStartToEndAction_Self\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}",
+    "Command": "OnBattleStarted\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}\n\nOnStartToEndAction_Self\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     GainBuff(Self, 10009, 3t-1);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 10009, -1);\n}",
     "IsDrop": 0
   },
   {
