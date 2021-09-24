@@ -1517,7 +1517,7 @@
     "SP": 0,
     "NameContextID": 10078,
     "DescriptionContextID": 10079,
-    "Command": "OnStartToEndAction_Self\n{\n      BeginIf_Buff(Self, 0, 10009);\n          Quit();\n      EndIf();\n\n      BeginIf_Buff(Self, 1, 10010);\n          Quit();\n      EndIf();\n\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     AddBuffAmount(Self, 10009, -1);\n     AddExtraAction(Self, 1);\n     GainBuff(Self, 10010, 1t1);\n}",
+    "Command": "OnDamageTaken_Self\n{\n      BeginIf_Buff(Self, 0, 10009);\n          Quit();\n      EndIf();\n\n      BeginIf_Buff(Self, 1, 10010);\n          Quit();\n      EndIf();\n\n     ShowVFX(Temp, 1);\n     PlaySFX(AddBuff);\n     AddBuffAmount(Self, 10009, -1);\n     AddExtraAction(Self, 1);\n     GainBuff(Self, 10010, 1t1);\n}",
     "IsDrop": 0
   },
   {
