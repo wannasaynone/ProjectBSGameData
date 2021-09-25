@@ -1250,7 +1250,7 @@
     "Tag": 400004
   },
   {
-    "Command": ""
+    "Command": null
   },
   {
     "ID": 10000,
@@ -1534,12 +1534,12 @@
     "SP": 0,
     "NameContextID": 10084,
     "DescriptionContextID": 10085,
-    "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Target;\r\n0.25_Apply;\r\n0.25_SFX_AddBuff",
-    "Command": "OnActived\n{\n    BeginIf_Buff(Self, 0, 10009);\n         GainBuff(Self, 10009, 3t-1);\n         Quit();\n    EndIf();\n\n     AddBuffAmount(Self, 10009, -1);\n     GainBuff(Self, 10011, 1t6);\n}",
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
+    "Command": "OnActived\n{\n    BeginIf_Buff(Self, 0, 10009);\n         SetPlayAnimationNext();\n         GainBuff(Self, 10009, 3t-1);\n         Quit();\n    EndIf();\n\n     AddBuffAmount(Self, 10009, -1);\n     SetPlayAnimationNext();\n     GainBuff(Self, 10011, 1t6);\n}",
     "IsDrop": 0
   },
   {
-    "Command": ""
+    "Command": null
   },
   {
     "ID": 999990,
