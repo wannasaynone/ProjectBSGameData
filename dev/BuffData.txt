@@ -167,14 +167,14 @@
     "ID": 109,
     "NameContextID": 315,
     "DescriptionContextID": 316,
-    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.15); \n}\n\nOnAttackEnded_Self\n{\n     AddBuffAmount(Self, 109, -99);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.15 * Buff(Self, 109, Amount)); \n}\n\nOnAttackEnded_Self\n{\n     AddBuffAmount(Self, 109, -99);\n}",
     "MaxAmount": 3
   },
   {
     "ID": 110,
     "NameContextID": 325,
     "DescriptionContextID": 326,
-    "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.15); \n}\n\nOnStartToEndAction_Other\n{\n     AddBuffAmount(Self, 110, -99);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.15 * Buff(Self, 110, Amount)); \n}\n\nOnStartToEndAction_Other\n{\n     AddBuffAmount(Self, 110, -99);\n}",
     "MaxAmount": 3
   },
   {
