@@ -269,7 +269,7 @@
     "ID": 10009,
     "NameContextID": 10074,
     "DescriptionContextID": 10075,
-    "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.05); \n}",
+    "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.05 * Buff(Self, 10009, Amount)); \n}",
     "MaxAmount": 12
   },
   {
