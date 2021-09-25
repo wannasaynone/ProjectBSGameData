@@ -1178,7 +1178,7 @@
     "NameContextID": 378,
     "DescriptionContextID": 379,
     "AnimationInfo": "Attack0;\n0.58_Fire_Spell4_0.3;\n0.58_SFX_\n0.88_Show_Hit16_Target;\n0.88_SFX_FireSpellHit;\n0.9_Damage_1;\n0.9_Show_ShortFlame_Target;",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.5, 0.5);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.5, 0.5);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.5, 0.5);\n     BeginIf(Random(0, 100) <= 70);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.5, 0.5);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 1.5, 0.5);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 1.5, 0.5);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 1.5, 0.5);\n     BeginIf(Random(0, 100) <= 70);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 1.5, 0.5);\n}",
     "IsDrop": 0,
     "Tag": 400004
   },
