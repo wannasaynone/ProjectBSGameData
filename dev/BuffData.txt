@@ -254,7 +254,7 @@
     "ID": 10007,
     "NameContextID": 10058,
     "DescriptionContextID": 10059,
-    "Command": "OnDeactived\n{\n     GainBuff(Self, 10006, 1t5);\n}",
+    "Command": "OnDeactived\n{\n     GainBuff(Self, 10006, 1t3);\n}",
     "MaxAmount": 1
   },
   {
