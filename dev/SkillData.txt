@@ -1174,7 +1174,7 @@
   },
   {
     "ID": 226,
-    "SP": 80,
+    "SP": 60,
     "NameContextID": 378,
     "DescriptionContextID": 379,
     "AnimationInfo": "Attack0;\n0.58_Fire_Spell4_0.3;\n0.58_SFX_\n0.88_Show_Hit16_Target;\n0.88_SFX_FireSpellHit;\n0.9_Damage_1;\n0.9_Show_ShortFlame_Target;",
