@@ -84,6 +84,6 @@
     "HP": 22000,
     "SP": 100,
     "SkillIDs": "10027;10028;10029",
-    "AI": "BeginIf_Buff(Self, 0, 10009);\n     CastSkill(10031);\n     Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10011);\r\n     CastSkill(10031);\r\n     Quit();\r\nEndIf();\n\nBeginIf(Random(0, 100) <= 50);\n     CastSkill(10031);\n     Quit();\nEndIf();\n\nCastSkill(10030);"
+    "AI": "BeginIf_Buff(Self, 0, 10009);\n     CastSkill(10031);\n     Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10011);\n     CastSkill(10030);\n     Quit();\nEndIf();\n\nBeginIf(Random(0, 100) <= 50);\n     CastSkill(10031);\n     Quit();\nEndIf();\n\nCastSkill(10030);"
   }
 ]
