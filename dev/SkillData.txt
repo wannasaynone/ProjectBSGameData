@@ -902,7 +902,7 @@
     "NameContextID": 303,
     "DescriptionContextID": 304,
     "AnimationInfo": "Attack0;\n0.01_CastDarkSpell;\n0.58_Damage_1;\n0.58_Show_Temp_Target;\n0.58_SFX_BigHit",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.LastTakenDamage * 2, 0);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.LastTakenDamage, 0);\n}",
     "IsDrop": 1
   },
   {

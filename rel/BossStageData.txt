@@ -94,7 +94,7 @@
   {
     "ID": 7,
     "AreaID": 4,
-    "Index": -1,
+    "Index": 6,
     "MainBossID": 8,
     "RequireLevel": 100,
     "Stamina": 80,
