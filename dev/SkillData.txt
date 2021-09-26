@@ -556,7 +556,7 @@
     "SP": 0,
     "NameContextID": 221,
     "DescriptionContextID": 222,
-    "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400002);\n          Remamber(SkillLastSelected(CurrentActor));\n          ShowVFXOnTarget(Heal1, 1.5);\r\n          PlaySFX(HealingSmall);\n          AddStatus(LastSelected, HP, Self.Defense * 0.15);\n    EndIf();\n}",
+    "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400002);\n          Remember(SkillLastSelected(CurrentActor));\n          ShowVFXOnTarget(Heal1, 1.5);\n          PlaySFX(HealingSmall);\n          AddStatus(LastSelected, HP, Self.Defense * 0.15);\n    EndIf();\n}",
     "IsDrop": 1
   },
   {
