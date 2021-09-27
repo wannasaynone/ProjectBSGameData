@@ -289,7 +289,7 @@
     "ID": 10012,
     "NameContextID": 10093,
     "DescriptionContextID": 10094,
-    "Command": "OnDamageCalculated_Self\n{\n          ShowVFX(Buff2, 1);\n          PlaySFX(AddStatus);\r\n          AddDamage(60%);\n}",
+    "Command": "OnDamageCalculated_Self\n{\n     ShowVFX(Buff2, 1);\n     PlaySFX(AddStatus);\n     AddDamage(60%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 10012, -99);\n}",
     "MaxAmount": 1
   },
   {},
