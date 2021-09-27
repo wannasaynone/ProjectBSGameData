@@ -50,7 +50,7 @@
     "NameContextID": 107,
     "DescriptionContextID": 108,
     "References": "S:1;S:102",
-    "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 15);\n               ShowVFX(Hit22, 1);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
+    "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 15);\n               ShowVFX(Hit22, 1);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n\n     BeginIf(Self.LastSkill == 102);\n          BeginIf(Random(0, 100) <= 15);\n               ShowVFX(Hit22, 1);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -59,7 +59,7 @@
     "NameContextID": 109,
     "DescriptionContextID": 110,
     "References": "S:1;S:102",
-    "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n    BeginIf(Self.SP <= 19);\n        Quit();\n    EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 30);\n               ShowVFX(Hit22, 1);\n               AddStatus(Self, SP, -20);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
+    "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n    BeginIf(Self.SP <= 19);\n        Quit();\n    EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 30);\n               ShowVFX(Hit22, 1);\n               AddStatus(Self, SP, -20);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n\n     BeginIf(Self.LastSkill == 102);\n          BeginIf(Random(0, 100) <= 30);\n               ShowVFX(Hit22, 1);\n               AddStatus(Self, SP, -20);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -68,7 +68,7 @@
     "NameContextID": 111,
     "DescriptionContextID": 112,
     "References": "S:1;S:102",
-    "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n    BeginIf(Self.SP <= 39);\n        Quit();\n    EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 60);\n               ShowVFX(Hit22, 1);\n               AddStatus(Self, SP, -40);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
+    "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,1);\n             BeginIf_Skill(Self,0,102);\n                    Quit();\n               EndIf();\n     EndIf();\n\n    BeginIf(Self.SP <= 39);\n        Quit();\n    EndIf();\n\n     BeginIf(Self.LastSkill == 1);\n          BeginIf(Random(0, 100) <= 60);\n               ShowVFX(Hit22, 1);\n               AddStatus(Self, SP, -40);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n\n     BeginIf(Self.LastSkill == 102);\n          BeginIf(Random(0, 100) <= 60);\n               ShowVFX(Hit22, 1);\n               AddStatus(Self, SP, -40);\n               CastSkill(1);\n          EndIf();\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
