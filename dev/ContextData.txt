@@ -1739,6 +1739,34 @@
     "ID": 10087,
     "zh_tw": "增加防禦值70%。減少速度值50%。受到傷害時，增加150%防禦值的生命值，並減少持續回合數1回合。"
   },
+  {
+    "ID": 10088,
+    "zh_tw": "異變的冰妖精"
+  },
+  {
+    "ID": 10089,
+    "zh_tw": "冰刺"
+  },
+  {
+    "ID": 10090,
+    "zh_tw": "對隨機2名敵人造成130%攻擊值的傷害。隨機挑選的機率根據仇恨值比例增減。"
+  },
+  {
+    "ID": 10091,
+    "zh_tw": "嬉鬧"
+  },
+  {
+    "ID": 10092,
+    "zh_tw": "給予自己「情緒高亢」。"
+  },
+  {
+    "ID": 10093,
+    "zh_tw": "情緒高亢"
+  },
+  {
+    "ID": 10094,
+    "zh_tw": "將造成傷害時，增加造成的傷害60%。受到傷害後，消除這個狀態。"
+  },
   {},
   {
     "ID": 100001,
@@ -1811,6 +1839,10 @@
     "ID": 300007,
     "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n西方的路通往貧脊之地。\n受風砂侵蝕高崙也化為風砂，鎮守在西方的城門。",
     "en_us": "Recommended level: Lv. 100\nLumino's investigation report : \nThe road to the west leads to the land of the poor ridge.\nThe wind sand eroded Gaulan also turned into wind sand and guarded the western gate."
+  },
+  {
+    "ID": 300008,
+    "zh_tw": "建議等級：Lv. 100\n紀錄：在冰原中遊蕩的奇幻生物。\r\n擁有人形，但缺乏智能，無法溝通。\r\n似乎以殘留在大氣的未知能量為生。"
   },
   {},
   {

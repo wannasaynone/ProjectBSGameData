@@ -68,7 +68,7 @@
   {
     "ID": 5,
     "AreaID": 2,
-    "Index": 4,
+    "Index": 0,
     "MainBossID": 6,
     "RequireLevel": 100,
     "Stamina": 80,
@@ -81,7 +81,7 @@
   {
     "ID": 6,
     "AreaID": 3,
-    "Index": 5,
+    "Index": 0,
     "MainBossID": 7,
     "RequireLevel": 100,
     "Stamina": 80,
@@ -94,13 +94,26 @@
   {
     "ID": 7,
     "AreaID": 4,
-    "Index": 6,
+    "Index": 0,
     "MainBossID": 8,
     "RequireLevel": 100,
     "Stamina": 80,
     "BossIDs": 8,
     "DescriptionContextID": 300007,
     "FrontStageIDs": 4,
+    "MinExp": 1980400,
+    "MaxExp": 3960800
+  },
+  {
+    "ID": 8,
+    "AreaID": 2,
+    "Index": 1,
+    "MainBossID": 9,
+    "RequireLevel": 100,
+    "Stamina": 80,
+    "BossIDs": "9;9;9",
+    "DescriptionContextID": 300008,
+    "FrontStageIDs": 5,
     "MinExp": 1980400,
     "MaxExp": 3960800
   }
