@@ -99,10 +99,10 @@
   {
     "ID": 10,
     "AppearanceDataID": 10009,
-    "Attack": 5000,
-    "Defense": 5000,
-    "Speed": 5000,
-    "HP": 34000,
+    "Attack": 6000,
+    "Defense": 3000,
+    "Speed": 7000,
+    "HP": 30000,
     "SP": 100,
     "SkillIDs": 10034,
     "AI": "BeginIf_Buff(Self, 0, 10013);\r\n     CastSkill(10034);\r\n     Quit();\r\nEndIf();\n\nCastSkill(10036);"

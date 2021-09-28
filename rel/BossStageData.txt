@@ -117,5 +117,18 @@
     "DropData": "230:10",
     "MinExp": 1980400,
     "MaxExp": 3960800
+  },
+  {
+    "ID": 9,
+    "AreaID": 2,
+    "Index": 2,
+    "MainBossID": 10,
+    "RequireLevel": 100,
+    "Stamina": 80,
+    "BossIDs": "9;10;9",
+    "DescriptionContextID": 300009,
+    "FrontStageIDs": 8,
+    "MinExp": 1980400,
+    "MaxExp": 3960800
   }
 ]
