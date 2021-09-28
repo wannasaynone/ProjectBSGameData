@@ -254,7 +254,7 @@
     "ID": 10007,
     "NameContextID": 10058,
     "DescriptionContextID": 10059,
-    "Command": "OnDeactived\n{\n     GainBuff(Self, 10006, 1t3);\n}\n\nOnActived\r\n{\r\n     AddStatus(Self, Attack, Self.Attack * 0.3); \r\n}",
+    "Command": "OnDeactived\n{\n     GainBuff(Self, 10006, 1t3);\n}\n\nOnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.3); \n}",
     "MaxAmount": 1
   },
   {
@@ -292,8 +292,20 @@
     "Command": "OnDamageCalculated_Self\n{\n     ShowVFX(Buff2, 1);\n     PlaySFX(AddStatus);\n     AddDamage(60%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 10012, -99);\n}",
     "MaxAmount": 1
   },
-  {},
-  {},
+  {
+    "ID": 10013,
+    "NameContextID": 10096,
+    "DescriptionContextID": 10098,
+    "Command": "OnActived\n{\n     AddShield(Self, Self.MaxHP * 0.3, 0);\n}",
+    "MaxAmount": 1
+  },
+  {
+    "ID": 10014,
+    "NameContextID": 10099,
+    "DescriptionContextID": 10100,
+    "Command": "OnStartToTakeDamage_Self\n{\n       ShowVFX(EnergyWall1, 1);\n       PlaySFX(Protection);\n       AddDamage(-45%);\n}\n\nOnDeactived\n{\n     BeginIf_Buff(Self, 0, 10013);\n          CastSkill(10035);\n     EndIf();\n}",
+    "MaxAmount": 1
+  },
   {},
   {},
   {},
