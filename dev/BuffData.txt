@@ -296,14 +296,14 @@
     "ID": 10013,
     "NameContextID": 10096,
     "DescriptionContextID": 10098,
-    "Command": "OnActived\n{\n     AddShield(Self, Self.MaxHP * 0.35, 0);\n}",
+    "Command": "OnActived\n{\n     AddShield(Self, Self.MaxHP * 0.35, 10035);\n}",
     "MaxAmount": 1
   },
   {
     "ID": 10014,
     "NameContextID": 10099,
     "DescriptionContextID": 10100,
-    "Command": "OnStartToTakeDamage_Self\n{\n       ShowVFX(EnergyWall1, 1);\n       PlaySFX(Protection);\n       AddDamage(-45%);\n}\n\nOnAttackEnded_Self\n{\n     BeginIf(Buff(Self, 10014, Time) >= 2);\n          Quit();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10013);\n          CastSkill(10035);\n     EndIf();\n}",
+    "Command": "OnStartToTakeDamage_Self\n{\n       ShowVFX(EnergyWall1, 1);\n       PlaySFX(Protection);\n       AddDamage(-45%);\n}",
     "MaxAmount": 1
   },
   {},
