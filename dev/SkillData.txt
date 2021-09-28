@@ -1534,7 +1534,7 @@
     "NameContextID": 10096,
     "DescriptionContextID": 10097,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
-    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Self, 10013, 1t-1);\n     GainBuff(Self, 10014, 1t3);\n}\n\nOnStartToEndAction_Self\n{\n     BeginIf_Buff(Self, 0, 10014);\n          AddBuffAmount(Self,10014,-99);\n     EndIf();\n}",
+    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Self, 10013, 1t-1);\n     GainBuff(Self, 10014, 1t2);\n}\n\nOnStartToEndAction_Self\n{\n     BeginIf_Buff(Self, 0, 10014);\n          AddBuffAmount(Self,10014,-99);\n     EndIf();\n}",
     "IsDrop": 0
   },
   {
