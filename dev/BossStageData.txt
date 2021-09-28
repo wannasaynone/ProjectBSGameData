@@ -114,6 +114,7 @@
     "BossIDs": "9;9;9",
     "DescriptionContextID": 300008,
     "FrontStageIDs": 5,
+    "DropData": "1900-01-08T06:10:00.000Z",
     "MinExp": 1980400,
     "MaxExp": 3960800
   }

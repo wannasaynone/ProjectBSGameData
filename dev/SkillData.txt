@@ -1178,7 +1178,7 @@
     "NameContextID": 378,
     "DescriptionContextID": 379,
     "AnimationInfo": "Attack0;\n0.58_Fire_Spell4_0.3;\n0.58_SFX_\n0.88_Show_Hit16_Target;\n0.88_SFX_FireSpellHit;\n0.9_Damage_1;\n0.9_Show_ShortFlame_Target;",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.3, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.3, 1);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.3, 1);\n     BeginIf(Random(0, 100) <= 70);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.3, 1);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.2, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.2, 1);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.2, 1);\n     BeginIf(Random(0, 100) <= 70);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.2, 1);\n}",
     "IsDrop": 0,
     "Tag": 400004
   },
@@ -1199,6 +1199,25 @@
     "Command": "OnActived\n{\n     Remember(Select(Opponent, Manual, 1));\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.2, 0);\n     AddStatus(LastSelected, HP, -Random(10, 20) * 0.01 * Self.Speed);\n}",
     "IsDrop": 0,
     "Tag": 400007
+  },
+  {
+    "ID": 229,
+    "SP": 30,
+    "NameContextID": 384,
+    "DescriptionContextID": 385,
+    "References": "S:10013;B:10003;S:10015;B:10004;S:10018;B:10005",
+    "Command": "OnActived\n{\n     Remember(Select(Self, Manual, 1));\n     RandomCastSkill(10003);\n}",
+    "IsDrop": 0
+  },
+  {
+    "ID": 230,
+    "SP": 0,
+    "NameContextID": 10091,
+    "DescriptionContextID": 10092,
+    "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
+    "References": "B:10012",
+    "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Select(Self,Manual,1), 10012, 1t-1);\n}",
+    "IsDrop": 0
   },
   {
     "Command": null
@@ -1505,6 +1524,7 @@
     "NameContextID": 10091,
     "DescriptionContextID": 10092,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
+    "References": "B:10012",
     "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Self, 10012, 1t-1);\n}",
     "IsDrop": 0
   },
