@@ -849,7 +849,7 @@
     "SP": 0,
     "NameContextID": 289,
     "DescriptionContextID": 290,
-    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
+    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 5);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 0, 400004);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -857,7 +857,7 @@
     "SP": 0,
     "NameContextID": 291,
     "DescriptionContextID": 292,
-    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
+    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 5);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 0, 400006);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -865,7 +865,7 @@
     "SP": 0,
     "NameContextID": 293,
     "DescriptionContextID": 294,
-    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 10);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400004);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n\n      BeginIf_LastSkillTag(Self, 1, 400006);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
+    "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 5);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 0, 400007);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
     "IsDrop": 1
   },
   {
@@ -1093,7 +1093,8 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:7",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n}",
-    "IsDrop": 1
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 218,
@@ -1103,7 +1104,8 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target\n0.25_SFX_AddStatus",
     "References": "B:1",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 1, 1t3);\n}",
-    "IsDrop": 1
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 219,
@@ -1113,7 +1115,8 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:7;B:1",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n     GainBuff(LastSelected, 1, 1t3);\n}",
-    "IsDrop": 1
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 220,
@@ -1123,7 +1126,8 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:13",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, 1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 13, 1t3);\n}",
-    "IsDrop": 1
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 221,
@@ -1133,7 +1137,8 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:7",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n}",
-    "IsDrop": 1
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 222,
@@ -1143,7 +1148,8 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:1",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 1, 1t3);\n}",
-    "IsDrop": 1
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 223,
@@ -1153,7 +1159,8 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:7;B:1",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 7, 1t3);\n     GainBuff(LastSelected, 1, 1t3);\n}",
-    "IsDrop": 1
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 224,
@@ -1163,7 +1170,8 @@
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_AddStatus;",
     "References": "B:13",
     "Command": "OnActived\n{\n     Remember(Select(SameSide, Manual, -1));\n     SetPlayAnimationNext();\n     GainBuff(LastSelected, 13, 1t3);\n}",
-    "IsDrop": 1
+    "IsDrop": 1,
+    "Tag": 400002
   },
   {
     "ID": 225,
@@ -1178,7 +1186,7 @@
     "NameContextID": 378,
     "DescriptionContextID": 379,
     "AnimationInfo": "Attack0;\n0.58_Fire_Spell4_0.3;\n0.58_SFX_\n0.88_Show_Hit16_Target;\n0.88_SFX_FireSpellHit;\n0.9_Damage_1;\n0.9_Show_ShortFlame_Target;",
-    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.2, 1);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.2, 1);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.2, 1);\n     BeginIf(Random(0, 100) <= 70);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.2, 1);\n}",
+    "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 0.3, 1);\n     AddStatus(LastSelected, Hatred, Self.LastDealedDamage);\n     BeginIf(Random(0, 100) <= 25);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.3, 1);\n     AddStatus(LastSelected, Hatred, Self.LastDealedDamage);\n     BeginIf(Random(0, 100) <= 50);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.3, 1);\n     AddStatus(LastSelected, Hatred, Self.LastDealedDamage);\n     BeginIf(Random(0, 100) <= 70);\n          Quit();\n     EndIf();\n\n     DealDamage(LastSelected, Self.Attack * 0.3, 1);\n     AddStatus(LastSelected, Hatred, Self.LastDealedDamage);\n}",
     "IsDrop": 0,
     "Tag": 400004
   },
