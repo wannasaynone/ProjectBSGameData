@@ -1046,7 +1046,7 @@
     "SP": 0,
     "NameContextID": 345,
     "DescriptionContextID": 346,
-    "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Attack);\n     AddStatus(Self, Defense, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Defense);\n     AddStatus(Self, Speed, ((Self.MaxHP - Self.HP) / Self.MaxHP) * Self.Speed);\n}",
+    "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, (Self.MaxHP - Self.HP) / 10);\n     AddStatus(Self, Defense, (Self.MaxHP - Self.HP) / 10);\n     AddStatus(Self, Speed, (Self.MaxHP - Self.HP) / 10);\n}",
     "IsDrop": 1
   },
   {
