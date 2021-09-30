@@ -125,7 +125,7 @@
     "MainBossID": 10,
     "RequireLevel": 100,
     "Stamina": 80,
-    "BossIDs": "8;10;8",
+    "BossIDs": "9;10;9",
     "DescriptionContextID": 300009,
     "FrontStageIDs": 8,
     "MinExp": 1980400,
