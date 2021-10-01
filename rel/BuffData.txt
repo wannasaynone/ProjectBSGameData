@@ -296,7 +296,7 @@
     "ID": 10013,
     "NameContextID": 10096,
     "DescriptionContextID": 10098,
-    "Command": "OnActived\n{\n     AddShield(Self, Self.MaxHP * 0.35, 10035);\n}",
+    "Command": "OnActived\n{\n     AddShield(Self, Self.MaxHP * 1, 10035);\n}",
     "MaxAmount": 1
   },
   {

@@ -15,5 +15,6 @@
    "MainMenuHintMinID" : 2000001,
    "MainMenuHintMaxID" : 2000020,
    "AddStaminaByAd" : 200,
-   "MaxCharacterAmount" : 100
+   "MaxCharacterAmount" : 100,
+   "OnlineCombatActionTime" : 12
 }
