@@ -1064,7 +1064,7 @@
     "SP": 0,
     "NameContextID": 351,
     "DescriptionContextID": 352,
-    "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP <= 0);\n     DealDamage(CurrentActor, Self.Attack * 3, 0);\n     EndIf();\n}",
+    "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP <= 0);\n         AddStatus(CurrentActor, Self.Attack * 2.2 - Target.Defense * Random(1, 2), 0);\n     EndIf();\n}",
     "IsDrop": 1
   },
   {
