@@ -12,7 +12,7 @@
   {
     "ID": 2,
     "zh_tw": "對1個敵方單位造成150%攻擊值的傷害。",
-    "en_us": "Deals 130% of Attack value damage to 1 enemy unit."
+    "en_us": "Deals 150% attack damage to 1 enemy unit."
   },
   {
     "ID": 3,
@@ -62,7 +62,8 @@
   },
   {
     "ID": 16,
-    "zh_tw": "不能行動。受到的傷害增加25%。受到傷害後，消除這個狀態。最多擁有3個。"
+    "zh_tw": "不能行動。受到的傷害增加25%。受到傷害後，消除這個狀態。最多擁有3個。",
+    "en_us": "Cannot act. Damage taken is increased by 25%. After taking damage, this status is removed. Have up to 3 of them."
   },
   {
     "ID": 17,
@@ -268,123 +269,153 @@
   },
   {
     "ID": 113,
-    "zh_tw": "注念"
+    "zh_tw": "注念",
+    "en_us": "Injecting Mind"
   },
   {
     "ID": 114,
-    "zh_tw": "給予1個友方單位持續3回合的「念能」。"
+    "zh_tw": "給予1個友方單位持續3回合的「念能」。",
+    "en_us": "Gives 1 friendly unit \"Numinous Energy\" for 3 turns."
   },
   {
     "ID": 115,
-    "zh_tw": "念能"
+    "zh_tw": "念能",
+    "en_us": "Numinous Energy"
   },
   {
     "ID": 116,
-    "zh_tw": "回合開始時，增加10點SP值。"
+    "zh_tw": "回合開始時，增加10點SP值。",
+    "en_us": "Increase SP by 10 points at the beginning of the turn."
   },
   {
     "ID": 117,
-    "zh_tw": "自然調和"
+    "zh_tw": "自然調和",
+    "en_us": "Natural Harmony"
   },
   {
     "ID": 118,
-    "zh_tw": "回合開始時，增加10點SP值。"
+    "zh_tw": "回合開始時，增加10點SP值。",
+    "en_us": "Increase SP by 10 points at the beginning of the turn."
   },
   {
     "ID": 119,
-    "zh_tw": "生命轉換"
+    "zh_tw": "生命轉換",
+    "en_us": "Life Transition"
   },
   {
     "ID": 120,
-    "zh_tw": "減少自己15%最大生命值的生命值，增加1個友方單位15點SP值。"
+    "zh_tw": "減少自己15%最大生命值的生命值，增加1個友方單位15點SP值。",
+    "en_us": "Reduce your life value by 15% of your maximum life value and increase the SP value of one friendly unit by 15 points."
   },
   {
     "ID": 121,
-    "zh_tw": "能量轉移"
+    "zh_tw": "能量轉移",
+    "en_us": "Energy Transfer"
   },
   {
     "ID": 122,
-    "zh_tw": "增加1個友方單位20點SP值。"
+    "zh_tw": "增加1個友方單位20點SP值。",
+    "en_us": "Increases the SP value of 1 friendly unit by 20 points."
   },
   {
     "ID": 123,
-    "zh_tw": "強制能量分配"
+    "zh_tw": "強制能量分配",
+    "en_us": "Forced Energy Distribution"
   },
   {
     "ID": 124,
-    "zh_tw": "指定1個單位，若其擁有的SP值大於10點，減少其10點SP值後，增加1個單位10點SP值。"
+    "zh_tw": "指定1個單位，若其擁有的SP值大於10點，減少其10點SP值後，增加1個單位10點SP值。",
+    "en_us": "If the SP value of a unit is greater than 10 points, reduce its SP value by 10 points and then increase the SP value of a unit by 10 points."
   },
   {
     "ID": 125,
-    "zh_tw": "愉悅"
+    "zh_tw": "愉悅",
+    "en_us": "Discovery"
   },
   {
     "ID": 126,
-    "zh_tw": "受到傷害後，受到的傷害每占最大生命值的1%，增加自己的SP值1點。"
+    "zh_tw": "受到傷害後，受到的傷害每占最大生命值的1%，增加自己的SP值1點。",
+    "en_us": "When you take damage, increase your SP by 1 point for every 1% of your maximum life."
   },
   {
     "ID": 127,
-    "zh_tw": "魔力防護"
+    "zh_tw": "魔力防護",
+    "en_us": "Magic Protection"
   },
   {
     "ID": 128,
-    "zh_tw": "將受到傷害時，若自己剩餘的SP值多於10點，消耗10點SP，減少受到的傷害20%。"
+    "zh_tw": "將受到傷害時，若自己剩餘的SP值多於10點，消耗10點SP，減少受到的傷害20%。",
+    "en_us": "If you have more than 10 SP left when you are about to take damage, consume 10 SP to reduce the damage taken by 20%."
   },
   {
     "ID": 129,
-    "zh_tw": "魔力爆發"
+    "zh_tw": "魔力爆發",
+    "en_us": "Magic Outburst"
   },
   {
     "ID": 130,
-    "zh_tw": "將造成傷害時，若自己剩餘的SP值多於10點，消耗10點SP，增加造成的傷害20%。"
+    "zh_tw": "將造成傷害時，若自己剩餘的SP值多於10點，消耗10點SP，增加造成的傷害20%。",
+    "en_us": "If you have more than 10 points of SP left when you deal damage, consume 10 points of SP to increase the damage dealt by 20%."
   },
   {
     "ID": 131,
-    "zh_tw": "魔力吸取"
+    "zh_tw": "魔力吸取",
+    "en_us": "Magic Absorb"
   },
   {
     "ID": 132,
-    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，根據造成傷害與目標最大生命值的比例，增加自己的SP值。"
+    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，根據造成傷害與目標最大生命值的比例，增加自己的SP值。",
+    "en_us": "Deal 130% attack damage to 1 enemy unit and increase your SP based on the ratio of damage dealt to the target's maximum life."
   },
   {
     "ID": 133,
-    "zh_tw": "火球術"
+    "zh_tw": "火球術",
+    "en_us": "Fireball Spell"
   },
   {
     "ID": 134,
-    "zh_tw": "對1個敵方單位造成180%攻擊值的傷害。"
+    "zh_tw": "對1個敵方單位造成180%攻擊值的傷害。",
+    "en_us": "Deals 180% attack damage to 1 enemy unit."
   },
   {
     "ID": 135,
-    "zh_tw": "烈焰流"
+    "zh_tw": "烈焰流",
+    "en_us": "Flame Stream"
   },
   {
     "ID": 136,
-    "zh_tw": "對2個不同的敵方單位造成180%攻擊值的傷害，並有40%的機率給予目標持續3回合的「燃燒」。"
+    "zh_tw": "對2個不同的敵方單位造成180%攻擊值的傷害，並有40%的機率給予目標持續3回合的「燃燒」。",
+    "en_us": "Deals 180% attack damage to 2 different enemy units and has a 40% chance of giving the target a \"Burn\" that lasts for 3 turns."
   },
   {
     "ID": 137,
-    "zh_tw": "火山噴發"
+    "zh_tw": "火山噴發",
+    "en_us": "Volcanic Eruption"
   },
   {
     "ID": 138,
-    "zh_tw": "對所有敵方單位造成180%攻擊值的傷害，並有40%的機率給予目標持續3回合的「燃燒」。"
+    "zh_tw": "對所有敵方單位造成180%攻擊值的傷害，並有40%的機率給予目標持續3回合的「燃燒」。",
+    "en_us": "Deals 180% attack damage to all enemy units and has a 40% chance to give the target “Burn” for 3 turns."
   },
   {
     "ID": 139,
-    "zh_tw": "隕石術"
+    "zh_tw": "隕石術",
+    "en_us": "Meteor Technique"
   },
   {
     "ID": 140,
-    "zh_tw": "對所有敵方單位造成180%攻擊值的傷害，並有80%的機率給予目標持續3回合的「燃燒」。"
+    "zh_tw": "對所有敵方單位造成180%攻擊值的傷害，並有80%的機率給予目標持續3回合的「燃燒」。",
+    "en_us": "Deals 180% attack damage to all enemy units and has an 80% chance to give the target “Burn” for 3 turns."
   },
   {
     "ID": 141,
-    "zh_tw": "末日"
+    "zh_tw": "末日",
+    "en_us": "Doomsday"
   },
   {
     "ID": 142,
-    "zh_tw": "對自己以外的所有單位造成360%攻擊值的傷害，並給予目標持續3回合的「燃燒」。"
+    "zh_tw": "對自己以外的所有單位造成360%攻擊值的傷害，並給予目標持續3回合的「燃燒」。",
+    "en_us": "Deals 360% attack damage to all units except yourself and gives the target “Burn” for 3 turns."
   },
   {
     "ID": 143,
@@ -1775,6 +1806,118 @@
     "ID": 10104,
     "zh_tw": "對仇恨值最高的敵方單位造成130%攻擊值的傷害，並有50%的機率給予目標持續3回合的「冰凍」。若擁有「冰霜護盾」，則重複4次。"
   },
+  {
+    "ID": 10105,
+    "zh_tw": "菁英軍隊的殘影"
+  },
+  {
+    "ID": 10106,
+    "zh_tw": "前鋒"
+  },
+  {
+    "ID": 10107,
+    "zh_tw": "號令"
+  },
+  {
+    "ID": 10108,
+    "zh_tw": "若自己不是仇恨值最高的友方單位，給予自己300%防禦值的仇恨值並使自己以外的所有友方單位仇恨值變為1。反之則改為給予所有友方單位持續1回合的「攻擊值上升」。"
+  },
+  {
+    "ID": 10109,
+    "zh_tw": "衝鋒"
+  },
+  {
+    "ID": 10110,
+    "zh_tw": "對仇恨值最高的敵方單位造成100%仇恨值的傷害。"
+  },
+  {
+    "ID": 10111,
+    "zh_tw": "突擊兵"
+  },
+  {
+    "ID": 10112,
+    "zh_tw": "突擊"
+  },
+  {
+    "ID": 10113,
+    "zh_tw": "行動開始時，給予自己持續1回合的「攻擊值小幅上升」。"
+  },
+  {
+    "ID": 10114,
+    "zh_tw": "迅速執行"
+  },
+  {
+    "ID": 10115,
+    "zh_tw": "關卡「菁英軍隊的殘影」限定掉落。使用技能攻擊時，若目標的防禦值比自己的攻擊值低，給予自己持續1回合的「攻擊值小幅增加」。"
+  },
+  {
+    "ID": 10116,
+    "zh_tw": "突進"
+  },
+  {
+    "ID": 10117,
+    "zh_tw": "對隨機敵方單位造成220%攻擊值的傷害。隨機挑選的機率根據仇恨值比例增減。"
+  },
+  {
+    "ID": 10118,
+    "zh_tw": "狙擊兵"
+  },
+  {
+    "ID": 10119,
+    "zh_tw": "狙擊"
+  },
+  {
+    "ID": 10120,
+    "zh_tw": "對隨機敵方單位造成220%攻擊值的傷害。有50%的機率使攻擊無視50%防禦。其後另外有35%的機率使攻擊無視防禦。若選擇的目標身上有「標記」，改為有100%的機率使攻擊無視防禦。"
+  },
+  {
+    "ID": 10121,
+    "zh_tw": "瞄準"
+  },
+  {
+    "ID": 10122,
+    "zh_tw": "行動開始時，給予仇恨值最高的敵方單位持續1回合的「標記」。"
+  },
+  {
+    "ID": 10123,
+    "zh_tw": "標記"
+  },
+  {
+    "ID": 10124,
+    "zh_tw": "將受到傷害時，使受到的傷害增加35%。"
+  },
+  {
+    "ID": 10125,
+    "zh_tw": "軍醫"
+  },
+  {
+    "ID": 10126,
+    "zh_tw": "行動開始時，使生命值最低的友方單位增加自己55%防禦值的生命值。"
+  },
+  {
+    "ID": 10127,
+    "zh_tw": "精湛的治療"
+  },
+  {
+    "ID": 10128,
+    "zh_tw": "使生命值最低的友方單位增加相當於20%失去生命值的生命值。"
+  },
+  {
+    "ID": 10129,
+    "zh_tw": "精準的決斷"
+  },
+  {
+    "ID": 10130,
+    "zh_tw": "每當自己以外的友方單位受到傷害後，若目標的生命值低於0，使目標的生命值變為1。這個效果3回合內只會發生1次。"
+  },
+  {
+    "ID": 10131,
+    "zh_tw": "精準的決斷冷卻"
+  },
+  {
+    "ID": 10132,
+    "zh_tw": "無法發動「精準的決斷」。"
+  },
   {},
   {
     "ID": 100001,
@@ -1854,7 +1997,11 @@
   },
   {
     "ID": 300009,
-    "zh_tw": "建議等級：Lv. 100\n依照標準作業流程，一邊重建過往的資料，一邊沿著道路前進。\n由於無法事先得知重建對象的立場，\n偶爾也會像這樣，碰到將我們標記為「敵人」的殘影。"
+    "zh_tw": "建議等級：Lv. 100\n外型是魔法師的資料殘影。\n不完整的重建導致它無法擁有智能，只能發出無意義的聲響。\n判斷沒有獲取資訊的可能，依照標準作業流程，將其消滅。"
+  },
+  {
+    "ID": 300010,
+    "zh_tw": "建議等級：Lv. 100\n「向前推進。」「向前推進。」「向前推進。」\n軍隊的殘影從出現的瞬間起便筆直地朝某個方向前進。\n頭也不回。「向前推進。」"
   },
   {},
   {
@@ -2618,6 +2765,10 @@
   {
     "ID": 1000125,
     "zh_tw": "<size=40>行動結束倒數</size>\n{0}"
+  },
+  {
+    "ID": 1000126,
+    "zh_tw": "角色名稱過長"
   },
   {},
   {
