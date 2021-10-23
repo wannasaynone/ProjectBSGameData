@@ -16,5 +16,7 @@
    "MainMenuHintMaxID" : 2000020,
    "AddStaminaByAd" : 200,
    "MaxCharacterAmount" : 100,
-   "OnlineCombatActionTime" : 24
+   "OnlineCombatActionTime" : 24,
+   "DropMallItemChance" : 0.03,
+   "DropMallRareItemMultiplier" : 0.3
 }
