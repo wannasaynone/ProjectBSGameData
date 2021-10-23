@@ -13,10 +13,10 @@
    "AddSkillCountPerDraw" : 11,
    "UpdateMainMenuHintTime" : 6,
    "MainMenuHintMinID" : 2000001,
-   "MainMenuHintMaxID" : 2000020,
+   "MainMenuHintMaxID" : 2000021,
    "AddStaminaByAd" : 200,
    "MaxCharacterAmount" : 100,
    "OnlineCombatActionTime" : 24,
-   "DropMallItemChance" : 100,
+   "DropMallItemChance" : 3,
    "DropMallRareItemMultiplier" : 0.3
 }
