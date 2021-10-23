@@ -17,6 +17,6 @@
    "AddStaminaByAd" : 200,
    "MaxCharacterAmount" : 100,
    "OnlineCombatActionTime" : 24,
-   "DropMallItemChance" : 0.03,
+   "DropMallItemChance" : 100,
    "DropMallRareItemMultiplier" : 0.3
 }
