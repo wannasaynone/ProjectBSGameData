@@ -34,7 +34,7 @@
     "DescriptionContextID": 16,
     "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnStartToTakeDamage_Self\n{\n     AddDamage(25%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 4, -99);\n}",
     "Tag": 400003,
-    "MaxAmount": 3
+    "MaxAmount": 1
   },
   {
     "ID": 5,
