@@ -1195,7 +1195,7 @@
     "SP": 0,
     "NameContextID": 380,
     "DescriptionContextID": 381,
-    "Command": "OnActionStarted_Other\n{\n    BeginIf(Tagret.Camp != 1);\n        Quit();\n    EndIf();\n\n    BeginIf_Buff(CurrentActor, 1, 4);\n         Remember(CurrentActor);\n         ShowVFXOnTarget(Temp, 1);\n         PlaySFX(Posion);\n         AddStatus(LastSelected, HP, -100);\n    EndIf();\n}",
+    "Command": "OnActionStarted_Other\n{\n    BeginIf(Target.Camp != 1);\n        Quit();\n    EndIf();\n\n    BeginIf_Buff(CurrentActor, 1, 4);\n         Remember(CurrentActor);\n         ShowVFXOnTarget(Temp, 1);\n         PlaySFX(Posion);\n         AddStatus(LastSelected, HP, -100);\n    EndIf();\n}",
     "IsDrop": 0
   },
   {
