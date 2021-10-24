@@ -2551,8 +2551,8 @@
   },
   {
     "ID": 1000072,
-    "zh_tw": "* 透過合成取得隨機技能\n* 選取任意2個或以上數量技能進行合成\n* 每2個技能合成後將得到1個新技能\n* 以下兩種技能無法取得: \n        1. 關卡限定掉落的技能\n        2. 角色持有的獨特技能",
-    "en_us": "* Obtain random skills through combining\n* Select any 2 or more skills to combine\n* Every 2 skills combined will result in 1 new skill\n* The following two types of skills cannot be obtained: \n        1. skills with limited drops from the boss\n        2. Unique skills held by the unique unit"
+    "zh_tw": "* 透過合成取得隨機技能\n* 選取任意2個或以上數量技能進行合成\n* 每2個技能合成後將得到1個新技能\n* 可能取得已通過關卡的限定掉落技能\n* 無法取得角色持有的獨特技能",
+    "en_us": "* Obtain random skills through synthesis\r\n* Select any 2 or more skills to synthesize\r\n* Every 2 skills synthesized will result in 1 new skill\r\n* Possible to obtain a limited drop skill from a level already passed\r\n* Unable to obtain unique skills held by the character"
   },
   {
     "ID": 1000073,
@@ -2640,7 +2640,7 @@
   },
   {
     "ID": 1000094,
-    "zh_tw": "* 無法取得角色持有的獨特技能\n* 可能取得已通過關卡的限定掉落技能\n* 可能在同次抽取結果中取得2個或以上相同技能"
+    "zh_tw": "* 無法取得角色持有的獨特技能\n* 無法取得關卡的限定掉落技能\n* 可能在同次抽取結果中取得2個或以上相同技能"
   },
   {
     "ID": 1000095,
