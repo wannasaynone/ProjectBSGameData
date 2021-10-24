@@ -260,7 +260,7 @@
   {
     "ID": 111,
     "zh_tw": "八重加速",
-    "en_us": "Eight-times acceleration"
+    "en_us": "Eight-times Acceleration"
   },
   {
     "ID": 112,
@@ -385,7 +385,7 @@
   {
     "ID": 136,
     "zh_tw": "對2個不同的敵方單位造成180%攻擊值的傷害，並有40%的機率給予目標持續3回合的「燃燒」。",
-    "en_us": "Deals 180% attack damage to 2 different enemy units and has a 40% chance of giving the target a \"Burn\" that lasts for 3 turns."
+    "en_us": "Deals 180% attack damage to 2 different enemy units and has a 40% chance of giving the target a \"Burn\" for 3 turns."
   },
   {
     "ID": 137,
@@ -1371,7 +1371,7 @@
   },
   {
     "ID": 381,
-    "zh_tw": "「冰使者傑士」專有技能。每當有人行動開始時，使所有敵方單位失去相當於(「冰凍」個數 * 2%)的生命值。"
+    "zh_tw": "「冰使者傑士」專有技能。每當敵人行動開始時，若其擁有「冰凍」，使其失去100點生命值。"
   },
   {
     "ID": 382,
@@ -2801,6 +2801,10 @@
   {
     "ID": 1000134,
     "zh_tw": "[未知物品]"
+  },
+  {
+    "ID": 1000135,
+    "zh_tw": "網路連線對戰功能仍在開發中\n不論勝利或失敗都不會對玩家產生影響\n遊戲過程中有可能遇到無法預期的BUG\n確認要進行連線對戰嗎？"
   },
   {},
   {
