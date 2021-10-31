@@ -130,5 +130,18 @@
     "FrontStageIDs": 8,
     "MinExp": 1980400,
     "MaxExp": 3960800
+  },
+  {
+    "ID": 10,
+    "AreaID": 2,
+    "Index": 3,
+    "MainBossID": 11,
+    "RequireLevel": 100,
+    "Stamina": 80,
+    "BossIDs": "11;12;13;14",
+    "DescriptionContextID": 300010,
+    "FrontStageIDs": 9,
+    "MinExp": 1980400,
+    "MaxExp": 3960800
   }
 ]
