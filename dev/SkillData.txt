@@ -1574,7 +1574,7 @@
     "DescriptionContextID": 10108,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
     "References": "B:7",
-    "Command": "OnActived\n{\n     Ramember(Select(SameSide, HighestHatred, 1));\n     BeginIf(LastSelected0.Hatred == Self.Hatred);\n          SetPlayAnimationNext();\n          GainBuff(Select(SameSide, Random, -1), 7, 1t1);\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Self, Hatred, Self.Defense * 3);\n     SetStstus(SelectOther(SameSide, Random, -1), Hatred, 1);\n}",
+    "Command": "OnActived\n{\n     Remember(Select(SameSide, HighestHatred, 1));\n     BeginIf(LastSelected0.Hatred == Self.Hatred);\n          SetPlayAnimationNext();\n          GainBuff(Select(SameSide, Random, -1), 7, 1t1);\n          Quit();\n     EndIf();\n\n     SetPlayAnimationNext();\n     AddStatus(Self, Hatred, Self.Defense * 3);\n     SetStstus(SelectOther(SameSide, Random, -1), Hatred, 1);\n}",
     "IsDrop": 0
   },
   {
