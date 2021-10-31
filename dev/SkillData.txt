@@ -1583,7 +1583,7 @@
     "NameContextID": 10109,
     "DescriptionContextID": 10110,
     "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_SFX_NormalHit;\n0.58_Show_Hit16_Target;",
-    "Command": "OnActived\n{\n     DealDamage(Select(Opponent, HighestHatred, 1), Self.Hared, 0);\n}",
+    "Command": "OnActived\n{\n     DealDamage(Select(Opponent, HighestHatred, 1), Self.Hatred, 0);\n}",
     "IsDrop": 0
   },
   {
@@ -1644,7 +1644,7 @@
     "NameContextID": 10127,
     "DescriptionContextID": 10128,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
-    "Command": "OnActived\n{\nAddStatus(Select(SameSide,LowestHP,1),HP,1000); \n}",
+    "Command": "OnActived\n{\nAddStatus(Select(SameSide,LowestHP,1),HP,Self.Defense * 1.5); \n}",
     "IsDrop": 0
   },
   {

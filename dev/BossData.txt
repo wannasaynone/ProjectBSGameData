@@ -110,8 +110,8 @@
   {
     "ID": 11,
     "AppearanceDataID": 10010,
-    "Attack": 6400,
-    "Defense": 6400,
+    "Attack": 3400,
+    "Defense": 9400,
     "Speed": 5100,
     "HP": 32000,
     "SP": 100,
@@ -143,8 +143,8 @@
   {
     "ID": 14,
     "AppearanceDataID": 10013,
-    "Attack": 6400,
-    "Defense": 6400,
+    "Attack": 3400,
+    "Defense": 9400,
     "Speed": 5100,
     "HP": 32000,
     "SP": 100,
