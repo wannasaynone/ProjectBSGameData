@@ -1652,7 +1652,7 @@
     "SP": 0,
     "NameContextID": 10129,
     "DescriptionContextID": 10130,
-    "Command": "OnDamageTaken_Other\n{\nBeginIf_Buff(Self,1,10016); \nQuit(); \nEndIf(); \n\nBeginIf(Caster.Camp == Self.Camp); \n     BeginIf(Caster.HP <= 0); \n          SetStatus(SkillLastSelected(CurrentActor),HP,1); \n     EndIf(); \nEndIf(); \n}",
+    "Command": "OnDamageTaken_Other\n{\nBeginIf_Buff(Self,1,10016); \nQuit(); \nEndIf(); \n\nBeginIf(Caster.Camp == Self.Camp); \n     BeginIf(Caster.HP <= 0); \n          SetStatus(SkillLastSelected(CurrentActor),HP,1); \n          GainBuff(Self, 10016, 1t3);\n     EndIf(); \nEndIf(); \n}",
     "IsDrop": 0
   },
   {
