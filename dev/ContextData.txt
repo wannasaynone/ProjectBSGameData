@@ -2484,11 +2484,13 @@
   },
   {
     "ID": 1000045,
-    "zh_tw": "點擊右上角分解角色轉化為經驗值"
+    "zh_tw": "點擊右上角分解角色轉化為經驗值",
+    "en_us": "Click on the top right corner to turn your character into experience."
   },
   {
     "ID": 1000046,
-    "zh_tw": "獲得技能"
+    "zh_tw": "獲得技能",
+    "en_us": "Obtain skills"
   },
   {
     "ID": 1000047,
