@@ -1973,19 +1973,23 @@
   {},
   {
     "ID": 100001,
-    "zh_tw": "技能構築範例1"
+    "zh_tw": "技能構築範例1",
+    "en_us": "Skill Construction Example 1"
   },
   {
     "ID": 100002,
-    "zh_tw": "技能構築範例2"
+    "zh_tw": "技能構築範例2",
+    "en_us": "Skill Construction Example 2"
   },
   {
     "ID": 100003,
-    "zh_tw": "技能構築範例3"
+    "zh_tw": "技能構築範例3",
+    "en_us": "Skill Construction Example 3"
   },
   {
     "ID": 100004,
-    "zh_tw": "技能構築範例4"
+    "zh_tw": "技能構築範例4",
+    "en_us": "Skill Construction Example 4"
   },
   {
     "ID": 100005,
@@ -2045,15 +2049,18 @@
   },
   {
     "ID": 300008,
-    "zh_tw": "建議等級：Lv. 100\n紀錄：在冰原中遊蕩的奇幻生物。\n擁有人形，但缺乏智能，無法溝通。\n似乎以殘留在大氣的未知能量為生。"
+    "zh_tw": "建議等級：Lv. 100\n紀錄：在冰原中遊蕩的奇幻生物。\n擁有人形，但缺乏智能，無法溝通。\n似乎以殘留在大氣的未知能量為生。",
+    "en_us": "Recommended level: Lv. 100\nRecord: A fantasy creature that wanders in the ice fields.\nPossesses humanoid form, but lacks intelligence and is unable to communicate.\nSeems to feed on the unknown energy left in the atmosphere."
   },
   {
     "ID": 300009,
-    "zh_tw": "建議等級：Lv. 100\n外型是魔法師的資料殘影。\n不完整的重建導致它無法擁有智能，只能發出無意義的聲響。\n判斷沒有獲取資訊的可能，依照標準作業流程，將其消滅。"
+    "zh_tw": "建議等級：Lv. 100\n外型是魔法師的資料殘影。\n不完整的重建導致它無法擁有智能，只能發出無意義的聲響。\n判斷沒有獲取資訊的可能，依照標準作業流程，將其消滅。",
+    "en_us": "Recommended level: Lv. 100\nThe appearance is a remnant of the wizard's data.\nIncomplete reconstruction causes it to be unable to possess intelligence and only emits meaningless noises.\nDetermine that there is no possibility of obtaining information, and destroy it according to standard operating procedures."
   },
   {
     "ID": 300010,
-    "zh_tw": "建議等級：Lv. 100\n「向前推進。」「向前推進。」「向前推進。」\n軍隊的殘影從出現的瞬間起便筆直地朝某個方向前進。\n頭也不回。「向前推進。」"
+    "zh_tw": "建議等級：Lv. 100\n「向前推進。」「向前推進。」「向前推進。」\n軍隊的殘影從出現的瞬間起便筆直地朝某個方向前進。\n頭也不回。「向前推進。」",
+    "en_us": "Recommended level: Lv. 100\n\"Push forward.\" \"Push forward.\" \"Push forward.\"\nFrom the moment the remnants of the army appeared, they moved straight ahead in a certain direction.\nNot even looking back. \"Push forward.\""
   },
   {},
   {
@@ -2550,31 +2557,38 @@
   },
   {
     "ID": 1000060,
-    "zh_tw": "點擊技能欄位可以替換技能"
+    "zh_tw": "點擊技能欄位可以替換技能",
+    "en_us": "Click on the skill bar to switch skills"
   },
   {
     "ID": 1000061,
-    "zh_tw": "造成傷害與治療時\n將會增加仇恨值"
+    "zh_tw": "造成傷害與治療時\n將會增加仇恨值",
+    "en_us": "When dealing damage and healing\nwill increase the hate value"
   },
   {
     "ID": 1000062,
-    "zh_tw": "受到傷害時\n則會減少仇恨值"
+    "zh_tw": "受到傷害時\n則會減少仇恨值",
+    "en_us": "When you take damage\nit will decrease the hate value"
   },
   {
     "ID": 1000063,
-    "zh_tw": "依照仇恨值佔隊伍的比例\n將減少角色所受到的傷害"
+    "zh_tw": "依照仇恨值佔隊伍的比例\n將減少角色所受到的傷害",
+    "en_us": "Depending on the ratio of hate value to the team\nwill reduce the amount of damage the character receives."
   },
   {
     "ID": 1000064,
-    "zh_tw": "例如仇恨值占比為30%時\n所受傷害值將只剩下原本的30%"
+    "zh_tw": "例如仇恨值占比為30%時\n所受傷害值將只剩下原本的30%",
+    "en_us": "For example, if the hate value is 30%.\nThe damage taken will only be 30% of the original value."
   },
   {
     "ID": 1000065,
-    "zh_tw": "技能可以透過關卡、商店或合成取得"
+    "zh_tw": "技能可以透過關卡、商店或合成取得",
+    "en_us": "Skills can be obtained through levels, stores or synthesis"
   },
   {
     "ID": 1000066,
-    "zh_tw": "除有標示之特定技能\n全部技能均為隨機掉落"
+    "zh_tw": "除有標示之特定技能\n全部技能均為隨機掉落",
+    "en_us": "Except for the specific skills marked\nAll skills are randomly dropped"
   },
   {
     "ID": 1000067,
@@ -2608,255 +2622,318 @@
   },
   {
     "ID": 1000073,
-    "zh_tw": "獲得體力{0}點"
+    "zh_tw": "獲得體力{0}點",
+    "en_us": "Gain strength {0} points"
   },
   {
     "ID": 1000074,
-    "zh_tw": "為了保存您的遊戲進度\n我們需要您登入您的Google帳號"
+    "zh_tw": "為了保存您的遊戲進度\n我們需要您登入您的Google帳號",
+    "en_us": "In order to save your game progress\nwe need you to sign in to your Google account"
   },
   {
     "ID": 1000075,
-    "zh_tw": "敵人最後使用的技能："
+    "zh_tw": "敵人最後使用的技能：",
+    "en_us": "The last skill used by the enemy."
   },
   {
     "ID": 1000076,
-    "zh_tw": "不能逃！\n\n* 第一場戰鬥之後可以使用這個按鈕放棄戰鬥"
+    "zh_tw": "不能逃！\n\n* 第一場戰鬥之後可以使用這個按鈕放棄戰鬥",
+    "en_us": "No escape!\n\n* After the first battle, you can use this button to abandon the battle."
   },
   {
     "ID": 1000077,
-    "zh_tw": "- 目前沒有戰鬥紀錄 -"
+    "zh_tw": "- 目前沒有戰鬥紀錄 -",
+    "en_us": "- There is currently no record of battles -"
   },
   {
     "ID": 1000078,
-    "zh_tw": "- 目前沒有持有技能 -\n\n技能可以透過掃蕩關卡或商店取得"
+    "zh_tw": "- 目前沒有持有技能 -\n\n技能可以透過掃蕩關卡或商店取得",
+    "en_us": "- No skills are currently held -\n\nSkills can be obtained by raiding levels or stores"
   },
   {
     "ID": 1000079,
-    "zh_tw": "<#575361>- 點擊選擇技能裝備 -</color>"
+    "zh_tw": "<#575361>- 點擊選擇技能裝備 -</color>",
+    "en_us": "<#575361>- Click to select skill equipment -</color"
   },
   {
     "ID": 1000080,
-    "zh_tw": "+ 加入隊伍"
+    "zh_tw": "+ 加入隊伍",
+    "en_us": "+ Join the team"
   },
   {
     "ID": 1000081,
-    "zh_tw": "目前沒有持有經驗值！\n\n* 掃蕩關卡可以取得經驗值"
+    "zh_tw": "目前沒有持有經驗值！\n\n* 掃蕩關卡可以取得經驗值",
+    "en_us": "Currently do not have experience points!\n\n* Experience can be gained by raiding levels"
   },
   {
     "ID": 1000082,
-    "zh_tw": "- 找不到角色 -\n\n請確認篩選器條件"
+    "zh_tw": "- 找不到角色 -\n\n請確認篩選器條件",
+    "en_us": "- Can't find a character.\n\nPlease check the filter conditions"
   },
   {
     "ID": 1000083,
-    "zh_tw": "網路對戰"
+    "zh_tw": "網路對戰",
+    "en_us": "Network Matchmaking"
   },
   {
     "ID": 1000084,
-    "zh_tw": "網路目前有異常或服務目前正在更新，請稍後5秒後重試，謝謝。"
+    "zh_tw": "網路目前有異常或服務目前正在更新，請稍後5秒後重試，謝謝。",
+    "en_us": "The network is currently abnormal or the service is currently being updated, please try again in 5 seconds."
   },
   {
     "ID": 1000085,
-    "zh_tw": "角色列表過濾器"
+    "zh_tw": "角色列表過濾器",
+    "en_us": "Character List Filter"
   },
   {
     "ID": 1000086,
-    "zh_tw": "最多只能擁有 {0} 名角色！\n\n* 可以前往角色頁面分解不需要的角色"
+    "zh_tw": "最多只能擁有 {0} 名角色！\n\n* 可以前往角色頁面分解不需要的角色",
+    "en_us": "Only up to {0} characters!\n\n* You can go to the Unit page to break down unwanted characters"
   },
   {
     "ID": 1000087,
-    "zh_tw": "長按確認技能內容"
+    "zh_tw": "長按確認技能內容",
+    "en_us": "Long press to confirm skill content"
   },
   {
     "ID": 1000088,
-    "zh_tw": "長按確認BUFF"
+    "zh_tw": "長按確認BUFF",
+    "en_us": "Long press to confirm buffs"
   },
   {
     "ID": 1000089,
-    "zh_tw": "取得隨機角色"
+    "zh_tw": "取得隨機角色",
+    "en_us": "Obtain a random character"
   },
   {
     "ID": 1000090,
-    "zh_tw": "消耗 {0} 經驗值取得 {1} 名角色"
+    "zh_tw": "消耗 {0} 經驗值取得 {1} 名角色",
+    "en_us": "Spend {0} experience to get {1} character"
   },
   {
     "ID": 1000091,
-    "zh_tw": "* 消耗經驗值取得角色\n* 數值均為隨機\n* 有機會取得持有獨特技能的角色"
+    "zh_tw": "* 消耗經驗值取得角色\n* 數值均為隨機\n* 有機會取得持有獨特技能的角色",
+    "en_us": "* Spend experience value to get a character\n* All values are random\n* Chance to get a character with a unique skill"
   },
   {
     "ID": 1000092,
-    "zh_tw": "取得隨機技能"
+    "zh_tw": "取得隨機技能",
+    "en_us": "Acquire random skills"
   },
   {
     "ID": 1000093,
-    "zh_tw": "消耗 {0} 經驗值取得 {1} 個技能"
+    "zh_tw": "消耗 {0} 經驗值取得 {1} 個技能",
+    "en_us": "Consume {0} experience value to obtain {1} skill."
   },
   {
     "ID": 1000094,
-    "zh_tw": "* 無法取得角色持有的獨特技能\n* 無法取得關卡的限定掉落技能\n* 可能在同次抽取結果中取得2個或以上相同技能"
+    "zh_tw": "* 無法取得角色持有的獨特技能\n* 無法取得關卡的限定掉落技能\n* 可能在同次抽取結果中取得2個或以上相同技能",
+    "en_us": "* Cannot obtain unique skills held by the character\n* Unable to obtain the limited drop skill of the level\n* Possible to obtain 2 or more of the same skill in the same draw result"
   },
   {
     "ID": 1000095,
-    "zh_tw": "A級角色必中包"
+    "zh_tw": "A級角色必中包",
+    "en_us": "A-class character must win package"
   },
   {
     "ID": 1000096,
-    "zh_tw": "購買後直接取得全能力均為評價A的角色。\n* 角色外型為隨機"
+    "zh_tw": "購買後直接取得全能力均為評價A的角色。\n* 角色外型為隨機",
+    "en_us": "After purchase, you will receive a character with an A rating for all abilities.\n* Character appearance is random"
   },
   {
     "ID": 1000097,
-    "zh_tw": "48小時不消耗體力"
+    "zh_tw": "48小時不消耗體力",
+    "en_us": "48 hours of non-consumption of physical strength"
   },
   {
     "ID": 1000098,
-    "zh_tw": "購買後48小時內，掃蕩或遊玩關卡不消耗體力。\n* 可以在體力槽下方確認剩餘時間"
+    "zh_tw": "購買後48小時內，掃蕩或遊玩關卡不消耗體力。\n* 可以在體力槽下方確認剩餘時間",
+    "en_us": "No energy consumption for 48 hours after purchase.\n* You can check the remaining time at the bottom of the strength slot."
   },
   {
     "ID": 1000099,
-    "zh_tw": "變換角色券\n*10"
+    "zh_tw": "變換角色券\n*10",
+    "en_us": "Character Change Ticket\n*10"
   },
   {
     "ID": 1000100,
-    "zh_tw": "對角色使用後，可以變更其外觀。技能將會被重置，素質不會被變更。"
+    "zh_tw": "對角色使用後，可以變更其外觀。技能將會被重置，素質不會被變更。",
+    "en_us": "After using it on a character, you can change its appearance. The skill will be reset, but the quality will not be changed."
   },
   {
     "ID": 1000101,
-    "zh_tw": "變換素質券\n*100"
+    "zh_tw": "變換素質券\n*100",
+    "en_us": "Transformation Ticket\n*100"
   },
   {
     "ID": 1000102,
-    "zh_tw": "對角色使用後，刷新所有能力值的階級與數值。"
+    "zh_tw": "對角色使用後，刷新所有能力值的階級與數值。",
+    "en_us": "When used on a character, it refreshes the level and value of all ability values."
   },
   {
     "ID": 1000103,
-    "zh_tw": "變換單一素質券\n*10"
+    "zh_tw": "變換單一素質券\n*10",
+    "en_us": "Change single prime voucher\n*10"
   },
   {
     "ID": 1000104,
-    "zh_tw": "對角色使用後，刷新指定能力值的階級與數值。"
+    "zh_tw": "對角色使用後，刷新指定能力值的階級與數值。",
+    "en_us": "Refreshes the level and value of the specified ability value when used on a character."
   },
   {
     "ID": 1000105,
-    "zh_tw": "變換角色券"
+    "zh_tw": "變換角色券",
+    "en_us": "Change Character Ticket"
   },
   {
     "ID": 1000106,
-    "zh_tw": "變換素質券"
+    "zh_tw": "變換素質券",
+    "en_us": "Transformation Ticket"
   },
   {
     "ID": 1000107,
-    "zh_tw": "變換單一素質券"
+    "zh_tw": "變換單一素質券",
+    "en_us": "Transformation of single prime coupon"
   },
   {
     "ID": 1000108,
-    "zh_tw": "幸運一擊"
+    "zh_tw": "幸運一擊",
+    "en_us": "Lucky Strike"
   },
   {
     "ID": 1000109,
-    "zh_tw": "完美防禦"
+    "zh_tw": "完美防禦",
+    "en_us": "Perfect Defense"
   },
   {
     "ID": 1000110,
-    "zh_tw": "攻擊失敗"
+    "zh_tw": "攻擊失敗",
+    "en_us": "Attack failed"
   },
   {
     "ID": 1000111,
-    "zh_tw": "- 找不到角色 -\n\n物品只能對100級的角色使用"
+    "zh_tw": "- 找不到角色 -\n\n物品只能對100級的角色使用",
+    "en_us": "- Character not found -\n\nItem can only be used on level 100 characters"
   },
   {
     "ID": 1000112,
-    "zh_tw": "獲得物品 {0} x {1}\n\n* 可以透營地頁面的「物品使用」按鈕使用"
+    "zh_tw": "獲得物品 {0} x {1}\n\n* 可以透營地頁面的「物品使用」按鈕使用",
+    "en_us": "Obtain item {0} x {1}\n\n* Can be used through the Item Use\" button on the camp page.\""
   },
   {
     "ID": 1000113,
-    "zh_tw": "請選擇角色\n(只能選擇100級的角色使用)"
+    "zh_tw": "請選擇角色\n(只能選擇100級的角色使用)",
+    "en_us": "Please select a character\n(Only level 100 characters can be used)"
   },
   {
     "ID": 1000114,
-    "zh_tw": "確認變更這個角色嗎"
+    "zh_tw": "確認變更這個角色嗎",
+    "en_us": "Confirm the character change?"
   },
   {
     "ID": 1000115,
-    "zh_tw": "使用物品"
+    "zh_tw": "使用物品",
+    "en_us": "Use items"
   },
   {
     "ID": 1000116,
-    "zh_tw": "變更外型後\n素質能力不會改變\n但技能會被重置成該外型預設的技能組合\n\n確認變更角色外型嗎？"
+    "zh_tw": "變更外型後\n素質能力不會改變\n但技能會被重置成該外型預設的技能組合\n\n確認變更角色外型嗎？",
+    "en_us": "After changing appearance\nThe quality and ability will not change.\nHowever, skills will be reset to the default skill set of that appearance.\n\nDo you want to change your character's appearance?"
   },
   {
     "ID": 1000117,
-    "zh_tw": "物品數量不足\n\n* 物品可於商店購入\n* 掃蕩時有低機率獲得物品"
+    "zh_tw": "物品數量不足\n\n* 物品可於商店購入\n* 掃蕩時有低機率獲得物品",
+    "en_us": "Insufficient number of items\n\n* Items can be purchased at the store\n* Low chance of getting items when raiding"
   },
   {
     "ID": 1000118,
-    "zh_tw": "{0} 剩餘 {1} 張"
+    "zh_tw": "{0} 剩餘 {1} 張",
+    "en_us": "{0} remaining {1} sheet"
   },
   {
     "ID": 1000119,
-    "zh_tw": "目前無法讀取廣告，請稍後再試，謝謝"
+    "zh_tw": "目前無法讀取廣告，請稍後再試，謝謝",
+    "en_us": "Please try again later, thank you."
   },
   {
     "ID": 1000120,
-    "zh_tw": "含有1個或以上 S / A 級數值，是否繼續？"
+    "zh_tw": "含有1個或以上 S / A 級數值，是否繼續？",
+    "en_us": "Contains 1 or more S / A level values, does it continue?"
   },
   {
     "ID": 1000121,
-    "zh_tw": "持有獨特技能"
+    "zh_tw": "持有獨特技能",
+    "en_us": "Hold unique skill"
   },
   {
     "ID": 1000122,
-    "zh_tw": "關卡限定掉落技能"
+    "zh_tw": "關卡限定掉落技能",
+    "en_us": "Level limited drop skill"
   },
   {
     "ID": 1000123,
-    "zh_tw": "請選擇目標"
+    "zh_tw": "請選擇目標",
+    "en_us": "Please select the target"
   },
   {
     "ID": 1000124,
-    "zh_tw": "分解時檢查 S / A 級"
+    "zh_tw": "分解時檢查 S / A 級",
+    "en_us": "Check S / A level when decomposing"
   },
   {
     "ID": 1000125,
-    "zh_tw": "<size=40>行動結束倒數</size>\n{0}"
+    "zh_tw": "<size=40>行動結束倒數</size>\n{0}",
+    "en_us": "<size=40>Countdown to end of action</size>\n{0}"
   },
   {
     "ID": 1000126,
-    "zh_tw": "角色名稱過長"
+    "zh_tw": "角色名稱過長",
+    "en_us": "Character name is too long"
   },
   {
     "ID": 1000127,
-    "zh_tw": "設定"
+    "zh_tw": "設定",
+    "en_us": "Setting"
   },
   {
     "ID": 1000128,
-    "zh_tw": "背景音樂"
+    "zh_tw": "背景音樂",
+    "en_us": "Background music"
   },
   {
     "ID": 1000129,
-    "zh_tw": "遊戲音效"
+    "zh_tw": "遊戲音效",
+    "en_us": "Game Sound"
   },
   {
     "ID": 1000130,
-    "zh_tw": "遊戲語言"
+    "zh_tw": "遊戲語言",
+    "en_us": "Game Language"
   },
   {
     "ID": 1000131,
-    "zh_tw": "隱私權政策"
+    "zh_tw": "隱私權政策",
+    "en_us": "Privacy Policy"
   },
   {
     "ID": 1000132,
-    "zh_tw": "遊戲製作\nKAHA\n\n─────────────────────────\n特別感謝\n\n張恆\n遊戲設計諮詢 / 玩家社群提供 / 行銷意見與資源\n\nMalibu\n遊戲UX諮詢 / 遊戲特效提供     \n\nNage\n遊戲設計諮詢 / 早期遊戲測試\n\nArc\n音樂提供 / 早期遊戲測試\n\nDer Kasaki\n遊戲特效提供 / 早期遊戲測試\n\nALEX\n網路連線功能諮詢 / 早期遊戲測試\n\n光影\n遊戲測試 / 功能體驗回饋\n\n魔王魂\n音樂提供"
+    "zh_tw": "遊戲製作\nKAHA\n\n─────────────────────────\n特別感謝\n\n張恆\n遊戲設計諮詢 / 玩家社群提供 / 行銷意見與資源\n\nMalibu\n遊戲UX諮詢 / 遊戲特效提供     \n\nNage\n遊戲設計諮詢 / 早期遊戲測試\n\nArc\n音樂提供 / 早期遊戲測試\n\nDer Kasaki\n遊戲特效提供 / 早期遊戲測試\n\nALEX\n網路連線功能諮詢 / 早期遊戲測試\n\n光影\n遊戲測試 / 功能體驗回饋\n\n魔王魂\n音樂提供",
+    "en_us": "Game Production\nKAHA\n\n─────────────────────────\nSpecial thanks to\n\nChang Heng\nGame Design Consultation / Player Community Contribution / Marketing Advice and Resources\n\nMalibu\nGame UX Consultation / Game Effects     \n\nNage\nGame Design Consultation / Early Game Testing\n\nArc\nMusic Provision / Early Game Testing\n\nDer Kasaki\nGame Effects / Early Game Testing\n\nALEX\nInternet connection consultation / Early game testing\n\nLight and Shadow\nGame Testing / Feature Experience Feedback\n\n魔王魂\nMusic Offerings"
   },
   {
     "ID": 1000133,
-    "zh_tw": "目前玩家人數不足\n可能需要稍候一段時間"
+    "zh_tw": "目前玩家人數不足\n可能需要稍候一段時間",
+    "en_us": "Currently there are not enough players\nMay need to wait for a while"
   },
   {
     "ID": 1000134,
-    "zh_tw": "[未知物品]"
+    "zh_tw": "[未知物品]",
+    "en_us": "[Unknown item]"
   },
   {
     "ID": 1000135,
-    "zh_tw": "網路連線對戰功能仍在開發中\n不論勝利或失敗都不會獲得或失去物品\n遊戲過程中有可能遇到無法預期的BUG\n確認要進行連線對戰嗎？"
+    "zh_tw": "網路連線對戰功能仍在開發中\n不論勝利或失敗都不會獲得或失去物品\n遊戲過程中有可能遇到無法預期的BUG\n確認要進行連線對戰嗎？",
+    "en_us": "Online matchmaking is still in development\nNo items will be gained or lost regardless of victory or defeat\nUnexpected bugs may be encountered during the game.\nAre you sure you want to play online?"
   },
   {},
   {
@@ -2951,31 +3028,38 @@
   },
   {
     "ID": 2000019,
-    "zh_tw": "滿級時的素質為隨機值，隨機範圍根據評價而定。可以透過面板上的數值條確認目前數值與最大值的比例。"
+    "zh_tw": "滿級時的素質為隨機值，隨機範圍根據評價而定。可以透過面板上的數值條確認目前數值與最大值的比例。",
+    "en_us": "The quality at full level is a random value, and the random range depends on the evaluation. You can check the ratio of the current value to the maximum value through the value bar on the panel."
   },
   {
     "ID": 2000020,
-    "zh_tw": "已經通過的關卡，可以透過長按關卡後，點擊「Replay」重複進行遊玩。"
+    "zh_tw": "已經通過的關卡，可以透過長按關卡後，點擊「Replay」重複進行遊玩。",
+    "en_us": "If you have already passed a level, you can play it again by long pressing the level and clicking \"Replay\"."
   },
   {
     "ID": 2000021,
-    "zh_tw": "掃蕩時，有低機率取得商城道具。"
+    "zh_tw": "掃蕩時，有低機率取得商城道具。",
+    "en_us": "When raiding, you have a low chance of getting mall items."
   },
   {},
   {
     "ID": 3000001,
-    "zh_tw": "1. 廢棄的王城"
+    "zh_tw": "1. 廢棄的王城",
+    "en_us": "1. The Abandoned Kingdom"
   },
   {
     "ID": 3000002,
-    "zh_tw": "2. 北方雪原"
+    "zh_tw": "2. 北方雪原",
+    "en_us": "2. Northern Snowfields"
   },
   {
     "ID": 3000003,
-    "zh_tw": "3. 東方森林"
+    "zh_tw": "3. 東方森林",
+    "en_us": "3. Eastern Forest"
   },
   {
     "ID": 3000004,
-    "zh_tw": "4. 西方沙漠"
+    "zh_tw": "4. 西方沙漠",
+    "en_us": "4. Western Desert"
   }
 ]
