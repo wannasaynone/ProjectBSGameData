@@ -1056,7 +1056,7 @@
     "DescriptionContextID": 348,
     "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_DarkSpellHit;\n0.25_SFX_AddStatus",
     "References": "B:113",
-    "Command": "OnActived\n{\n     AddStatus(Self, HP, -Self.Attack);\n     GainBuff(Self, 113, 1t1);\n     AddExtraAction(Self, 1);\n}",
+    "Command": "OnActived\n{\n     AddStatus(Select(Self, Manual, 1), HP, -Self.Attack);\n     GainBuff(Self, 113, 1t1);\n     AddExtraAction(Self, 1);\n}",
     "IsDrop": 1
   },
   {
