@@ -2745,7 +2745,7 @@
   {
     "ID": 1000089,
     "zh_tw": "取得隨機角色",
-    "en_us": "Obtain a random character"
+    "en_us": "Obtain Random Characters"
   },
   {
     "ID": 1000090,
@@ -2760,7 +2760,7 @@
   {
     "ID": 1000092,
     "zh_tw": "取得隨機技能",
-    "en_us": "Acquire random skills"
+    "en_us": "Obtain Random Skills"
   },
   {
     "ID": 1000093,
@@ -2775,7 +2775,7 @@
   {
     "ID": 1000095,
     "zh_tw": "A級角色必中包",
-    "en_us": "A-class character must win package"
+    "en_us": "A-class Character Package"
   },
   {
     "ID": 1000096,
@@ -2785,7 +2785,7 @@
   {
     "ID": 1000097,
     "zh_tw": "48小時不消耗體力",
-    "en_us": "48 hours of non-consumption of physical strength"
+    "en_us": "48 hours Non-consumption Package"
   },
   {
     "ID": 1000098,
