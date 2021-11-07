@@ -2103,6 +2103,46 @@
     "zh_tw": "被動",
     "en_us": "Passive"
   },
+  {
+    "ID": 400009,
+    "zh_tw": "增SP",
+    "en_us": "Increase SP"
+  },
+  {
+    "ID": 400010,
+    "zh_tw": "增傷",
+    "en_us": "Damage Increase"
+  },
+  {
+    "ID": 400011,
+    "zh_tw": "減傷",
+    "en_us": "Damage Reduction"
+  },
+  {
+    "ID": 400012,
+    "zh_tw": "仇恨",
+    "en_us": "Hatred"
+  },
+  {
+    "ID": 400013,
+    "zh_tw": "弱化",
+    "en_us": "Weakening"
+  },
+  {
+    "ID": 400014,
+    "zh_tw": "控制",
+    "en_us": "Control"
+  },
+  {
+    "ID": 400015,
+    "zh_tw": "強化",
+    "en_us": "Strength"
+  },
+  {
+    "ID": 400016,
+    "zh_tw": "死亡",
+    "en_us": "Death"
+  },
   {},
   {
     "ID": 500001,
@@ -2900,17 +2940,17 @@
   {
     "ID": 1000128,
     "zh_tw": "背景音樂",
-    "en_us": "Background music"
+    "en_us": "BGM"
   },
   {
     "ID": 1000129,
     "zh_tw": "遊戲音效",
-    "en_us": "Game Sound"
+    "en_us": "SE"
   },
   {
     "ID": 1000130,
     "zh_tw": "遊戲語言",
-    "en_us": "Game Language"
+    "en_us": "Language"
   },
   {
     "ID": 1000131,
