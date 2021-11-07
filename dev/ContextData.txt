@@ -2977,6 +2977,11 @@
     "zh_tw": "網路連線對戰功能仍在開發中\n不論勝利或失敗都不會獲得或失去物品\n遊戲過程中有可能遇到無法預期的BUG\n確認要進行連線對戰嗎？",
     "en_us": "Online matchmaking is still in development\nNo items will be gained or lost regardless of victory or defeat\nUnexpected bugs may be encountered during the game.\nAre you sure you want to play online?"
   },
+  {
+    "ID": 1000136,
+    "zh_tw": "按下Change後消耗物品\n（可連續使用）",
+    "en_us": "Press Change to consume the item\r\n(can be used continuously)"
+  },
   {},
   {
     "ID": 2000001,
