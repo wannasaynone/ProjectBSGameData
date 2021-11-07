@@ -2794,8 +2794,8 @@
   },
   {
     "ID": 1000099,
-    "zh_tw": "變換角色券\n*10",
-    "en_us": "Character Change Ticket\n*10"
+    "zh_tw": "變換角色券\nx 10",
+    "en_us": "Character\nChange Ticket\nx 10"
   },
   {
     "ID": 1000100,
@@ -2804,8 +2804,8 @@
   },
   {
     "ID": 1000101,
-    "zh_tw": "變換素質券\n*100",
-    "en_us": "Transformation Ticket\n*100"
+    "zh_tw": "變換素質券\nx 100",
+    "en_us": "Transformation\nTicket\nx100"
   },
   {
     "ID": 1000102,
@@ -2814,8 +2814,8 @@
   },
   {
     "ID": 1000103,
-    "zh_tw": "變換單一素質券\n*10",
-    "en_us": "Change single prime voucher\n*10"
+    "zh_tw": "變換單一素質券\nx 10",
+    "en_us": "Change Single Stat\nTicket\nx10"
   },
   {
     "ID": 1000104,
