@@ -7,7 +7,7 @@
   {
     "ID": 1,
     "zh_tw": "普通攻擊",
-    "en_us": "General Attack"
+    "en_us": "Normal Attack"
   },
   {
     "ID": 2,
@@ -17,7 +17,7 @@
   {
     "ID": 3,
     "zh_tw": "普通防禦",
-    "en_us": "General Defense"
+    "en_us": "Normal Defense"
   },
   {
     "ID": 4,
@@ -210,27 +210,27 @@
   {
     "ID": 101,
     "zh_tw": "普通攻擊專精",
-    "en_us": "General Attack Expertise"
+    "en_us": "Normal Attack Expertise"
   },
   {
     "ID": 102,
     "zh_tw": "每當使用「普通攻擊」造成傷害後，給予自己1個「普通攻擊熟練」。",
-    "en_us": "Whenever you use \"General Attack\" to deal damage, give yourself 1 \"General Attack Proficiency\"."
+    "en_us": "Whenever you use \"Normal Attack\" to deal damage, give yourself 1 \"Normal Attack Proficiency\"."
   },
   {
     "ID": 103,
     "zh_tw": "普通攻擊熟練",
-    "en_us": "General Attack Proficiency"
+    "en_us": "Normal Attack Proficiency"
   },
   {
     "ID": 104,
     "zh_tw": "獲得狀態時，若已擁有10個且未持有「普通攻擊+」，消除這個狀態並將「普通攻擊」替換為「普通攻擊+」。若已持有「普通攻擊+」，則改為使「普通攻擊+」造成的傷害增加5%。",
-    "en_us": "If you have 10 of \"General Attack Proficiency\" when you get the buff, remove this buff and replace \"General Attack\" with \"General Attack+\"."
+    "en_us": "If you have 10 of \"Normal Attack Proficiency\" when you get the buff, remove this buff and replace \"Normal Attack\" with \"Normal Attack+\"."
   },
   {
     "ID": 105,
     "zh_tw": "普通攻擊+",
-    "en_us": "General Attack+"
+    "en_us": "Normal Attack+"
   },
   {
     "ID": 106,
@@ -240,32 +240,32 @@
   {
     "ID": 107,
     "zh_tw": "雙重加速",
-    "en_us": "Double Acceleration"
+    "en_us": "2x Acceleration"
   },
   {
     "ID": 108,
     "zh_tw": "每當使用「普通攻擊」或「普通攻擊+」造成傷害後，有15%的機率再使用1次「普通攻擊」。",
-    "en_us": "Whenever you use \"General Attack\" to deal damage, you have a 15% chance of using \"General Attack\" again."
+    "en_us": "Whenever you use \"Normal Attack\" to deal damage, you have a 15% chance of using \"Normal Attack\" again."
   },
   {
     "ID": 109,
     "zh_tw": "四重加速",
-    "en_us": "Quadruple Acceleration"
+    "en_us": "4x Acceleration"
   },
   {
     "ID": 110,
     "zh_tw": "每當使用「普通攻擊」或「普通攻擊+」造成傷害後，有30%的機率減少20點SP值並再使用1次「普通攻擊」。SP值不足20點時不會發動。",
-    "en_us": "Whenever you use \"General Attack\" to deal damage, you have a 30% chance that you will reduce your SP by 20 points and use \"General Attack\" once more. It will not fire when the SP value is less than 20."
+    "en_us": "Whenever you use \"Normal Attack\" to deal damage, you have a 30% chance that you will reduce your SP by 20 points and use \"Normal Attack\" once more. It will not fire when the SP value is less than 20."
   },
   {
     "ID": 111,
     "zh_tw": "八重加速",
-    "en_us": "Eight-times Acceleration"
+    "en_us": "8x Acceleration"
   },
   {
     "ID": 112,
     "zh_tw": "每當使用「普通攻擊」或「普通攻擊+」造成傷害後，有60%的機率減少40點SP值並再使用1次「普通攻擊」。SP值不足40點時不會發動。",
-    "en_us": "Whenever you use \"General Attack\" to deal damage, you have a 60% chance that you will reduce your SP by 40 points and use \"General Attack\" once more. It will not fire when the SP value is less than 40."
+    "en_us": "Whenever you use \"Normal Attack\" to deal damage, you have a 60% chance that you will reduce your SP by 40 points and use \"Normal Attack\" once more. It will not fire when the SP value is less than 40."
   },
   {
     "ID": 113,
@@ -305,7 +305,7 @@
   {
     "ID": 120,
     "zh_tw": "減少自己15%最大生命值的生命值，增加1個友方單位15點SP值。",
-    "en_us": "Reduce your life value by 15% of your maximum life value and increase the SP value of one friendly unit by 15 points."
+    "en_us": "Reduce your HP by 15% of your Max HP and increase SP value of one friendly unit by 15 points."
   },
   {
     "ID": 121,
@@ -335,7 +335,7 @@
   {
     "ID": 126,
     "zh_tw": "受到傷害後，受到的傷害每占最大生命值的1%，增加自己的SP值1點。",
-    "en_us": "When you take damage, increase your SP by 1 point for every 1% of your maximum life."
+    "en_us": "When you take damage, increase your SP by 1 point for every 1% of Max HP."
   },
   {
     "ID": 127,
@@ -365,7 +365,7 @@
   {
     "ID": 132,
     "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，根據造成傷害與目標最大生命值的比例，增加自己的SP值。",
-    "en_us": "Deal 130% attack damage to 1 enemy unit and increase your SP based on the ratio of damage dealt to the target's maximum life."
+    "en_us": "Deal 130% attack damage to 1 enemy unit and increase your SP based on the ratio of damage dealt to the target's Max HP."
   },
   {
     "ID": 133,
@@ -400,7 +400,7 @@
   {
     "ID": 139,
     "zh_tw": "隕石術",
-    "en_us": "Meteor Technique"
+    "en_us": "Meteor"
   },
   {
     "ID": 140,
@@ -415,7 +415,7 @@
   {
     "ID": 142,
     "zh_tw": "對自己以外的所有單位造成360%攻擊值的傷害，並給予目標持續3回合的「燃燒」。",
-    "en_us": "Deals 360% attack damage to all units except yourself and gives the target “Burn” for 3 turns."
+    "en_us": "Deals 360% attack damage to all units except this unit and gives the target “Burn” for 3 turns."
   },
   {
     "ID": 143,
@@ -455,7 +455,7 @@
   {
     "ID": 150,
     "zh_tw": "使用[火焰]技能時，增加造成的傷害20%。",
-    "en_us": "Increases damage dealt when using the Flame skill by 20%."
+    "en_us": "Increases damage dealt when using the [Flame] skill by 20%."
   },
   {
     "ID": 151,
@@ -490,12 +490,12 @@
   {
     "ID": 157,
     "zh_tw": "最大生命值增加",
-    "en_us": "Maximum life value increase"
+    "en_us": "Max HP value increase"
   },
   {
     "ID": 158,
     "zh_tw": "最大生命值增加12%。",
-    "en_us": "Maximum life value increased by 12%."
+    "en_us": "Max HP value increased by 12%."
   },
   {
     "ID": 159,
@@ -620,7 +620,7 @@
   {
     "ID": 183,
     "zh_tw": "全能力值增加",
-    "en_us": "Full ability value increase"
+    "en_us": "All ability value increase"
   },
   {
     "ID": 184,
@@ -635,7 +635,7 @@
   {
     "ID": 186,
     "zh_tw": "對1個敵方單位造成100%攻擊值的傷害，並有40%的機率給予目標持續2回合的「冰凍」。",
-    "en_us": "Deals 100% attack damage to 1 enemy unit and has a 40% chance of giving the target a \"Freeze\" that lasts for 2 turns."
+    "en_us": "Deals 100% attack damage to 1 enemy unit and has a 40% chance of giving the target a \"Freeze\" for 2 turns."
   },
   {
     "ID": 187,
@@ -679,812 +679,1014 @@
   },
   {
     "ID": 195,
-    "zh_tw": "冰霜傷害增幅"
+    "zh_tw": "冰霜傷害增幅",
+    "en_us": "Frost Damage Increase"
   },
   {
     "ID": 196,
-    "zh_tw": "使用[冰霜]技能時，增加造成的傷害20%。"
+    "zh_tw": "使用[冰霜]技能時，增加造成的傷害20%。",
+    "en_us": "When using the [Frost] skill, the damage dealt is increased by 20%."
   },
   {
     "ID": 197,
-    "zh_tw": "冰霜傷害減少"
+    "zh_tw": "冰霜傷害減少",
+    "en_us": "Frost damage reduction"
   },
   {
     "ID": 198,
-    "zh_tw": "減少受到的傷害5%。若是受到[冰霜]技能攻擊時，再減少受到的傷害20%。"
+    "zh_tw": "減少受到的傷害5%。若是受到[冰霜]技能攻擊時，再減少受到的傷害20%。",
+    "en_us": "Reduces damage dealt by 5%. If you are attacked by [Forst] skill, the damage dealt is reduced by another 20%."
   },
   {
     "ID": 199,
-    "zh_tw": "點燃"
+    "zh_tw": "點燃",
+    "en_us": "Ignite"
   },
   {
     "ID": 200,
-    "zh_tw": "選擇1個單位，立即觸發其身上的「燃燒」2次。"
+    "zh_tw": "選擇1個單位，立即觸發其身上的「燃燒」2次。",
+    "en_us": "Select a unit and immediately trigger \"Burn\" on it 2 times."
   },
   {
     "ID": 201,
-    "zh_tw": "烙印"
+    "zh_tw": "烙印",
+    "en_us": "Branding"
   },
   {
     "ID": 202,
-    "zh_tw": "選擇1個敵方單位，給予目標1個持續1回合的「燃燒」後，對其造成(「燃燒」個數x26%)攻擊值的傷害。"
+    "zh_tw": "選擇1個敵方單位，給予目標1個持續1回合的「燃燒」後，對其造成(「燃燒」個數x26%)攻擊值的傷害。",
+    "en_us": "Select an enemy unit and give the target a Burn that lasts for 1 round, then deal (the amount of Burn x 26%) of my attack value."
   },
   {
     "ID": 203,
-    "zh_tw": "霜爆"
+    "zh_tw": "霜爆",
+    "en_us": "Frost Blast"
   },
   {
     "ID": 204,
-    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害。若其擁有「冰凍」，則改為造成260%攻擊值的傷害。"
+    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害。若其擁有「冰凍」，則改為造成260%攻擊值的傷害。",
+    "en_us": "Deals 130% attack damage to 1 enemy unit. If it has \"Frost\", it deals 260% of its attack value instead."
   },
   {
     "ID": 205,
-    "zh_tw": "毒針"
+    "zh_tw": "毒針",
+    "en_us": "Poison Needle"
   },
   {
     "ID": 206,
-    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，並有40%的機率給予目標持續3回合的「中毒」。"
+    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，並有40%的機率給予目標持續3回合的「中毒」。",
+    "en_us": "Deals 130% attack damage to 1 enemy unit, and has a 40% chance to give \"Poison\" to the target for 3 turns."
   },
   {
     "ID": 207,
-    "zh_tw": "毒霧"
+    "zh_tw": "毒霧",
+    "en_us": "Poison Mist"
   },
   {
     "ID": 208,
-    "zh_tw": "給予全體敵方單位3個持續3回合的「中毒」。"
+    "zh_tw": "給予全體敵方單位3個持續3回合的「中毒」。",
+    "en_us": "Give \"Poison\" on all enemy units for 3 turns."
   },
   {
     "ID": 209,
-    "zh_tw": "毒性激發"
+    "zh_tw": "毒性激發",
+    "en_us": "Toxic trigger"
   },
   {
     "ID": 210,
-    "zh_tw": "選擇1個單位，立即觸發其身上的「中毒」2次。"
+    "zh_tw": "選擇1個單位，立即觸發其身上的「中毒」2次。",
+    "en_us": "Select a unit and immediately trigger \"Poison\" on it 2 times."
   },
   {
     "ID": 211,
-    "zh_tw": "毒爆"
+    "zh_tw": "毒爆",
+    "en_us": "Poison Blast"
   },
   {
     "ID": 212,
-    "zh_tw": "對1個敵方單位造成75%攻擊值的傷害。目標身上每有1個「中毒」，就也造成1%目標最大生命值的傷害。"
+    "zh_tw": "對1個敵方單位造成75%攻擊值的傷害。目標身上每有1個「中毒」，就也造成1%目標最大生命值的傷害。",
+    "en_us": "Deals 75% of attack damage to 1 enemy unit. For every \"Poison\" on the target, it also deals 1% of the target's Max HP."
   },
   {
     "ID": 213,
-    "zh_tw": "基本治療術"
+    "zh_tw": "基本治療術",
+    "en_us": "Basic Healing"
   },
   {
     "ID": 214,
-    "zh_tw": "增加1個友方單位相當於自己25%防禦值的生命值。"
+    "zh_tw": "增加1個友方單位相當於自己25%防禦值的生命值。",
+    "en_us": "Increases the HP value of 1 friendly unit by 25% of my defense value."
   },
   {
     "ID": 215,
-    "zh_tw": "高階治療術"
+    "zh_tw": "高階治療術",
+    "en_us": "High Level Healing"
   },
   {
     "ID": 216,
-    "zh_tw": "增加1個友方單位相當於自己50%防禦值的生命值。"
+    "zh_tw": "增加1個友方單位相當於自己50%防禦值的生命值。",
+    "en_us": "Increases the life value of 1 friendly unit equal to 50% of my defense value."
   },
   {
     "ID": 217,
-    "zh_tw": "皇家治療術"
+    "zh_tw": "皇家治療術",
+    "en_us": "Royal Healing"
   },
   {
     "ID": 218,
-    "zh_tw": "增加1個友方單位相當於自己100%防禦值的生命值。"
+    "zh_tw": "增加1個友方單位相當於自己100%防禦值的生命值。",
+    "en_us": "Increases the life value of 1 friendly unit by 100% of my defense value."
   },
   {
     "ID": 219,
-    "zh_tw": "奇蹟治療術"
+    "zh_tw": "奇蹟治療術",
+    "en_us": "Miracle Healing"
   },
   {
     "ID": 220,
-    "zh_tw": "增加1個友方單位相當於自己150%防禦值的生命值。"
+    "zh_tw": "增加1個友方單位相當於自己150%防禦值的生命值。",
+    "en_us": "Increases 1 friendly unit's life equal to 150% of my defense value."
   },
   {
     "ID": 221,
-    "zh_tw": "輔助機能強化裝置"
+    "zh_tw": "輔助機能強化裝置",
+    "en_us": "Auxiliary Function Enhancement Device"
   },
   {
     "ID": 222,
-    "zh_tw": "每當其他友方單位使用[輔助]技能後，增加目標相當於自己15%防禦值的生命值。"
+    "zh_tw": "每當其他友方單位使用[輔助]技能後，增加目標相當於自己15%防禦值的生命值。",
+    "en_us": "Whenever another friendly unit uses the [Support] skill, increases the target's HP value by 15% of my defense value."
   },
   {
     "ID": 223,
-    "zh_tw": "淨化"
+    "zh_tw": "淨化",
+    "en_us": "Purify"
   },
   {
     "ID": 224,
-    "zh_tw": "選擇1個單位，消除其身上所有[負面]狀態。"
+    "zh_tw": "選擇1個單位，消除其身上所有[負面]狀態。",
+    "en_us": "Select a unit and remove all [Debuff] from it."
   },
   {
     "ID": 225,
-    "zh_tw": "聖域"
+    "zh_tw": "聖域",
+    "en_us": "Sanctuary"
   },
   {
     "ID": 226,
-    "zh_tw": "消除所有友方單位的所有[負面]狀態。"
+    "zh_tw": "消除所有友方單位的所有[負面]狀態。",
+    "en_us": "Removes all [Debuff] from all friendly units."
   },
   {
     "ID": 227,
-    "zh_tw": "強制驅散"
+    "zh_tw": "強制驅散",
+    "en_us": "Forced Dispersion"
   },
   {
     "ID": 228,
-    "zh_tw": "選擇1個單位，消除其身上所有狀態。"
+    "zh_tw": "選擇1個單位，消除其身上所有狀態。",
+    "en_us": "Select 1 unit and remove all buffs from it."
   },
   {
     "ID": 229,
-    "zh_tw": "先鋒"
+    "zh_tw": "先鋒",
+    "en_us": "Pioneer"
   },
   {
     "ID": 230,
-    "zh_tw": "戰鬥開始時，給予自己200%防禦值的仇恨值。"
+    "zh_tw": "戰鬥開始時，給予自己200%防禦值的仇恨值。",
+    "en_us": "At the beginning of a battle, give yourself 200% of your defense value in hatred value."
   },
   {
     "ID": 231,
-    "zh_tw": "嘲諷"
+    "zh_tw": "嘲諷",
+    "en_us": "Taunt"
   },
   {
     "ID": 232,
-    "zh_tw": "給予自己185%防禦值的仇恨值。"
+    "zh_tw": "給予自己185%防禦值的仇恨值。",
+    "en_us": "Gives you 185% of your defense value in hatred."
   },
   {
     "ID": 233,
-    "zh_tw": "騎士精神"
+    "zh_tw": "騎士精神",
+    "en_us": "Knight Spirit"
   },
   {
     "ID": 234,
-    "zh_tw": "每當其他友方單位受到攻擊後，增加自己相當於友方單位承受傷害的仇恨值。"
+    "zh_tw": "每當其他友方單位受到攻擊後，增加自己相當於友方單位承受傷害的仇恨值。",
+    "en_us": "Whenever another friendly unit is attacked, increase your hatred value equal to the damage taken by the friendly unit."
   },
   {
     "ID": 235,
-    "zh_tw": "盾擊"
+    "zh_tw": "盾擊",
+    "en_us": "Shield Strike"
   },
   {
     "ID": 236,
-    "zh_tw": "對1個敵方單位造成150%防禦值的傷害。"
+    "zh_tw": "對1個敵方單位造成150%防禦值的傷害。",
+    "en_us": "Deals 150% defense damage to 1 enemy unit."
   },
   {
     "ID": 237,
-    "zh_tw": "匿蹤"
+    "zh_tw": "匿蹤",
+    "en_us": "Stealth"
   },
   {
     "ID": 238,
-    "zh_tw": "給予自己持續3回合的「隱身」。"
+    "zh_tw": "給予自己持續3回合的「隱身」。",
+    "en_us": "Gives you \"Invisibility\" for 3 rounds."
   },
   {
     "ID": 239,
-    "zh_tw": "隱身"
+    "zh_tw": "隱身",
+    "en_us": "Invisibility"
   },
   {
     "ID": 240,
-    "zh_tw": "行動結束時，使仇恨值變為1。將受到傷害時，使受到的傷害變為0，並消除這個狀態。"
+    "zh_tw": "行動結束時，使仇恨值變為1。將受到傷害時，使受到的傷害變為0，並消除這個狀態。",
+    "en_us": "At the end of the action, make the hatred value to 1. If you will take damage, make the damage to 0 and remove this buff."
   },
   {
     "ID": 241,
-    "zh_tw": "暗殺"
+    "zh_tw": "暗殺",
+    "en_us": "Assassination"
   },
   {
     "ID": 242,
-    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害。若擁有「隱身」狀態，改為對1個敵方單位造成260%攻擊值的傷害，並消除「隱身」狀態。"
+    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害。若擁有「隱身」狀態，改為對1個敵方單位造成260%攻擊值的傷害，並消除「隱身」狀態。",
+    "en_us": "Deals 130% attack damage to 1 enemy unit. If you have \"Invisibility\", it deals 260% attack damage to 1 enemy unit and removes \"Invisibility\" buff instead."
   },
   {
     "ID": 243,
-    "zh_tw": "復仇打擊"
+    "zh_tw": "復仇打擊",
+    "en_us": "Vengeance Strike"
   },
   {
     "ID": 244,
-    "zh_tw": "對1個敵方單位造成150%攻擊值的傷害。仇恨值每佔自己最大生命值1%，倍率就額外增加1%。攻擊後，使仇恨值變為1。"
+    "zh_tw": "對1個敵方單位造成150%攻擊值的傷害。仇恨值每佔自己最大生命值1%，倍率就額外增加1%。攻擊後，使仇恨值變為1。",
+    "en_us": "Deals 150% attack damage to 1 enemy unit. For every hatred value 1% of your Max HP, the multiplier increases by 1%. After the attack, the hate value becomes 1."
   },
   {
     "ID": 245,
-    "zh_tw": "雷擊術"
+    "zh_tw": "雷擊術",
+    "en_us": "Lightning Strike"
   },
   {
     "ID": 246,
-    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，其後使目標失去相當於隨機10%~20%自己速度值的生命值。"
+    "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，其後使目標失去相當於隨機10%~20%自己速度值的生命值。",
+    "en_us": "Deals 130% attack damage to 1 enemy unit, then causes the target to lose HP equal to a random 10%-20% of my speed."
   },
   {
     "ID": 247,
-    "zh_tw": "雙重雷擊術"
+    "zh_tw": "雙重雷擊術",
+    "en_us": "Double Lightning Strike"
   },
   {
     "ID": 248,
-    "zh_tw": "對2個不同的敵方單位造成130%攻擊值的傷害，其後使目標失去相當於隨機20%~30%自己速度值的生命值。"
+    "zh_tw": "對2個不同的敵方單位造成130%攻擊值的傷害，其後使目標失去相當於隨機20%~30%自己速度值的生命值。",
+    "en_us": "Deals 130% attack damage to 2 different enemy units, then causes the target to lose HP equal to a random 20%-30% of my speed."
   },
   {
     "ID": 249,
-    "zh_tw": "雷爆術"
+    "zh_tw": "雷爆術",
+    "en_us": "Lightning Blast"
   },
   {
     "ID": 250,
-    "zh_tw": "對所有敵方單位造成130%攻擊值的傷害，其後使目標失去相當於隨機20%~30%自己速度值的生命值。"
+    "zh_tw": "對所有敵方單位造成130%攻擊值的傷害，其後使目標失去相當於隨機20%~30%自己速度值的生命值。",
+    "en_us": "Deals 130% attack damage to all enemy units, then causes the target to lose HP equal to a random 20%-30% of my speed."
   },
   {
     "ID": 251,
-    "zh_tw": "落雷"
+    "zh_tw": "落雷",
+    "en_us": "Falling Thunder"
   },
   {
     "ID": 252,
-    "zh_tw": "對所有敵方單位造成130%攻擊值的傷害，其後使目標失去相當於隨機30%~40%自己速度值的生命值。"
+    "zh_tw": "對所有敵方單位造成130%攻擊值的傷害，其後使目標失去相當於隨機30%~40%自己速度值的生命值。",
+    "en_us": "Deals 130% of attack damage to all enemy units, then causes the target to lose HP equal to 30% to 40% of my at random."
   },
   {
     "ID": 253,
-    "zh_tw": "雷龍"
+    "zh_tw": "雷龍",
+    "en_us": "Thunder Dragon"
   },
   {
     "ID": 254,
-    "zh_tw": "對自己以外的所有單位造成260%攻擊值的傷害，其後使目標失去相當於隨機50%~60%自己速度值的生命值。"
+    "zh_tw": "對自己以外的所有單位造成260%攻擊值的傷害，其後使目標失去相當於隨機50%~60%自己速度值的生命值。",
+    "en_us": "Deals 260% attack damage to all units other than yourself, then causes the target to lose HP equal to a random 50%-60% of my speed value."
   },
   {
     "ID": 255,
-    "zh_tw": "雷電傷害增幅"
+    "zh_tw": "雷電傷害增幅",
+    "en_us": "Lightning damage increase"
   },
   {
     "ID": 256,
-    "zh_tw": "使用[雷電]技能時，增加造成的傷害20%。"
+    "zh_tw": "使用[雷電]技能時，增加造成的傷害20%。",
+    "en_us": "When using the [Lightning] skill, the damage dealt is increased by 20%."
   },
   {
     "ID": 257,
-    "zh_tw": "雷電傷害減少"
+    "zh_tw": "雷電傷害減少",
+    "en_us": "Lightning damage reduction"
   },
   {
     "ID": 258,
-    "zh_tw": "減少受到的傷害5%。若是受到[雷電]技能攻擊時，再減少受到的傷害20%。"
+    "zh_tw": "減少受到的傷害5%。若是受到[雷電]技能攻擊時，再減少受到的傷害20%。",
+    "en_us": "Reduces damage taken by 5%. If you are attacked by [Lightning] skill, the damage taken is reduced by 20%."
   },
   {
     "ID": 259,
-    "zh_tw": "降低攻擊值"
+    "zh_tw": "降低攻擊值",
+    "en_us": "Decrease Attack"
   },
   {
     "ID": 260,
-    "zh_tw": "給予1個敵方單位持續3回合的「攻擊值下降」。"
+    "zh_tw": "給予1個敵方單位持續3回合的「攻擊值下降」。",
+    "en_us": "Gives 1 enemy unit a 3-turn \"Attack Down\"."
   },
   {
     "ID": 261,
-    "zh_tw": "降低防禦值"
+    "zh_tw": "降低防禦值",
+    "en_us": "Decrease Defense"
   },
   {
     "ID": 262,
-    "zh_tw": "給予1個敵方單位持續3回合的「防禦值下降」。"
+    "zh_tw": "給予1個敵方單位持續3回合的「防禦值下降」。",
+    "en_us": "Gives 1 enemy unit a 3-turn \"Defense Down\"."
   },
   {
     "ID": 263,
-    "zh_tw": "降低速度值"
+    "zh_tw": "降低速度值",
+    "en_us": "Decrease Speed"
   },
   {
     "ID": 264,
-    "zh_tw": "給予1個敵方單位持續3回合的「速度值下降」。"
+    "zh_tw": "給予1個敵方單位持續3回合的「速度值下降」。",
+    "en_us": "Gives 1 enemy unit a 3-turn \"Speed Down\"."
   },
   {
     "ID": 265,
-    "zh_tw": "連續攻擊"
+    "zh_tw": "連續攻擊",
+    "en_us": "Continuous Attack"
   },
   {
     "ID": 266,
-    "zh_tw": "對1個敵方單位造成75%攻擊值的傷害。連續2次。"
+    "zh_tw": "對1個敵方單位造成75%攻擊值的傷害。連續2次。",
+    "en_us": "Deals 75% of attack damage to 1 enemy unit. 2 times in a row."
   },
   {
     "ID": 267,
-    "zh_tw": "三連攻擊"
+    "zh_tw": "三連攻擊",
+    "en_us": "Triple Attack"
   },
   {
     "ID": 268,
-    "zh_tw": "對1個敵方單位造成50%攻擊值的傷害。連續3次。"
+    "zh_tw": "對1個敵方單位造成50%攻擊值的傷害。連續3次。",
+    "en_us": "Deals 50% attack damage to 1 enemy unit. 3 times in a row."
   },
   {
     "ID": 269,
-    "zh_tw": "四連攻擊"
+    "zh_tw": "四連攻擊",
+    "en_us": "Quadruple Attack"
   },
   {
     "ID": 270,
-    "zh_tw": "對1個敵方單位造成37%攻擊值的傷害。連續4次。"
+    "zh_tw": "對1個敵方單位造成37%攻擊值的傷害。連續4次。",
+    "en_us": "Deals 37% attack damage to 1 enemy unit. 4 times in a row."
   },
   {
     "ID": 271,
-    "zh_tw": "擊暈"
+    "zh_tw": "擊暈",
+    "en_us": "Knockout"
   },
   {
     "ID": 272,
-    "zh_tw": "對1個敵方單位造成100%攻擊值的傷害，並有40%的機率給予目標持續2回合的「不能行動」。"
+    "zh_tw": "對1個敵方單位造成100%攻擊值的傷害，並有40%的機率給予目標持續2回合的「不能行動」。",
+    "en_us": "Deals 100% attack damage to 1 enemy unit and has a 40% chance of rendering the target \"Cannot Act\" for 2 rounds."
   },
   {
     "ID": 273,
-    "zh_tw": "封印術"
+    "zh_tw": "封印術",
+    "en_us": "Seal Jutsu"
   },
   {
     "ID": 274,
-    "zh_tw": "給予1個敵方單位持續3回合的「封印」以及1個「封印抗性」。"
+    "zh_tw": "給予1個敵方單位持續3回合的「封印」以及1個「封印抗性」。",
+    "en_us": "Gives a \"Seal\" to an enemy unit for 3 turns and 1 \"Seal Resistance\"."
   },
   {
     "ID": 275,
-    "zh_tw": "封印"
+    "zh_tw": "封印",
+    "en_us": "Seal"
   },
   {
     "ID": 276,
-    "zh_tw": "不能行動。每當自己以外的單位行動結束時，有(「封印抗性」個數x10%)的機率消除這個狀態。"
+    "zh_tw": "不能行動。每當自己以外的單位行動結束時，有(「封印抗性」個數x10%)的機率消除這個狀態。",
+    "en_us": "Cannot act. Whenever a unit other than yourself finishes its action, there is a chance (amount of \"Seal Resistances\" x 10%) that this buff will be removed."
   },
   {
     "ID": 277,
-    "zh_tw": "封印抗性"
+    "zh_tw": "封印抗性",
+    "en_us": "Seal Resistance"
   },
   {
     "ID": 278,
-    "zh_tw": "最多擁有10個。"
+    "zh_tw": "最多擁有10個。",
+    "en_us": "Have up to 10 of them."
   },
   {
     "ID": 279,
-    "zh_tw": "霜凍術"
+    "zh_tw": "霜凍術",
+    "en_us": "Frost Spell"
   },
   {
     "ID": 280,
-    "zh_tw": "給予1個敵方單位持續2回合的「冰凍」。連續使用時，有35%的機率使用技能失敗。"
+    "zh_tw": "給予1個敵方單位持續2回合的「冰凍」。連續使用時，有35%的機率使用技能失敗。",
+    "en_us": "Gives 1 enemy unit \"Frost\" for 2 turns. When used continuously, there is a 35% chance of failing to use the skill."
   },
   {
     "ID": 281,
-    "zh_tw": "霜凍原野"
+    "zh_tw": "霜凍原野",
+    "en_us": "Frost Field"
   },
   {
     "ID": 282,
-    "zh_tw": "給予全部敵方單位持續2回合的「冰凍」。"
+    "zh_tw": "給予全部敵方單位持續2回合的「冰凍」。",
+    "en_us": "Gives all enemy units \"Frost\" for 2 turns."
   },
   {
     "ID": 283,
-    "zh_tw": "電擊束縛"
+    "zh_tw": "電擊束縛",
+    "en_us": "Electric Shock Binding"
   },
   {
     "ID": 284,
-    "zh_tw": "給予1個敵方單位「麻痺」。連續使用時，有35%的機率使用技能失敗。"
+    "zh_tw": "給予1個敵方單位「麻痺」。連續使用時，有35%的機率使用技能失敗。",
+    "en_us": "Gives 1 enemy unit \"Paralyzsis\". When used continuously, there is a 35% chance of failing to use the skill."
   },
   {
     "ID": 285,
-    "zh_tw": "電場"
+    "zh_tw": "電場",
+    "en_us": "Electric Field"
   },
   {
     "ID": 286,
-    "zh_tw": "給予全部敵方單位「麻痺」。"
+    "zh_tw": "給予全部敵方單位「麻痺」。",
+    "en_us": "Gives all enemy units \"Paralyzsis\"."
   },
   {
     "ID": 287,
-    "zh_tw": "重力領域"
+    "zh_tw": "重力領域",
+    "en_us": "Gravity Field"
   },
   {
     "ID": 288,
-    "zh_tw": "給予所有敵方單位持續2回合的「封印」以及2個「封印抗性」。"
+    "zh_tw": "給予所有敵方單位持續2回合的「封印」以及2個「封印抗性」。",
+    "en_us": "Gives all enemy units a \"Seal\" for 2 turns and 2 \"Seal Resistance\"."
   },
   {
     "ID": 289,
-    "zh_tw": "火焰屬性專精"
+    "zh_tw": "火焰屬性專精",
+    "en_us": "Flame Attribute Expertise"
   },
   {
     "ID": 290,
-    "zh_tw": "使用[火焰]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[火焰]技能時，減少造成的傷害80%。"
+    "zh_tw": "使用[火焰]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[火焰]技能時，減少造成的傷害80%。",
+    "en_us": "When using [Flame] skill to deal damage, increase the damage dealt by 20% and increase the SP by 5. When using non-[Flame] skill, reduce the damage dealt by 80%."
   },
   {
     "ID": 291,
-    "zh_tw": "冰霜屬性專精"
+    "zh_tw": "冰霜屬性專精",
+    "en_us": "Frost Attribute Expertise"
   },
   {
     "ID": 292,
-    "zh_tw": "使用[冰霜]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[冰霜]技能時，減少造成的傷害80%。"
+    "zh_tw": "使用[冰霜]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[冰霜]技能時，減少造成的傷害80%。",
+    "en_us": "When using [Frost] skills to deal damage, increase the damage dealt by 20% and increase SP by 5. When using non-Frost skills, reduce the damage dealt by 80%."
   },
   {
     "ID": 293,
-    "zh_tw": "雷電屬性專精"
+    "zh_tw": "雷電屬性專精",
+    "en_us": "Lightning Attribute Expertise"
   },
   {
     "ID": 294,
-    "zh_tw": "使用[雷電]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[雷電]技能時，減少造成的傷害80%。"
+    "zh_tw": "使用[雷電]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[雷電]技能時，減少造成的傷害80%。",
+    "en_us": "When using [Lightning] skill to deal damage, increase the damage dealt by 20% and increase SP by 5. When using non-Lightning skill, reduce the damage dealt by 80%."
   },
   {
     "ID": 295,
-    "zh_tw": "啟動"
+    "zh_tw": "啟動",
+    "en_us": "Activate"
   },
   {
     "ID": 296,
-    "zh_tw": "指定1個友方單位，使其立即追加1次行動。"
+    "zh_tw": "指定1個友方單位，使其立即追加1次行動。",
+    "en_us": "Designate a friendly unit to take 1 additional action immediately."
   },
   {
     "ID": 297,
-    "zh_tw": "疾馳"
+    "zh_tw": "疾馳",
+    "en_us": "Sprint"
   },
   {
     "ID": 298,
-    "zh_tw": "使自己立即追加2次行動，並給予自己持續3回合的「疲乏」。"
+    "zh_tw": "使自己立即追加2次行動，並給予自己持續3回合的「疲乏」。",
+    "en_us": "Immediately adds 2 actions to yourself and gives you \"Fatigue\" for 3 turns."
   },
   {
     "ID": 299,
-    "zh_tw": "疲乏"
+    "zh_tw": "疲乏",
+    "en_us": "Fatigue"
   },
   {
     "ID": 300,
-    "zh_tw": "速度值減少100%。回合開始時，給予自己持續1回合的「不能行動」。"
+    "zh_tw": "速度值減少100%。回合開始時，給予自己持續1回合的「不能行動」。",
+    "en_us": "Speed value is reduced by 100%. At the beginning of the round, give yourself an \"Cannot Act\" that lasts for 1 round."
   },
   {
     "ID": 301,
-    "zh_tw": "一對一宣言"
+    "zh_tw": "一對一宣言",
+    "en_us": "One-on-One Declaration"
   },
   {
     "ID": 302,
-    "zh_tw": "指定1個敵方單位，使其立即追加行動1次。其後給予自己500%防禦值的仇恨值後，使其他友方單位的仇恨值變為1。"
+    "zh_tw": "指定1個敵方單位，使其立即追加行動1次。其後給予自己500%防禦值的仇恨值後，使其他友方單位的仇恨值變為1。",
+    "en_us": "Designate an enemy unit and cause it to take 1 additional action immediately. Then, after giving yourself 500% of your defense value of hatred, make the hate value of other friendly units 1."
   },
   {
     "ID": 303,
-    "zh_tw": "苦痛打擊"
+    "zh_tw": "苦痛打擊",
+    "en_us": "Painful Blow"
   },
   {
     "ID": 304,
-    "zh_tw": "對1個敵方單位造成相當於自己100%最後受到傷害值的傷害。"
+    "zh_tw": "對1個敵方單位造成相當於自己100%最後受到傷害值的傷害。",
+    "en_us": "Deals damage to 1 enemy unit equal to 100% of last damage value."
   },
   {
     "ID": 305,
-    "zh_tw": "居合姿勢"
+    "zh_tw": "居合姿勢",
+    "en_us": "Gumi Posture"
   },
   {
     "ID": 306,
-    "zh_tw": "給予自己持續2回合的「居合」。"
+    "zh_tw": "給予自己持續2回合的「居合」。",
+    "en_us": "Gives you a \"Gumi\" that lasts for 2 turns."
   },
   {
     "ID": 307,
-    "zh_tw": "居合"
+    "zh_tw": "居合",
+    "en_us": "Gumi"
   },
   {
     "ID": 308,
-    "zh_tw": "不能行動。將受到傷害時，減少受到的傷害15%。受到傷害後，消除這個狀態，並使用「居合斬」。"
+    "zh_tw": "不能行動。將受到傷害時，減少受到的傷害15%。受到傷害後，消除這個狀態，並使用「居合斬」。",
+    "en_us": "Cannot act. When you are about to take damage, reduce the damage you take by 15%. After taking damage, remove this buff and use \"Gurney Chop\"."
   },
   {
     "ID": 309,
-    "zh_tw": "居合斬"
+    "zh_tw": "居合斬",
+    "en_us": "Gurney Chop"
   },
   {
     "ID": 310,
-    "zh_tw": "對目前正在行動的單位造成150%攻擊值的傷害，其後再對1個隨機敵方單位造成150%攻擊值的傷害。"
+    "zh_tw": "對目前正在行動的單位造成150%攻擊值的傷害，其後再對1個隨機敵方單位造成150%攻擊值的傷害。",
+    "en_us": "Deals 150% attack damage to the unit currently in action, followed by 150% attack damage to 1 random enemy unit."
   },
   {
     "ID": 311,
-    "zh_tw": "反射盾"
+    "zh_tw": "反射盾",
+    "en_us": "Reflection Shield"
   },
   {
     "ID": 312,
-    "zh_tw": "受到傷害後，使目前正在行動的單位失去相當於20%受到傷害值的生命值。"
+    "zh_tw": "受到傷害後，使目前正在行動的單位失去相當於20%受到傷害值的生命值。",
+    "en_us": "When damage is taken, the unit currently in action loses HP equal to 20% of damage value."
   },
   {
     "ID": 313,
-    "zh_tw": "抹消反射盾"
+    "zh_tw": "抹消反射盾",
+    "en_us": "Wipe Reflection Shield"
   },
   {
     "ID": 314,
-    "zh_tw": "給予全體敵方單位「反射盾無效化」。"
+    "zh_tw": "給予全體敵方單位「反射盾無效化」。",
+    "en_us": "Gives \"Disable Reflection Shield\" for all enemy units."
   },
   {
     "ID": 315,
-    "zh_tw": "攻擊值小幅增加"
+    "zh_tw": "攻擊值小幅增加",
+    "en_us": "Small increase in attack value"
   },
   {
     "ID": 316,
-    "zh_tw": "攻擊值增加15%。攻擊後消除這個狀態。最多擁有3個。"
+    "zh_tw": "攻擊值增加15%。攻擊後消除這個狀態。最多擁有3個。",
+    "en_us": "Attack value is increased by 15%. Remove this buff after attacking. Have a maximum of 3."
   },
   {
     "ID": 317,
-    "zh_tw": "火焰增幅裝置"
+    "zh_tw": "火焰增幅裝置",
+    "en_us": "Flame Increasing Device"
   },
   {
     "ID": 318,
-    "zh_tw": "使用[火焰]技能攻擊時，給予自己「攻擊值小幅增加」。"
+    "zh_tw": "使用[火焰]技能攻擊時，給予自己「攻擊值小幅增加」。",
+    "en_us": "When you attack with [Flame] skill, it gives you a \"Small increase in attack value\"."
   },
   {
     "ID": 319,
-    "zh_tw": "冰凍增幅裝置"
+    "zh_tw": "冰凍增幅裝置",
+    "en_us": "Forst Increase Device"
   },
   {
     "ID": 320,
-    "zh_tw": "使用[冰凍]技能攻擊時，給予自己「攻擊值小幅增加」。"
+    "zh_tw": "使用[冰凍]技能攻擊時，給予自己「攻擊值小幅增加」。",
+    "en_us": "When you attack with [Forst] skill, it gives you a \"Small increase in attack value\"."
   },
   {
     "ID": 321,
-    "zh_tw": "雷電增幅裝置"
+    "zh_tw": "雷電增幅裝置",
+    "en_us": "Lightning Increasing Device"
   },
   {
     "ID": 322,
-    "zh_tw": "使用[雷電]技能攻擊時，給予自己「攻擊值小幅增加」。"
+    "zh_tw": "使用[雷電]技能攻擊時，給予自己「攻擊值小幅增加」。",
+    "en_us": "When you attack with [Lightning] skill, it gives you a \"Small increase in attack value\"."
   },
   {
     "ID": 323,
-    "zh_tw": "法術增幅裝置"
+    "zh_tw": "法術增幅裝置",
+    "en_us": "Spell Increasing Device"
   },
   {
     "ID": 324,
-    "zh_tw": "使用[法術]技能攻擊時，給予自己「攻擊值小幅增加」。"
+    "zh_tw": "使用[法術]技能攻擊時，給予自己「攻擊值小幅增加」。",
+    "en_us": "When you attack with [Spell] skill, it gives you a \"Small increase in attack value\"."
   },
   {
     "ID": 325,
-    "zh_tw": "防禦值小幅增加"
+    "zh_tw": "防禦值小幅增加",
+    "en_us": "Small increase in defense value"
   },
   {
     "ID": 326,
-    "zh_tw": "防禦值增加10%。每當有人行動結束時，消除這個狀態。最多擁有3個。"
+    "zh_tw": "防禦值增加10%。每當有人行動結束時，消除這個狀態。最多擁有3個。",
+    "en_us": "Defense value is increased by 10%. This buff is removed whenever an action is completed. Have a maximum of 3."
   },
   {
     "ID": 327,
-    "zh_tw": "自動防禦火焰裝置"
+    "zh_tw": "自動防禦火焰裝置",
+    "en_us": "Auto-defense Flame Device"
   },
   {
     "ID": 328,
-    "zh_tw": "每當有敵方單位使用[火焰]技能攻擊時，給予自己「防禦值小幅增加」。"
+    "zh_tw": "每當有敵方單位使用[火焰]技能攻擊時，給予自己「防禦值小幅增加」。",
+    "en_us": "Whenever an enemy unit attacks with the [Flame] skill, give yourself a \"Small increase in defense value\"."
   },
   {
     "ID": 329,
-    "zh_tw": "自動防禦雷電裝置"
+    "zh_tw": "自動防禦雷電裝置",
+    "en_us": "Auto Defense Lightning Device"
   },
   {
     "ID": 330,
-    "zh_tw": "每當有敵方單位使用[雷電]技能攻擊時，給予自己「防禦值小幅增加」。"
+    "zh_tw": "每當有敵方單位使用[雷電]技能攻擊時，給予自己「防禦值小幅增加」。",
+    "en_us": "Whenever an enemy unit attacks with the [Lightning] skill, give yourself a \"Small increase in defense value\"."
   },
   {
     "ID": 331,
-    "zh_tw": "自動防禦冰霜裝置"
+    "zh_tw": "自動防禦冰霜裝置",
+    "en_us": "Auto Defense Frost Device"
   },
   {
     "ID": 332,
-    "zh_tw": "每當有敵方單位使用[冰霜]技能攻擊時，給予自己「防禦值小幅增加」。"
+    "zh_tw": "每當有敵方單位使用[冰霜]技能攻擊時，給予自己「防禦值小幅增加」。",
+    "en_us": "Whenever an enemy unit attacks with the [Frost] skill, give yourself a \"Small increase in defense value\"."
   },
   {
     "ID": 333,
-    "zh_tw": "自動防禦法術裝置"
+    "zh_tw": "自動防禦法術裝置",
+    "en_us": "Auto Defense Spell Device"
   },
   {
     "ID": 334,
-    "zh_tw": "每當有敵方單位使用[法術]技能攻擊時，給予自己「防禦值小幅增加」。"
+    "zh_tw": "每當有敵方單位使用[法術]技能攻擊時，給予自己「防禦值小幅增加」。",
+    "en_us": "Whenever an enemy unit attacks with a [Spell] skill, give yourself a \"Small increase in defense value\"."
   },
   {
     "ID": 335,
-    "zh_tw": "咒怨"
+    "zh_tw": "咒怨",
+    "en_us": "Grudge"
   },
   {
     "ID": 336,
-    "zh_tw": "死亡時，給予仇恨值最高的敵方單位持續4回合的「詛咒」。"
+    "zh_tw": "死亡時，給予仇恨值最高的敵方單位持續4回合的「詛咒」。",
+    "en_us": "When you die, give the enemy unit with the highest hate value a \"Curse\" that lasts for 4 turns."
   },
   {
     "ID": 337,
-    "zh_tw": "詛咒"
+    "zh_tw": "詛咒",
+    "en_us": "Curse"
   },
   {
     "ID": 338,
-    "zh_tw": "攻擊值、防禦值及速度值下降40%。"
+    "zh_tw": "攻擊值、防禦值及速度值下降40%。",
+    "en_us": "Attack, Defense and Speed values are reduced by 40%."
   },
   {
     "ID": 339,
-    "zh_tw": "英靈祝福"
+    "zh_tw": "英靈祝福",
+    "en_us": "Spiritual Blessing"
   },
   {
     "ID": 340,
-    "zh_tw": "死亡時，給予全體我方單位持續3回合的「祝福」。"
+    "zh_tw": "死亡時，給予全體我方單位持續3回合的「祝福」。",
+    "en_us": "When you die, give \"Blessing\" to all our units for 3 turns."
   },
   {
     "ID": 341,
-    "zh_tw": "祝福"
+    "zh_tw": "祝福",
+    "en_us": "Blessing"
   },
   {
     "ID": 342,
-    "zh_tw": "攻擊值、防禦值及速度值上升30%。"
+    "zh_tw": "攻擊值、防禦值及速度值上升30%。",
+    "en_us": "Attack value, defense value and speed value increase by 30%."
   },
   {
     "ID": 343,
-    "zh_tw": "衝擊療法"
+    "zh_tw": "衝擊療法",
+    "en_us": "Impact Therapy"
   },
   {
     "ID": 344,
-    "zh_tw": "對1個友方單位造成50%攻擊值的傷害，無視防禦。其後解除目標身上所有[負面]狀態。"
+    "zh_tw": "對1個友方單位造成50%攻擊值的傷害，無視防禦。其後解除目標身上所有[負面]狀態。",
+    "en_us": "Deals 50% attack damage to 1 friendly unit, ignoring defenses. Removes all [Debuff] from the target."
   },
   {
     "ID": 345,
-    "zh_tw": "痛覺逆轉系統"
+    "zh_tw": "痛覺逆轉系統",
+    "en_us": "Pain Reversal System"
   },
   {
     "ID": 346,
-    "zh_tw": "攻擊值、防禦值與速度值增加與(失去生命值 / 10)相同的數值。"
+    "zh_tw": "攻擊值、防禦值與速度值增加與(失去生命值 / 10)相同的數值。",
+    "en_us": "Attack, Defense and Speed values increase by the same value as (Loss of HP / 10)."
   },
   {
     "ID": 347,
-    "zh_tw": "血之契約"
+    "zh_tw": "血之契約",
+    "en_us": "Blood Pact"
   },
   {
     "ID": 348,
-    "zh_tw": "使自己失去100%攻擊值的生命值後，給予自己「血契」並立即追加1次行動。"
+    "zh_tw": "使自己失去100%攻擊值的生命值後，給予自己「血契」並立即追加1次行動。",
+    "en_us": "When you lose 100% of your attack value, give yourself a \"Blood Pact\" and immediately add 1 action."
   },
   {
     "ID": 349,
-    "zh_tw": "血契"
+    "zh_tw": "血契",
+    "en_us": "Blood Pact"
   },
   {
     "ID": 350,
-    "zh_tw": "增加45%攻擊值。攻擊後消除這個狀態。"
+    "zh_tw": "增加45%攻擊值。攻擊後消除這個狀態。",
+    "en_us": "Increases attack value by 45%. Remove this status after attacking."
   },
   {
     "ID": 351,
-    "zh_tw": "同歸於盡"
+    "zh_tw": "同歸於盡",
+    "en_us": "Dying Together"
   },
   {
     "ID": 352,
-    "zh_tw": "受到傷害後，若目前的生命值小於0，使正在行動的單位失去相當於自己220%攻擊值的生命值。失去的數值將根據目標的防禦值隨機減少。"
+    "zh_tw": "受到傷害後，若目前的生命值小於0，使正在行動的單位失去相當於自己220%攻擊值的生命值。失去的數值將根據目標的防禦值隨機減少。",
+    "en_us": "After taking damage, if the current HP value is less than 0, the unit in action loses HP value equal to 220% of my attack value. The amount lost is randomly reduced according to the target's defense value."
   },
   {
     "ID": 353,
-    "zh_tw": "不死之心"
+    "zh_tw": "不死之心",
+    "en_us": "Immortal Heart"
   },
   {
     "ID": 354,
-    "zh_tw": "受到傷害時，若剩餘的生命值小於1，使生命值變為1。其後將這個技能替換為「普通防禦」。"
+    "zh_tw": "受到傷害時，若剩餘的生命值小於1，使生命值變為1。其後將這個技能替換為「普通防禦」。",
+    "en_us": "If the remaining HP value is less than 1 when you take damage, make the HP value to 1. This skill is then replaced with \"Normal Defense\"."
   },
   {
     "ID": 355,
-    "zh_tw": "堅毅之心"
+    "zh_tw": "堅毅之心",
+    "en_us": "Perseverance"
   },
   {
     "ID": 356,
-    "zh_tw": "回合開始時，若剩餘的生命值大於10%最大生命值，給予自己持續1回合的「堅毅」。"
+    "zh_tw": "回合開始時，若剩餘的生命值大於10%最大生命值，給予自己持續1回合的「堅毅」。",
+    "en_us": "At the beginning of the round, if your remaining life is greater than 10% of your Max HP, give yourself \"Fortitude\" for 1 round."
   },
   {
     "ID": 357,
-    "zh_tw": "堅毅"
+    "zh_tw": "堅毅",
+    "en_us": "Fortitude"
   },
   {
     "ID": 358,
-    "zh_tw": "受到傷害時，若剩餘的生命值小於1，使生命值變為1。"
+    "zh_tw": "受到傷害時，若剩餘的生命值小於1，使生命值變為1。",
+    "en_us": "If the remaining HP value is less than 1 when you take damage, make the HP value 1."
   },
   {
     "ID": 359,
-    "zh_tw": "攻擊強化"
+    "zh_tw": "攻擊強化",
+    "en_us": "Attack Enhancement"
   },
   {
     "ID": 360,
-    "zh_tw": "給予1個友方單位持續3回合的「攻擊值上升」。"
+    "zh_tw": "給予1個友方單位持續3回合的「攻擊值上升」。",
+    "en_us": "Gives 1 friendly unit an \"Attack Up\" for 3 turns."
   },
   {
     "ID": 361,
-    "zh_tw": "防禦強化"
+    "zh_tw": "防禦強化",
+    "en_us": "Defense Enhancement"
   },
   {
     "ID": 362,
-    "zh_tw": "給予1個友方單位持續3回合的「防禦值上升」。"
+    "zh_tw": "給予1個友方單位持續3回合的「防禦值上升」。",
+    "en_us": "Gives 1 friendly unit a \"Defense Up\" for 3 turns."
   },
   {
     "ID": 363,
-    "zh_tw": "複合強化"
+    "zh_tw": "複合強化",
+    "en_us": "Compound Strength"
   },
   {
     "ID": 364,
-    "zh_tw": "給予1個友方單位持續3回合的「攻擊值上升」與「防禦值上升」。"
+    "zh_tw": "給予1個友方單位持續3回合的「攻擊值上升」與「防禦值上升」。",
+    "en_us": "Gives 1 friendly unit an \"Attack Up\" and \"Defense Up\" for 3 turns."
   },
   {
     "ID": 365,
-    "zh_tw": "速度強化"
+    "zh_tw": "速度強化",
+    "en_us": "Speed Enhancement"
   },
   {
     "ID": 366,
-    "zh_tw": "給予1個友方單位持續3回合的「速度值上升」。"
+    "zh_tw": "給予1個友方單位持續3回合的「速度值上升」。",
+    "en_us": "Gives 1 friendly unit an \"Speed Up\" for 3 turns."
   },
   {
     "ID": 367,
-    "zh_tw": "高級攻擊強化"
+    "zh_tw": "高級攻擊強化",
+    "en_us": "Advanced Attack Enhancement"
   },
   {
     "ID": 368,
-    "zh_tw": "給予所有友方單位持續3回合的「攻擊值上升」。"
+    "zh_tw": "給予所有友方單位持續3回合的「攻擊值上升」。",
+    "en_us": "Gives all friendly units an \"Attack Up\" for 3 turns."
   },
   {
     "ID": 369,
-    "zh_tw": "高級防禦強化"
+    "zh_tw": "高級防禦強化",
+    "en_us": "Advanced defense enhancement"
   },
   {
     "ID": 370,
-    "zh_tw": "給予所有友方單位持續3回合的「防禦值上升」。"
+    "zh_tw": "給予所有友方單位持續3回合的「防禦值上升」。",
+    "en_us": "Gives all friendly units \"Defense Up\" for 3 turns."
   },
   {
     "ID": 371,
-    "zh_tw": "高級複合強化"
+    "zh_tw": "高級複合強化",
+    "en_us": "Advanced Compounding"
   },
   {
     "ID": 372,
-    "zh_tw": "給予所有友方單位持續3回合的「攻擊值上升」與「防禦值上升」。"
+    "zh_tw": "給予所有友方單位持續3回合的「攻擊值上升」與「防禦值上升」。",
+    "en_us": "Gives all friendly units \"Attack Up\" and \"Defense Up\" for 3 turns."
   },
   {
     "ID": 373,
-    "zh_tw": "高級速度強化"
+    "zh_tw": "高級速度強化",
+    "en_us": "Advanced Speed Enhancement"
   },
   {
     "ID": 374,
-    "zh_tw": "給予所有友方單位持續3回合的「速度值增加」。"
+    "zh_tw": "給予所有友方單位持續3回合的「速度值增加」。",
+    "en_us": "Gives all friendly units an \"Speed Up\" for 3 turns."
   },
   {
     "ID": 375,
-    "zh_tw": "反射盾無效化"
+    "zh_tw": "反射盾無效化",
+    "en_us": "Disable Reflection Shield"
   },
   {
     "ID": 376,
-    "zh_tw": "將技能「反射盾」替換為「反射盾(無效化)」。狀態被消除時，將其替換回「反射盾」。"
+    "zh_tw": "將技能「反射盾」替換為「反射盾(無效化)」。狀態被消除時，將其替換回「反射盾」。",
+    "en_us": "Replace the skill \"Reflection Shield\" with \"Reflection Shield (Invalidate)\". When the buff is removed, replace it with \"Reflection Shield\"."
   },
   {
     "ID": 377,
-    "zh_tw": "反射盾(無效化)"
+    "zh_tw": "反射盾(無效化)",
+    "en_us": "Reflection Shield (Invalidate)"
   },
   {
     "ID": 378,
-    "zh_tw": "雜耍"
+    "zh_tw": "雜耍",
+    "en_us": "Juggling"
   },
   {
     "ID": 379,
-    "zh_tw": "「火使者薩恩」專有技能。對1個敵方單位造成隨機1~4次30%攻擊值的傷害，無視防禦。每次攻擊後，使目標增加相當於造成傷害的仇恨值。"
+    "zh_tw": "「火使者薩恩」專有技能。對1個敵方單位造成隨機1~4次30%攻擊值的傷害，無視防禦。每次攻擊後，使目標增加相當於造成傷害的仇恨值。",
+    "en_us": "A unique skill of \"Fire Bringer Sarn\". Deals 30% attack damage to 1 enemy unit 1~4 times at random, ignoring defenses. After each attack, it increases the target's hate value by the amount of damage dealt."
   },
   {
     "ID": 380,
-    "zh_tw": "冬蝕"
+    "zh_tw": "冬蝕",
+    "en_us": "Winter Erosion"
   },
   {
     "ID": 381,
-    "zh_tw": "「冰使者傑士」專有技能。每當有人行動開始時，使所有敵方單位失去相當於「冰凍」個數x500點的生命值。"
+    "zh_tw": "「冰使者傑士」專有技能。每當有人行動開始時，使所有敵方單位失去相當於「冰凍」個數x500點的生命值。",
+    "en_us": "A unique skill of \"Ice Bringer Master\". Whenever an action starts, all enemy units lose HP equal to (amount of \"Freeze\" x 500) points."
   },
   {
     "ID": 382,
-    "zh_tw": "電光石火"
+    "zh_tw": "電光石火",
+    "en_us": "Lightning and Fire"
   },
   {
     "ID": 383,
-    "zh_tw": "「雷使者無名」專有技能。對隨機2個敵方單位造成120%攻擊值的傷害，其後使目標失去相當於隨機10%~20%自己速度值的生命值。重複2次。"
+    "zh_tw": "「雷使者無名」專有技能。對隨機2個敵方單位造成120%攻擊值的傷害，其後使目標失去相當於隨機10%~20%自己速度值的生命值。重複2次。",
+    "en_us": "A unique skill of \"Lightning Bringer Nameless\". Deals 120% attack damage to 2 random enemy units, then causes the target to lose HP equal to 10%-20% of my speed. Repeat 2 times."
   },
   {
     "ID": 384,
-    "zh_tw": "轉換型態"
+    "zh_tw": "轉換型態",
+    "en_us": "Transformation Type"
   },
   {
     "ID": 385,
-    "zh_tw": "「古代核心高崙」限定掉落。隨機施展「轉換型態：攻擊」、「轉換型態：防禦」、「轉換型態：加速」其中一個技能。"
+    "zh_tw": "「古代核心高崙」限定掉落。隨機施展「轉換型態：攻擊」、「轉換型態：防禦」、「轉換型態：加速」其中一個技能。",
+    "en_us": "This is a limited drop from the \"Ancient Core Goren\". Perform one of the \"Transformation Type: Attack\", \"Transformation Type: Defense\", and \"Transformation Type: Acceleration\" skills at random."
   },
   {},
   {
     "ID": 10001,
-    "zh_tw": "嚙咬"
+    "zh_tw": "嚙咬",
+    "en_us": "Rodent Bite"
   },
   {
     "ID": 10002,
-    "zh_tw": "對仇恨值最高的敵方單位造成100%攻擊值的傷害。"
+    "zh_tw": "對仇恨值最高的敵方單位造成100%攻擊值的傷害。",
+    "en_us": "Deals 100% attack damage to the enemy unit with the highest hatred value."
   },
   {
     "ID": 10003,
-    "zh_tw": "化學激素"
+    "zh_tw": "化學激素",
+    "en_us": "Chemical Hormone"
   },
   {
     "ID": 10004,
-    "zh_tw": "攻擊後，有15%的機率給予目標1個「中毒」。另有30%的機率立即追加行動，並給予自己持續1回合的「攻擊破壞」。"
+    "zh_tw": "攻擊後，有15%的機率給予目標1個「中毒」。另有30%的機率立即追加行動，並給予自己持續1回合的「攻擊破壞」。",
+    "en_us": "After attacking, there is a 15% chance of giving the target 1 \"Poison\". There is also a 30% chance that you will immediately take an additional action and give yourself \"Attack Down\" for 1 turn."
   },
   {
     "ID": 10005,
-    "zh_tw": "野性"
+    "zh_tw": "野性",
+    "en_us": "Wildness"
   },
   {
     "ID": 10006,
-    "zh_tw": "受到傷害後，若生命值低於50%，增加攻擊值與速度值30%，減少防禦值30%。效果1場戰鬥中只會發生1次。"
+    "zh_tw": "受到傷害後，若生命值低於50%，增加攻擊值與速度值30%，減少防禦值30%。",
+    "en_us": "After receiving damage, if HP value is below 50% of Max HP, increase attack value and speed value by 30% and decrease defense value by 30%."
   },
   {
     "ID": 10007,
-    "zh_tw": "連抓"
+    "zh_tw": "連抓",
+    "en_us": "Continuous Grab"
   },
   {
     "ID": 10008,
-    "zh_tw": "對仇恨值最高的敵方單位造成150%攻擊值的傷害。攻擊後，有60%的機率追加使用「連抓」，最多3次。"
+    "zh_tw": "對仇恨值最高的敵方單位造成150%攻擊值的傷害。攻擊後，有60%的機率追加使用「連抓」，最多3次。",
+    "en_us": "Deals 150% attack damage to the enemy unit with the highest hatred value. After attacking, there is a 60% chance of using \"Combo Grab\" up to 3 times."
   },
   {
     "ID": 10009,
-    "zh_tw": "連抓（二連擊）"
+    "zh_tw": "連抓（二連擊）",
+    "en_us": "Continuous Catch (Two Strikes)"
   },
   {
     "ID": 10010,
-    "zh_tw": "連抓（三連擊）"
+    "zh_tw": "連抓（三連擊）",
+    "en_us": "Continuous Catch (Triple Strike)"
   },
   {
     "ID": 10011,
-    "zh_tw": "下水道老鼠"
+    "zh_tw": "下水道老鼠",
+    "en_us": "Sewer Rats"
   },
   {
     "ID": 10012,
@@ -1999,17 +2201,17 @@
   {
     "ID": 100006,
     "zh_tw": "火使者薩恩",
-    "en_us": "Fire Messenger Sarn"
+    "en_us": "Fire Bringer Sarn"
   },
   {
     "ID": 100007,
     "zh_tw": "冰使者傑士",
-    "en_us": "Ice Messenger Jesse"
+    "en_us": "Ice Bringer Master"
   },
   {
     "ID": 100008,
     "zh_tw": "雷使者無名",
-    "en_us": "Thunder Messenger Nameless"
+    "en_us": "Lightning Bringer Nameless"
   },
   {},
   {
@@ -2091,7 +2293,7 @@
   {
     "ID": 400006,
     "zh_tw": "冰霜",
-    "en_us": "Ice"
+    "en_us": "Frost"
   },
   {
     "ID": 400007,
