@@ -306,8 +306,19 @@
     "Command": "OnStartToTakeDamage_Self\n{\n       ShowVFX(EnergyWall1, 1);\n       PlaySFX(Protection);\n       AddDamage(-45%);\n}",
     "MaxAmount": 1
   },
-  {},
-  {},
+  {
+    "ID": 10015,
+    "NameContextID": 10123,
+    "DescriptionContextID": 10124,
+    "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(35%);\n}",
+    "MaxAmount": 1
+  },
+  {
+    "ID": 10016,
+    "NameContextID": 10131,
+    "DescriptionContextID": 10132,
+    "MaxAmount": 1
+  },
   {},
   {},
   {},
