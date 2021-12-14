@@ -18,7 +18,7 @@
     "Speed": 600,
     "HP": 3300,
     "SP": 100,
-    "SkillIDs": 10005,
+    "SkillIDs": "10005;10007",
     "AI": "CastSkill(10007);"
   },
   {
@@ -29,6 +29,7 @@
     "Speed": 600,
     "HP": 3300,
     "SP": 100,
+    "SkillIDs": "10008;10009",
     "AI": "RandomCastSkill(10002);"
   },
   {
@@ -39,6 +40,7 @@
     "Speed": 860,
     "HP": 2300,
     "SP": 100,
+    "SkillIDs": "10002;10001",
     "BuffIDs": "10001;10002",
     "AI": "BeginIf(Self.HP <= Self.MaxHP * 0.5);\n   BeginIf(Random(1, 100) <= 75);\n       CastSkill(10002);\n       Quit();\n    EndIf();\nEndIf();\n\nCastSkill(10001);"
   },
@@ -50,7 +52,7 @@
     "Speed": 1400,
     "HP": 28000,
     "SP": 100,
-    "SkillIDs": 10017,
+    "SkillIDs": "10013;10015;10018;10014;10016;10019",
     "AI": "BeginIf_Buff(Self, 1, 10003);\n    CastSkill(10014);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10004);\n    CastSkill(10016);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10005);\n    CastSkill(10019);\n    Quit();\nEndIf();\n\nRandomCastSkill(10003);"
   },
   {
@@ -61,7 +63,7 @@
     "Speed": 100,
     "HP": 82000,
     "SP": 100,
-    "SkillIDs": "10021;10022",
+    "SkillIDs": "10021;10022;10023",
     "AI": "CastSkill(10023);"
   },
   {
@@ -72,7 +74,7 @@
     "Speed": 100,
     "HP": 162000,
     "SP": 100,
-    "SkillIDs": "10024;10025",
+    "SkillIDs": "10024;10025;10026",
     "AI": "CastSkill(10026);"
   },
   {
@@ -83,7 +85,7 @@
     "Speed": 4100,
     "HP": 22000,
     "SP": 100,
-    "SkillIDs": "10027;10028;10029",
+    "SkillIDs": "10027;10028;10029;10030;10031",
     "AI": "BeginIf_Buff(Self, 0, 10009);\n     CastSkill(10031);\n     Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10011);\n     CastSkill(10030);\n     Quit();\nEndIf();\n\nBeginIf(Random(0, 100) <= 50);\n     CastSkill(10031);\n     Quit();\nEndIf();\n\nCastSkill(10030);"
   },
   {
@@ -94,6 +96,7 @@
     "Speed": 5000,
     "HP": 34000,
     "SP": 100,
+    "SkillIDs": "10032;10033",
     "AI": "BeginIf_Buff(Self, 1, 10012);\n     CastSkill(10032);\n     Quit();\nEndIf();\n\nBeginIf(Random(0, 100) <= 50);\n     CastSkill(10032);\n     Quit();\nEndIf();\n\nCastSkill(10033);"
   },
   {
@@ -104,8 +107,8 @@
     "Speed": 7000,
     "HP": 30000,
     "SP": 100,
-    "SkillIDs": 10034,
-    "AI": "BeginIf_Buff(Self, 0, 10013);\r\n     CastSkill(10034);\r\n     Quit();\r\nEndIf();\n\nCastSkill(10036);"
+    "SkillIDs": "10034;10036",
+    "AI": "BeginIf_Buff(Self, 0, 10013);\n     CastSkill(10034);\n     Quit();\nEndIf();\n\nCastSkill(10036);"
   },
   {
     "ID": 11,
@@ -115,7 +118,7 @@
     "Speed": 1100,
     "HP": 42000,
     "SP": 100,
-    "SkillIDs": 163,
+    "SkillIDs": "163;10037",
     "AI": "CastSkill(10037);"
   },
   {
@@ -126,7 +129,7 @@
     "Speed": 5100,
     "HP": 32000,
     "SP": 100,
-    "SkillIDs": "10039;10040",
+    "SkillIDs": "10039;10040;10041",
     "AI": "CastSkill(10041);"
   },
   {
@@ -137,7 +140,7 @@
     "Speed": 7900,
     "HP": 32000,
     "SP": 100,
-    "SkillIDs": 10043,
+    "SkillIDs": "10043;10042",
     "AI": "CastSkill(10042);"
   },
   {
@@ -148,7 +151,7 @@
     "Speed": 3100,
     "HP": 49000,
     "SP": 100,
-    "SkillIDs": "10044;10046",
+    "SkillIDs": "10044;10046;10045",
     "AI": "CastSkill(10045);"
   }
 ]
