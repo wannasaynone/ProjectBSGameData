@@ -153,5 +153,16 @@
     "SP": 100,
     "SkillIDs": "10044;10046;10045",
     "AI": "CastSkill(10045);"
+  },
+  {
+    "ID": 15,
+    "AppearanceDataID": 10005,
+    "Attack": 1000,
+    "Defense": 1000,
+    "Speed": 1000,
+    "HP": 1000000,
+    "SP": 100,
+    "SkillIDs": 0,
+    "AI": "CastSkill(1);"
   }
 ]
