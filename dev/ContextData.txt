@@ -3305,6 +3305,11 @@
     "zh_tw": "按下Change後消耗物品\n（可連續使用）",
     "en_us": "Press Change to consume the item\r\n(can be used continuously)"
   },
+  {
+    "ID": 1000137,
+    "zh_tw": "體力",
+    "en_us": "Stamina"
+  },
   {},
   {
     "ID": 2000001,
