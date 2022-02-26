@@ -3187,8 +3187,8 @@
   },
   {
     "ID": 1000113,
-    "zh_tw": "請選擇角色\n(只能選擇100級的角色使用)",
-    "en_us": "Please select a character\n(Only level 100 characters can be used)"
+    "zh_tw": "請選擇角色\n(物品只能選擇100級的角色使用)",
+    "en_us": "Please select a character\r\n(Items can only be used by characters of level 100)"
   },
   {
     "ID": 1000114,
