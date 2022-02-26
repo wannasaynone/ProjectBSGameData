@@ -3335,6 +3335,16 @@
     "zh_tw": "替換成員",
     "en_us": "Replace"
   },
+  {
+    "ID": 1000143,
+    "zh_tw": "恭喜獲得新角色！",
+    "en_us": "Get new characters! Congratulations!"
+  },
+  {
+    "ID": 1000144,
+    "zh_tw": "恭喜獲得兩名新角色！",
+    "en_us": "Get two new characters! Congratulations!"
+  },
   {},
   {
     "ID": 2000001,
