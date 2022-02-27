@@ -2626,6 +2626,14 @@
     "ID": 3
   },
   {
+    "ID": 1000000,
+    "zh_tw": "最近更新日期：2022/02/27\n\n發布遊戲！",
+    "en_us": "Last updated: 2022/02/27\r\n\r\nRelease the game!"
+  },
+  {
+    "ID": 3
+  },
+  {
     "ID": 1000001,
     "zh_tw": "角色",
     "en_us": "Unit"
@@ -3344,6 +3352,11 @@
     "ID": 1000144,
     "zh_tw": "恭喜獲得兩名新角色！",
     "en_us": "Get two new characters! Congratulations!"
+  },
+  {
+    "ID": 1000145,
+    "zh_tw": "公告",
+    "en_us": "Announcement"
   },
   {},
   {
