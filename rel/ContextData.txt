@@ -2626,6 +2626,14 @@
     "ID": 3
   },
   {
+    "ID": 1000000,
+    "zh_tw": "最近更新日期：2022/02/27\n\n發布遊戲！\n\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n<size=72>順便測試字體變大</size>\n\n<color=red>順便測試變色</color>\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n<b>順便測試字體粗體</b>\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字\n\n* 更新了很多東西測試文字\n* 更新了很多東西測試文字",
+    "en_us": "Last updated: 2022/02/27\r\n\r\nRelease the game!"
+  },
+  {
+    "ID": 3
+  },
+  {
     "ID": 1000001,
     "zh_tw": "角色",
     "en_us": "Unit"
@@ -3017,8 +3025,8 @@
   },
   {
     "ID": 1000079,
-    "zh_tw": "<#575361>- 點擊選擇技能裝備 -</color>",
-    "en_us": "<#575361>- Click to select skill equipment -</color>"
+    "zh_tw": "<#575361>- 無 -</color>",
+    "en_us": "<#575361>- NONE -</color>"
   },
   {
     "ID": 1000080,
@@ -3187,8 +3195,8 @@
   },
   {
     "ID": 1000113,
-    "zh_tw": "請選擇角色\n(只能選擇100級的角色使用)",
-    "en_us": "Please select a character\n(Only level 100 characters can be used)"
+    "zh_tw": "請選擇角色\n(物品只能選擇100級的角色使用)",
+    "en_us": "Please select a character\r\n(Items can only be used by characters of level 100)"
   },
   {
     "ID": 1000114,
@@ -3232,8 +3240,8 @@
   },
   {
     "ID": 1000122,
-    "zh_tw": "關卡限定掉落技能",
-    "en_us": "Level limited drop skill"
+    "zh_tw": "關卡限定技能",
+    "en_us": "Level limited skill"
   },
   {
     "ID": 1000123,
@@ -3304,6 +3312,51 @@
     "ID": 1000136,
     "zh_tw": "按下Change後消耗物品\n（可連續使用）",
     "en_us": "Press Change to consume the item\r\n(can be used continuously)"
+  },
+  {
+    "ID": 1000137,
+    "zh_tw": "體力",
+    "en_us": "Stamina"
+  },
+  {
+    "ID": 1000138,
+    "zh_tw": "取代技能",
+    "en_us": "Replace Skill"
+  },
+  {
+    "ID": 1000139,
+    "zh_tw": "不可使用",
+    "en_us": "Useable"
+  },
+  {
+    "ID": 1000140,
+    "zh_tw": "選擇技能為特殊技能！\n取代後將會消失！\n確認繼續？",
+    "en_us": "Select skill as special skill!\r\nIt will disappear after replacing!\r\nConfirm to continue?"
+  },
+  {
+    "ID": 1000141,
+    "zh_tw": "確認技能",
+    "en_us": "Check Skill"
+  },
+  {
+    "ID": 1000142,
+    "zh_tw": "替換成員",
+    "en_us": "Replace"
+  },
+  {
+    "ID": 1000143,
+    "zh_tw": "恭喜獲得新角色！",
+    "en_us": "Get new characters! Congratulations!"
+  },
+  {
+    "ID": 1000144,
+    "zh_tw": "恭喜獲得兩名新角色！",
+    "en_us": "Get two new characters! Congratulations!"
+  },
+  {
+    "ID": 1000145,
+    "zh_tw": "公告",
+    "en_us": "Announcement"
   },
   {},
   {
