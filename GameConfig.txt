@@ -1,5 +1,5 @@
 {
    "DevAccountIDs" : "alexlee7171@gmail.com,499k0095@gmail.com,teafatesanya@gmail.com",
-   "UATAccountIDs" : "kaha@minidragon.net",
+   "UATAccountIDs" : "kaha@minidragon.net,wannasaynone@gmail.com",
    "AppVersion" : "0.7.24"
 }
