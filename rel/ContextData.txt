@@ -2491,8 +2491,8 @@
     },
     {
         "ID": 400017,
-        "en_us": "\u003c#7fffd4\u003eRestore Life\u003c/color\u003e",
-        "zh_tw": "\u003c#7fffd4\u003e恢復生命\u003c/color\u003e"
+        "en_us": "\u003c#7fffd4\u003eRestore HP/SP\u003c/color\u003e",
+        "zh_tw": "\u003c#7fffd4\u003e恢復HP/SP\u003c/color\u003e"
     },
     {
         "ID": 400018,
