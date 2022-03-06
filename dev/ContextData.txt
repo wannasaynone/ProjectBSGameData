@@ -466,23 +466,23 @@
     },
     {
         "ID": 153,
-        "en_us": "AOE Damage Increase",
-        "zh_tw": "群體傷害增幅"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 154,
-        "en_us": "Increases damage dealt when using the [AOE] skill by 20%.",
-        "zh_tw": "使用[群體]技能時，增加造成的傷害20%。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 155,
-        "en_us": "AOE Damage Reduction",
-        "zh_tw": "群體傷害減少"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 156,
-        "en_us": "Decreases damage dealt by 5%. If attacked by [AOE] skill, reduce the damage dealt by another 20%.",
-        "zh_tw": "減少受到的傷害5%。若是受到[群體]技能攻擊時，再減少受到的傷害20%。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 157,
@@ -822,7 +822,7 @@
     {
         "ID": 224,
         "en_us": "Select a unit and remove all [Debuff] from it.",
-        "zh_tw": "選擇1個單位，消除其身上所有[負面]狀態。"
+        "zh_tw": "選擇1個單位，消除其身上所有[弱化]狀態。"
     },
     {
         "ID": 225,
@@ -832,7 +832,7 @@
     {
         "ID": 226,
         "en_us": "Removes all [Debuff] from all friendly units.",
-        "zh_tw": "消除所有友方單位的所有[負面]狀態。"
+        "zh_tw": "消除所有友方單位的所有[弱化]狀態。"
     },
     {
         "ID": 227,
@@ -1422,7 +1422,7 @@
     {
         "ID": 344,
         "en_us": "Deals 50% attack damage to 1 friendly unit, ignoring defenses. Removes all [Debuff] from the target.",
-        "zh_tw": "對1個友方單位造成50%攻擊值的傷害，無視防禦。其後解除目標身上所有[負面]狀態。"
+        "zh_tw": "對1個友方單位造成50%攻擊值的傷害，無視防禦。其後解除目標身上所有[弱化]狀態。"
     },
     {
         "ID": 345,
@@ -1631,23 +1631,23 @@
     },
     {
         "ID": 386,
-        "zh_tw": "祭師技能A"
+        "zh_tw": "回饋"
     },
     {
         "ID": 387,
-        "zh_tw": "每當有友方單位使用[補]技能後，回復自己最大生命值的5%生命值"
+        "zh_tw": "每當友方單位使用[恢復生命]技能後，增加自己5%最大生命值的生命值。"
     },
     {
         "ID": 388,
-        "zh_tw": "祭師技能B"
+        "zh_tw": "普通淨化術"
     },
     {
         "ID": 389,
-        "zh_tw": "選擇1個友方單位，消除其身上1個[負面]狀態"
+        "zh_tw": "選擇1個友方單位，使其身上所有[弱化]狀態減少1個。"
     },
     {
         "ID": 390,
-        "zh_tw": "魔法師技能C"
+        "zh_tw": "進階火球術"
     },
     {
         "ID": 391,
@@ -2409,43 +2409,43 @@
     },
     {
         "ID": 400002,
-        "zh_tw": "\u003c#ffdead\u003e攻\u003c/color\u003e"
+        "zh_tw": "\u003c#ffdead\u003e一般傷害\u003c/color\u003e"
     },
     {
         "ID": 400003,
-        "zh_tw": "\u003c#d2691e\u003e禦\u003c/color\u003e"
+        "zh_tw": "\u003c#d2691e\u003e防禦傷害\u003c/color\u003e"
     },
     {
         "ID": 400004,
-        "zh_tw": "\u003c#f4a460\u003e命\u003c/color\u003e"
+        "zh_tw": "\u003c#f4a460\u003e生命傷害\u003c/color\u003e"
     },
     {
         "ID": 400005,
-        "zh_tw": "\u003c#f0e68c\u003e破\u003c/color\u003e"
+        "zh_tw": "\u003c#f0e68c\u003e混和傷害\u003c/color\u003e"
     },
     {
         "ID": 400006,
-        "zh_tw": "\u003c#ffa07a\u003e法術 \u003c/color\u003e"
+        "zh_tw": "\u003c#ffa07a\u003e法術\u003c/color\u003e"
     },
     {
         "ID": 400007,
-        "zh_tw": "\u003c#cd5c5c\u003e火\u003c/color\u003e"
+        "zh_tw": "\u003c#cd5c5c\u003e火焰\u003c/color\u003e"
     },
     {
         "ID": 400008,
-        "zh_tw": "\u003c#ffd700\u003e電\u003c/color\u003e"
+        "zh_tw": "\u003c#ffd700\u003e雷電\u003c/color\u003e"
     },
     {
         "ID": 400009,
-        "zh_tw": "\u003c#7183b0\u003e冰\u003c/color\u003e"
+        "zh_tw": "\u003c#7183b0\u003e冰霜\u003c/color\u003e"
     },
     {
         "ID": 400010,
-        "zh_tw": "\u003c#629c9b\u003e暗\u003c/color\u003e"
+        "zh_tw": "\u003c#629c9b\u003e黑暗\u003c/color\u003e"
     },
     {
         "ID": 400011,
-        "zh_tw": "\u003c#f0e68c\u003e光\u003c/color\u003e"
+        "zh_tw": "\u003c#f0e68c\u003e光明\u003c/color\u003e"
     },
     {
         "ID": 400012,
@@ -2457,32 +2457,32 @@
     },
     {
         "ID": 400014,
-        "zh_tw": "\u003c#dda0dd\u003e控\u003c/color\u003e"
+        "zh_tw": "\u003c#dda0dd\u003e控制\u003c/color\u003e"
     },
     {
         "ID": 400015,
-        "zh_tw": "\u003c#2e8b57\u003e增\u003c/color\u003e"
+        "zh_tw": "\u003c#2e8b57\u003e強化\u003c/color\u003e"
     },
     {
         "ID": 400016,
-        "zh_tw": "\u003c#da70d6\u003e減\u003c/color\u003e"
+        "zh_tw": "\u003c#da70d6\u003e弱化\u003c/color\u003e"
     },
     {
         "ID": 400017,
-        "zh_tw": "\u003c#7fffd4\u003e補\u003c/color\u003e"
+        "zh_tw": "\u003c#7fffd4\u003e恢復生命\u003c/color\u003e"
     },
     {
         "ID": 400018,
-        "zh_tw": "\u003c#bdb76b\u003e追\u003c/color\u003e"
+        "zh_tw": "\u003c#bdb76b\u003e追加技能\u003c/color\u003e"
     },
     {
         "ID": 400019,
-        "zh_tw": "\u003c#bc8f8f\u003e特\u003c/color\u003e"
+        "zh_tw": "\u003c#bc8f8f\u003e特殊\u003c/color\u003e"
     },
     {
         "ID": 400020,
-        "en_us": "AOE",
-        "zh_tw": "群體"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 400021,
@@ -2491,33 +2491,33 @@
     },
     {
         "ID": 400022,
-        "en_us": "Increase SP",
-        "zh_tw": "增SP"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 400023,
-        "en_us": "Damage Increase",
-        "zh_tw": "增傷"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 400024,
-        "en_us": "Damage Reduction",
-        "zh_tw": "減傷"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 400025,
-        "en_us": "Hatred",
-        "zh_tw": "仇恨"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 400026,
-        "en_us": "Weakening",
-        "zh_tw": "弱化"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 400027,
-        "en_us": "Death",
-        "zh_tw": "死亡"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 400030,
