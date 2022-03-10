@@ -1632,7 +1632,7 @@
     {
         "ID": 386,
         "en_us": "Feedback",
-        "zh_tw": "回饋"
+        "zh_tw": "恩返"
     },
     {
         "ID": 387,
@@ -1827,7 +1827,7 @@
     {
         "ID": 10034,
         "en_us": "Deals 330% Attack value damage to the enemy unit with the highest Hatred value.",
-        "zh_tw": "對仇恨值最高的敵方單位造成330%攻擊值的傷害。"
+        "zh_tw": "對仇恨值最高的敵方單位造成220%攻擊值的傷害。"
     },
     {
         "ID": 10035,
@@ -1897,7 +1897,7 @@
     {
         "ID": 10048,
         "en_us": "Deals damage equal to 200% of Speed value to a random enemy units. Repeat 4 times.",
-        "zh_tw": "對隨機的敵方單位造成相當於200%速度值的傷害。重複4次。"
+        "zh_tw": "對隨機的敵方單位造成相當於100%速度值的傷害。重複4次。"
     },
     {
         "ID": 10049,
@@ -1912,107 +1912,107 @@
     {
         "ID": 10051,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "小型木造守衛"
     },
     {
         "ID": 10052,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "火焰弱化"
     },
     {
         "ID": 10053,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "對火焰的抵抗降低50%。"
     },
     {
         "ID": 10054,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力單體攻擊"
     },
     {
         "ID": 10055,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "給予自己持續2回合的蓄力狀態，並在蓄力狀態結束後，對敵方單位造成10%生命值的傷害。"
     },
     {
         "ID": 10056,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "中型木造守衛"
     },
     {
         "ID": 10057,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力單體多次攻擊"
     },
     {
         "ID": 10058,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "給予自己持續3回合的蓄力狀態，並在蓄力狀態結束後，對1個敵方單位造成6%生命值的傷害。連續3次。"
     },
     {
         "ID": 10059,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "巨型木造守衛"
     },
     {
         "ID": 10060,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力回合機率減少"
     },
     {
         "ID": 10061,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "受到傷害後，有30%的機率減少1回合的「蓄力」。"
     },
     {
         "ID": 10062,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力群體攻擊"
     },
     {
         "ID": 10063,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "給予自己持續5回合的蓄力狀態，並在蓄力狀態結束後，對所有敵方單位造成3%生命值的傷害。"
     },
     {
         "ID": 10064,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力完成"
     },
     {
         "ID": 10065,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力完成。"
     },
     {
         "ID": 10066,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力"
     },
     {
         "ID": 10067,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力單體攻擊準備中。"
     },
     {
         "ID": 10068,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力"
     },
     {
         "ID": 10069,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力單體多次攻擊準備中。"
     },
     {
         "ID": 10070,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力"
     },
     {
         "ID": 10071,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "蓄力群體攻擊準備中。"
     },
     {
         "ID": 10072,
@@ -2361,51 +2361,103 @@
     },
     {
         "ID": 300001,
+        "zh_tw": "下水道老鼠"
+    },
+    {
+        "ID": 300002,
         "en_us": "Suggested Level: Lv. 1\nA common underground waterway rat is blocking your way.",
         "zh_tw": "建議等級：Lv. 1\n一隻普通的地下水道老鼠，阻擋了你的去路。"
     },
     {
-        "ID": 300002,
+        "ID": 300003,
+        "zh_tw": "守衛機器人30001型"
+    },
+    {
+        "ID": 300004,
         "en_us": "Recommended level: Lv. 10\nThe two mechanical guards standing in front of the archway.\nThe program is still running despite the fact that there are no more guards left.",
         "zh_tw": "建議等級：Lv. 10\n站立在拱門前的兩名機械守衛。\n儘管早已沒了看守的對象，但程式依然在運轉。"
     },
     {
-        "ID": 300003,
+        "ID": 300005,
+        "zh_tw": "下水道老鼠"
+    },
+    {
+        "ID": 300006,
         "en_us": "Recommended level: Lv. 20\nThe new ruler of the deserted city is a bunch of rats.\nYou are not surprised by this. Yes, one rat is weak. What about a pack?",
         "zh_tw": "建議等級：Lv. 20\n在荒蕪的城市裡面建立新統治權的，是一群老鼠。\n你對此毫不意外。是的，一隻老鼠很弱。那，一群呢？"
     },
     {
-        "ID": 300004,
+        "ID": 300007,
+        "zh_tw": "古代核心高崙"
+    },
+    {
+        "ID": 300008,
         "en_us": "Recommended level: Lv. 40\nLumino has built a camp in the center of the city according to your instructions.\nAnd the violent energy wave of the change triggered the ancient core of the sleeping Goren.",
         "zh_tw": "建議等級：Lv. 40\n魯米諾依照你的指令，在城市的中心建造了營地。\n而變動劇烈的能量波觸發了沉睡的古代核心高崙。"
     },
     {
-        "ID": 300005,
+        "ID": 300009,
+        "zh_tw": "木造守衛"
+    },
+    {
+        "ID": 300010,
+        "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n木造的守護散落在街道上，看來他們曾經來過個地方。"
+    },
+    {
+        "ID": 300011,
+        "zh_tw": "街道途中"
+    },
+    {
+        "ID": 300012,
+        "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n街道的中央開始出現中型木造守衛。\n地上的斑駁的痕跡應該就是當初留下的吧。"
+    },
+    {
+        "ID": 300013,
+        "zh_tw": "街道深處"
+    },
+    {
+        "ID": 300014,
+        "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n木造守衛好像特別畏懼火光，或許可以......。"
+    },
+    {
+        "ID": 300015,
+        "zh_tw": "巨型木造守衛"
+    },
+    {
+        "ID": 300016,
+        "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n一個巨大的身影阻擋住了前進的路線。"
+    },
+    {
+        "ID": 300017,
+        "zh_tw": "測試用"
+    },
+    {
+        "ID": 300018,
         "en_us": "Recommended level: Lv. 100\nLumino's investigation report :\nThe road to the north leads to the land of eternal freeze.\nA large, giant Gaulan is like a fortress, guarding the northern gates of the city.",
         "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n北方的路通往永凍之地。\n偌大的巨型高崙有如堡壘，鎮守在北方的城門。"
     },
     {
-        "ID": 300006,
+        "ID": 300019,
         "en_us": "Recommended level: Lv. 100\nLumino's investigation report : \nThe road to the east leads to the luxuriant forest.\nThe planted gorgonians are like ancient trees, guarding the gates of the East.",
         "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n東方的路通往蓊鬱之森。\n佈滿植披的高崙彷彿古木，鎮守在東方的城門。"
     },
     {
-        "ID": 300007,
+        "ID": 300020,
         "en_us": "Recommended level: Lv. 100\nLumino's investigation report : \nThe road to the west leads to the land of the poor ridge.\nThe wind sand eroded Gaulan also turned into wind sand and guarded the western gate.",
         "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n西方的路通往貧脊之地。\n受風砂侵蝕高崙也化為風砂，鎮守在西方的城門。"
     },
     {
-        "ID": 300008,
+        "ID": 300021,
         "en_us": "Recommended level: Lv. 100\nRecord: A fantasy creature that wanders in the ice fields.\nPossesses humanoid form, but lacks intelligence and is unable to communicate.\nSeems to feed on the unknown energy left in the atmosphere.",
         "zh_tw": "建議等級：Lv. 100\n紀錄：在冰原中遊蕩的奇幻生物。\n擁有人形，但缺乏智能，無法溝通。\n似乎以殘留在大氣的未知能量為生。"
     },
     {
-        "ID": 300009,
+        "ID": 300022,
         "en_us": "Recommended level: Lv. 100\nThe appearance is a remnant of the wizard's data.\nIncomplete reconstruction causes it to be unable to possess intelligence and only emits meaningless noises.\nDetermine that there is no possibility of obtaining information, and destroy it according to standard operating procedures.",
         "zh_tw": "建議等級：Lv. 100\n外型是魔法師的資料殘影。\n不完整的重建導致它無法擁有智能，只能發出無意義的聲響。\n判斷沒有獲取資訊的可能，依照標準作業流程，將其消滅。"
     },
     {
-        "ID": 300010,
+        "ID": 300023,
         "en_us": "Recommended level: Lv. 100\n\"Push forward.\" \"Push forward.\" \"Push forward.\"\nFrom the moment the remnants of the army appeared, they moved straight ahead in a certain direction.\nNot even looking back. \"Push forward.\"",
         "zh_tw": "建議等級：Lv. 100\n「向前推進。」「向前推進。」「向前推進。」\n軍隊的殘影從出現的瞬間起便筆直地朝某個方向前進。\n頭也不回。「向前推進。」"
     },
@@ -3552,17 +3604,21 @@
     },
     {
         "ID": 3000002,
-        "en_us": "2. Northern Snowfields",
-        "zh_tw": "2. 北方雪原"
+        "zh_tw": "2. 荒蕪街道"
     },
     {
         "ID": 3000003,
-        "en_us": "3. Eastern Forest",
-        "zh_tw": "3. 東方森林"
+        "en_us": "3. Northern Snowfields",
+        "zh_tw": "3. 北方雪原"
     },
     {
         "ID": 3000004,
-        "en_us": "4. Western Desert",
-        "zh_tw": "4. 西方沙漠"
+        "en_us": "4. Eastern Forest",
+        "zh_tw": "4. 東方森林"
+    },
+    {
+        "ID": 3000005,
+        "en_us": "5. Western Desert",
+        "zh_tw": "5. 西方沙漠"
     }
 ]

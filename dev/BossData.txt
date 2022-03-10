@@ -15,7 +15,7 @@
         "AppearanceDataID": 10002,
         "Attack": 0,
         "Defense": 390,
-        "HP": 3300,
+        "HP": 1700,
         "ID": 2,
         "SP": 100,
         "SkillIDs": "10005;10007",
@@ -26,7 +26,7 @@
         "AppearanceDataID": 10003,
         "Attack": 390,
         "Defense": 0,
-        "HP": 3300,
+        "HP": 1700,
         "ID": 3,
         "SP": 100,
         "SkillIDs": "10008;10009",
@@ -155,14 +155,47 @@
         "Speed": 3100
     },
     {
-        "AI": "CastSkill(10001);",
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10023);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10007);\n     Quit();\nEndIf();\n\nCastSkill(10022);",
         "AppearanceDataID": 10005,
         "Attack": 1000,
         "Defense": 1000,
         "HP": 1000000,
         "ID": 15,
         "SP": 100,
-        "SkillIDs": 0,
+        "SkillIDs": 10025,
+        "Speed": 1000
+    },
+    {
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10023);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10007);\n     Quit();\nEndIf();\n\nCastSkill(10022);",
+        "AppearanceDataID": 10014,
+        "Attack": 1000,
+        "Defense": 500,
+        "HP": 82000,
+        "ID": 16,
+        "SP": 100,
+        "SkillIDs": "10021;10022",
+        "Speed": 300
+    },
+    {
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10025);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10008);\n     Quit();\nEndIf();\n\nCastSkill(10024);",
+        "AppearanceDataID": 10015,
+        "Attack": 1000,
+        "Defense": 100,
+        "HP": 124000,
+        "ID": 17,
+        "SP": 100,
+        "SkillIDs": "10021;10024",
+        "Speed": 300
+    },
+    {
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10028);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10009);\n     Quit();\nEndIf();\n\nCastSkill(10027);",
+        "AppearanceDataID": 10016,
+        "Attack": 1000,
+        "Defense": 500,
+        "HP": 300000,
+        "ID": 18,
+        "SP": 100,
+        "SkillIDs": "10021;10026;10027",
         "Speed": 1000
     }
 ]
