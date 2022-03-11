@@ -166,7 +166,7 @@
         "Speed": 1000
     },
     {
-        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10023);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10007);\n     Quit();\nEndIf();\n\nCastSkill(10022);",
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10023);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10007);\n　CastSkill(10029);    \n    Quit();\nEndIf();\n\nCastSkill(10022);",
         "AppearanceDataID": 10014,
         "Attack": 1000,
         "Defense": 500,
@@ -177,7 +177,7 @@
         "Speed": 300
     },
     {
-        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10025);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10008);\n     Quit();\nEndIf();\n\nCastSkill(10024);",
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10025);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10008);\n    CastSkill(10029); \n    Quit();\nEndIf();\n\nCastSkill(10024);",
         "AppearanceDataID": 10015,
         "Attack": 1000,
         "Defense": 100,
@@ -188,14 +188,14 @@
         "Speed": 300
     },
     {
-        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10028);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10009);\n     Quit();\nEndIf();\n\nCastSkill(10027);",
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10028);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10009);\n    CastSkill(10029); \n    Quit();\nEndIf();\n\nCastSkill(10027);",
         "AppearanceDataID": 10016,
         "Attack": 1000,
         "Defense": 500,
         "HP": 300000,
         "ID": 18,
         "SP": 100,
-        "SkillIDs": "10021;10026;10027",
+        "SkillIDs": "10021;10026;10027;10030",
         "Speed": 1000
     }
 ]
