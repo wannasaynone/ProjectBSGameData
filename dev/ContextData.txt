@@ -2550,8 +2550,8 @@
   },
   {
     "ID": 400017,
-    "zh_tw": "<#7fffd4>恢復HP/SP</color>",
-    "en_us": "<#7fffd4>Restore HP/SP</color>"
+    "zh_tw": "<#7fffd4>恢復</color>",
+    "en_us": "<#7fffd4>Recovery</color>"
   },
   {
     "ID": 400018,
