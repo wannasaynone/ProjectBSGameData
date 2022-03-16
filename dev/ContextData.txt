@@ -3542,6 +3542,16 @@
     "zh_tw": "公告",
     "en_us": "Announcement"
   },
+  {
+    "ID": 1000146,
+    "zh_tw": "+ 長按加入隊伍",
+    "en_us": "+ Long Press to Join Team"
+  },
+  {
+    "ID": 1000147,
+    "zh_tw": "長按替換成員",
+    "en_us": "Long Press to Replace"
+  },
   {},
   {
     "ID": 2000001,
