@@ -2066,7 +2066,7 @@
   {
     "ID": 10075,
     "zh_tw": "受到[<#cf6330>物理</color>]技能攻擊會累積失衡值。若失衡值超過一定數值，給予自己持續1回合的「不能行動」。",
-    "en_us": "Attacked by [<#cf6330>Physical</color>] skill will accumulate \"Imbalance Value\". If the \"Imbalance Value\" exceeds a certain value, it gives you an \"Cannot Action\" for 1 turn."
+    "en_us": "Attacked by [<#cf6330>Physical</color>] skill will accumulate \"Imbalance Value\". If the \"Imbalance Value\" exceeds a certain value, it gives this unit an \"Cannot Action\" for 1 turn."
   },
   {
     "ID": 10076,
@@ -2849,7 +2849,7 @@
   },
   {
     "ID": 1000007,
-    "zh_tw": "技能晶片",
+    "zh_tw": "技能",
     "en_us": "Skill"
   },
   {
@@ -3159,8 +3159,8 @@
   },
   {
     "ID": 1000069,
-    "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能\n\n- 善用搜尋功能搜尋魔王的技能資訊",
-    "en_us": "- Sweep cleared levels to gain skills and EXP\n\n- Go to the character page and use experience points to upgrade units\n\n- Configure your team and skills according to the characteristics of the Boss"
+    "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能\n\n- 前往商店取得更強力的角色與更多技能",
+    "en_us": "- Raid cleared levels to gain skills and EXP\n\n- Go to the character page and use EXP to upgrade heroes\n\n- Configure your team and skills according to the characteristics of the Demon King\n\n- Go to the store to get more powerful characters and more skills"
   },
   {
     "ID": 1000070,
@@ -3215,7 +3215,7 @@
   {
     "ID": 1000080,
     "zh_tw": "+ 加入隊伍",
-    "en_us": "+ Join the team"
+    "en_us": "+ Join team"
   },
   {
     "ID": 1000081,
@@ -3424,8 +3424,8 @@
   },
   {
     "ID": 1000122,
-    "zh_tw": "關卡限定技能",
-    "en_us": "Level limited skill"
+    "zh_tw": "限定技能",
+    "en_us": "Limited skill"
   },
   {
     "ID": 1000123,
