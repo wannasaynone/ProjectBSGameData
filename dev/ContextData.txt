@@ -2442,7 +2442,7 @@
   },
   {
     "ID": 300016,
-    "zh_tw": "建議等級：Lv. 100\n尺寸異常巨大的木造守衛出現在最深處。\n沒有遊走巡邏的習慣，僅僅是在那裡佇立著。\n若不堅持接近的話，似乎沒有主動攻擊的設定。",
+    "zh_tw": "建議等級：Lv. 100 (難度等級：3 / 10)\n尺寸異常巨大的木造守衛出現在最深處。\n沒有遊走巡邏的習慣，僅僅是在那裡站立著。\n若不堅持接近的話，似乎沒有主動攻擊的設定。",
     "en_us": "Recommended level: Lv. 100\nWooden guards of unusually large size appear in the deepest part.\nNo habit of wandering patrol, just standing there.\nIf you do not insist on approaching, there seems to be no active attack setting."
   },
   {
