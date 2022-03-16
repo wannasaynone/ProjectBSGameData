@@ -139,5 +139,17 @@
         "NameContextID": 300017,
         "RequireLevel": 100,
         "Stamina": 0
+    },
+    {
+        "AreaID": 0,
+        "BossIDs": "15;18",
+        "DescriptionContextID": 300010,
+        "ID": 11,
+        "Index": -1,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
+        "NameContextID": 300017,
+        "RequireLevel": 100,
+        "Stamina": 0
     }
 ]
