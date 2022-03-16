@@ -2436,8 +2436,8 @@
     },
     {
         "ID": 300010,
-        "en_us": "Recommended level: Lv. 100 (Difficulty level: 1 / 10)\nActing based on the energy source known locally as \"magic\".\nUsually only simple commands can be performed, such as eliminating external enemies.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10)\n以被當地人稱為「魔法」的能源作為核心運作。\n通常只能執行簡單的指令，例如排除外敵。"
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e)\nActing based on the energy source known locally as \"magic\".\nUsually only simple commands can be performed, such as eliminating external enemies.",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e)\n以被當地人稱為「魔法」的能源作為核心運作。\n通常只能執行簡單的指令，例如排除外敵。"
     },
     {
         "ID": 300011,
@@ -2446,7 +2446,7 @@
     },
     {
         "ID": 300012,
-        "en_us": "Recommended level: Lv. 100 (Difficulty level: 1 / 10)\nWooden guards are available in different sizes.\nThe reason for this is yet to be investigated, perhaps magic\" is not a free source of energy here.\nIt's like electricity power source for us.",
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e)\nWooden guards are available in different sizes.\nThe reason for this is yet to be investigated, perhaps magic\" is not a free source of energy here.\nIt's like electricity power source for us.",
         "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e)\n木造守衛有體型之分。\n原因尚待調查，或許「魔法」在這裡並不是免費的能源。\n就像是我們的電源。"
     },
     {
@@ -2456,7 +2456,7 @@
     },
     {
         "ID": 300014,
-        "en_us": "Recommended level: Lv. 100 (Difficulty level: 2 / 10)\nThe wooden guards that should be used to defend against foreign enemies are wandering around the streets.\nMaybe there was an invasion, a war.\nOr maybe it simply got out of hand.",
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e)\nThe wooden guards that should be used to defend against foreign enemies are wandering around the streets.\nMaybe there was an invasion, a war.\nOr maybe it simply got out of hand.",
         "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e)\n應該用來抵禦外敵的木造守衛卻在街道各處遊走，\n或許這裡曾經發生過一場入侵，一場戰爭。\n或者只是單純的失控。"
     },
     {
@@ -2466,7 +2466,7 @@
     },
     {
         "ID": 300016,
-        "en_us": "Recommended level: Lv. 100\nWooden guards of unusually large size appear in the deepest part.\nNo habit of wandering patrol, just standing there.\nIf you do not insist on approaching, there seems to be no active attack setting.",
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 3 / 10\u003c/color\u003e)\nWooden guards of unusually large size appear in the deepest part.\nNo habit of wandering patrol, just standing there.\nIf you do not insist on approaching, there seems to be no active attack setting.",
         "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：3 / 10\u003c/color\u003e)\n尺寸異常巨大的木造守衛出現在最深處。\n沒有遊走巡邏的習慣，僅僅是在那裡站立著。\n若不堅持接近的話，似乎沒有主動攻擊的設定。"
     },
     {
