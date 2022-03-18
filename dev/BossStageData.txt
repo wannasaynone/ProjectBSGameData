@@ -63,7 +63,7 @@
         "MinExp": 1980400,
         "NameContextID": 300009,
         "RequireLevel": 100,
-        "Stamina": 0
+        "Stamina": 80
     },
     {
         "AreaID": 2,
@@ -76,7 +76,7 @@
         "MinExp": 1980400,
         "NameContextID": 300011,
         "RequireLevel": 100,
-        "Stamina": 0
+        "Stamina": 80
     },
     {
         "AreaID": 2,
@@ -89,7 +89,7 @@
         "MinExp": 1980400,
         "NameContextID": 300013,
         "RequireLevel": 100,
-        "Stamina": 0
+        "Stamina": 80
     },
     {
         "AreaID": 2,
@@ -102,7 +102,7 @@
         "MinExp": 1980400,
         "NameContextID": 300015,
         "RequireLevel": 100,
-        "Stamina": 0
+        "Stamina": 80
     },
     {
         "AreaID": 0,
