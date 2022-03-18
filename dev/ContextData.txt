@@ -3271,7 +3271,7 @@
     },
     {
         "ID": 1000093,
-        "en_us": "Consume {0} EXP to get {1} skills",
+        "en_us": "Spend {0} EXP to get {1} skills",
         "zh_tw": "消耗 {0} 經驗值取得 {1} 個技能"
     },
     {
@@ -3466,8 +3466,8 @@
     },
     {
         "ID": 1000132,
-        "en_us": "Game Production\nKAHA\n\n─────────────────────────\nSpecial thanks to\n\nChang Heng\nGame Design Consultation / Player Community Contribution / Marketing Advice and Resources\n\nMalibu\nGame UX Consultation / Game Effects     \n\nNage\nGame Design Consultation / Early Game Testing\n\nArc\nMusic Provision / Early Game Testing\n\nDer Kasaki\nGame Effects / Early Game Testing\n\nALEX\nInternet connection consultation / Early game testing\n\nLight and Shadow\nGame Testing / Feature Experience Feedback\n\n魔王魂\nMusic Offerings",
-        "zh_tw": "遊戲製作\nKAHA\n\n─────────────────────────\n特別感謝\n\n張恆\n遊戲設計諮詢 / 玩家社群提供 / 行銷意見與資源\n\nMalibu\n遊戲UX諮詢 / 遊戲特效提供     \n\nNage\n遊戲設計諮詢 / 早期遊戲測試\n\nArc\n音樂提供 / 早期遊戲測試\n\nDer Kasaki\n遊戲特效提供 / 早期遊戲測試\n\nALEX\n網路連線功能諮詢 / 早期遊戲測試\n\n光影\n遊戲測試 / 功能體驗回饋\n\n魔王魂\n音樂提供"
+        "en_us": "Game Production\nKAHA, KUMA\n\n─────────────────────────\nSpecial thanks to\n\nChang Heng\nGame Design Consultation / Player Community Contribution / Marketing Advice and Resources\n\nMalibu\nGame UX Consultation / Game Effects     \n\nNage\nGame Design Consultation / Early Game Testing\n\nArc\nMusic Provision / Early Game Testing\n\nDer Kasaki\nGame Effects / Early Game Testing\n\nALEX\nInternet connection consultation / Early game testing\n\nLight and Shadow\nGame Testing / Feature Experience Feedback\n\n魔王魂\nMusic Offerings",
+        "zh_tw": "遊戲製作\nKAHA、小熊Kuma\n\n─────────────────────────\n特別感謝\n\n張恆\n遊戲設計諮詢 / 玩家社群提供 / 行銷意見與資源\n\nMalibu\n遊戲UX諮詢 / 遊戲特效提供     \n\nNage\n遊戲設計諮詢 / 早期遊戲測試\n\nArc\n音樂提供 / 早期遊戲測試\n\nDer Kasaki\n遊戲特效提供 / 早期遊戲測試\n\nALEX\n網路連線功能諮詢 / 早期遊戲測試\n\n光影\n遊戲測試 / 功能體驗回饋\n\n魔王魂\n音樂提供"
     },
     {
         "ID": 1000133,
@@ -3553,6 +3553,16 @@
         "ID": 1000149,
         "en_us": "Change Skill",
         "zh_tw": "替換技能"
+    },
+    {
+        "ID": 1000150,
+        "en_us": "Well done, researcher.\r\nYou have successfully established a foothold and have all the knowledge of the battle.\r\nThis will be our last communication.\r\nPlease complete your mission: complete the investigation of all areas to follow.",
+        "zh_tw": "做得好，研究員。\n你已經成功建立據點，擁有對戰鬥的一切知識。\n這將會是我們最後一次通訊。\n請完成你的任務：完成接下來所有區域的調查。"
+    },
+    {
+        "ID": 1000151,
+        "en_us": "Gain {0} EXP",
+        "zh_tw": "獲得 {0} 經驗值"
     },
     {
         "ID": 2000001,
