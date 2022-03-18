@@ -3466,8 +3466,8 @@
     },
     {
         "ID": 1000132,
-        "en_us": "Game Production\nKAHA, KUMA\n\n─────────────────────────\nSpecial thanks to\n\nChang Heng\nGame Design Consultation / Player Community Contribution / Marketing Advice and Resources\n\nMalibu\nGame UX Consultation / Game Effects     \n\nNage\nGame Design Consultation / Early Game Testing\n\nArc\nMusic Provision / Early Game Testing\n\nDer Kasaki\nGame Effects / Early Game Testing\n\nALEX\nInternet connection consultation / Early game testing\n\nLight and Shadow\nGame Testing / Feature Experience Feedback\n\n魔王魂\nMusic Offerings",
-        "zh_tw": "遊戲製作\nKAHA、小熊Kuma\n\n─────────────────────────\n特別感謝\n\n張恆\n遊戲設計諮詢 / 玩家社群提供 / 行銷意見與資源\n\nMalibu\n遊戲UX諮詢 / 遊戲特效提供     \n\nNage\n遊戲設計諮詢 / 早期遊戲測試\n\nArc\n音樂提供 / 早期遊戲測試\n\nDer Kasaki\n遊戲特效提供 / 早期遊戲測試\n\nALEX\n網路連線功能諮詢 / 早期遊戲測試\n\n光影\n遊戲測試 / 功能體驗回饋\n\n魔王魂\n音樂提供"
+        "en_us": "Game Production\nKAHA, KUMAMA\n\n─────────────────────────\nSpecial thanks to\n\nChang Heng\nGame Design Consultation / Player Community Contribution / Marketing Advice and Resources\n\nMalibu\nGame UX Consultation / Game Effects     \n\nNage\nGame Design Consultation / Early Game Testing\n\nArc\nMusic Provision / Early Game Testing\n\nDer Kasaki\nGame Effects / Early Game Testing\n\nALEX\nInternet connection consultation / Early game testing\n\nLight and Shadow\nGame Testing / Feature Experience Feedback\n\n魔王魂\nMusic Offerings",
+        "zh_tw": "遊戲製作\nKAHA、小熊KUMAMA\n\n─────────────────────────\n特別感謝\n\n張恆\n遊戲設計諮詢 / 玩家社群提供 / 行銷意見與資源\n\nMalibu\n遊戲UX諮詢 / 遊戲特效提供     \n\nNage\n遊戲設計諮詢 / 早期遊戲測試\n\nArc\n音樂提供 / 早期遊戲測試\n\nDer Kasaki\n遊戲特效提供 / 早期遊戲測試\n\nALEX\n網路連線功能諮詢 / 早期遊戲測試\n\n光影\n遊戲測試 / 功能體驗回饋\n\n魔王魂\n音樂提供"
     },
     {
         "ID": 1000133,
@@ -3563,6 +3563,11 @@
         "ID": 1000151,
         "en_us": "Gain {0} EXP",
         "zh_tw": "獲得 {0} 經驗值"
+    },
+    {
+        "ID": 1000152,
+        "en_us": "Communication Tip.\nThe experience value after a battle can be used to strengthen your character on the character page.\nIt will also be used for other purposes afterwards.",
+        "zh_tw": "通訊提示：\n戰鬥後的經驗值，可以用來在角色頁面強化角色。\n之後也會有其他用途。"
     },
     {
         "ID": 2000001,
