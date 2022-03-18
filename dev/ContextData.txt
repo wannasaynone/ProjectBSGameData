@@ -3550,6 +3550,11 @@
         "zh_tw": "[長按重複攻略]"
     },
     {
+        "ID": 1000149,
+        "en_us": "Change Skill",
+        "zh_tw": "替換技能"
+    },
+    {
         "ID": 2000001,
         "en_us": "When you dismantle a unit, half of the unit experience will be returned.",
         "zh_tw": "分解角色時，會返回該角色的一半經驗值。"
