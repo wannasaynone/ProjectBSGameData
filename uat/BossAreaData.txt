@@ -9,7 +9,7 @@
         "NameContextID": 3000001
     },
     {
-        "FrontStageIDs": 4,
+        "FrontStageIDs": 3,
         "ID": 2,
         "NameContextID": 3000002
     },

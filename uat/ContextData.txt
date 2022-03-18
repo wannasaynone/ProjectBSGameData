@@ -1632,7 +1632,7 @@
     {
         "ID": 386,
         "en_us": "Feedback",
-        "zh_tw": "回饋"
+        "zh_tw": "恩返"
     },
     {
         "ID": 387,
@@ -1658,6 +1658,36 @@
         "ID": 391,
         "en_us": "Cannot be obtained by extraction or sweeping. Deals 180% Attack value damage to 1 enemy unit, and has a 60% chance to give the target \"Burn\" for 2 turns.",
         "zh_tw": "無法透過抽取或掃蕩取得本技能。對1個敵方單位造成180%攻擊值的傷害，並有60%的機率給予目標持續2回合的「燃燒」。"
+    },
+    {
+        "ID": 392,
+        "en_us": "None",
+        "zh_tw": "新英雄佔用ID"
+    },
+    {
+        "ID": 393,
+        "en_us": "None",
+        "zh_tw": "新英雄佔用ID"
+    },
+    {
+        "ID": 394,
+        "en_us": "None",
+        "zh_tw": "新英雄佔用ID"
+    },
+    {
+        "ID": 395,
+        "en_us": "None",
+        "zh_tw": "新英雄佔用ID"
+    },
+    {
+        "ID": 396,
+        "en_us": "None",
+        "zh_tw": "新英雄佔用ID"
+    },
+    {
+        "ID": 397,
+        "en_us": "None",
+        "zh_tw": "新英雄佔用ID"
     },
     {
         "ID": 10001,
@@ -1827,7 +1857,7 @@
     {
         "ID": 10034,
         "en_us": "Deals 330% Attack value damage to the enemy unit with the highest Hatred value.",
-        "zh_tw": "對仇恨值最高的敵方單位造成330%攻擊值的傷害。"
+        "zh_tw": "對仇恨值最高的敵方單位造成220%攻擊值的傷害。"
     },
     {
         "ID": 10035,
@@ -1897,7 +1927,7 @@
     {
         "ID": 10048,
         "en_us": "Deals damage equal to 200% of Speed value to a random enemy units. Repeat 4 times.",
-        "zh_tw": "對隨機的敵方單位造成相當於200%速度值的傷害。重複4次。"
+        "zh_tw": "對隨機的敵方單位造成相當於100%速度值的傷害。重複4次。"
     },
     {
         "ID": 10049,
@@ -1911,158 +1941,158 @@
     },
     {
         "ID": 10051,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Small Wooden Guards",
+        "zh_tw": "小型木造守衛"
     },
     {
         "ID": 10052,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Flammable",
+        "zh_tw": "易燃"
     },
     {
         "ID": 10053,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increase damage by 50%.",
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。"
     },
     {
         "ID": 10054,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Discover Target",
+        "zh_tw": "發現目標"
     },
     {
         "ID": 10055,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Gives yourself \"Reload Ammo\" for 2 turns.",
+        "zh_tw": "給予自己持續2回合的「裝填彈藥」。"
     },
     {
         "ID": 10056,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Medium Wooden Guards",
+        "zh_tw": "中型木造守衛"
     },
     {
         "ID": 10057,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Continuous Wooden Pile Shot",
+        "zh_tw": "連續木樁炮擊"
     },
     {
         "ID": 10058,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Gives you \"Loading Ammo\" for 3 turns.",
+        "zh_tw": "給予自己持續3回合的「裝填彈藥」。"
     },
     {
         "ID": 10059,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Giant Wooden Guard",
+        "zh_tw": "巨型木造守衛"
     },
     {
         "ID": 10060,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Emergency Acceleration Device",
+        "zh_tw": "緊急加速裝置"
     },
     {
         "ID": 10061,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "After taking damage, there is a 30% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
+        "zh_tw": "受到傷害後，有50%的機率減少1回合的「裝填彈藥」。"
     },
     {
         "ID": 10062,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Wide Range Wooden Pile Shot",
+        "zh_tw": "廣範圍木樁炮擊"
     },
     {
         "ID": 10063,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Gives you \"Loading Ammo\" for 5 turns.",
+        "zh_tw": "給予自己持續5回合的「裝填彈藥」。"
     },
     {
         "ID": 10064,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Ammo Loaded",
+        "zh_tw": "裝填彈藥完成"
     },
     {
         "ID": 10065,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Loading of ammo is complete and ready for artillery fire.",
+        "zh_tw": "裝填彈藥完成，準備進行炮擊。"
     },
     {
         "ID": 10066,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Loading Ammo",
+        "zh_tw": "裝填彈藥"
     },
     {
         "ID": 10067,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When this buff is removed, give yourself \"Ammo Loaded\".",
+        "zh_tw": "狀態消除時，給予自己「裝填彈藥完成」。"
     },
     {
         "ID": 10068,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Loading Ammo",
+        "zh_tw": "裝填彈藥"
     },
     {
         "ID": 10069,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When this buff is removed, give yourself \"Ammo Loaded\".",
+        "zh_tw": "狀態消除時，給予自己「裝填彈藥完成」。"
     },
     {
         "ID": 10070,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Loading Ammo",
+        "zh_tw": "裝填彈藥"
     },
     {
         "ID": 10071,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When this buff is removed, give yourself \"Ammo Loaded\".",
+        "zh_tw": "狀態消除時，給予自己「裝填彈藥完成」。"
     },
     {
         "ID": 10072,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Loading Ammo",
+        "zh_tw": "裝填彈藥中"
     },
     {
         "ID": 10073,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Fully loaded with ammunition.",
+        "zh_tw": "全力裝填彈藥中。"
     },
     {
         "ID": 10074,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Imbalance",
+        "zh_tw": "失衡"
     },
     {
         "ID": 10075,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill will accumulate \"Imbalance Value\". If the \"Imbalance Value\" exceeds a certain value, it gives this unit an \"Cannot Action\" for 1 turn.",
+        "zh_tw": "受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊會累積失衡值。若失衡值超過一定數值，給予自己持續1回合的「不能行動」，並消除當前的狀態。"
     },
     {
         "ID": 10076,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Wooden Pile Shot",
+        "zh_tw": "木樁炮擊"
     },
     {
         "ID": 10077,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Only used when this unit have \"Ammo Loaded\". Deals 10% of your MaxHP damage on a random enemy unit.",
+        "zh_tw": "持有「裝填彈藥完成」時才會使用。對隨機1個敵方單位造成自己10%最大生命值的傷害。"
     },
     {
         "ID": 10078,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Only used when this unit have \"Ammo Loaded\". Deals 6% of your MaxHP damage to a random enemy unit. 3 times in a row.",
+        "zh_tw": "持有「裝填彈藥完成」時才會使用。對隨機1個敵方單位造成自己6%最大生命值的傷害。連續3次。"
     },
     {
         "ID": 10079,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Only used when this unit have \"Ammo Loaded\". Deals 3% of your MaxHP damage to all enemy units.",
+        "zh_tw": "持有「裝填彈藥完成」時才會使用。對所有敵方單位造成自己3%最大生命值的傷害。"
     },
     {
         "ID": 10080,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "小型加速裝置"
     },
     {
         "ID": 10081,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "受到傷害後，有30%的機率減少1回合的「裝填彈藥」。"
     },
     {
         "ID": 10082,
@@ -2361,53 +2391,117 @@
     },
     {
         "ID": 300001,
+        "en_us": "Sewer Rat",
+        "zh_tw": "下水道老鼠"
+    },
+    {
+        "ID": 300002,
         "en_us": "Suggested Level: Lv. 1\nA common underground waterway rat is blocking your way.",
         "zh_tw": "建議等級：Lv. 1\n一隻普通的地下水道老鼠，阻擋了你的去路。"
     },
     {
-        "ID": 300002,
+        "ID": 300003,
+        "en_us": "Guard Robot Type 30001",
+        "zh_tw": "守衛機器人30001型"
+    },
+    {
+        "ID": 300004,
         "en_us": "Recommended level: Lv. 10\nThe two mechanical guards standing in front of the archway.\nThe program is still running despite the fact that there are no more guards left.",
         "zh_tw": "建議等級：Lv. 10\n站立在拱門前的兩名機械守衛。\n儘管早已沒了看守的對象，但程式依然在運轉。"
     },
     {
-        "ID": 300003,
+        "ID": 300005,
+        "en_us": "A Bunch of Sewer Rats",
+        "zh_tw": "一群下水道老鼠"
+    },
+    {
+        "ID": 300006,
         "en_us": "Recommended level: Lv. 20\nThe new ruler of the deserted city is a bunch of rats.\nYou are not surprised by this. Yes, one rat is weak. What about a pack?",
         "zh_tw": "建議等級：Lv. 20\n在荒蕪的城市裡面建立新統治權的，是一群老鼠。\n你對此毫不意外。是的，一隻老鼠很弱。那，一群呢？"
     },
     {
-        "ID": 300004,
+        "ID": 300007,
+        "en_us": "Ancient Core Goren",
+        "zh_tw": "古代核心高崙"
+    },
+    {
+        "ID": 300008,
         "en_us": "Recommended level: Lv. 40\nLumino has built a camp in the center of the city according to your instructions.\nAnd the violent energy wave of the change triggered the ancient core of the sleeping Goren.",
         "zh_tw": "建議等級：Lv. 40\n魯米諾依照你的指令，在城市的中心建造了營地。\n而變動劇烈的能量波觸發了沉睡的古代核心高崙。"
     },
     {
-        "ID": 300005,
-        "en_us": "Recommended level: Lv. 100\nLumino's investigation report :\nThe road to the north leads to the land of eternal freeze.\nA large, giant Gaulan is like a fortress, guarding the northern gates of the city.",
-        "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n北方的路通往永凍之地。\n偌大的巨型高崙有如堡壘，鎮守在北方的城門。"
-    },
-    {
-        "ID": 300006,
-        "en_us": "Recommended level: Lv. 100\nLumino's investigation report : \nThe road to the east leads to the luxuriant forest.\nThe planted gorgonians are like ancient trees, guarding the gates of the East.",
-        "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n東方的路通往蓊鬱之森。\n佈滿植披的高崙彷彿古木，鎮守在東方的城門。"
-    },
-    {
-        "ID": 300007,
-        "en_us": "Recommended level: Lv. 100\nLumino's investigation report : \nThe road to the west leads to the land of the poor ridge.\nThe wind sand eroded Gaulan also turned into wind sand and guarded the western gate.",
-        "zh_tw": "建議等級：Lv. 100\n魯米諾的調查報告：\n西方的路通往貧脊之地。\n受風砂侵蝕高崙也化為風砂，鎮守在西方的城門。"
-    },
-    {
-        "ID": 300008,
-        "en_us": "Recommended level: Lv. 100\nRecord: A fantasy creature that wanders in the ice fields.\nPossesses humanoid form, but lacks intelligence and is unable to communicate.\nSeems to feed on the unknown energy left in the atmosphere.",
-        "zh_tw": "建議等級：Lv. 100\n紀錄：在冰原中遊蕩的奇幻生物。\n擁有人形，但缺乏智能，無法溝通。\n似乎以殘留在大氣的未知能量為生。"
-    },
-    {
         "ID": 300009,
-        "en_us": "Recommended level: Lv. 100\nThe appearance is a remnant of the wizard's data.\nIncomplete reconstruction causes it to be unable to possess intelligence and only emits meaningless noises.\nDetermine that there is no possibility of obtaining information, and destroy it according to standard operating procedures.",
-        "zh_tw": "建議等級：Lv. 100\n外型是魔法師的資料殘影。\n不完整的重建導致它無法擁有智能，只能發出無意義的聲響。\n判斷沒有獲取資訊的可能，依照標準作業流程，將其消滅。"
+        "en_us": "Wooden Guards",
+        "zh_tw": "木造守衛"
     },
     {
         "ID": 300010,
-        "en_us": "Recommended level: Lv. 100\n\"Push forward.\" \"Push forward.\" \"Push forward.\"\nFrom the moment the remnants of the army appeared, they moved straight ahead in a certain direction.\nNot even looking back. \"Push forward.\"",
-        "zh_tw": "建議等級：Lv. 100\n「向前推進。」「向前推進。」「向前推進。」\n軍隊的殘影從出現的瞬間起便筆直地朝某個方向前進。\n頭也不回。「向前推進。」"
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e)\nActing based on the energy source known locally as \"magic\".\nUsually only simple commands can be performed, such as eliminating external enemies.",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e)\n以被當地人稱為「魔法」的能源作為核心運作。\n通常只能執行簡單的指令，例如排除外敵。"
+    },
+    {
+        "ID": 300011,
+        "en_us": "On The Way To The Street",
+        "zh_tw": "街道途中"
+    },
+    {
+        "ID": 300012,
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e)\nWooden guards are available in different sizes.\nThe reason for this is yet to be investigated, perhaps magic\" is not a free source of energy here.\nIt's like electricity power source for us.",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e)\n木造守衛有體型之分。\n原因尚待調查，或許「魔法」在這裡並不是免費的能源。\n就像是我們的電源。"
+    },
+    {
+        "ID": 300013,
+        "en_us": "Deep In The Street",
+        "zh_tw": "街道深處"
+    },
+    {
+        "ID": 300014,
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e)\nThe wooden guards that should be used to defend against foreign enemies are wandering around the streets.\nMaybe there was an invasion, a war.\nOr maybe it simply got out of hand.",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e)\n應該用來抵禦外敵的木造守衛卻在街道各處遊走，\n或許這裡曾經發生過一場入侵，一場戰爭。\n或者只是單純的失控。"
+    },
+    {
+        "ID": 300015,
+        "en_us": "Giant Wooden Guards",
+        "zh_tw": "巨型木造守衛"
+    },
+    {
+        "ID": 300016,
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 3 / 10\u003c/color\u003e)\nWooden guards of unusually large size appear in the deepest part.\nNo habit of wandering patrol, just standing there.\nIf you do not insist on approaching, there seems to be no active attack setting.",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：3 / 10\u003c/color\u003e)\n尺寸異常巨大的木造守衛出現在最深處。\n沒有遊走巡邏的習慣，僅僅是在那裡站立著。\n若不堅持接近的話，似乎沒有主動攻擊的設定。"
+    },
+    {
+        "ID": 300017,
+        "zh_tw": "測試用"
+    },
+    {
+        "ID": 300018,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 300019,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 300020,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 300021,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 300022,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 300023,
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 400001,
@@ -2491,8 +2585,8 @@
     },
     {
         "ID": 400017,
-        "en_us": "\u003c#7fffd4\u003eRestore HP/SP\u003c/color\u003e",
-        "zh_tw": "\u003c#7fffd4\u003e恢復HP/SP\u003c/color\u003e"
+        "en_us": "\u003c#7fffd4\u003eRecovery\u003c/color\u003e",
+        "zh_tw": "\u003c#7fffd4\u003e恢復\u003c/color\u003e"
     },
     {
         "ID": 400018,
@@ -2748,7 +2842,7 @@
     {
         "ID": 1000007,
         "en_us": "Skill",
-        "zh_tw": "技能晶片"
+        "zh_tw": "技能"
     },
     {
         "ID": 1000008,
@@ -2787,8 +2881,8 @@
     },
     {
         "ID": 1000015,
-        "en_us": "Sweep",
-        "zh_tw": "點擊掃蕩"
+        "en_us": "\u003c#ff6347\u003eSweep\u003c/color\u003e",
+        "zh_tw": "\u003c#ff6347\u003e點擊掃蕩\u003c/color\u003e"
     },
     {
         "ID": 1000016,
@@ -3057,8 +3151,8 @@
     },
     {
         "ID": 1000069,
-        "en_us": "- Sweep cleared levels to gain skills and EXP\n\n- Go to the character page and use experience points to upgrade units\n\n- Configure your team and skills according to the characteristics of the Boss",
-        "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能\n\n- 善用搜尋功能搜尋魔王的技能資訊"
+        "en_us": "- Raid cleared levels to gain skills and EXP\n\n- Go to the character page and use EXP to upgrade heroes\n\n- Configure your team and skills according to the characteristics of the Demon King\n\n- Go to the store to get more powerful characters and more skills",
+        "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能\n\n- 前往商店取得更強力的角色與更多技能"
     },
     {
         "ID": 1000070,
@@ -3112,7 +3206,7 @@
     },
     {
         "ID": 1000080,
-        "en_us": "+ Join the team",
+        "en_us": "+ Join team",
         "zh_tw": "+ 加入隊伍"
     },
     {
@@ -3322,8 +3416,8 @@
     },
     {
         "ID": 1000122,
-        "en_us": "Level limited skill",
-        "zh_tw": "關卡限定技能"
+        "en_us": "Limited skill",
+        "zh_tw": "限定技能"
     },
     {
         "ID": 1000123,
@@ -3441,6 +3535,21 @@
         "zh_tw": "公告"
     },
     {
+        "ID": 1000146,
+        "en_us": "+ Long Press to Join Team",
+        "zh_tw": "+ 長按加入隊伍"
+    },
+    {
+        "ID": 1000147,
+        "en_us": "Long Press to Replace",
+        "zh_tw": "長按替換成員"
+    },
+    {
+        "ID": 1000148,
+        "en_us": "[Long press to replay]",
+        "zh_tw": "[長按重複攻略]"
+    },
+    {
         "ID": 2000001,
         "en_us": "When you dismantle a unit, half of the unit experience will be returned.",
         "zh_tw": "分解角色時，會返回該角色的一半經驗值。"
@@ -3552,17 +3661,21 @@
     },
     {
         "ID": 3000002,
-        "en_us": "2. Northern Snowfields",
-        "zh_tw": "2. 北方雪原"
+        "zh_tw": "2. 荒蕪街道"
     },
     {
         "ID": 3000003,
-        "en_us": "3. Eastern Forest",
-        "zh_tw": "3. 東方森林"
+        "en_us": "3. Northern Snowfields",
+        "zh_tw": "3. 北方雪原"
     },
     {
         "ID": 3000004,
-        "en_us": "4. Western Desert",
-        "zh_tw": "4. 西方沙漠"
+        "en_us": "4. Eastern Forest",
+        "zh_tw": "4. 東方森林"
+    },
+    {
+        "ID": 3000005,
+        "en_us": "5. Western Desert",
+        "zh_tw": "5. 西方沙漠"
     }
 ]

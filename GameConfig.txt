@@ -1,5 +1,5 @@
 {
-   "DevAccountIDs" : "alexlee7171@gmail.com,499k0095@gmail.com,teafatesanya@gmail.com,wannasaynone@gmail.com,kenny2763@yahoo.com.tw,e12813726@gmail.com",
-   "UATAccountIDs" : "kaha@minidragon.net",
+   "DevAccountIDs" : "alexlee7171@gmail.com,499k0095@gmail.com,teafatesanya@gmail.com,kenny2763@yahoo.com.tw,e12813726@gmail.com",
+   "UATAccountIDs" : "kaha@minidragon.net,wannasaynone@gmail.com",
    "AppVersion" : "0.8.31"
 }

@@ -18,5 +18,6 @@
    "MaxCharacterAmount" : 100,
    "OnlineCombatActionTime" : 24,
    "DropMallItemChance" : 3,
-   "DropMallRareItemMultiplier" : 0.3
+   "DropMallRareItemMultiplier" : 0.3,
+   "TagRange" : "400001~400019"
 }

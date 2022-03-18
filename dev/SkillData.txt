@@ -1819,7 +1819,7 @@
         "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 2), Self.Attack * 1.8, 0);\n     BeginIf(Random(0, 100) \u003c= 60);\n         GainBuff(LastSelected, 3, 1t2);\n     EndIf();\n}",
         "DescriptionContextID": 93,
         "ID": 999993,
-        "IsDrop": 1,
+        "IsDrop": 0,
         "NameContextID": 93,
         "References": "B:3",
         "SP": 10,
