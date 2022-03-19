@@ -1672,7 +1672,7 @@
         "SP": 0
     },
     {
-        "Command": "OnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400001);\n          Record(Test2,Self.LastTakenDamage + Read(Test2));\n          BeginIf(Read(Test2) \u003e= 50000);\n              AddBuffAmountByTag(Self,400030,-99);\n              GainBuff(Self, 2 ,1t1);\n              Record(Test2,0);\n          EndIf();\n     EndIf();    \n}",
+        "Command": "OnBattleStarted\n{\n     Record(OutOfBalance,50000);\n     Record(b_balance_30, 0);\n     Record(b_balance_60, 0);\n     Record(b_balance_90, 0);\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400001);\n          Record(TaltalTakenDamage,Self.LastTakenDamage + Read(TaltalTakenDamage));\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 30);\n                   BeginIf(Read(b_balance_30)== 0);\n                         Record(b_balance_30,1);\n                         GainBuff(Self, 10010 ,1t-1);\n                   EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 60);\n                    BeginIf(Read(b_balance_60)== 0);\n                         Record(b_balance_60,1);\n                         AddBuffAmount(Self,10010 ,-99);\n                         GainBuff(Self, 10011,1t-1);\n                    EndIf();\n          EndIf();\n         BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 90);\n                    BeginIf(Read(b_balance_90)== 0);\n                         Record(b_balance_90,1);\n                         AddBuffAmount(Self,10011,-99);\n                         GainBuff(Self, 10012,1t-1);\n                    EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage) \u003e= Read(OutOfBalance));\n              AddBuffAmount(Self,10012,-99);\n              AddBuffAmountByTag(Self,400030,-99);\n              GainBuff(Self, 2 ,1t1);\n              Record(TaltalTakenDamage,0);\n              Record(b_balance_30, 0);\n              Record(b_balance_60, 0);\n              Record(b_balance_90, 0);\n          EndIf();\n     EndIf();    \n}",
         "DescriptionContextID": 10075,
         "ID": 10030,
         "IsDrop": 0,
@@ -1690,120 +1690,106 @@
         "Tag": 400030
     },
     {
-        "DescriptionContextID": 10083,
-        "ID": 10032,
-        "IsDrop": 0,
-        "NameContextID": 10082,
-        "SP": 0
-    },
-    {
-        "DescriptionContextID": 10085,
-        "ID": 10033,
-        "IsDrop": 0,
-        "NameContextID": 10084,
-        "SP": 0
-    },
-    {
         "DescriptionContextID": 10090,
-        "ID": 10034,
+        "ID": 10032,
         "IsDrop": 0,
         "NameContextID": 10089,
         "SP": 0
     },
     {
         "DescriptionContextID": 10092,
-        "ID": 10035,
+        "ID": 10033,
         "IsDrop": 0,
         "NameContextID": 10091,
         "SP": 0
     },
     {
         "DescriptionContextID": 10097,
-        "ID": 10036,
+        "ID": 10034,
         "IsDrop": 0,
         "NameContextID": 10096,
         "SP": 0
     },
     {
         "DescriptionContextID": 10102,
-        "ID": 10037,
+        "ID": 10035,
         "IsDrop": 0,
         "NameContextID": 10101,
         "SP": 0
     },
     {
         "DescriptionContextID": 10104,
-        "ID": 10038,
+        "ID": 10036,
         "IsDrop": 0,
         "NameContextID": 10103,
         "SP": 0
     },
     {
         "DescriptionContextID": 10108,
-        "ID": 10039,
+        "ID": 10037,
         "IsDrop": 0,
         "NameContextID": 10107,
         "SP": 0
     },
     {
         "DescriptionContextID": 10110,
-        "ID": 10040,
+        "ID": 10038,
         "IsDrop": 0,
         "NameContextID": 10109,
         "SP": 0
     },
     {
         "DescriptionContextID": 10113,
-        "ID": 10041,
+        "ID": 10039,
         "IsDrop": 0,
         "NameContextID": 10112,
         "SP": 0
     },
     {
         "DescriptionContextID": 10115,
-        "ID": 10042,
+        "ID": 10040,
         "IsDrop": 0,
         "NameContextID": 10114,
         "SP": 0
     },
     {
         "DescriptionContextID": 10117,
-        "ID": 10043,
+        "ID": 10041,
         "IsDrop": 0,
         "NameContextID": 10116,
         "SP": 0
     },
     {
         "DescriptionContextID": 10120,
-        "ID": 10044,
+        "ID": 10042,
         "IsDrop": 0,
         "NameContextID": 10119,
         "SP": 0
     },
     {
         "DescriptionContextID": 10122,
-        "ID": 10045,
+        "ID": 10043,
         "IsDrop": 0,
         "NameContextID": 10121,
         "SP": 0
     },
     {
         "DescriptionContextID": 10126,
-        "ID": 10046,
+        "ID": 10044,
         "IsDrop": 0,
         "NameContextID": 10125,
         "SP": 0
     },
     {
         "DescriptionContextID": 10128,
-        "ID": 10047,
+        "ID": 10045,
         "IsDrop": 0,
         "NameContextID": 10127,
         "SP": 0
     },
     {
         "DescriptionContextID": 10130,
-        "ID": 10048,
+        "ID": 10046,
         "IsDrop": 0,
         "NameContextID": 10129,
         "SP": 0

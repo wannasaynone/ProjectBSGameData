@@ -300,27 +300,25 @@
         "Tag": 400030
     },
     {
-        "DescriptionContextID": 10087,
+        "DescriptionContextID": 10083,
         "ID": 10010,
         "MaxAmount": 1,
-        "NameContextID": 10086,
+        "NameContextID": 10082,
         "Tag": 400030
     },
     {
-        "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.7);\n     AddStatus(Self, Speed, -Self.Speed * 0.5);\n}\n\nOnDamageTaken_Self\n{\n     ShowVFX(Heal1, 1.5);\r\n     PlaySFX(HealingSmall);\n     AddStatus(Self, HP, Self.Defense * 1.5);\n     AddBuffTime(Self, 10011, -1);\n}",
-        "DescriptionContextID": 10094,
+        "DescriptionContextID": 10085,
         "ID": 10011,
         "MaxAmount": 1,
-        "NameContextID": 10093,
-        "Tag": 400015
+        "NameContextID": 10084,
+        "Tag": 400030
     },
     {
-        "Command": "OnDamageCalculated_Self\n{\n     ShowVFX(Buff2, 1);\n     PlaySFX(AddStatus);\n     AddDamage(60%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 10012, -99);\n}",
-        "DescriptionContextID": 10098,
+        "DescriptionContextID": 10087,
         "ID": 10012,
         "MaxAmount": 1,
-        "NameContextID": 10096,
-        "Tag": 400015
+        "NameContextID": 10086,
+        "Tag": 400030
     },
     {
         "Command": "OnActived\n{\n     AddShield(Self, Self.MaxHP * 1, 10035);\n}",

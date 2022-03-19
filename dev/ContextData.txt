@@ -2102,32 +2102,32 @@
     {
         "ID": 10082,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "30%失衡"
     },
     {
         "ID": 10083,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "30%失衡"
     },
     {
         "ID": 10084,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "60%失衡"
     },
     {
         "ID": 10085,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "60%失衡"
     },
     {
         "ID": 10086,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "90%失衡"
     },
     {
         "ID": 10087,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "90%失衡"
     },
     {
         "ID": 10088,
