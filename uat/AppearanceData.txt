@@ -26,28 +26,28 @@
     {
         "DefaultSkillSet": "1;2",
         "ID": 10,
-        "IsDrop": 3,
+        "IsDrop": 2,
         "NameContextID": 100005,
         "SpriteAssetPath": "icon_game_100"
     },
     {
         "DefaultSkillSet": "1;2",
         "ID": 11,
-        "IsDrop": 3,
+        "IsDrop": 2,
         "NameContextID": 100005,
         "SpriteAssetPath": "icon_game_14"
     },
     {
         "DefaultSkillSet": "1;2",
         "ID": 12,
-        "IsDrop": 3,
+        "IsDrop": 2,
         "NameContextID": 100005,
         "SpriteAssetPath": "icon_game_91"
     },
     {
         "DefaultSkillSet": "1;2",
         "ID": 13,
-        "IsDrop": 3,
+        "IsDrop": 2,
         "NameContextID": 100005,
         "SpriteAssetPath": "icon_game_97"
     },
@@ -70,6 +70,27 @@
         "ID": 16,
         "IsDrop": 1,
         "NameContextID": 100008,
+        "SpriteAssetPath": "Temp"
+    },
+    {
+        "DefaultSkillSet": "1;2;229",
+        "ID": 17,
+        "IsDrop": 1,
+        "NameContextID": 100009,
+        "SpriteAssetPath": "Temp"
+    },
+    {
+        "DefaultSkillSet": "1;2;234",
+        "ID": 18,
+        "IsDrop": 1,
+        "NameContextID": 100010,
+        "SpriteAssetPath": "Temp"
+    },
+    {
+        "DefaultSkillSet": "1;2;235",
+        "ID": 19,
+        "IsDrop": 1,
+        "NameContextID": 100011,
         "SpriteAssetPath": "Temp"
     },
     {

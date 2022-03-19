@@ -1606,8 +1606,8 @@
     },
     {
         "ID": 381,
-        "en_us": "A unique skill of \"Ice Bringer Master\". Whenever an action starts, all enemy units lose HP equal to (amount of \"Freeze\" x 500) points.",
-        "zh_tw": "「冰使者傑士」專有技能。每當有人行動開始時，使所有敵方單位失去相當於「冰凍」個數x500點的生命值。"
+        "en_us": "A unique skill of \"Ice Bringer Master\". Whenever you attack, if the target of the attack has \"Frozen\" buiff, the target loses 2% of the target's Max HP value.",
+        "zh_tw": "「冰使者傑士」專有技能。每當自己攻擊後，若攻擊目標有「冰凍」狀態，使目標失去相當於2%目標最大生命值的生命值。"
     },
     {
         "ID": 382,
@@ -1637,7 +1637,7 @@
     {
         "ID": 387,
         "en_us": "This skill cannot be obtained through extraction or sweeping. Whenever a friendly unit uses the [\u003c#7fffd4\u003eRestore Life\u003c/color\u003e] skill, increases my HP value by 5% of my Max HP value.",
-        "zh_tw": "無法透過抽取或掃蕩取得本技能。每當友方單位使用[\u003c#7fffd4\u003e恢復生命\u003c/color\u003e]技能後，增加自己5%最大生命值的生命值。"
+        "zh_tw": "無法透過抽取或掃蕩取得本技能。每當友方單位使用[\u003c#7fffd4\u003e恢復\u003c/color\u003e]技能後，增加自己5%最大生命值的生命值。"
     },
     {
         "ID": 388,
@@ -1662,32 +1662,37 @@
     {
         "ID": 392,
         "en_us": "None",
-        "zh_tw": "新英雄佔用ID"
+        "zh_tw": "FULL POWER 右鉤拳"
     },
     {
         "ID": 393,
         "en_us": "None",
-        "zh_tw": "新英雄佔用ID"
+        "zh_tw": "對1個敵方單位造成220%攻擊值的傷害。施展技能時，有30%的機率使用失敗。"
     },
     {
         "ID": 394,
         "en_us": "None",
-        "zh_tw": "新英雄佔用ID"
+        "zh_tw": "活力空間"
     },
     {
         "ID": 395,
         "en_us": "None",
-        "zh_tw": "新英雄佔用ID"
+        "zh_tw": "回合結束時，減少自己15點SP，其他所有友方單位增加5點SP。自己SP小於15點時不會發動。"
     },
     {
         "ID": 396,
         "en_us": "None",
-        "zh_tw": "新英雄佔用ID"
+        "zh_tw": "守護"
     },
     {
         "ID": 397,
         "en_us": "None",
-        "zh_tw": "新英雄佔用ID"
+        "zh_tw": "回合開始時，給予其他友方單位目標「守護」。"
+    },
+    {
+        "ID": 398,
+        "en_us": "None",
+        "zh_tw": "將受到傷害時，根據狀態給予者的仇恨值與自己的仇恨值差距減少傷害。受到傷害後，消除這個狀態。"
     },
     {
         "ID": 10001,
@@ -1991,7 +1996,7 @@
     },
     {
         "ID": 10061,
-        "en_us": "After taking damage, there is a 30% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
+        "en_us": "After taking damage, there is a 50% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
         "zh_tw": "受到傷害後，有50%的機率減少1回合的「裝填彈藥」。"
     },
     {
@@ -2086,12 +2091,12 @@
     },
     {
         "ID": 10080,
-        "en_us": "None",
+        "en_us": "Small Acceleration Device",
         "zh_tw": "小型加速裝置"
     },
     {
         "ID": 10081,
-        "en_us": "None",
+        "en_us": "After taking damage, there is a 30% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
         "zh_tw": "受到傷害後，有30%的機率減少1回合的「裝填彈藥」。"
     },
     {
@@ -2388,6 +2393,21 @@
         "ID": 100008,
         "en_us": "Lightning Bringer Nameless",
         "zh_tw": "雷使者無名"
+    },
+    {
+        "ID": 100009,
+        "en_us": "None",
+        "zh_tw": "右鐵拳澤斯"
+    },
+    {
+        "ID": 100010,
+        "en_us": "None",
+        "zh_tw": "大祭司芙蓮"
+    },
+    {
+        "ID": 100011,
+        "en_us": "None",
+        "zh_tw": "先鋒隊長X"
     },
     {
         "ID": 300001,
@@ -3466,8 +3486,8 @@
     },
     {
         "ID": 1000132,
-        "en_us": "Game Production\nKAHA, KUMAMA\n\n─────────────────────────\nSpecial thanks to\n\nChang Heng\nGame Design Consultation / Player Community Contribution / Marketing Advice and Resources\n\nMalibu\nGame UX Consultation / Game Effects     \n\nNage\nGame Design Consultation / Early Game Testing\n\nArc\nMusic Provision / Early Game Testing\n\nDer Kasaki\nGame Effects / Early Game Testing\n\nALEX\nInternet connection consultation / Early game testing\n\nLight and Shadow\nGame Testing / Feature Experience Feedback\n\n魔王魂\nMusic Offerings",
-        "zh_tw": "遊戲製作\nKAHA、小熊KUMAMA\n\n─────────────────────────\n特別感謝\n\n張恆\n遊戲設計諮詢 / 玩家社群提供 / 行銷意見與資源\n\nMalibu\n遊戲UX諮詢 / 遊戲特效提供     \n\nNage\n遊戲設計諮詢 / 早期遊戲測試\n\nArc\n音樂提供 / 早期遊戲測試\n\nDer Kasaki\n遊戲特效提供 / 早期遊戲測試\n\nALEX\n網路連線功能諮詢 / 早期遊戲測試\n\n光影\n遊戲測試 / 功能體驗回饋\n\n魔王魂\n音樂提供"
+        "en_us": "Game Production\nKAHA, KUMAMA\n\n─────────────────────────\nSpecial thanks to\n\nChang Heng\nGame Design Consultation / Player Community Contribution / Marketing Advice and Resources\n\nMalibu\nGame UX Consultation / Game Effects     \n\nNaga\nGame Design Consultation / Early Game Testing\n\nArc\nMusic Provision / Early Game Testing\n\nDer Kasaki\nGame Effects / Early Game Testing\n\nALEX\nInternet connection consultation / Early game testing\n\nLight and Shadow\nGame Testing / Feature Experience Feedback\n\n魔王魂\nMusic Offerings",
+        "zh_tw": "遊戲製作\nKAHA、小熊KUMAMA\n\n─────────────────────────\n特別感謝\n\n張恆\n遊戲設計諮詢 / 玩家社群提供 / 行銷意見與資源\n\nMalibu\n遊戲UX諮詢 / 遊戲特效提供     \n\nNaga\n遊戲設計諮詢 / 早期遊戲測試\n\nArc\n音樂提供 / 早期遊戲測試\n\nDer Kasaki\n遊戲特效提供 / 早期遊戲測試\n\nALEX\n網路連線功能諮詢 / 早期遊戲測試\n\n光影\n遊戲測試 / 功能體驗回饋\n\n魔王魂\n音樂提供"
     },
     {
         "ID": 1000133,
