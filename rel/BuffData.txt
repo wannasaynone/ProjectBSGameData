@@ -221,6 +221,14 @@
         "Tag": 400015
     },
     {
+        "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(Self.Hatred - Read(Skill235)); \n     ShowVFX(Temp,1); \n} ",
+        "DescriptionContextID": 398,
+        "ID": 115,
+        "MaxAmount": 1,
+        "NameContextID": 396,
+        "Tag": 400015
+    },
+    {
         "Command": "OnAttackEnded_Self\n{\n   BeginIf(Random(1,100) \u003c= 45);\n     Remember(LastAttacked);\n     ShowVFXOnTarget(Fog1, 2);\n     PlaySFX(Posion);\n     GainBuff(LastAttacked, 5, 1t2);\n   EndIf();\n\n  BeginIf(Random(1, 100) \u003c= 30);\n    ShowVFX(Temp, 2);\n    GainBuff(Self, 10, 1t1);\n    PlaySFX(AddStatus);\n    AddExtraAction(Self, 1);\n  EndIf();\n}",
         "DescriptionContextID": 10004,
         "ID": 10001,
@@ -292,35 +300,33 @@
         "Tag": 400030
     },
     {
-        "DescriptionContextID": 10087,
+        "DescriptionContextID": 10083,
         "ID": 10010,
+        "MaxAmount": 1,
+        "NameContextID": 10082,
+        "Tag": 400030
+    },
+    {
+        "DescriptionContextID": 10085,
+        "ID": 10011,
+        "MaxAmount": 1,
+        "NameContextID": 10084,
+        "Tag": 400030
+    },
+    {
+        "DescriptionContextID": 10087,
+        "ID": 10012,
         "MaxAmount": 1,
         "NameContextID": 10086,
         "Tag": 400030
     },
     {
-        "Command": "OnActived\n{\n     AddStatus(Self, Defense, Self.Defense * 0.7);\n     AddStatus(Self, Speed, -Self.Speed * 0.5);\n}\n\nOnDamageTaken_Self\n{\n     ShowVFX(Heal1, 1.5);\r\n     PlaySFX(HealingSmall);\n     AddStatus(Self, HP, Self.Defense * 1.5);\n     AddBuffTime(Self, 10011, -1);\n}",
-        "DescriptionContextID": 10094,
-        "ID": 10011,
-        "MaxAmount": 1,
-        "NameContextID": 10093,
-        "Tag": 400015
-    },
-    {
-        "Command": "OnDamageCalculated_Self\n{\n     ShowVFX(Buff2, 1);\n     PlaySFX(AddStatus);\n     AddDamage(60%);\n}\n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 10012, -99);\n}",
-        "DescriptionContextID": 10098,
-        "ID": 10012,
-        "MaxAmount": 1,
-        "NameContextID": 10096,
-        "Tag": 400015
-    },
-    {
-        "Command": "OnActived\n{\n     AddShield(Self, Self.MaxHP * 1, 10035);\n}",
-        "DescriptionContextID": 10100,
+        "Command": "OnActived\n{\n    SetForceEndAction();\n}",
+        "DescriptionContextID": 10089,
         "ID": 10013,
         "MaxAmount": 1,
-        "NameContextID": 10099,
-        "Tag": 400015
+        "NameContextID": 10088,
+        "Tag": 400016
     },
     {
         "Command": "OnStartToTakeDamage_Self\n{\n       ShowVFX(EnergyWall1, 1);\n       PlaySFX(Protection);\n       AddDamage(-45%);\n}",

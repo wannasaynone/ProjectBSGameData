@@ -529,7 +529,7 @@
         "NameContextID": 207,
         "References": "B:5",
         "SP": 90,
-        "Tag": "400013;400012;400016"
+        "Tag": "400012;400016"
     },
     {
         "AnimationInfo": "CastSpell;\n0.75_Show_Hit16-3_Target;\n0.75_SFX_DarkSpellHit;",
@@ -540,7 +540,7 @@
         "NameContextID": 209,
         "References": "B:5",
         "SP": 0,
-        "Tag": "400013;400012;400016"
+        "Tag": "400012;400016"
     },
     {
         "AnimationInfo": "Attack0;\n0.58_Show_Hit16-3_Target;\n0.58_Show_Fog1_Target;\n0.58_SFX_DarkSpellHit;\n0.68_Damage_1;",
@@ -779,7 +779,7 @@
         "NameContextID": 259,
         "References": "B:10",
         "SP": 20,
-        "Tag": "400013;400016"
+        "Tag": 400016
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_DecreaseStatus",
@@ -790,7 +790,7 @@
         "NameContextID": 261,
         "References": "B:8",
         "SP": 20,
-        "Tag": "400013;400016"
+        "Tag": 400016
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_DecreaseStatus",
@@ -801,7 +801,7 @@
         "NameContextID": 263,
         "References": "B:12",
         "SP": 20,
-        "Tag": "400013;400016"
+        "Tag": 400016
     },
     {
         "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_NormalHit",
@@ -853,7 +853,7 @@
         "NameContextID": 273,
         "References": "B:104;B:105",
         "SP": 40,
-        "Tag": "400013;400014;400016"
+        "Tag": "400014;400016"
     },
     {
         "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_IceSpellHit",
@@ -864,7 +864,7 @@
         "NameContextID": 279,
         "References": "B:4",
         "SP": 20,
-        "Tag": "400013;400009;400014"
+        "Tag": "400009;400014"
     },
     {
         "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\r\n0.75_SFX_IceSpellHit",
@@ -875,7 +875,7 @@
         "NameContextID": 281,
         "References": "B:4",
         "SP": 80,
-        "Tag": "400013;400009;400014"
+        "Tag": "400009;400014"
     },
     {
         "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_LightningSpellHit",
@@ -886,7 +886,7 @@
         "NameContextID": 283,
         "References": "B:11",
         "SP": 20,
-        "Tag": "400013;400008;400014"
+        "Tag": "400008;400014"
     },
     {
         "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_LightningSpellHit",
@@ -897,7 +897,7 @@
         "NameContextID": 285,
         "References": "B:11",
         "SP": 80,
-        "Tag": "400013;400008;400014"
+        "Tag": "400008;400014"
     },
     {
         "AnimationInfo": "CastSpell;\n0.75_Show_Temp_Target;\n0.75_SFX_DecreaseStatus",
@@ -908,7 +908,7 @@
         "NameContextID": 287,
         "References": "B:104;B:105",
         "SP": 80,
-        "Tag": "400013;400014;400016"
+        "Tag": "400014;400016"
     },
     {
         "Command": "OnDamageCalculated_Self\n{\n      BeginIf_LastSkillTag(Self, 1, 400007);\n          ShowVFX(Buff2, 1);\n          AddDamage(20%);\n          PlaySFX(AddStatus);\n          ShowVFX(Aura7, 1);\n          AddStatus(Self, SP, 5);\n     EndIf();\n\n      BeginIf_LastSkillTag(Self, 0, 400007);\n          ShowVFX(Temp, 1);\n          PlaySFX(DecreaseStatus);\n          AddDamage(-80%);\n      EndIf();\n}",
@@ -976,7 +976,7 @@
         "IsDrop": 1,
         "NameContextID": 303,
         "SP": 15,
-        "Tag": "400013;400019"
+        "Tag": 400019
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Targetl;\n0.25_SFX_DefenseBuff",
@@ -1107,7 +1107,7 @@
         "NameContextID": 335,
         "References": "B:111",
         "SP": 0,
-        "Tag": "400013;400016"
+        "Tag": 400016
     },
     {
         "Command": "OnDied_Self\n{\n     ShowVFX(Temp, 1);\n     PlaySFX(DefenseBuff);\n     GainBuff(SelectOther(SameSide, Random, -1), 112, 1t3);\n}",
@@ -1117,7 +1117,7 @@
         "NameContextID": 339,
         "References": "B:112",
         "SP": 0,
-        "Tag": "400013;400015"
+        "Tag": 400015
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Damage_1;\n0.25_Show_Temp_Target;\n0.25_SFX_NormalHit;\n0.25_SFX_Clean",
@@ -1127,7 +1127,7 @@
         "IsDrop": 1,
         "NameContextID": 343,
         "SP": 0,
-        "Tag": "400013;400019"
+        "Tag": 400019
     },
     {
         "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, (Self.MaxHP - Self.HP) / 10);\n     AddStatus(Self, Defense, (Self.MaxHP - Self.HP) / 10);\n     AddStatus(Self, Speed, (Self.MaxHP - Self.HP) / 10);\n}",
@@ -1136,7 +1136,7 @@
         "IsDrop": 1,
         "NameContextID": 345,
         "SP": 0,
-        "Tag": "400013;400019"
+        "Tag": 400019
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_DarkSpellHit;\n0.25_SFX_AddStatus",
@@ -1156,7 +1156,7 @@
         "IsDrop": 1,
         "NameContextID": 351,
         "SP": 0,
-        "Tag": "400013;400019"
+        "Tag": 400019
     },
     {
         "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP \u003c= 0);\n          SetStatus(Self, HP, 1);\n          ReplaceSkill(215, 2);\n     EndIf();\n}",
@@ -1284,12 +1284,13 @@
         "Tag": 400007
     },
     {
-        "Command": "OnActionStarted_Self\n{\nRemember(Select(Opponent, Random, -1));\nShowVFXOnTarget(Temp, 1);\nPlaySFX(Posion);\nAddStatus(LastSelected, HP, -500 * Buff(Target, 4, Amount));\n}\n\nOnActionStarted_Other\n{\nRemember(Select(Opponent, Random, -1));\nShowVFXOnTarget(Temp, 1);\nPlaySFX(Posion);\nAddStatus(LastSelected, HP, -500 * Buff(Target, 4, Amount));\n}",
+        "Command": "OnAttackEnded_Self\n{\nBeginIf_Buff(LastAttacked,1,4); \n     ShowVFXOnTarget(Temp,1); \n     AddStatus(LastAttacked,HP,Target.MaxHP * 0.02); \nEndIf(); \n} ",
         "DescriptionContextID": 381,
         "ID": 227,
         "IsDrop": 0,
         "NameContextID": 380,
-        "SP": 0
+        "SP": 0,
+        "Tag": 400019
     },
     {
         "AnimationInfo": "Attack0;\n0.38_SFX_SwordSwing;\n0.58_Damage_1;\n0.58_Show_Slash3_Target;\n0.58_SFX_SwordHit",
@@ -1299,16 +1300,17 @@
         "IsDrop": 0,
         "NameContextID": 382,
         "SP": 45,
-        "Tag": 400007
+        "Tag": 400008
     },
     {
-        "Command": "OnActived\n{\n     Remember(Select(Self, Manual, 1));\n     RandomCastSkill(10003);\n}",
-        "DescriptionContextID": 385,
+        "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_SFX_BigHit;\n0.58_Shake",
+        "Command": "OnActived\n{\nRemember(Select(Opponent,Manual,1));\nBeginIf(Random(1, 100) \u003c= 30); \n     ShowSkillFailed(); \n     Quit();\nEndIf(); \n\nDealDamage(LastSelected,Self.Attack * 2.2,0); \n} ",
+        "DescriptionContextID": 393,
         "ID": 229,
         "IsDrop": 0,
-        "NameContextID": 384,
-        "References": "S:10013;B:10003;S:10015;B:10004;S:10018;B:10005",
-        "SP": 30
+        "NameContextID": 392,
+        "SP": 0,
+        "Tag": "400001;400002"
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
@@ -1350,6 +1352,26 @@
         "References": "B:3",
         "SP": 10,
         "Tag": "400006;400007;400016"
+    },
+    {
+        "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Aura7_Target;\n0.25_Apply;\n0.25_SFX_HealingSmall",
+        "Command": "OnStartToEndTurn\n{\nBeginIf(Self.SP \u003e= 15); \n     AddStatus(Self,SP,-15); \n     SetPlayAnimationNext(); \n     AddStatus(SelectOther(SameSide,Random,-1),SP,5); \nEndIf(); \n} ",
+        "DescriptionContextID": 395,
+        "ID": 234,
+        "IsDrop": 0,
+        "NameContextID": 394,
+        "SP": 0,
+        "Tag": "400013;400017"
+    },
+    {
+        "Command": "OnBattleStarted\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnTurnStarted\n{\n     Record(Skill235, Self.Hatred);\n     ShowVFXOnTarget(Temp, 1);\n     GainBuff(SelectOther(SameSide, Random, -1), 115, 1t-1);\n}\n\nOnActionStarted_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnActionStarted_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Self\n{\n    Record(Skill235, Self.Hatred);\n}",
+        "DescriptionContextID": 397,
+        "ID": 235,
+        "IsDrop": 0,
+        "NameContextID": 396,
+        "References": "B:115",
+        "SP": 0,
+        "Tag": 400019
     },
     {
         "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_SFX_NormalHit",
@@ -1633,7 +1655,7 @@
         "Tag": "400001;400004"
     },
     {
-        "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_SFX_NormalHit",
+        "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_SFX_BigHit;\n0.58_Shake",
         "Command": "OnActived\n{\n     AddBuffAmount(Self, 10006, -99);\n     SetPlayAnimationNext();\n     DealDamage(Select(Opponent, Random, -1), Self.MaxHP* 0.03, 0);\n}",
         "DescriptionContextID": 10079,
         "ID": 10028,
@@ -1650,7 +1672,7 @@
         "SP": 0
     },
     {
-        "Command": "OnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400001);\n          Record(Test2,Self.LastTakenDamage + Read(Test2));\n          BeginIf(Read(Test2) \u003e= 50000);\n              AddBuffAmountByTag(Self,400030,-99);\n              GainBuff(Self, 2 ,1t1);\n              Record(Test2,0);\n          EndIf();\n     EndIf();    \n}",
+        "Command": "OnBattleStarted\n{\n     Record(OutOfBalance,50000);\n     Record(b_balance_30, 0);\n     Record(b_balance_60, 0);\n     Record(b_balance_90, 0);\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400001);\n          Record(TaltalTakenDamage,Self.LastTakenDamage + Read(TaltalTakenDamage));\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 30);\n                   BeginIf(Read(b_balance_30)== 0);\n                         Record(b_balance_30,1);\n                         GainBuff(Self, 10010 ,1t-1);\n                   EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 60);\n                    BeginIf(Read(b_balance_60)== 0);\n                         Record(b_balance_60,1);\n                         AddBuffAmount(Self,10010 ,-99);\n                         GainBuff(Self, 10011,1t-1);\n                    EndIf();\n          EndIf();\n         BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 90);\n                    BeginIf(Read(b_balance_90)== 0);\n                         Record(b_balance_90,1);\n                         AddBuffAmount(Self,10011,-99);\n                         GainBuff(Self, 10012,1t-1);\n                    EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage) \u003e= Read(OutOfBalance));\n              GainBuff(Self, 10013 ,1t1);\n              AddBuffAmount(Self,10012,-99);\n              AddBuffAmountByTag(Self,400030,-99);\n              Record(TaltalTakenDamage,0);\n              Record(b_balance_30, 0);\n              Record(b_balance_60, 0);\n              Record(b_balance_90, 0);\n          EndIf();\n     EndIf();    \n}",
         "DescriptionContextID": 10075,
         "ID": 10030,
         "IsDrop": 0,
@@ -1668,120 +1690,106 @@
         "Tag": 400030
     },
     {
-        "DescriptionContextID": 10083,
-        "ID": 10032,
-        "IsDrop": 0,
-        "NameContextID": 10082,
-        "SP": 0
-    },
-    {
-        "DescriptionContextID": 10085,
-        "ID": 10033,
-        "IsDrop": 0,
-        "NameContextID": 10084,
-        "SP": 0
-    },
-    {
         "DescriptionContextID": 10090,
-        "ID": 10034,
+        "ID": 10032,
         "IsDrop": 0,
         "NameContextID": 10089,
         "SP": 0
     },
     {
         "DescriptionContextID": 10092,
-        "ID": 10035,
+        "ID": 10033,
         "IsDrop": 0,
         "NameContextID": 10091,
         "SP": 0
     },
     {
         "DescriptionContextID": 10097,
-        "ID": 10036,
+        "ID": 10034,
         "IsDrop": 0,
         "NameContextID": 10096,
         "SP": 0
     },
     {
         "DescriptionContextID": 10102,
-        "ID": 10037,
+        "ID": 10035,
         "IsDrop": 0,
         "NameContextID": 10101,
         "SP": 0
     },
     {
         "DescriptionContextID": 10104,
-        "ID": 10038,
+        "ID": 10036,
         "IsDrop": 0,
         "NameContextID": 10103,
         "SP": 0
     },
     {
         "DescriptionContextID": 10108,
-        "ID": 10039,
+        "ID": 10037,
         "IsDrop": 0,
         "NameContextID": 10107,
         "SP": 0
     },
     {
         "DescriptionContextID": 10110,
-        "ID": 10040,
+        "ID": 10038,
         "IsDrop": 0,
         "NameContextID": 10109,
         "SP": 0
     },
     {
         "DescriptionContextID": 10113,
-        "ID": 10041,
+        "ID": 10039,
         "IsDrop": 0,
         "NameContextID": 10112,
         "SP": 0
     },
     {
         "DescriptionContextID": 10115,
-        "ID": 10042,
+        "ID": 10040,
         "IsDrop": 0,
         "NameContextID": 10114,
         "SP": 0
     },
     {
         "DescriptionContextID": 10117,
-        "ID": 10043,
+        "ID": 10041,
         "IsDrop": 0,
         "NameContextID": 10116,
         "SP": 0
     },
     {
         "DescriptionContextID": 10120,
-        "ID": 10044,
+        "ID": 10042,
         "IsDrop": 0,
         "NameContextID": 10119,
         "SP": 0
     },
     {
         "DescriptionContextID": 10122,
-        "ID": 10045,
+        "ID": 10043,
         "IsDrop": 0,
         "NameContextID": 10121,
         "SP": 0
     },
     {
         "DescriptionContextID": 10126,
-        "ID": 10046,
+        "ID": 10044,
         "IsDrop": 0,
         "NameContextID": 10125,
         "SP": 0
     },
     {
         "DescriptionContextID": 10128,
-        "ID": 10047,
+        "ID": 10045,
         "IsDrop": 0,
         "NameContextID": 10127,
         "SP": 0
     },
     {
         "DescriptionContextID": 10130,
-        "ID": 10048,
+        "ID": 10046,
         "IsDrop": 0,
         "NameContextID": 10129,
         "SP": 0

@@ -2067,7 +2067,7 @@
     {
         "ID": 10075,
         "en_us": "Attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill will accumulate \"Imbalance Value\". If the \"Imbalance Value\" exceeds a certain value, it gives this unit an \"Cannot Action\" for 1 turn.",
-        "zh_tw": "受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊會累積失衡值。若失衡值超過一定數值，給予自己持續1回合的「不能行動」，並消除當前的狀態。"
+        "zh_tw": "受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊會累積失衡值。若失衡值超過一定數值，給予自己持續1回合的「失衡狀態」，並消除當前的狀態。"
     },
     {
         "ID": 10076,
@@ -2101,43 +2101,43 @@
     },
     {
         "ID": 10082,
-        "en_us": "None",
-        "zh_tw": "30%失衡"
+        "en_us": "Imbalance value accumulation 30%",
+        "zh_tw": "失衡值累積30%"
     },
     {
         "ID": 10083,
-        "en_us": "None",
-        "zh_tw": "30%失衡"
+        "en_us": "Imbalance value accumulated 30%.",
+        "zh_tw": "失衡值累積30%。"
     },
     {
         "ID": 10084,
-        "en_us": "None",
-        "zh_tw": "60%失衡"
+        "en_us": "Imbalance value accumulated 60%.",
+        "zh_tw": "失衡值累積60%"
     },
     {
         "ID": 10085,
-        "en_us": "None",
-        "zh_tw": "60%失衡"
+        "en_us": "The imbalance value accumulates 60%.",
+        "zh_tw": "失衡值累積60%。"
     },
     {
         "ID": 10086,
-        "en_us": "None",
-        "zh_tw": "90%失衡"
+        "en_us": "Imbalance accumulation 90%",
+        "zh_tw": "失衡值累積90%"
     },
     {
         "ID": 10087,
-        "en_us": "None",
-        "zh_tw": "90%失衡"
+        "en_us": "Imbalance accumulation 90%.",
+        "zh_tw": "失衡值累積90%"
     },
     {
         "ID": 10088,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Imbalance Status",
+        "zh_tw": "失衡狀態"
     },
     {
         "ID": 10089,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Cannot Act.",
+        "zh_tw": "無法行動。"
     },
     {
         "ID": 10090,
