@@ -42,7 +42,6 @@
         "AreaID": 1,
         "BossIDs": 5,
         "DescriptionContextID": 300008,
-        "DropData": "229:10",
         "FrontStageIDs": 2,
         "ID": 3,
         "Index": 2,
