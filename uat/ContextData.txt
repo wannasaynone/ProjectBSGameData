@@ -3701,21 +3701,22 @@
     },
     {
         "ID": 3000002,
-        "zh_tw": "2. 荒蕪街道"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 3000003,
-        "en_us": "3. Northern Snowfields",
-        "zh_tw": "3. 北方雪原"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 3000004,
-        "en_us": "4. Eastern Forest",
-        "zh_tw": "4. 東方森林"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 3000005,
-        "en_us": "5. Western Desert",
-        "zh_tw": "5. 西方沙漠"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     }
 ]
