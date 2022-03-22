@@ -221,7 +221,7 @@
         "Tag": 400015
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(Self.Hatred - Read(Skill235)); \n     ShowVFX(Temp,1); \n} ",
+        "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(Self.Hatred - Read(Skill235)); \n     ShowVFX(Temp,1); \n} \n\nOnDamageTaken_Self\n{\n     AddBuffAmount(Self, 115, -99);\n}",
         "DescriptionContextID": 398,
         "ID": 115,
         "MaxAmount": 1,

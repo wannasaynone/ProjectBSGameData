@@ -1661,37 +1661,37 @@
     },
     {
         "ID": 392,
-        "en_us": "None",
+        "en_us": "FULL POWER Right Hook",
         "zh_tw": "FULL POWER 右鉤拳"
     },
     {
         "ID": 393,
-        "en_us": "None",
+        "en_us": "Deals 220% Attack damage to 1 enemy unit. There is a 30% chance of failing to use the skill when it is performed.",
         "zh_tw": "對1個敵方單位造成220%攻擊值的傷害。施展技能時，有30%的機率使用失敗。"
     },
     {
         "ID": 394,
-        "en_us": "None",
+        "en_us": "Vitality Space",
         "zh_tw": "活力空間"
     },
     {
         "ID": 395,
-        "en_us": "None",
+        "en_us": "At the end of the turn, reduce your own SP by 15 points and increase all other friendly units SP by 5 points.",
         "zh_tw": "回合結束時，減少自己15點SP，其他所有友方單位增加5點SP。自己SP小於15點時不會發動。"
     },
     {
         "ID": 396,
-        "en_us": "None",
+        "en_us": "Protect",
         "zh_tw": "守護"
     },
     {
         "ID": 397,
-        "en_us": "None",
+        "en_us": "At the beginning of the turn, give \"Protect\" to the target of other friendly units.",
         "zh_tw": "回合開始時，給予其他友方單位目標「守護」。"
     },
     {
         "ID": 398,
-        "en_us": "None",
+        "en_us": "When damage is dealt, the damage is reduced according to the difference between the buff giver's Hatred value and your own hate value. After taking damage, this buff is removed.",
         "zh_tw": "將受到傷害時，根據狀態給予者的仇恨值與自己的仇恨值差距減少傷害。受到傷害後，消除這個狀態。"
     },
     {
@@ -2396,18 +2396,18 @@
     },
     {
         "ID": 100009,
-        "en_us": "None",
+        "en_us": "Right Tekken Zeth",
         "zh_tw": "右鐵拳澤斯"
     },
     {
         "ID": 100010,
-        "en_us": "None",
+        "en_us": "High Priestess Flora",
         "zh_tw": "大祭司芙蓮"
     },
     {
         "ID": 100011,
-        "en_us": "None",
-        "zh_tw": "先鋒隊長X"
+        "en_us": "Pioneer Captain Axe",
+        "zh_tw": "先鋒隊長艾克斯"
     },
     {
         "ID": 300001,
