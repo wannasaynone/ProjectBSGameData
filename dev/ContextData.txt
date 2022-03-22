@@ -3701,8 +3701,8 @@
     },
     {
         "ID": 3000002,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "2. Deserted Streets",
+        "zh_tw": "2. 荒蕪街道"
     },
     {
         "ID": 3000003,
