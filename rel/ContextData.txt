@@ -3590,6 +3590,11 @@
         "zh_tw": "通訊提示：\n戰鬥後的經驗值，可以用來在角色頁面強化角色。\n之後也會有其他用途。"
     },
     {
+        "ID": 1000153,
+        "en_us": "Can not equip the same skills",
+        "zh_tw": "不可裝備相同的技能"
+    },
+    {
         "ID": 2000001,
         "en_us": "When you dismantle a unit, half of the unit experience will be returned.",
         "zh_tw": "分解角色時，會返回該角色的一半經驗值。"
