@@ -197,5 +197,27 @@
         "SP": 100,
         "SkillIDs": "10021;10026;10027;10028;10030",
         "Speed": 1000
+    },
+    {
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10025);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10007);\n    CastSkill(10029); \n    Quit();\nEndIf();\n\nCastSkill(10022);",
+        "AppearanceDataID": 10015,
+        "Attack": 1000,
+        "Defense": 2000,
+        "HP": 99200,
+        "ID": 19,
+        "SP": 100,
+        "SkillIDs": "10021;10031;10022;10025;10030",
+        "Speed": 1000
+    },
+    {
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10028);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10008);\n    CastSkill(10029); \n    Quit();\nEndIf();\n\nCastSkill(10032);",
+        "AppearanceDataID": 10016,
+        "Attack": 1000,
+        "Defense": 2500,
+        "HP": 240000,
+        "ID": 20,
+        "SP": 100,
+        "SkillIDs": "10021;10026;10032;10028;10030",
+        "Speed": 1500
     }
 ]
