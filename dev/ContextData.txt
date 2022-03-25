@@ -771,8 +771,8 @@
     },
     {
         "ID": 214,
-        "en_us": "Increases the HP value of 1 friendly unit by 25% of my Defense value.",
-        "zh_tw": "增加1個友方單位相當於自己25%防禦值的生命值。"
+        "en_us": "Increases the HP value of 1 friendly unit by 50% of my Defense value.",
+        "zh_tw": "增加1個友方單位相當於自己50%防禦值的生命值。"
     },
     {
         "ID": 215,
@@ -781,8 +781,8 @@
     },
     {
         "ID": 216,
-        "en_us": "Increases the HP value of 1 friendly unit by 50% of my Defense value.",
-        "zh_tw": "增加1個友方單位相當於自己50%防禦值的生命值。"
+        "en_us": "Increases the HP value of 1 friendly unit by 75% of my Defense value.",
+        "zh_tw": "增加1個友方單位相當於自己75%防禦值的生命值。"
     },
     {
         "ID": 217,
@@ -801,8 +801,8 @@
     },
     {
         "ID": 220,
-        "en_us": "Increases the HP value of 1 friendly unit by 150% of my Defense value.",
-        "zh_tw": "增加1個友方單位相當於自己150%防禦值的生命值。"
+        "en_us": "Increases the HP value of 1 friendly unit by 125% of my Defense value.",
+        "zh_tw": "增加1個友方單位相當於自己125%防禦值的生命值。"
     },
     {
         "ID": 221,
@@ -811,8 +811,8 @@
     },
     {
         "ID": 222,
-        "en_us": "Whenever another friendly unit uses the [\u003c#afeeee\u003eAssistance\u003c/color\u003e] skill, increases the target's HP value by 15% of my defense value.",
-        "zh_tw": "每當其他友方單位使用[輔助]技能後，增加目標相當於自己15%防禦值的生命值。"
+        "en_us": "Whenever another friendly unit uses the [\u003c#afeeee\u003eAssistance\u003c/color\u003e] skill, increases the target's HP value by 25% of my defense value.",
+        "zh_tw": "每當其他友方單位使用[輔助]技能後，增加目標相當於自己25%防禦值的生命值。"
     },
     {
         "ID": 223,
@@ -1151,8 +1151,8 @@
     },
     {
         "ID": 290,
-        "en_us": "When using [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill to deal damage, increase the damage dealt by 20% and increase the SP by 5. When using non-[\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, reduce the damage dealt by 80%.",
-        "zh_tw": "使用[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能時，減少造成的傷害80%。"
+        "en_us": "When using [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill to deal damage, increase the damage dealt by 20% and increase the SP by (5 x target amount). When using non-[\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, reduce the damage dealt by 80%.",
+        "zh_tw": "使用[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能造成傷害時，增加造成的傷害20%，同時自己增加(5 x 目標數量)點SP。使用非[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能時，減少造成的傷害80%。"
     },
     {
         "ID": 291,
@@ -1161,8 +1161,8 @@
     },
     {
         "ID": 292,
-        "en_us": "When using [\u003c#7183b0\u003eFrost\u003c/color\u003e] skills to deal damage, increase the damage dealt by 20% and increase SP by 5. When using non-[\u003c#7183b0\u003eFrost\u003c/color\u003e] skills, reduce the damage dealt by 80%.",
-        "zh_tw": "使用[\u003c#7183b0\u003e冰霜\u003c/color\u003e]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[\u003c#7183b0\u003e冰霜\u003c/color\u003e]技能時，減少造成的傷害80%。"
+        "en_us": "When using [\u003c#7183b0\u003eFrost\u003c/color\u003e] skills to deal damage, increase the damage dealt by 20% and increase SP by (5 x target amount). When using non-[\u003c#7183b0\u003eFrost\u003c/color\u003e] skills, reduce the damage dealt by 80%.",
+        "zh_tw": "使用[\u003c#7183b0\u003e冰霜\u003c/color\u003e]技能造成傷害時，增加造成的傷害20%，並增加(5 x 目標數量)點SP。使用非[\u003c#7183b0\u003e冰霜\u003c/color\u003e]技能時，減少造成的傷害80%。"
     },
     {
         "ID": 293,
@@ -1171,8 +1171,8 @@
     },
     {
         "ID": 294,
-        "en_us": "When using [\u003c#ffd700\u003eLightning\u003c/color\u003e] skill to deal damage, increase the damage dealt by 20% and increase SP by 5. When using non-[\u003c#ffd700\u003eLightning\u003c/color\u003e] skill, reduce the damage dealt by 80%.",
-        "zh_tw": "使用[\u003c#ffd700\u003e雷電\u003c/color\u003e]技能造成傷害時，增加造成的傷害20%，並增加5點SP。使用非[\u003c#ffd700\u003e雷電\u003c/color\u003e]技能時，減少造成的傷害80%。"
+        "en_us": "When using [\u003c#ffd700\u003eLightning\u003c/color\u003e] skill to deal damage, increase the damage dealt by 20% and increase SP by (5 x target amount). When using non-[\u003c#ffd700\u003eLightning\u003c/color\u003e] skill, reduce the damage dealt by 80%.",
+        "zh_tw": "使用[\u003c#ffd700\u003e雷電\u003c/color\u003e]技能造成傷害時，增加造成的傷害20%，並增加(5 x 目標數量)點SP。使用非[\u003c#ffd700\u003e雷電\u003c/color\u003e]技能時，減少造成的傷害80%。"
     },
     {
         "ID": 295,
@@ -1461,8 +1461,8 @@
     },
     {
         "ID": 352,
-        "en_us": "After taking damage, if the current HP value is less than 0, the unit in action loses HP value equal to 220% of my Attack value. The amount lost is randomly reduced according to the target's Defense value.",
-        "zh_tw": "受到傷害後，若目前的生命值小於0，使正在行動的單位失去相當於自己220%攻擊值的生命值。失去的數值將根據目標的防禦值隨機減少。"
+        "en_us": "After taking damage, if the current HP value is less than 0, use \"Dying Together\".",
+        "zh_tw": "受到傷害後，若目前的生命值小於0，追加使用「同歸於盡」。"
     },
     {
         "ID": 353,
@@ -1691,8 +1691,13 @@
     },
     {
         "ID": 398,
-        "en_us": "When damage is dealt, the damage is reduced according to the difference between the buff giver's Hatred value and your own hate value. After taking damage, this buff is removed.",
-        "zh_tw": "將受到傷害時，根據狀態給予者的仇恨值與自己的仇恨值差距減少傷害。受到傷害後，消除這個狀態。"
+        "en_us": "When damage is dealt, the damage is reduced according to the difference between the buff giver's Hatred value and your own hate value. ",
+        "zh_tw": "將受到傷害時，根據狀態給予者的仇恨值與自己的仇恨值差距減少傷害。"
+    },
+    {
+        "ID": 399,
+        "en_us": "Deals 220% Attack damage to the unit currently in action.",
+        "zh_tw": "對目前正在行動的單位造成220%攻擊值的傷害。"
     },
     {
         "ID": 10001,
@@ -1941,8 +1946,8 @@
     },
     {
         "ID": 10050,
-        "en_us": "Deals 300% Defense damage to the unit currently in action.",
-        "zh_tw": "對目前正在行動的單位造成300%防禦值的傷害。"
+        "en_us": "Deals 150% Defense damage to the unit currently in action.",
+        "zh_tw": "對目前正在行動的單位造成150%防禦值的傷害。"
     },
     {
         "ID": 10051,
@@ -2141,8 +2146,8 @@
     },
     {
         "ID": 10090,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Gives you \"Loading Ammo\" for 4 turns.",
+        "zh_tw": "給予自己持續4回合的「裝填彈藥」。"
     },
     {
         "ID": 10091,
@@ -2495,13 +2500,13 @@
     },
     {
         "ID": 300018,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Giant Wooden Guards(Hell)",
+        "zh_tw": "巨型木造守衛(地獄)"
     },
     {
         "ID": 300019,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e)\n[Twice the experience].\nHigh difficulty level.",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e)\n[兩倍經驗]\n高難度關卡。"
     },
     {
         "ID": 300020,
