@@ -1365,7 +1365,7 @@
         "Tag": "400013;400017"
     },
     {
-        "Command": "OnBattleStarted\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnTurnStarted\n{\n     Record(Skill235, Self.Hatred);\n     ShowVFXOnTarget(Temp, 1);\n     GainBuff(SelectOther(SameSide, Random, -1), 115, 1t1);\n}\n\nOnActionStarted_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnActionStarted_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Self\n{\n    Record(Skill235, Self.Hatred);\n}",
+        "Command": "OnBattleStarted\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnTurnStarted\n{\n     Record(Skill235, Self.Hatred);\n     Remember(SelectOther(SameSide, Random, -1));\n     ShowVFXOnTarget(Temp, 1);\n     GainBuff(LastSelected, 115, 1t1);\n}\n\nOnActionStarted_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnActionStarted_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Self\n{\n    Record(Skill235, Self.Hatred);\n}",
         "DescriptionContextID": 397,
         "ID": 235,
         "IsDrop": 0,
