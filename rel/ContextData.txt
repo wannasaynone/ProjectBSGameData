@@ -1461,8 +1461,8 @@
     },
     {
         "ID": 352,
-        "en_us": "After taking damage, if the current HP value is less than 0, use \"Dying Together\".",
-        "zh_tw": "受到傷害後，若目前的生命值小於0，追加使用「同歸於盡」。"
+        "en_us": "After taking damage, if the current HP value is less than 0, set HP to 1, use \"Dying Together\".",
+        "zh_tw": "受到傷害後，若目前的生命值小於0，使生命值變為1後，追加使用「同歸於盡」。"
     },
     {
         "ID": 353,
@@ -1696,8 +1696,8 @@
     },
     {
         "ID": 399,
-        "en_us": "Deals 220% Attack damage to the unit currently in action.",
-        "zh_tw": "對目前正在行動的單位造成220%攻擊值的傷害。"
+        "en_us": "Deals 220% Attack damage to the unit currently in action, then reduces your HP to 0.",
+        "zh_tw": "對目前正在行動的單位造成220%攻擊值的傷害，之後使自己的生命值變為0。"
     },
     {
         "ID": 10001,
