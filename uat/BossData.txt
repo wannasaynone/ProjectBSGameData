@@ -197,5 +197,89 @@
         "SP": 100,
         "SkillIDs": "10021;10026;10027;10028;10030",
         "Speed": 1000
+    },
+    {
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10025);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10007);\n    CastSkill(10029); \n    Quit();\nEndIf();\n\nCastSkill(10022);",
+        "AppearanceDataID": 10015,
+        "Attack": 1000,
+        "Defense": 6000,
+        "HP": 200000,
+        "ID": 19,
+        "SP": 100,
+        "SkillIDs": "10021;10026;10022;10025;10030",
+        "Speed": 3000
+    },
+    {
+        "AI": "BeginIf_Buff(Self, 1, 10006);\n   CastSkill(10028);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10008);\n    CastSkill(10029); \n    Quit();\nEndIf();\n\nCastSkill(10032);",
+        "AppearanceDataID": 10016,
+        "Attack": 1000,
+        "Defense": 6500,
+        "HP": 500000,
+        "ID": 20,
+        "SP": 100,
+        "SkillIDs": "10021;10026;10022;10025;10030",
+        "Speed": 4500
+    },
+    {
+        "AI": "CastSkill(10035);",
+        "AppearanceDataID": 10005,
+        "Attack": 1000,
+        "Defense": 500,
+        "HP": 300000,
+        "ID": 21,
+        "SP": 100,
+        "SkillIDs": "10033;10034;10035;10036;10037",
+        "Speed": 1000
+    },
+    {
+        "AI": "CastSkill(10038);",
+        "AppearanceDataID": 10005,
+        "Attack": 1000,
+        "Defense": 500,
+        "HP": 300000,
+        "ID": 22,
+        "SP": 100,
+        "SkillIDs": "10033;10034;10038",
+        "Speed": 1000
+    },
+    {
+        "AppearanceDataID": 10005,
+        "Attack": 1000,
+        "Defense": 500,
+        "HP": 300000,
+        "ID": 23,
+        "SP": 100,
+        "SkillIDs": "10033;10034;10039;10040",
+        "Speed": 1000
+    },
+    {
+        "AppearanceDataID": 10005,
+        "Attack": 1000,
+        "Defense": 500,
+        "HP": 300000,
+        "ID": 24,
+        "SP": 100,
+        "SkillIDs": "10033;10034;10039;10040",
+        "Speed": 1000
+    },
+    {
+        "AppearanceDataID": 10005,
+        "Attack": 1000,
+        "Defense": 500,
+        "HP": 300000,
+        "ID": 25,
+        "SP": 100,
+        "SkillIDs": "10033;10034;152;10041;10040;10042;10043",
+        "Speed": 1000
+    },
+    {
+        "AppearanceDataID": 10005,
+        "Attack": 1000,
+        "Defense": 500,
+        "HP": 300000,
+        "ID": 26,
+        "SP": 100,
+        "SkillIDs": "10033;10034;152;10041;10040;10042;10043",
+        "Speed": 1000
     }
 ]

@@ -221,7 +221,7 @@
         "Tag": 400015
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(Self.Hatred - Read(Skill235)); \n     ShowVFX(Temp,1); \n}",
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf(Self.Hatred - Read(Skill235) \u003e= 0);\n          Quit();\n     EndIf();\n\n     AddDamage(Self.Hatred - Read(Skill235)); \n     ShowVFX(Temp,1); \n}",
         "DescriptionContextID": 398,
         "ID": 115,
         "MaxAmount": 1,

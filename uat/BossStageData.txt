@@ -105,7 +105,7 @@
     },
     {
         "AreaID": 0,
-        "BossIDs": 16,
+        "BossIDs": 21,
         "DescriptionContextID": 300010,
         "ID": 8,
         "Index": -1,
@@ -117,7 +117,7 @@
     },
     {
         "AreaID": 0,
-        "BossIDs": 17,
+        "BossIDs": 22,
         "DescriptionContextID": 300010,
         "ID": 9,
         "Index": -1,
@@ -129,7 +129,7 @@
     },
     {
         "AreaID": 0,
-        "BossIDs": 18,
+        "BossIDs": 23,
         "DescriptionContextID": 300010,
         "ID": 10,
         "Index": -1,
@@ -150,5 +150,70 @@
         "NameContextID": 300017,
         "RequireLevel": 100,
         "Stamina": 0
+    },
+    {
+        "AreaID": 2,
+        "BossIDs": "19;20;19",
+        "DescriptionContextID": 300019,
+        "FrontStageIDs": 7,
+        "ID": 12,
+        "Index": 4,
+        "MaxExp": 7921600,
+        "MinExp": 3960800,
+        "NameContextID": 300018,
+        "RequireLevel": 100,
+        "Stamina": 80
+    },
+    {
+        "AreaID": 3,
+        "BossIDs": "21;21",
+        "DescriptionContextID": 300021,
+        "FrontStageIDs": 7,
+        "ID": 13,
+        "Index": 0,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
+        "NameContextID": 300020,
+        "RequireLevel": 100,
+        "Stamina": 80
+    },
+    {
+        "AreaID": 3,
+        "BossIDs": "22;22;22",
+        "DescriptionContextID": 300023,
+        "FrontStageIDs": 13,
+        "ID": 14,
+        "Index": 1,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
+        "NameContextID": 300022,
+        "RequireLevel": 100,
+        "Stamina": 80
+    },
+    {
+        "AreaID": 3,
+        "BossIDs": 23,
+        "DescriptionContextID": 300025,
+        "FrontStageIDs": 14,
+        "ID": 15,
+        "Index": 2,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
+        "NameContextID": 300024,
+        "RequireLevel": 100,
+        "Stamina": 80
+    },
+    {
+        "AreaID": 3,
+        "BossIDs": 25,
+        "DescriptionContextID": 300027,
+        "FrontStageIDs": 15,
+        "ID": 16,
+        "Index": 3,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
+        "NameContextID": 300026,
+        "RequireLevel": 100,
+        "Stamina": 80
     }
 ]

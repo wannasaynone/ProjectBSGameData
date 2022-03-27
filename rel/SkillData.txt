@@ -555,7 +555,7 @@
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal1_Target;\n0.25_Apply;\n0.25_SFX_HealingSmall",
-        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 0.25);\n}",
+        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 0.5);\n}",
         "DescriptionContextID": 214,
         "ID": 155,
         "IsDrop": 1,
@@ -565,12 +565,12 @@
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal2_Target;\n0.25_Apply;\n0.25_SFX_HealingMed",
-        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 0.5);\n}",
+        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 0.75);\n}",
         "DescriptionContextID": 216,
         "ID": 156,
         "IsDrop": 1,
         "NameContextID": 215,
-        "SP": 20,
+        "SP": 15,
         "Tag": "400013;400017"
     },
     {
@@ -580,21 +580,21 @@
         "ID": 157,
         "IsDrop": 1,
         "NameContextID": 217,
-        "SP": 30,
+        "SP": 20,
         "Tag": "400013;400017"
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal4_Target;\n0.25_Apply;\n0.25_SFX_HealingSuper",
-        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 1.5);\n}",
+        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     AddStatus(Select(SameSide, Manual, 1), HP, Self.Defense * 1.25);\n}",
         "DescriptionContextID": 220,
         "ID": 158,
         "IsDrop": 1,
         "NameContextID": 219,
-        "SP": 40,
+        "SP": 25,
         "Tag": "400013;400017"
     },
     {
-        "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400013);\n          Remember(SkillLastSelected(CurrentActor));\n          ShowVFXOnTarget(Heal1, 1.5);\n          PlaySFX(HealingSmall);\n          AddStatus(LastSelected, HP, Self.Defense * 0.15);\n    EndIf();\n}",
+        "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400013);\n          Remember(SkillLastSelected(CurrentActor));\n          ShowVFXOnTarget(Heal1, 1.5);\n          PlaySFX(HealingSmall);\n          AddStatus(LastSelected, HP, Self.Defense * 0.25);\n    EndIf();\n}",
         "DescriptionContextID": 222,
         "ID": 159,
         "IsDrop": 1,
@@ -1150,11 +1150,12 @@
         "Tag": "400013;400015;400019"
     },
     {
-        "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP \u003c= 0);\n         AddStatus(CurrentActor, HP, (-Self.Attack * 2.2) + (Target.Defense * Random(1, 2)), 0);\n     EndIf();\n}",
+        "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP \u003c= 0);\n         CastSkill(230);\n     EndIf();\n}",
         "DescriptionContextID": 352,
         "ID": 214,
         "IsDrop": 1,
         "NameContextID": 351,
+        "References": "S:230",
         "SP": 0,
         "Tag": 400019
     },
@@ -1284,7 +1285,7 @@
         "Tag": 400007
     },
     {
-        "Command": "OnAttackEnded_Self\n{\nBeginIf_Buff(LastAttacked,1,4); \n     ShowVFXOnTarget(Temp,1); \n     AddStatus(LastAttacked,HP,Target.MaxHP * 0.02); \nEndIf(); \n} ",
+        "Command": "OnAttackEnded_Self\n{\nBeginIf_Buff(LastAttacked,1,4); \n     ShowVFXOnTarget(Temp,1); \n     AddStatus(LastAttacked,HP,-Target.MaxHP * 0.02); \nEndIf(); \n} ",
         "DescriptionContextID": 381,
         "ID": 227,
         "IsDrop": 0,
@@ -1313,14 +1314,14 @@
         "Tag": "400001;400002"
     },
     {
-        "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_AddBuff",
-        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Select(Self,Manual,1), 10012, 1t-1);\n}",
-        "DescriptionContextID": 10092,
+        "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Temp_Target;\n0.58_SFX_BigHit",
+        "Command": "OnActived\n{\n    DealDamage(CurrentActor, Self.Attack * 2.2, 0);\n}",
+        "DescriptionContextID": 399,
         "ID": 230,
         "IsDrop": 0,
-        "NameContextID": 10091,
-        "References": "B:10012",
-        "SP": 0
+        "NameContextID": 351,
+        "SP": 0,
+        "Tag": "400001;400002"
     },
     {
         "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Heal1_Target;\r\n0.25_Apply;\r\n0.25_SFX_HealingSmall",
@@ -1364,7 +1365,7 @@
         "Tag": "400013;400017"
     },
     {
-        "Command": "OnBattleStarted\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnTurnStarted\n{\n     Record(Skill235, Self.Hatred);\n     ShowVFXOnTarget(Temp, 1);\n     GainBuff(SelectOther(SameSide, Random, -1), 115, 1t-1);\n}\n\nOnActionStarted_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnActionStarted_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Self\n{\n    Record(Skill235, Self.Hatred);\n}",
+        "Command": "OnBattleStarted\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnTurnStarted\n{\n     Record(Skill235, Self.Hatred);\n     ShowVFXOnTarget(Temp, 1);\n     GainBuff(SelectOther(SameSide, Random, -1), 115, 1t1);\n}\n\nOnActionStarted_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnActionStarted_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnStartToEndAction_Self\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Other\n{\n    Record(Skill235, Self.Hatred);\n}\n\nOnAttackEnded_Self\n{\n    Record(Skill235, Self.Hatred);\n}",
         "DescriptionContextID": 397,
         "ID": 235,
         "IsDrop": 0,
@@ -1578,7 +1579,7 @@
     },
     {
         "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Temp_Target;\n0.58_SFX_BigHit",
-        "Command": "OnActived\n{\n  DealDamage(CurrentActor, Self.Defense * 3, 0);\n}",
+        "Command": "OnActived\n{\n  DealDamage(CurrentActor, Self.Defense * 1.5, 0);\n}",
         "DescriptionContextID": 10050,
         "ID": 10020,
         "IsDrop": 0,
@@ -1690,108 +1691,139 @@
         "Tag": 400030
     },
     {
+        "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Targetl;\n0.25_SFX_DefenseBuff",
+        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Self, 10008, 1t4);\n}",
         "DescriptionContextID": 10090,
         "ID": 10032,
         "IsDrop": 0,
-        "NameContextID": 10089,
+        "NameContextID": 10054,
         "SP": 0
     },
     {
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(-50%);\n     EndIf();\n}",
         "DescriptionContextID": 10092,
         "ID": 10033,
         "IsDrop": 0,
         "NameContextID": 10091,
-        "SP": 0
+        "SP": 0,
+        "Tag": 400030
     },
     {
-        "DescriptionContextID": 10097,
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400009);\n          AddDamage(50%);\n     EndIf();\n}",
+        "DescriptionContextID": 10094,
         "ID": 10034,
         "IsDrop": 0,
-        "NameContextID": 10096,
-        "SP": 0
+        "NameContextID": 10093,
+        "SP": 0,
+        "Tag": 400030
     },
     {
-        "DescriptionContextID": 10102,
+        "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_SFX_BigHit;\n0.58_Shake",
+        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 1), Self.Attack * 1.5, 1);\n}",
+        "DescriptionContextID": 10096,
         "ID": 10035,
         "IsDrop": 0,
-        "NameContextID": 10101,
-        "SP": 0
+        "NameContextID": 10095,
+        "SP": 0,
+        "Tag": "400001;400002"
     },
     {
-        "DescriptionContextID": 10104,
+        "Command": "OnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill == 10035);\n          BeginIf(Random(0, 100) \u003c= 100);\n               ShowVFX(Hit22, 1);\n               CastSkill(10035);\n          EndIf();\n     EndIf();\n}",
+        "DescriptionContextID": 10098,
         "ID": 10036,
         "IsDrop": 0,
-        "NameContextID": 10103,
-        "SP": 0
+        "NameContextID": 10097,
+        "SP": 0,
+        "Tag": "400013;400018"
     },
     {
-        "DescriptionContextID": 10108,
+        "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal2_Target;\n0.25_Apply;\n0.25_SFX_HealingMed",
+        "Command": "OnDamageTaken_Self\n{\n     SetPlayAnimationNext();\n     AddStatus(Self, HP, Self.MaxHP * 0.01);\n}",
+        "DescriptionContextID": 10100,
         "ID": 10037,
         "IsDrop": 0,
-        "NameContextID": 10107,
-        "SP": 0
+        "NameContextID": 10099,
+        "SP": 0,
+        "Tag": "400013;400017"
     },
     {
-        "DescriptionContextID": 10110,
+        "AnimationInfo": "Attack0;\n0.58_Fire_Spell5_0.3;\n0.58_SFX_CastDarkSpell;\n0.88_Show_Hit16-3_Target;\n0.88_Show_Fog1_Target;\n0.88_SFX_DarkSpellHit;\n0.9_Damage_1;",
+        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) \u003c= 70);\n          GainBuff(LastSelected, 5, 1t3);\n     EndIf();\n}",
+        "DescriptionContextID": 10102,
         "ID": 10038,
         "IsDrop": 0,
-        "NameContextID": 10109,
-        "SP": 0
+        "NameContextID": 10101,
+        "SP": 0,
+        "Tag": "400006;400012;400016"
     },
     {
-        "DescriptionContextID": 10113,
+        "AnimationInfo": "Attack0;\n0.58_Fire_Spell5_0.3;\n0.58_SFX_CastDarkSpell;\n0.88_Show_Hit16-3_Target;\n0.88_Show_Fog1_Target;\n0.88_SFX_DarkSpellHit;\n0.9_Damage_1;",
+        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) \u003c= 70);\n          GainBuff(LastSelected, 5, 1t3);\n     EndIf();\n}",
+        "DescriptionContextID": 10104,
         "ID": 10039,
         "IsDrop": 0,
-        "NameContextID": 10112,
-        "SP": 0
+        "NameContextID": 10103,
+        "SP": 0,
+        "Tag": "400006;400012;400016"
     },
     {
-        "DescriptionContextID": 10115,
+        "DescriptionContextID": 10106,
         "ID": 10040,
         "IsDrop": 0,
-        "NameContextID": 10114,
-        "SP": 0
+        "NameContextID": 10105,
+        "SP": 0,
+        "Tag": 400019
     },
     {
-        "DescriptionContextID": 10117,
+        "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_SFX_NormalHit;\n0.58_Show_Hit16_Target;",
+        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 1), Self.Attack * 1.8, 0);\n}",
+        "DescriptionContextID": 10108,
         "ID": 10041,
         "IsDrop": 0,
-        "NameContextID": 10116,
-        "SP": 0
+        "NameContextID": 10107,
+        "SP": 0,
+        "Tag": "400001;400002"
     },
     {
-        "DescriptionContextID": 10120,
+        "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_DecreaseStatus",
+        "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Select(Opponent, Manual, -1), 12, 1t2);\n}",
+        "DescriptionContextID": 10110,
         "ID": 10042,
         "IsDrop": 0,
-        "NameContextID": 10119,
-        "SP": 0
+        "NameContextID": 10109,
+        "References": "B:12",
+        "SP": 0,
+        "Tag": "400013;400016"
     },
     {
-        "DescriptionContextID": 10122,
+        "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal4_Target;\n0.25_Apply;\n0.25_SFX_HealingSuper",
+        "Command": "OnBattleStarted\n{\n     Record(b_reborn,0);\n}\n\nOnDamageTaken_Self\n{\n    BeginIf(Read(b_reborn)== 0)\n          BeginIf(Self.HP \u003c= Self.MaxHP * 0.3);\n               Record(b_reborn,1);\n                SetPlayAnimationNext();\n                AddStatus(Self, HP, MaxHP-HP );\n          EndIf();\n    EndIf();\n}",
+        "DescriptionContextID": 10112,
         "ID": 10043,
         "IsDrop": 0,
-        "NameContextID": 10121,
-        "SP": 0
+        "NameContextID": 10111,
+        "SP": 0,
+        "Tag": 400019
     },
     {
-        "DescriptionContextID": 10126,
+        "DescriptionContextID": 10114,
         "ID": 10044,
         "IsDrop": 0,
-        "NameContextID": 10125,
+        "NameContextID": 10113,
         "SP": 0
     },
     {
-        "DescriptionContextID": 10128,
+        "DescriptionContextID": 10116,
         "ID": 10045,
         "IsDrop": 0,
-        "NameContextID": 10127,
+        "NameContextID": 10115,
         "SP": 0
     },
     {
-        "DescriptionContextID": 10130,
+        "DescriptionContextID": 10118,
         "ID": 10046,
         "IsDrop": 0,
-        "NameContextID": 10129,
+        "NameContextID": 10117,
         "SP": 0
     },
     {

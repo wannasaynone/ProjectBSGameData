@@ -1686,8 +1686,8 @@
     },
     {
         "ID": 397,
-        "en_us": "At the beginning of the turn, give \"Protect\" to the target of other friendly units.",
-        "zh_tw": "回合開始時，給予其他友方單位目標「守護」。"
+        "en_us": "At the beginning of the turn, give \"Protect\" to the target of other friendly units for 1 turn.",
+        "zh_tw": "回合開始時，給予其他友方單位目標持續1回合的「守護」。"
     },
     {
         "ID": 398,
@@ -2152,112 +2152,111 @@
     {
         "ID": 10091,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "火焰抗性"
     },
     {
         "ID": 10092,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "受到\u003c#cd5c5c\u003e火焰\u003c/color\u003e技能攻擊時，使受到的傷害降低50%。"
     },
     {
         "ID": 10093,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "弱冰"
     },
     {
         "ID": 10094,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "受到\u003c#7183b0\u003e冰霜\u003c/color\u003e技能攻擊時，使受到的傷害增加50%。"
     },
     {
         "ID": 10095,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "沙漠長槍"
     },
     {
         "ID": 10096,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "對1個敵方單位造成150%攻擊值的傷害，無視防禦。"
     },
     {
         "ID": 10097,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "多重傷害"
     },
     {
         "ID": 10098,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "每當使用「沙漠長槍」造成傷害後，有30%的機率再使用1次「沙漠長槍」。"
     },
     {
         "ID": 10099,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "沙之守護"
     },
     {
         "ID": 10100,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "受到傷害後，回復1%生命值。"
     },
     {
         "ID": 10101,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "毒刺"
     },
     {
         "ID": 10102,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
     },
     {
         "ID": 10103,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "毒雨"
     },
     {
         "ID": 10104,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "對2個敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
     },
     {
         "ID": 10105,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "海市蜃樓"
     },
     {
         "ID": 10106,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "場上的目標只有一個是本尊，只有本尊會受到傷害，在該角色回合結束時本尊會轉移到其他幻影上。"
     },
     {
         "ID": 10107,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "咬擊"
     },
     {
         "ID": 10108,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "對所有敵方單位造成180%攻擊值的傷害。"
     },
     {
         "ID": 10109,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "流沙"
     },
     {
         "ID": 10110,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "給予敵方所有角色一個「緩速」效果，持續2回合。"
     },
     {
         "ID": 10111,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "重生"
     },
     {
         "ID": 10112,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "當受到傷害使生命值低於30%時，會回復至最大生命值。(一場戰鬥觸發一次)"
     },
     {
         "ID": 10113,
@@ -2505,28 +2504,48 @@
     },
     {
         "ID": 300019,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e)\n[Twice the experience].\nHigh difficulty level.",
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e)\n[Twice the Exp].\nHigh difficulty level.",
         "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e)\n[兩倍經驗]\n高難度關卡。"
     },
     {
         "ID": 300020,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "關卡一"
     },
     {
         "ID": 300021,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e)"
     },
     {
         "ID": 300022,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "關卡二"
     },
     {
         "ID": 300023,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e)"
+    },
+    {
+        "ID": 300024,
+        "en_us": "None",
+        "zh_tw": "關卡三"
+    },
+    {
+        "ID": 300025,
+        "en_us": "None",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：5 / 10\u003c/color\u003e)"
+    },
+    {
+        "ID": 300026,
+        "en_us": "None",
+        "zh_tw": "關卡四"
+    },
+    {
+        "ID": 300027,
+        "en_us": "None",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e)"
     },
     {
         "ID": 400001,
@@ -3717,7 +3736,7 @@
     {
         "ID": 3000003,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "3. 荒漠"
     },
     {
         "ID": 3000004,
