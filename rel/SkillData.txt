@@ -1285,7 +1285,7 @@
         "Tag": 400007
     },
     {
-        "Command": "OnAttackEnded_Self\n{\nBeginIf_Buff(LastAttacked,1,4); \n     ShowVFXOnTarget(Temp,1); \n     AddStatus(LastAttacked,HP,-Target.MaxHP * 0.02); \nEndIf(); \n} ",
+        "Command": "OnStartToEndAction_Self\n{\nBeginIf_Buff(LastAttacked,1,4); \n     ShowVFXOnTarget(Temp,1); \n     AddStatus(LastAttacked,HP,-Target.MaxHP * 0.02); \nEndIf(); \n} ",
         "DescriptionContextID": 381,
         "ID": 227,
         "IsDrop": 0,
