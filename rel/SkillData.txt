@@ -1728,7 +1728,7 @@
         "Tag": "400001;400002"
     },
     {
-        "Command": "OnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill == 10035);\n          BeginIf(Random(0, 100) \u003c= 100);\n               ShowVFX(Hit22, 1);\n               CastSkill(10035);\n          EndIf();\n     EndIf();\n}",
+        "Command": "OnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill == 10035);\n          BeginIf(Random(0, 100) \u003c= 30);\n               ShowVFX(Hit22, 1);\n               CastSkill(10035);\n          EndIf();\n     EndIf();\n}",
         "DescriptionContextID": 10098,
         "ID": 10036,
         "IsDrop": 0,
