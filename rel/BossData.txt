@@ -3,7 +3,7 @@
         "AI": "CastSkill(10000);",
         "AppearanceDataID": 10001,
         "Attack": 33,
-        "Defense": 15,
+        "Defense": 9,
         "HP": 110,
         "ID": 1,
         "SP": 100,
