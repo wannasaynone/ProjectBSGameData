@@ -2847,8 +2847,8 @@
     },
     {
         "ID": 1000000,
-        "en_us": "Last updated: 2022/03/30\n\n\u003csize=32\u003e* Adjusted raid drops\u003c/size\n\n-Due to technical issues, the drop of mall items has been removed and will be added back when it is fixed.\n\nWe are sorry for the inconvenience caused to all players.\n\n------------------------------------------------\n\nCurrently open to 2. Wasteland Street",
-        "zh_tw": "最近更新日期：2022/03/30\n\n\u003csize=32\u003e* 調整掃蕩掉落內容\u003c/size\u003e\n\n-由於技術問題，移除掉落商城物品，待修正之後加回\n\n造成各位玩家不便，我們深感抱歉。\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道"
+        "en_us": "Last updated: 2022/03/30\n\n\u003csize=52\u003e* Adjusted raid drops\u003c/size\n\n-Due to technical issues, the drop of mall items has been removed and will be added back when it is fixed.\n\nWe are sorry for the inconvenience caused to all players.\n\n------------------------------------------------\n\nCurrently open to 2. Wasteland Street",
+        "zh_tw": "最近更新日期：2022/03/30\n\n\u003csize=52\u003e* 調整掃蕩掉落內容\u003c/size\u003e\n\n-由於技術問題，移除掉落商城物品，待修正之後加回\n\n造成各位玩家不便，我們深感抱歉。\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道"
     },
     {
         "ID": 3
