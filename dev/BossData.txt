@@ -222,8 +222,8 @@
     },
     {
         "AI": "CastSkill(10035);",
-        "AppearanceDataID": 10005,
-        "Attack": 1000,
+        "AppearanceDataID": 10017,
+        "Attack": 1500,
         "Defense": 500,
         "HP": 300000,
         "ID": 21,
@@ -233,19 +233,19 @@
     },
     {
         "AI": "CastSkill(10038);",
-        "AppearanceDataID": 10005,
-        "Attack": 1000,
+        "AppearanceDataID": 10018,
+        "Attack": 1500,
         "Defense": 500,
-        "HP": 300000,
+        "HP": 200000,
         "ID": 22,
         "SP": 100,
         "SkillIDs": "10033;10034;10038",
-        "Speed": 1000
+        "Speed": 2000
     },
     {
         "AI": "CastSkill(10039); ",
-        "AppearanceDataID": 10005,
-        "Attack": 1000,
+        "AppearanceDataID": 10019,
+        "Attack": 3000,
         "Defense": 500,
         "HP": 300000,
         "ID": 23,
@@ -255,8 +255,8 @@
     },
     {
         "AI": "CastSkill(10039); ",
-        "AppearanceDataID": 10005,
-        "Attack": 1000,
+        "AppearanceDataID": 10019,
+        "Attack": 3000,
         "Defense": 500,
         "HP": 300000,
         "ID": 24,
@@ -265,23 +265,25 @@
         "Speed": 1000
     },
     {
-        "AppearanceDataID": 10005,
+        "AI": "BeginIf_Buff(Self, 1, 10014);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10015);\n    BeginIf(Random(1, 100) \u003c= 30);\n       CastSkill(10045); \n       Quit();\n    EndIf();\n    CastSkill(10043); \n    Quit();\nEndIf();",
+        "AppearanceDataID": 10020,
         "Attack": 1000,
         "Defense": 500,
-        "HP": 300000,
+        "HP": 400000,
         "ID": 25,
         "SP": 100,
-        "SkillIDs": "10033;10034;152;10041;10040;10043;10044",
+        "SkillIDs": "10033;10034;10045;10042;10040;10043;10044",
         "Speed": 1000
     },
     {
-        "AppearanceDataID": 10005,
+        "AI": "BeginIf_Buff(Self, 1, 10014);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10015);\n    BeginIf(Random(1, 100) \u003c= 30);\n       CastSkill(10045); \n       Quit();\n    EndIf();\n    CastSkill(10043); \n    Quit();\nEndIf();",
+        "AppearanceDataID": 10020,
         "Attack": 1000,
         "Defense": 500,
-        "HP": 300000,
+        "HP": 400000,
         "ID": 26,
         "SP": 100,
-        "SkillIDs": "10033;10034;152;10041;10041;10043;10044",
+        "SkillIDs": "10033;10034;10045;10042;10041;10043;10044",
         "Speed": 1000
     }
 ]

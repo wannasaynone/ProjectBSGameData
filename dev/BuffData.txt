@@ -333,7 +333,7 @@
         "ID": 10014,
         "MaxAmount": 1,
         "NameContextID": 10105,
-        "Tag": 400015
+        "Tag": 400030
     },
     {
         "Command": "OnStartToTakeDamage_Self\n{\n     SetDamage(0);\n}",
@@ -341,7 +341,7 @@
         "ID": 10015,
         "MaxAmount": 1,
         "NameContextID": 10105,
-        "Tag": 400016
+        "Tag": 400030
     },
     {
         "ID": 10016,
