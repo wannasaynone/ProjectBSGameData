@@ -1,5 +1,5 @@
 {
-   "DevAccountIDs" : "499k0095@gmail.com,wannasaynone@gmail.com",
-   "UATAccountIDs" : "",
+   "DevAccountIDs" : "499k0095@gmail.com",
+   "UATAccountIDs" : "wannasaynone@gmail.com",
    "AppVersion" : "0.8.39"
 }
