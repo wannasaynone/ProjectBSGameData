@@ -1728,7 +1728,7 @@
         "Tag": "400001;400002"
     },
     {
-        "Command": "OnDamageDealed_Self\n{\n     BeginIf(Self.LastSkill == 10035);\n          BeginIf(Random(0, 100) \u003c= 100);\n               ShowVFX(Hit22, 1);\n               CastSkill(10035);\n          EndIf();\n     EndIf();\n}",
+        "Command": "OnDamageDealed_Self\n{\n     BeginIf_Skill(Self,0,10035);\n          Quit();\n     EndIf();\n\n     BeginIf(Self.LastSkill == 10035);\n          BeginIf(Random(0, 100) \u003c= 30);\n               ShowVFX(Hit22, 1);\n               CastSkill(10035);\n          EndIf();\n     EndIf();\n}",
         "DescriptionContextID": 10098,
         "ID": 10036,
         "IsDrop": 0,
@@ -1767,8 +1767,20 @@
         "Tag": "400006;400012;400016"
     },
     {
+        "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Targetl;\n0.25_SFX_DefenseBuff",
+        "Command": "OnBattleStarted\n{\n     SetPlayAnimationNext();\n     GainBuff(Self, 10014, 1t-1);\n}\nOnTurnStarted\n{\n     Record(ChooseDeity,Random (0,CombatField.OpponentUnitCount-1));\n     Record(EnemyAcount,0);\n}\n\nOnStartToEndTurn\n{\n      BeginIf_Buff(Self, 1, 10015 );\r\n             AddBuffAmount(Self, 10015 ,-99);\r\n      EndIf();\r\n      BeginIf_Buff(Self, 1, 10014 );\r\n             AddBuffAmount(Self, 10014 ,-99);\r\n      EndIf();\n   \n      BeginIf (Read(EnemyAcount) \u003c= CombatField.OpponentUnitCount-1);\n            BeginIf (Read(EnemyAcount) == Read(ChooseDeity));\n                  GainBuff(Self, 10014, 1t-1);\n            EndIf();\n            BeginIf (Read(EnemyAcount) != Read(ChooseDeity));\n                  GainBuff(Self, 10015, 1t-1);\n            EndIf;\n            Record(EnemyAcount, Read(EnemyAcount)+1); \n      EndIf();         \n}",
         "DescriptionContextID": 10106,
         "ID": 10040,
+        "IsDrop": 0,
+        "NameContextID": 10105,
+        "SP": 0,
+        "Tag": 400019
+    },
+    {
+        "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Targetl;\n0.25_SFX_DefenseBuff",
+        "Command": "OnBattleStarted\n{\n    SetPlayAnimationNext();\n    GainBuff(Self, 10015, 1t-1);\n}\n\nOnStartToEndTurn\n{\n      BeginIf_Buff(Self, 1, 10015 );\n             AddBuffAmount(Self, 10015 ,-99);\n      EndIf();\n      BeginIf_Buff(Self, 1, 10014 );\r\n             AddBuffAmount(Self, 10014 ,-99);\r\n      EndIf();\n      \n      BeginIf (Read(EnemyAcount) \u003c= CombatField.OpponentUnitCount-1);\n            BeginIf (Read(EnemyAcount) == Read(ChooseDeity));\n                  GainBuff(Self, 10014, 1t-1);\n            EndIf();\n            BeginIf (Read(EnemyAcount) != Read(ChooseDeity));\n                  GainBuff(Self, 10015, 1t-1);\n            EndIf();\n            Record(EnemyAcount, Read(EnemyAcount)+1);    \n      EndIf();\n}",
+        "DescriptionContextID": 10106,
+        "ID": 10041,
         "IsDrop": 0,
         "NameContextID": 10105,
         "SP": 0,
@@ -1778,7 +1790,7 @@
         "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_SFX_NormalHit;\n0.58_Show_Hit16_Target;",
         "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 1), Self.Attack * 1.8, 0);\n}",
         "DescriptionContextID": 10108,
-        "ID": 10041,
+        "ID": 10042,
         "IsDrop": 0,
         "NameContextID": 10107,
         "SP": 0,
@@ -1788,7 +1800,7 @@
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_DecreaseStatus",
         "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Select(Opponent, Manual, -1), 12, 1t2);\n}",
         "DescriptionContextID": 10110,
-        "ID": 10042,
+        "ID": 10043,
         "IsDrop": 0,
         "NameContextID": 10109,
         "References": "B:12",
@@ -1799,18 +1811,11 @@
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal4_Target;\n0.25_Apply;\n0.25_SFX_HealingSuper",
         "Command": "OnBattleStarted\n{\n     Record(b_reborn,0);\n}\n\nOnDamageTaken_Self\n{\n    BeginIf(Read(b_reborn)== 0)\n          BeginIf(Self.HP \u003c= Self.MaxHP * 0.3);\n               Record(b_reborn,1);\n                SetPlayAnimationNext();\n                AddStatus(Self, HP, MaxHP-HP );\n          EndIf();\n    EndIf();\n}",
         "DescriptionContextID": 10112,
-        "ID": 10043,
+        "ID": 10044,
         "IsDrop": 0,
         "NameContextID": 10111,
         "SP": 0,
         "Tag": 400019
-    },
-    {
-        "DescriptionContextID": 10114,
-        "ID": 10044,
-        "IsDrop": 0,
-        "NameContextID": 10113,
-        "SP": 0
     },
     {
         "DescriptionContextID": 10116,

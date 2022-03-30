@@ -2847,8 +2847,8 @@
     },
     {
         "ID": 1000000,
-        "en_us": "Last updated: 2022/02/27\n\nRelease the game!",
-        "zh_tw": "最近更新日期：2022/02/27\n\n發布遊戲！"
+        "en_us": "Last updated: 2022/03/28\r\n\r\nRelease the game!\r\n\r\nCurrently open to 2. Wasteland Streets",
+        "zh_tw": "最近更新日期：2022/03/28\n\n發布遊戲！\n\n目前開放至 2. 荒蕪街道"
     },
     {
         "ID": 3
