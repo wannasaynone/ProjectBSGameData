@@ -336,7 +336,7 @@
         "Tag": 400030
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     SetDamage(0);\n}",
+        "Command": "OnStartToTakeDamage_Self\n{\n     SetDamage(0);\n}\nOnDamageTaken_Self\n{\n     SetDamage(0);\n}\nOnStartToEndAction_Self\r\n{\r\n     SetDamage(0);\r\n}",
         "DescriptionContextID": 10106,
         "ID": 10015,
         "MaxAmount": 1,

@@ -594,7 +594,7 @@
         "Tag": "400013;400017"
     },
     {
-        "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400013);\n          Remember(SkillLastSelected(CurrentActor));\n          ShowVFXOnTarget(Heal1, 1.5);\n          PlaySFX(HealingSmall);\n          AddStatus(LastSelected, HP, Self.Defense * 0.25);\n    EndIf();\n}",
+        "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400013);\n          BeginIf(CurrentActor.Camp == 0);\n                Remember(SkillLastSelected(CurrentActor));\n                ShowVFXOnTarget(Heal1, 1.5);\n                PlaySFX(HealingSmall);\n                AddStatus(LastSelected, HP, Self.Defense * 0.25);\n          EndIf();\n    EndIf();\n}",
         "DescriptionContextID": 222,
         "ID": 159,
         "IsDrop": 1,
@@ -1809,7 +1809,7 @@
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal4_Target;\n0.25_Apply;\n0.25_SFX_HealingSuper",
-        "Command": "OnBattleStarted\n{\n     Record(b_reborn,0);\n}\n\nOnDamageTaken_Self\n{\n    BeginIf(Read(b_reborn)== 0)\n          BeginIf(Self.HP \u003c= Self.MaxHP * 0.3);\n               Record(b_reborn,1);\n               SetPlayAnimationNext();\n               AddStatus(Self, HP, Self.MaxHP-Self.HP );\n          EndIf();\n    EndIf();\n}",
+        "Command": "OnBattleStarted\n{\n     Record(b_reborn,0);\n}\n\nOnDamageTaken_Self\n{\n    BeginIf(Read(b_reborn)== 0);\n          BeginIf(Self.HP \u003c= Self.MaxHP * 0.3);\n               Record(b_reborn,1);\n               SetPlayAnimationNext();\n               AddStatus(Self, HP, Self.MaxHP-Self.HP);\n          EndIf();\n    EndIf();\n}",
         "DescriptionContextID": 10112,
         "ID": 10044,
         "IsDrop": 0,
