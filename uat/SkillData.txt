@@ -610,7 +610,7 @@
         "IsDrop": 1,
         "NameContextID": 223,
         "SP": 15,
-        "Tag": "400013;400019"
+        "Tag": "400013;400019;400020"
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Aura1_Target;\n0.25_SFX_Clean;\n0.25_Apply",
@@ -620,7 +620,7 @@
         "IsDrop": 1,
         "NameContextID": 225,
         "SP": 30,
-        "Tag": "400013;400019"
+        "Tag": "400013;400019;400020"
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_Clean2",
@@ -1127,7 +1127,7 @@
         "IsDrop": 1,
         "NameContextID": 343,
         "SP": 0,
-        "Tag": 400019
+        "Tag": "400019;400020"
     },
     {
         "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, (Self.MaxHP - Self.HP) / 10);\n     AddStatus(Self, Defense, (Self.MaxHP - Self.HP) / 10);\n     AddStatus(Self, Speed, (Self.MaxHP - Self.HP) / 10);\n}",

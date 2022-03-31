@@ -2227,7 +2227,7 @@
     {
         "ID": 10106,
         "en_us": "None",
-        "zh_tw": "場上的目標只有一個是本尊，只有本尊會受到傷害，在該角色回合結束時本尊會轉移到其他幻影上。"
+        "zh_tw": "場上的目標只有一個是本尊，只有本尊會受到傷害，在該角色回合結束時本尊會轉移到其他幻影上。本尊死亡時，其他幻影也會跟著死亡。"
     },
     {
         "ID": 10107,
@@ -2261,22 +2261,22 @@
     {
         "ID": 10113,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "沙之人形"
     },
     {
         "ID": 10114,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "荒漠金蠍"
     },
     {
         "ID": 10115,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "六眼沙蜘蛛"
     },
     {
         "ID": 10116,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "死亡蠕蟲"
     },
     {
         "ID": 10117,
@@ -2644,8 +2644,8 @@
     },
     {
         "ID": 400020,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "\u003c#5599ff\u003ePurify\u003c/color\u003e",
+        "zh_tw": "\u003c#5599ff\u003e淨化\u003c/color\u003e"
     },
     {
         "ID": 400021,
@@ -2847,8 +2847,8 @@
     },
     {
         "ID": 1000000,
-        "en_us": "Last updated: 2022/03/30\r\n\r\n\u003csize=52\u003e* Adjusted raid drops\u003c/size\r\n\r\n-Due to technical issues, we will temporarily remove the mall item drops and add them back after they are fixed.\r\n\r\nWe are sorry for the inconvenience caused to all players.\r\n\r\n------------------------------------------------\r\n\r\nCurrently open to 2. Wasteland Street\r\n\r\nMore content will be added later! Thank you for playing!",
-        "zh_tw": "最近更新日期：2022/03/30\n\n\u003csize=52\u003e* 調整掃蕩掉落內容\u003c/size\u003e\n\n-由於技術問題，將暫時移除掉落商城物品，待修正之後加回。\n\n造成各位玩家不便，我們深感抱歉。\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
+        "en_us": "Last updated: 2022/03/31\n\n\u003csize=52\u003e* Restored raid drops\u003c/size\n\nRestores random mall item drops during sweaping\n\n\u003csize=52\u003e* Fixed major bugs\u003c/size\n\nPreviously, when using the skill \"Sanctuary\", the game would get stuck, now fixed\n\n------------------------------------------------\n\nCurrently open to 2. Wasteland Street\n\nMore content will be added later! Thank you for playing!",
+        "zh_tw": "最近更新日期：2022/03/31\n\n\u003csize=52\u003e* 恢復掃蕩掉落內容\u003c/size\u003e\n\n恢復掃蕩時隨機掉落商城物品\n\n\u003csize=52\u003e* 修正重大Bug\u003c/size\u003e\n\n先前使用技能「聖域」時，將會發生遊戲卡死的異常，目前已修正\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
     },
     {
         "ID": 3

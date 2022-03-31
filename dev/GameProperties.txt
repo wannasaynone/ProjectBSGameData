@@ -19,6 +19,6 @@
    "OnlineCombatActionTime" : 24,
    "DropMallItemChance" : 3,
    "DropMallRareItemMultiplier" : 0.3,
-   "TagRange" : "400001~400019",
+   "TagRange" : "400001~400020",
    "DropMallItemStaminaBase" : 80
 }

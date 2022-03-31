@@ -610,7 +610,7 @@
         "IsDrop": 1,
         "NameContextID": 223,
         "SP": 15,
-        "Tag": "400013;400019"
+        "Tag": "400013;400019;400020"
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Aura1_Target;\n0.25_SFX_Clean;\n0.25_Apply",
@@ -620,7 +620,7 @@
         "IsDrop": 1,
         "NameContextID": 225,
         "SP": 30,
-        "Tag": "400013;400019"
+        "Tag": "400013;400019;400020"
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_SFX_Clean2",
@@ -1127,7 +1127,7 @@
         "IsDrop": 1,
         "NameContextID": 343,
         "SP": 0,
-        "Tag": 400019
+        "Tag": "400019;400020"
     },
     {
         "Command": "OnBattleStarted\n{\n     AddStatus(Self, Attack, (Self.MaxHP - Self.HP) / 10);\n     AddStatus(Self, Defense, (Self.MaxHP - Self.HP) / 10);\n     AddStatus(Self, Speed, (Self.MaxHP - Self.HP) / 10);\n}",
@@ -1822,7 +1822,7 @@
         "Command": "OnActived\n{\n     SetPlayAnimationNext();\n     GainBuff(Select(Opponent, Random , -1), 5, 3t3);\n}",
         "DescriptionContextID": 208,
         "ID": 10045,
-        "IsDrop": 1,
+        "IsDrop": 0,
         "NameContextID": 207,
         "References": "B:5",
         "SP": 0,
@@ -1891,7 +1891,7 @@
         "SP": 0
     },
     {
-        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Manual, 1), Self.Attack * 100, 0);\n}",
+        "Command": "OnActived\n{\n     AddBuffTimeByTag(Select(SameSide, Manual, -1), 400016, -10);\n}",
         "DescriptionContextID": 96,
         "ID": 999996,
         "IsDrop": 0,
