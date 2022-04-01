@@ -1777,7 +1777,7 @@
     {
         "ID": 10016,
         "en_us": "Increases the HP value of all friendly units other than yourself by 450% of my Defense value.",
-        "zh_tw": "增加自己以外的所有友方單位450%防禦值的生命值。"
+        "zh_tw": "增加自己以外的所有友方單位300%防禦值的生命值。"
     },
     {
         "ID": 10017,

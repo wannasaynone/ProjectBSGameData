@@ -1436,7 +1436,7 @@
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Temp_Target;\n0.25_Apply;\n0.25_SFX_HealingSmall",
-        "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    AddStatus(SelectOther(SameSide, Random, -1), HP, Self.Defense * 4.5);\n}",
+        "Command": "OnActived\n{\n    SetPlayAnimationNext();\n    AddStatus(SelectOther(SameSide, Random, -1), HP, Self.Defense * 3);\n}",
         "DescriptionContextID": 10016,
         "ID": 10006,
         "IsDrop": 0,
