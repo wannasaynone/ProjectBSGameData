@@ -1753,6 +1753,7 @@
         "ID": 10038,
         "IsDrop": 0,
         "NameContextID": 10101,
+        "References": "B:5",
         "SP": 0,
         "Tag": "400006;400012;400016"
     },
@@ -1763,6 +1764,7 @@
         "ID": 10039,
         "IsDrop": 0,
         "NameContextID": 10103,
+        "References": "B:5",
         "SP": 0,
         "Tag": "400006;400012;400016"
     },
@@ -1788,7 +1790,7 @@
     },
     {
         "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_SFX_NormalHit;\n0.58_Show_Hit16_Target;",
-        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 1), Self.Attack * 1.8, 0);\n}",
+        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, -1), Self.Attack * 1.8, 0);\n}",
         "DescriptionContextID": 10108,
         "ID": 10042,
         "IsDrop": 0,
