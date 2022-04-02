@@ -2206,8 +2206,8 @@
     },
     {
         "ID": 10102,
-        "en_us": "Deals 130% Attack damage to 1 enemy unit, and has a 70% chance to give \"Poison\" to the target for 3 turns.",
-        "zh_tw": "對1個敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
+        "en_us": "Deals 130% Attack damage to 1 random enemy unit, and has a 70% chance to give \"Poison\" to the target for 3 turns.",
+        "zh_tw": "對1個隨機敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
     },
     {
         "ID": 10103,
@@ -2216,8 +2216,8 @@
     },
     {
         "ID": 10104,
-        "en_us": "Deals 130% attack damage to 2 enemy units and has a 70% chance to give \"Poison\" to the target for 3 turns.",
-        "zh_tw": "對2個敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
+        "en_us": "Deals 130% attack damage to 2 random enemy units and has a 70% chance to give \"Poison\" to the target for 3 turns.",
+        "zh_tw": "對2個隨機敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
     },
     {
         "ID": 10105,
@@ -2236,8 +2236,8 @@
     },
     {
         "ID": 10108,
-        "en_us": "Deals 180% of the Attack value to all enemy units.",
-        "zh_tw": "對所有敵方單位造成180%攻擊值的傷害。"
+        "en_us": "Deals 180% of the Attack value to 1 random enemy unit.",
+        "zh_tw": "對1個隨機敵方單位造成180%攻擊值的傷害。"
     },
     {
         "ID": 10109,
@@ -2510,42 +2510,42 @@
     },
     {
         "ID": 300020,
-        "en_us": "None",
+        "en_us": "Humanoid of Sand",
         "zh_tw": "沙之人形"
     },
     {
         "ID": 300021,
-        "en_us": "None",
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e)\r\nThere are many humanoid creatures made of sand and gravel here.\r\nThey wander around in the desert as if they are looking for something.\r\nMaybe there are some secrets hidden deep in the desert.",
         "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e)\n這裡有許多由沙礫所構成的人形生物。\n它們在沙漠中到處徘徊，像是在找尋甚麼東西似的。\n或許沙漠深處還隱藏著一些秘密。"
     },
     {
         "ID": 300022,
-        "en_us": "None",
+        "en_us": "Dangerous Creatures",
         "zh_tw": "危險生物"
     },
     {
         "ID": 300023,
-        "en_us": "None",
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e)\r\nWith its golden appearance, the Desert Gold Scorpion has excellent concealment in the desert.\r\nIt should look good on the outside of your defense gear.\r\nBut beware of the poison in their tails.",
         "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e)\n荒漠金蠍有著金燦燦的外表，在沙漠中有極佳的隱蔽性。\n拿來做在防具的外部應該很不錯。\n但是要小心它們尾部的劇毒。"
     },
     {
         "ID": 300024,
-        "en_us": "None",
+        "en_us": "High Temperature and Phantom",
         "zh_tw": "高溫與幻影"
     },
     {
         "ID": 300025,
-        "en_us": "None",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：5 / 10\u003c/color\u003e)\n熱。\n越是深入荒漠之中越是炎熱，永遠也無法習慣。\n而且你好像開始出現了幻覺......。"
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 5 / 10\u003c/color\u003e)\r\nHeat.\r\nThe deeper you go into the desert the hotter it gets and you never get used to it.\r\nAnd you seem to be starting to hallucinate ......",
+        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：5 / 10\u003c/color\u003e)\n熱。\n越是深入荒漠之中越是炎熱，永遠也無法習慣。\n而且你好像開始出現了幻覺......"
     },
     {
         "ID": 300026,
-        "en_us": "None",
+        "en_us": "Dune",
         "zh_tw": "沙丘"
     },
     {
         "ID": 300027,
-        "en_us": "None",
+        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e)\r\nThere should have been a huge oasis here.\r\nIs it due to environmental changes or something else?",
         "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e)\n這裡原先應該有一個巨大的綠洲。\n是因為環境變化，還是其他原因。"
     },
     {
