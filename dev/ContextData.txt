@@ -2177,7 +2177,7 @@
     {
         "ID": 10096,
         "en_us": "Deals 150% Attack damage to 1 random enemy unit, ignoring defenses.",
-        "zh_tw": "對1個隨機的敵方單位造成150%攻擊值的傷害，無視防禦。"
+        "zh_tw": "根據仇恨值比例，對1個隨機的敵方單位造成150%攻擊值的傷害，無視防禦。"
     },
     {
         "ID": 10097,
