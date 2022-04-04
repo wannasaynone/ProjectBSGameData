@@ -3621,8 +3621,8 @@
     },
     {
         "ID": 1000154,
-        "en_us": "Click here to check character info",
-        "zh_tw": "點擊此處確認角色資訊"
+        "en_us": "Click panel to check character info\nTry to level up 2 characters to 11",
+        "zh_tw": "點擊上方方格可以確認角色資訊\n嘗試將兩個角色都升級到11"
     },
     {
         "ID": 1000155,
