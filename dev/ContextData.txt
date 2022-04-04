@@ -3640,6 +3640,11 @@
         "zh_tw": "進行下一場戰鬥！"
     },
     {
+        "ID": 1000158,
+        "en_us": "Please go to upgrade another character\r\nor start the next battle!\r\n\r\n* After that, you can freely upgrade up to level 100.",
+        "zh_tw": "請前往升級另一隻角色\n或開始進行下一場戰鬥！\n\n* 之後可以自由升級至最高100級"
+    },
+    {
         "ID": 2000001,
         "en_us": "When you dismantle a unit, half of the unit experience will be returned.",
         "zh_tw": "分解角色時，會返回該角色的一半經驗值。"
