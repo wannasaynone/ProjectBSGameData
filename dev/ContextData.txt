@@ -2177,7 +2177,7 @@
     {
         "ID": 10096,
         "en_us": "Deals 150% Attack damage to 1 random enemy unit, ignoring defenses.",
-        "zh_tw": "對1個隨機的敵方單位造成150%攻擊值的傷害，無視防禦。"
+        "zh_tw": "根據仇恨值比例，對1個隨機的敵方單位造成150%攻擊值的傷害，無視防禦。"
     },
     {
         "ID": 10097,
@@ -3618,6 +3618,26 @@
         "ID": 1000153,
         "en_us": "Can not equip the same skills",
         "zh_tw": "不可裝備相同的技能"
+    },
+    {
+        "ID": 1000154,
+        "en_us": "Click here to check character info",
+        "zh_tw": "點擊此處確認角色資訊"
+    },
+    {
+        "ID": 1000155,
+        "en_us": "Click here to level up\nTry level up to Lv. 11",
+        "zh_tw": "點擊這裡升級\n嘗試升級到11"
+    },
+    {
+        "ID": 1000156,
+        "en_us": "Click here to close panel",
+        "zh_tw": "點擊此處關閉面板"
+    },
+    {
+        "ID": 1000157,
+        "en_us": "Go next battle!",
+        "zh_tw": "進行下一場戰鬥！"
     },
     {
         "ID": 2000001,

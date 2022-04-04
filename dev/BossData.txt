@@ -47,13 +47,13 @@
     {
         "AI": "BeginIf_Buff(Self, 1, 10003);\n    CastSkill(10014);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10004);\n    CastSkill(10016);\n    Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10005);\n    CastSkill(10019);\n    Quit();\nEndIf();\n\nRandomCastSkill(10003);",
         "AppearanceDataID": 10004,
-        "Attack": 1400,
-        "Defense": 1400,
-        "HP": 28000,
+        "Attack": 700,
+        "Defense": 350,
+        "HP": 14000,
         "ID": 5,
         "SP": 100,
         "SkillIDs": "10013;10015;10018;10014;10016;10017;10019",
-        "Speed": 1400
+        "Speed": 700
     },
     {
         "AI": "CastSkill(10023);",
