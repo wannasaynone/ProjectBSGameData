@@ -229,6 +229,14 @@
         "Tag": 400015
     },
     {
+        "Command": "OnDeactived\r\n{\r\nReplaceSkill(237,238); \r\n} ",
+        "DescriptionContextID": 403,
+        "ID": 116,
+        "MaxAmount": 1,
+        "NameContextID": 402,
+        "Tag": 400019
+    },
+    {
         "Command": "OnAttackEnded_Self\n{\n   BeginIf(Random(1,100) \u003c= 45);\n     Remember(LastAttacked);\n     ShowVFXOnTarget(Fog1, 2);\n     PlaySFX(Posion);\n     GainBuff(LastAttacked, 5, 1t2);\n   EndIf();\n\n  BeginIf(Random(1, 100) \u003c= 30);\n    ShowVFX(Temp, 2);\n    GainBuff(Self, 10, 1t1);\n    PlaySFX(AddStatus);\n    AddExtraAction(Self, 1);\n  EndIf();\n}",
         "DescriptionContextID": 10004,
         "ID": 10001,

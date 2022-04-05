@@ -1394,7 +1394,7 @@
     },
     {
         "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Hit16_Target;\r\n0.58_SFX_NormalHit",
-        "Command": "OnActived\r\n{\r\nDealDamage(Select(Opponent,Manual,1),Self.MaxHP * 0.3,0); \r\nReplaceSkill(238,236); \r\n} ",
+        "Command": "OnActived\n{\nDealDamage(Select(Opponent,Manual,1),Self.MaxHP * 0.6,0); \nReplaceSkill(238,236); \n} ",
         "DescriptionContextID": 405,
         "ID": 238,
         "IsDrop": 0,

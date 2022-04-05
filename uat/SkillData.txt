@@ -1375,6 +1375,70 @@
         "Tag": 400019
     },
     {
+        "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Targetl;\r\n0.25_SFX_DefenseBuff",
+        "Command": "OnActived\n{\nSetPlayAnimationNext(); \nRemember(Select(Self, Manual, 1));\nReplaceSkill(236,237); \nGainBuff(Self,116,1t3); \n} ",
+        "DescriptionContextID": 401,
+        "ID": 236,
+        "IsDrop": 0,
+        "NameContextID": 400,
+        "References": "B:116;S:238",
+        "SP": 0,
+        "Tag": "400019;400030"
+    },
+    {
+        "DescriptionContextID": 10073,
+        "ID": 237,
+        "IsDrop": 0,
+        "NameContextID": 402,
+        "SP": 0
+    },
+    {
+        "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Hit16_Target;\r\n0.58_SFX_NormalHit",
+        "Command": "OnActived\n{\nDealDamage(Select(Opponent,Manual,1),Self.MaxHP * 0.6,0); \nReplaceSkill(238,236); \n} ",
+        "DescriptionContextID": 405,
+        "ID": 238,
+        "IsDrop": 0,
+        "NameContextID": 404,
+        "SP": 0,
+        "Tag": "400002;400004"
+    },
+    {
+        "Command": "OnStartToEndAction_Self\n{\nBeginIf(Self.LastSkill == 236); \nAddBuffTime(Self,116,-1); \nShowVFX(Temp, 1);\nEndIf(); \n} ",
+        "DescriptionContextID": 407,
+        "ID": 239,
+        "IsDrop": 0,
+        "NameContextID": 406,
+        "SP": 0,
+        "Tag": 400013
+    },
+    {
+        "Command": "OnDamageCalculated_Self\n{\nBeginIf(Self.LastSkill == 238);\nShowVFX(Buff2, 1);\r\nPlaySFX(AddStatus); \nAddDamage(30%); \nEndIf(); \n} ",
+        "DescriptionContextID": 409,
+        "ID": 240,
+        "IsDrop": 0,
+        "NameContextID": 408,
+        "SP": 0,
+        "Tag": 400013
+    },
+    {
+        "Command": "OnStartToTakeDamage_Self\n{\nBeginIf_Buff(Self,1,116); \nShowVFX(EnergyWall1, 1);\r\nPlaySFX(Protection);\nAddDamage(-20%); \nEndIf(); \n} \n\nOnDamageTaken_Self\n{\nBeginIf_Buff(Self,1,116); \nBeginIf(Random(0, 100) \u003c= 60); \nAddBuffTime(Self,116,-1); \nEndIf(); \n} ",
+        "DescriptionContextID": 411,
+        "ID": 241,
+        "IsDrop": 0,
+        "NameContextID": 410,
+        "SP": 0,
+        "Tag": 400013
+    },
+    {
+        "Command": "OnStartToEndAction_Self\n{\nBeginIf(Self.LastSkill == 236); \nAddStatus(Self, Hatred, Self.Defense * 3);\nAddBuffTime(Self,116,-1); \r\nShowVFX(Temp, 1);\nEndIf(); \n} ",
+        "DescriptionContextID": 413,
+        "ID": 242,
+        "IsDrop": 0,
+        "NameContextID": 412,
+        "SP": 0,
+        "Tag": 400013
+    },
+    {
         "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_SFX_NormalHit",
         "Command": "OnActived\n{\n     DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1, 0);\n}\n\nOnDamageDealed_Self\n{\n     BeginIf(Target.HP \u003c= 0);\n         SetStatus(Select(Opponent, Random, -1), HP, 1);\n     EndIf();\n}",
         "DescriptionContextID": 10002,
