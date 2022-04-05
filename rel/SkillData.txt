@@ -594,7 +594,7 @@
         "Tag": "400013;400017"
     },
     {
-        "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400013);\n          Remember(SkillLastSelected(CurrentActor));\n          ShowVFXOnTarget(Heal1, 1.5);\n          PlaySFX(HealingSmall);\n          AddStatus(LastSelected, HP, Self.Defense * 0.25);\n    EndIf();\n}",
+        "Command": "OnStartToEndAction_Other\n{\n     BeginIf_LastSkillTag(CurrentActor, 1, 400013);\n          BeginIf(CurrentActor.Camp == 0);\n                Remember(SkillLastSelected(CurrentActor));\n                ShowVFXOnTarget(Heal1, 1.5);\n                PlaySFX(HealingSmall);\n                AddStatus(LastSelected, HP, Self.Defense * 0.25);\n          EndIf();\n    EndIf();\n}",
         "DescriptionContextID": 222,
         "ID": 159,
         "IsDrop": 1,
