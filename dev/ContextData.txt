@@ -1700,6 +1700,76 @@
         "zh_tw": "對目前正在行動的單位造成220%攻擊值的傷害，之後使自己的生命值變為0。"
     },
     {
+        "ID": 400,
+        "en_us": "Wooden Pile Cannon Strike Fill",
+        "zh_tw": "木樁炮擊填充"
+    },
+    {
+        "ID": 401,
+        "en_us": "Replace this skill with \"Ready for Wooden Pile Artillery\" and give yourself the \"Ready for Wooden Pile Artillery\" buff for 3 turns.",
+        "zh_tw": "將這個技能替換成「木樁炮擊準備中」，並給予自己持續3回合的「木樁炮擊準備中」狀態。"
+    },
+    {
+        "ID": 402,
+        "en_us": "Ready for Wooden Pile Strike ",
+        "zh_tw": "木樁炮擊準備中"
+    },
+    {
+        "ID": 403,
+        "en_us": "When the buff is removed, replace the skill \"Ready for Wooden Pile Strike \" with \"Wooden Pile Cannon Strike\".",
+        "zh_tw": "狀態消除時，將技能「木樁炮擊準備中」替換成「木樁炮擊」。"
+    },
+    {
+        "ID": 404,
+        "en_us": "Wooden Pile Cannon Strike",
+        "zh_tw": "木樁炮擊"
+    },
+    {
+        "ID": 405,
+        "en_us": "Deals 30% of Max HP damage to 1 enemy unit. This skill is then replaced with \"Wooden Pile Cannon Strike Fill\".",
+        "zh_tw": "對1個敵方單位造成30%最大生命值的傷害。其後將這個技能替換為「木樁炮擊填充」。"
+    },
+    {
+        "ID": 406,
+        "en_us": "Accelerated Fill",
+        "zh_tw": "加速填充"
+    },
+    {
+        "ID": 407,
+        "en_us": "When \"Wooden Pile Cannon Strike Fill\" is applied, the number of turns that \"Ready for Wooden Pile Strike \" lasts is reduced by 1.",
+        "zh_tw": "施展「木樁炮擊填充」後，使「木樁炮擊準備中」持續回合數減少1。"
+    },
+    {
+        "ID": 408,
+        "en_us": "Pile Shot Reinforcement",
+        "zh_tw": "木樁炮擊強化"
+    },
+    {
+        "ID": 409,
+        "en_us": "Increases damage dealt with \"Wooden Pile Cannon Strike\" by 30%.",
+        "zh_tw": "使用「木樁炮擊」造成傷害時，使造成的傷害增加30%。"
+    },
+    {
+        "ID": 410,
+        "en_us": "Emergency Acceleration Device",
+        "zh_tw": "緊急加速裝置"
+    },
+    {
+        "ID": 411,
+        "en_us": "If you have \"Ready for Wooden Pile Strike\" when you are about to take damage, the damage taken is reduced by 20%. When damage is dealt, there is a 60% chance that the number of turns of \"Ready for Wooden Pile Strike\" will be reduced by 1.",
+        "zh_tw": "將受到傷害時，若擁有「木樁炮擊準備中」，使受到的傷害減少20%。受到傷害後，有60%的機率使「木樁炮擊準備中」持續回合數減少1。"
+    },
+    {
+        "ID": 412,
+        "en_us": "Awareness of Giant Wooden Guards",
+        "zh_tw": "巨型木造守衛的意識"
+    },
+    {
+        "ID": 413,
+        "en_us": "When you cast \"Wooden Pile Cannon Attack Fill\", your Hatred value increases by 300% of your Defense value. Subsequently, the number of turns that \"Ready for Wooden Pile Strike\" lasts is reduced by 1.",
+        "zh_tw": "施展「木樁炮擊填充」後，使自己的仇恨值增加相當於300%防禦值的值。其後使「木樁炮擊準備中」持續回合數減少1。"
+    },
+    {
         "ID": 10001,
         "en_us": "Rodent Bite",
         "zh_tw": "嚙咬"
