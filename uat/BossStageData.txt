@@ -159,7 +159,7 @@
         "AreaID": 2,
         "BossIDs": "19;20;19",
         "DescriptionContextID": 300019,
-        "DropData": "238:10;239:10;240:10;241:10;242:10",
+        "DropData": "236:10;239:10;240:10;241:10;242:10",
         "FrontStageIDs": 7,
         "ID": 12,
         "Index": 4,
