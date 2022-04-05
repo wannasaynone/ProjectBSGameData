@@ -1376,7 +1376,7 @@
     },
     {
         "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Targetl;\r\n0.25_SFX_DefenseBuff",
-        "Command": "OnActived\r\n{\r\nSetPlayAnimationNext(); \r\nReplaceSkill(236,237); \r\nGainBuff(Self,116,1t3); \r\n} ",
+        "Command": "OnActived\n{\nSetPlayAnimationNext(); \nRemember(Select(Self, Manual, 1));\nReplaceSkill(236,237); \nGainBuff(Self,116,1t3); \n} ",
         "DescriptionContextID": 401,
         "ID": 236,
         "IsDrop": 0,
