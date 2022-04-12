@@ -1771,58 +1771,52 @@
     },
     {
         "ID": 10001,
-        "en_us": "Rodent Bite",
-        "zh_tw": "嚙咬"
+        "en_us": "Magic Core Takarun MK.I",
+        "zh_tw": "魔法核心高崙 MK.I"
     },
     {
         "ID": 10002,
-        "en_us": "Deals 100% Attack value damage to the enemy unit with the highest Hatred value.",
-        "zh_tw": "對仇恨值最高的敵方單位造成100%攻擊值的傷害。"
+        "en_us": "Train with Attack Device",
+        "zh_tw": "訓練用攻擊裝置"
     },
     {
         "ID": 10003,
-        "en_us": "Chemical Hormone",
-        "zh_tw": "化學激素"
+        "en_us": "Inflicts 30% of the Attack value of an enemy unit. If the target does not have \"Defense Up\", the damage dealt is increased by 10,000 points.",
+        "zh_tw": "對1個敵方單位造成30%攻擊值的傷害。目標沒有「防禦值上升」時，增加造成的傷害10,000點。"
     },
     {
         "ID": 10004,
-        "en_us": "After attacking, there is a 15% chance of giving the target a 2-turn \"Poison\". There is also a 30% chance that you will immediately take an additional action and give yourself \"Attack Down\" for 1 turn.",
-        "zh_tw": "攻擊後，有15%的機率給予目標1個持續2回合的「中毒」。另有30%的機率立即追加行動，並給予自己持續1回合的「攻擊破壞」。"
+        "en_us": "Training Defense Device",
+        "zh_tw": "訓練用防禦裝置"
     },
     {
         "ID": 10005,
-        "en_us": "Wildness",
-        "zh_tw": "野性"
+        "en_us": "When damage is about to be dealt, if the attacker does not have \"Defense Up\", the damage dealt becomes 1.",
+        "zh_tw": "將受到傷害時，若攻擊方沒有「防禦值上升」，使受到的傷害變為1。"
     },
     {
         "ID": 10006,
-        "en_us": "After receiving damage, if HP value is below 50% of Max HP, increase Attack value and Speed value by 30% and decrease Defense value by 30%.",
-        "zh_tw": "受到傷害後，若生命值低於50%，增加攻擊值與速度值30%，減少防禦值30%。"
+        "en_us": "Magic Core Takarun MK.II",
+        "zh_tw": "魔法核心高崙 MK.II"
     },
     {
         "ID": 10007,
-        "en_us": "Continuous Grab",
-        "zh_tw": "連抓"
+        "en_us": "Training Defense Device II",
+        "zh_tw": "訓練用防禦裝置 II"
     },
     {
         "ID": 10008,
-        "en_us": "Deals 150% Attack value damage to the enemy unit with the highest Hatred value. After attacking, there is a 60% chance of using \"Combo Grab\". Up to 3 times.",
-        "zh_tw": "對仇恨值最高的敵方單位造成150%攻擊值的傷害。攻擊後，有60%的機率追加使用「連抓」，最多3次。"
+        "en_us": "When damage is about to be dealt, if the attacker does not have \"Attack Up\", the damage dealt becomes 1.",
+        "zh_tw": "將受到傷害時，若攻擊方沒有「攻擊值上升」，使受到的傷害變為1。"
     },
     {
-        "ID": 10009,
-        "en_us": "Continuous Catch (Two Strikes)",
-        "zh_tw": "連抓（二連擊）"
+        "ID": 10009
     },
     {
-        "ID": 10010,
-        "en_us": "Continuous Catch (Triple Strike)",
-        "zh_tw": "連抓（三連擊）"
+        "ID": 10010
     },
     {
-        "ID": 10011,
-        "en_us": "Sewer Rats",
-        "zh_tw": "下水道老鼠"
+        "ID": 10011
     },
     {
         "ID": 10012,
@@ -2486,43 +2480,43 @@
     },
     {
         "ID": 300001,
-        "en_us": "Sewer Rat",
-        "zh_tw": "下水道老鼠"
+        "en_us": "Training Level 1",
+        "zh_tw": "訓練關卡一"
     },
     {
         "ID": 300002,
-        "en_us": "Suggested Level: Lv. 1\nA common underground waterway rat is blocking your way.",
-        "zh_tw": "建議等級：Lv. 1\n一隻普通的地下水道老鼠，阻擋了你的去路。"
+        "en_us": "Easy training level, where you will learn to face death.",
+        "zh_tw": "簡易訓練關卡，您將在這裡學習面對死亡。"
     },
     {
         "ID": 300003,
-        "en_us": "Guard Robot Type 30001",
-        "zh_tw": "守衛機器人30001型"
+        "en_us": "Training Level 2",
+        "zh_tw": "訓練關卡二"
     },
     {
         "ID": 300004,
-        "en_us": "Recommended level: Lv. 10\nThe two mechanical guards standing in front of the archway.\nThe program is still running despite the fact that there are no more guards left.",
-        "zh_tw": "建議等級：Lv. 10\n站立在拱門前的兩名機械守衛。\n儘管早已沒了看守的對象，但程式依然在運轉。"
+        "en_us": "Easy training level, where you will learn to face death.",
+        "zh_tw": "簡易訓練關卡，您將在這裡學習面對死亡。"
     },
     {
         "ID": 300005,
-        "en_us": "A Bunch of Sewer Rats",
-        "zh_tw": "一群下水道老鼠"
+        "en_us": "Training Level 3",
+        "zh_tw": "訓練關卡三"
     },
     {
         "ID": 300006,
-        "en_us": "Recommended level: Lv. 20\nThe new ruler of the deserted city is a bunch of rats.\nYou are not surprised by this. Yes, one rat is weak. What about a pack?",
-        "zh_tw": "建議等級：Lv. 20\n在荒蕪的城市裡面建立新統治權的，是一群老鼠。\n你對此毫不意外。是的，一隻老鼠很弱。那，一群呢？"
+        "en_us": "Easy training level, where you will learn to face death.",
+        "zh_tw": "簡易訓練關卡，您將在這裡學習面對死亡。"
     },
     {
         "ID": 300007,
-        "en_us": "Ancient Core Goren",
-        "zh_tw": "古代核心高崙"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 300008,
-        "en_us": "Recommended level: Lv. 40\nLumino has built a camp in the center of the city according to your instructions.\nAnd the violent energy wave of the change triggered the ancient core of the sleeping Goren.",
-        "zh_tw": "建議等級：Lv. 40\n魯米諾依照你的指令，在城市的中心建造了營地。\n而變動劇烈的能量波觸發了沉睡的古代核心高崙。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 300009,
@@ -2531,8 +2525,8 @@
     },
     {
         "ID": 300010,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e)\nActing based on the energy source known locally as \"magic\".\nUsually only simple commands can be performed, such as eliminating external enemies.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e)\n以被當地人稱為「魔法」的能源作為核心運作。\n通常只能執行簡單的指令，例如排除外敵。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e"
     },
     {
         "ID": 300011,
@@ -2541,8 +2535,8 @@
     },
     {
         "ID": 300012,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e)\nWooden guards are available in different sizes.\nThe reason for this is yet to be investigated, perhaps magic\" is not a free source of energy here.\nIt's like electricity power source for us.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e)\n木造守衛有體型之分。\n原因尚待調查，或許「魔法」在這裡並不是免費的能源。\n就像是我們的電源。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e"
     },
     {
         "ID": 300013,
@@ -2551,8 +2545,8 @@
     },
     {
         "ID": 300014,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e)\nThe wooden guards that should be used to defend against foreign enemies are wandering around the streets.\nMaybe there was an invasion, a war.\nOr maybe it simply got out of hand.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e)\n應該用來抵禦外敵的木造守衛卻在街道各處遊走，\n或許這裡曾經發生過一場入侵，一場戰爭。\n或者只是單純的失控。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e"
     },
     {
         "ID": 300015,
@@ -2561,8 +2555,8 @@
     },
     {
         "ID": 300016,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 3 / 10\u003c/color\u003e)\nWooden guards of unusually large size appear in the deepest part.\nNo habit of wandering patrol, just standing there.\nIf you do not insist on approaching, there seems to be no active attack setting.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：3 / 10\u003c/color\u003e)\n尺寸異常巨大的木造守衛出現在最深處。\n沒有遊走巡邏的習慣，僅僅是在那裡站立著。\n若不堅持接近的話，似乎沒有主動攻擊的設定。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 3 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：3 / 10\u003c/color\u003e"
     },
     {
         "ID": 300017,
@@ -2575,8 +2569,8 @@
     },
     {
         "ID": 300019,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e)\n[Twice the Exp].\nHigh difficulty level.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e)\n[兩倍經驗]\n高難度關卡。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e [Twice the Exp].",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e [兩倍經驗]"
     },
     {
         "ID": 300020,
@@ -2585,8 +2579,8 @@
     },
     {
         "ID": 300021,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e)\r\nThere are many humanoid creatures made of sand and gravel here.\r\nThey wander around in the desert as if they are looking for something.\r\nMaybe there are some secrets hidden deep in the desert.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e)\n這裡有許多由沙礫所構成的人形生物。\n它們在沙漠中到處徘徊，像是在找尋甚麼東西似的。\n或許沙漠深處還隱藏著一些秘密。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
     },
     {
         "ID": 300022,
@@ -2595,8 +2589,8 @@
     },
     {
         "ID": 300023,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e)\r\nWith its golden appearance, the Desert Gold Scorpion has excellent concealment in the desert.\r\nIt should look good on the outside of your defense gear.\r\nBut beware of the poison in their tails.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e)\n荒漠金蠍有著金燦燦的外表，在沙漠中有極佳的隱蔽性。\n拿來做在防具的外部應該很不錯。\n但是要小心它們尾部的劇毒。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
     },
     {
         "ID": 300024,
@@ -2605,8 +2599,8 @@
     },
     {
         "ID": 300025,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 5 / 10\u003c/color\u003e)\r\nHeat.\r\nThe deeper you go into the desert the hotter it gets and you never get used to it.\r\nAnd you seem to be starting to hallucinate ......",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：5 / 10\u003c/color\u003e)\n熱。\n越是深入荒漠之中越是炎熱，永遠也無法習慣。\n而且你好像開始出現了幻覺......"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 5 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：5 / 10\u003c/color\u003e"
     },
     {
         "ID": 300026,
@@ -2615,8 +2609,8 @@
     },
     {
         "ID": 300027,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e)\r\nThere should have been a huge oasis here.\r\nIs it due to environmental changes or something else?",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e)\n這裡原先應該有一個巨大的綠洲。\n是因為環境變化，還是其他原因。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e"
     },
     {
         "ID": 400001,
@@ -2918,8 +2912,8 @@
     },
     {
         "ID": 1000000,
-        "en_us": "Last updated: 2022/04/05\r\n\r\n\u003csize=52\u003e* New Skills Added\u003c/size\u003e\r\n\r\nA series of interesting unique skills will now drop in \"2. Wasteland Streets\"\r\n\r\n------------------------------------------------\r\n\r\nCurrently open to 2. Streets of Desolation\r\n\r\nMore content will be added later! Thank you for playing!",
-        "zh_tw": "最近更新日期：2022/04/05\n\n\u003csize=52\u003e* 新增技能\u003c/size\u003e\n\n現在在「2. 荒蕪街道」將掉落一系列有趣的獨特技能\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
+        "en_us": "Last updated: 2022/04/06\n\n\u003csize=52\u003e* Pausing Update\u003c/size\u003e\n\nThank you for your participation!\n\nNext will spend more time on the optimization of the game, the content of the update may be temporarily paused, sorry about that\n\nAnd we will be back soon\n\n------------------------------------------------\n\nCurrently open to 2. Streets of Desolation\n\nMore content will be added later! Thank you for playing!",
+        "zh_tw": "最近更新日期：2022/04/06\n\n\u003csize=52\u003e* 暫停更新公告\u003c/size\u003e\n\n感謝大家的參與\n\n接下來會花較多時間進行遊戲的優化，內容的更新可能會暫時更新，還請大家見諒\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
     },
     {
         "ID": 3
@@ -2996,8 +2990,8 @@
     },
     {
         "ID": 1000015,
-        "en_us": "\u003c#ff6347\u003eSweep\u003c/color\u003e",
-        "zh_tw": "\u003c#ff6347\u003e點擊掃蕩\u003c/color\u003e"
+        "en_us": "Sweep",
+        "zh_tw": "掃蕩"
     },
     {
         "ID": 1000016,
@@ -3256,8 +3250,8 @@
     },
     {
         "ID": 1000067,
-        "en_us": "[Long press to confirm special drop]",
-        "zh_tw": "[長按確認特殊掉落]"
+        "en_us": "Special Drop",
+        "zh_tw": "特殊掉落"
     },
     {
         "ID": 1000068,
@@ -3266,8 +3260,8 @@
     },
     {
         "ID": 1000069,
-        "en_us": "- Raid cleared levels to gain skills and EXP\n\n- Go to the character page and use EXP to upgrade heroes\n\n- Configure your team and skills according to the characteristics of the Demon King\n\n- Go to the store to get more powerful characters and more skills",
-        "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能\n\n- 前往商店取得更強力的角色與更多技能"
+        "en_us": "可用ID",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 1000070,
@@ -3671,8 +3665,8 @@
     },
     {
         "ID": 1000150,
-        "en_us": "Well done, researcher.\r\nYou have successfully established a foothold and have all the knowledge of the battle.\r\nThis will be our last communication.\r\nPlease complete your mission: complete the investigation of all areas to follow.",
-        "zh_tw": "做得好，研究員。\n你已經成功建立據點，擁有對戰鬥的一切知識。\n這將會是我們最後一次通訊。\n請完成你的任務：完成接下來所有區域的調查。"
+        "en_us": "Well done, researcher.\r\nYou have everything you need to know about the battle.\r\nThis will be our last communication.\r\nPlease complete your mission: remove all enemies.",
+        "zh_tw": "做得好，研究員。\n你已經擁有對戰鬥的一切知識。\n這將會是我們最後一次通訊。\n請完成你的任務：清除所有敵人。"
     },
     {
         "ID": 1000151,
@@ -3691,13 +3685,13 @@
     },
     {
         "ID": 1000154,
-        "en_us": "Click panel to check character info\nTry to level up 2 characters to 11",
-        "zh_tw": "點擊面板確認角色資訊\n嘗試將兩個角色都升級到11"
+        "en_us": "Click on the panel to \nconfirm character information\nTry to equip skills for your character",
+        "zh_tw": "點擊面板確認角色資訊\n嘗試替腳色裝備技能"
     },
     {
         "ID": 1000155,
-        "en_us": "Click here to level up\nTry level up to Lv. 11",
-        "zh_tw": "點擊這裡升級\n嘗試升級到11"
+        "en_us": "Click here to start equipping skills",
+        "zh_tw": "點擊這裡開始裝備技能"
     },
     {
         "ID": 1000156,
@@ -3705,14 +3699,119 @@
         "zh_tw": "點擊此處關閉面板"
     },
     {
-        "ID": 1000157,
-        "en_us": "Go next battle!",
-        "zh_tw": "進行下一場戰鬥！"
+        "ID": 1000158,
+        "en_us": "Play the next battle\r\nGet more unique characters",
+        "zh_tw": "進行下一場戰鬥\n獲得更多獨特角色"
     },
     {
-        "ID": 1000158,
-        "en_us": "Please go to upgrade another character\r\nor start the next battle!\r\n\r\n* After that, you can freely upgrade up to level 100.",
-        "zh_tw": "請前往升級另一隻角色\n或開始進行下一場戰鬥！\n\n* 之後可以自由升級至最高100級"
+        "ID": 1000159,
+        "en_us": "INFO",
+        "zh_tw": "資訊"
+    },
+    {
+        "ID": 1000160,
+        "en_us": "This level does not have special drop skills",
+        "zh_tw": "本關卡沒有特殊掉落技能"
+    },
+    {
+        "ID": 1000161,
+        "en_us": "Click to confirm skills",
+        "zh_tw": "點擊確認技能"
+    },
+    {
+        "ID": 1000162,
+        "en_us": "Buff",
+        "zh_tw": "狀態"
+    },
+    {
+        "ID": 1000163,
+        "en_us": "No holding skills",
+        "zh_tw": "沒有持有技能"
+    },
+    {
+        "ID": 1000164,
+        "en_us": "No holding buffs",
+        "zh_tw": "沒有持有狀態"
+    },
+    {
+        "ID": 1500000,
+        "en_us": "Welcome, researcher.",
+        "zh_tw": "歡迎，研究員。"
+    },
+    {
+        "ID": 1500001,
+        "en_us": "Welcome to the Remote Combat System.",
+        "zh_tw": "歡迎使用遠端戰鬥系統。"
+    },
+    {
+        "ID": 1500002,
+        "en_us": "Here you will learn to control android to eliminate enemies \nso that our field personnel can explore safely.",
+        "zh_tw": "您將在這裡學習操作安卓清除敵人，\n讓我們的現場人員可以安全地進行探索。"
+    },
+    {
+        "ID": 1500003,
+        "en_us": "But don't worry, you too will be able to practice your skills to defeat them here.",
+        "zh_tw": "但別擔心，您也將可以這裡練習戰勝他們的技巧。"
+    },
+    {
+        "ID": 1500004,
+        "en_us": "Introducing to you, the Magic Core Kolon MK.I .",
+        "zh_tw": "為您介紹，魔法核心高崙 MK.I。"
+    },
+    {
+        "ID": 1500005,
+        "en_us": "Try equip 2 skills.",
+        "zh_tw": "試著裝備兩個技能。"
+    },
+    {
+        "ID": 1500006,
+        "en_us": "Close panel",
+        "zh_tw": "關閉面板"
+    },
+    {
+        "ID": 1500007,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 1500008,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 1500009,
+        "en_us": "This is a training Kolon.\nIt is very weak.\nPlease try to find a way to defeat it.",
+        "zh_tw": "這是訓練用高崙。\n它很弱。\n請試著找出方法打倒它。"
+    },
+    {
+        "ID": 1500010,
+        "en_us": "Pass the level to get 2 new characters",
+        "zh_tw": "通關可獲得 2 名新角色"
+    },
+    {
+        "ID": 1500011,
+        "en_us": "Pass the level to get a new character with full quality \u003ccolor=#ff4cf0\u003eA\u003c/color\u003e",
+        "zh_tw": "通關可獲得全素質 \u003ccolor=#ff4cf0\u003eA\u003c/color\u003e 的新角色"
+    },
+    {
+        "ID": 1500012,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 1500013,
+        "en_us": "The strategy failed, but that's normal.",
+        "zh_tw": "攻略失敗了，但這很正常。"
+    },
+    {
+        "ID": 1500014,
+        "en_us": "Please check the enemy's information in detail and then challenge again.",
+        "zh_tw": "請詳細確認敵人的資訊之後，再次挑戰。"
+    },
+    {
+        "ID": 1500015,
+        "en_us": "Now apply \"Normal Defense\" to defend against enemy attacks!\r\n(Long press the enemy to learn why)",
+        "zh_tw": "現在施展「普通防禦」抵擋敵人攻擊！\n（長按敵人了解原因）"
     },
     {
         "ID": 2000001,

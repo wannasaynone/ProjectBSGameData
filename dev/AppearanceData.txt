@@ -96,8 +96,8 @@
     {
         "ID": 10001,
         "IsDrop": 0,
-        "NameContextID": 10011,
-        "SpriteAssetPath": "icon_animal_26"
+        "NameContextID": 10001,
+        "SpriteAssetPath": "icon_game_100"
     },
     {
         "ID": 10002,
