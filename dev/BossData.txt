@@ -24,9 +24,9 @@
     {
         "AI": "CastSkill(10004);",
         "AppearanceDataID": 10003,
-        "Attack": 2000,
-        "Defense": 1000,
-        "HP": 12000,
+        "Attack": 3000,
+        "Defense": 3000,
+        "HP": 24000,
         "ID": 3,
         "SP": 100,
         "SkillIDs": "10004;10003",
