@@ -3770,8 +3770,8 @@
     },
     {
         "ID": 1500007,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Different levels usually have\ndifferent strategy points.\n\nLong press on the enemy \nto confirm the information.",
+        "zh_tw": "不同的關卡通常有不同的攻略要點。\n長按敵人確認資訊。"
     },
     {
         "ID": 1500008,
