@@ -39,7 +39,7 @@
     },
     {
         "AreaID": 1,
-        "BossIDs": 1,
+        "BossIDs": 3,
         "DescriptionContextID": 300006,
         "FrontStageIDs": 2,
         "ID": 3,

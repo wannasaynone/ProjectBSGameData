@@ -1771,7 +1771,7 @@
     },
     {
         "ID": 10001,
-        "en_us": "Magic Core Takarun MK.I",
+        "en_us": "Magic Core Kolon  MK.I",
         "zh_tw": "魔法核心高崙 MK.I"
     },
     {
@@ -1796,7 +1796,7 @@
     },
     {
         "ID": 10006,
-        "en_us": "Magic Core Takarun MK.II",
+        "en_us": "Magic Core Kolon MK.II",
         "zh_tw": "魔法核心高崙 MK.II"
     },
     {
@@ -1810,93 +1810,99 @@
         "zh_tw": "將受到傷害時，若攻擊方沒有「攻擊值上升」，使受到的傷害變為1。"
     },
     {
-        "ID": 10009
+        "ID": 10009,
+        "en_us": "Magic Core Kolon MK.III",
+        "zh_tw": "魔法核心高崙 MK.III"
     },
     {
-        "ID": 10010
+        "ID": 10010,
+        "en_us": "Training Defense Device III",
+        "zh_tw": "訓練用防禦裝置 III"
     },
     {
-        "ID": 10011
+        "ID": 10011,
+        "en_us": "When dealt damage, if the skill is not a [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, gain a shield equal to your current HP.",
+        "zh_tw": "受到傷害時，若該技能不是[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能，獲得相當於目前生命值的護盾。"
     },
     {
         "ID": 10012,
-        "en_us": "Guard Robot Type 30001",
-        "zh_tw": "守衛機器人30001型"
+        "en_us": "Shield",
+        "zh_tw": "防護罩"
     },
     {
         "ID": 10013,
-        "en_us": "Auxiliary Support Module",
-        "zh_tw": "輔助支援模組"
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increases the damage taken by 50%.",
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。"
     },
     {
         "ID": 10014,
-        "en_us": "Use \"Advanced Repair Module\" whenever other friendly units take damage.",
-        "zh_tw": "每當其他友方單位受到傷害後，使用「高級修復模組」。"
+        "en_us": "Training Attack Device Modified",
+        "zh_tw": "訓練用攻擊裝置 改"
     },
     {
         "ID": 10015,
-        "en_us": "Advanced Repair Module",
-        "zh_tw": "高級修復模組"
+        "en_us": "Deals 180% attack damage to 1~4 random enemy units.",
+        "zh_tw": "對隨機1~4個敵方單位造成180%攻擊值的傷害。"
     },
     {
         "ID": 10016,
-        "en_us": "Increases the HP value of all friendly units other than yourself by 100% of my Defense value.",
-        "zh_tw": "增加自己以外的所有友方單位100%防禦值的生命值。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10017,
-        "en_us": "Advanced Taunt Module",
-        "zh_tw": "高級嘲諷模組"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10018,
-        "en_us": "Increases your Hatred value by the same value as your 100% Max HP value, then increases your HP value by 2% of your Haterd value. Removes Hatred value from all other friendly units.",
-        "zh_tw": "使自己的仇恨值增加與自己100%最大生命值相同的數值後，增加2%仇恨值的生命值。消除其他所有友方單位的仇恨值。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10019,
-        "en_us": "Guard robot 20001 type",
-        "zh_tw": "守衛機器人20001型"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10020,
-        "en_us": "Advanced Attack Module",
-        "zh_tw": "高級攻擊模組"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10021,
-        "en_us": "Deals 150% Attack value damage to all enemy units.",
-        "zh_tw": "對所有敵方單位造成150%攻擊值的傷害。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10022,
-        "en_us": "Annihilation Module",
-        "zh_tw": "殲滅模組"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10023,
-        "en_us": "Deals (150% + 1% x target's HP lost) Attack value damage to the enemy unit with the highest Hatred value. After the attack, use the \"Annihilation Module\" at a rate of (1% x target's remaining HP of Max HP). Up to 3 times.",
-        "zh_tw": "對仇恨值最高的敵方單位造成(150%+目標失去生命值百分比)攻擊值的傷害。攻擊後，以(目標剩餘生命值百分比)的機率，追加使用「殲滅模組」。最多3次。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10024,
-        "en_us": "Attack Module Initialization",
-        "zh_tw": "攻擊模組初始化"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10025,
-        "en_us": "Gives you an \"Attack Up\" for 4 turns.",
-        "zh_tw": "給予自己持續4回合的「攻擊值上升」。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10026,
-        "en_us": "Annihilation Module (Two Strikes)",
-        "zh_tw": "殲滅模組（二連擊）"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10027,
-        "en_us": "Annihilation Module (Triple Strike)",
-        "zh_tw": "殲滅模組（三連擊）"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 10028,
@@ -3775,7 +3781,7 @@
     },
     {
         "ID": 1500008,
-        "en_us": "None",
+        "en_us": "Meet the final training\r\nGet a strong character!",
         "zh_tw": "迎接最後的訓練\n取得強力的角色！"
     },
     {
