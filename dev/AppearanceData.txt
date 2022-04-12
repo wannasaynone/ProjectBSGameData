@@ -102,7 +102,7 @@
     {
         "ID": 10002,
         "IsDrop": 0,
-        "NameContextID": 10012,
+        "NameContextID": 10006,
         "SpriteAssetPath": "icon_game_100"
     },
     {

@@ -12,7 +12,7 @@
     },
     {
         "AI": "CastSkill(10000);",
-        "AppearanceDataID": 10006,
+        "AppearanceDataID": 10002,
         "Attack": 100,
         "Defense": 100,
         "HP": 100,

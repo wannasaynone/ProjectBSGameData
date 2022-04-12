@@ -1449,7 +1449,7 @@
         "Tag": "400001;400002"
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\nBeginIf_Buff(CurrentActor,0,1); \nSetDamage(1); \nShowVFX(Circle1, 1);\r\nPlaySFX(DefenseBuff);\nEndIf(); \n} ",
+        "Command": "OnStartToTakeDamage_Self\n{\nBeginIf_Buff(CurrentActor,0,1); \nSetDamage(1); \nShowVFX(Circle1, 1);\nPlaySFX(DefenseBuff);\nEndIf(); \n} ",
         "DescriptionContextID": 10005,
         "ID": 10001,
         "IsDrop": 0,
