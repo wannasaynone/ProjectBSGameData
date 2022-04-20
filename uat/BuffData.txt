@@ -335,24 +335,18 @@
         "Tag": 400016
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n       ShowVFX(EnergyWall1, 1);\n       PlaySFX(Protection);\n       AddDamage(-45%);\n}",
-        "DescriptionContextID": 10124,
+        "DescriptionContextID": 10106,
         "ID": 10014,
         "MaxAmount": 1,
-        "NameContextID": 10123,
-        "Tag": 400015
+        "NameContextID": 10105,
+        "Tag": 400030
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(35%);\n}",
-        "DescriptionContextID": 10132,
+        "Command": "OnStartToTakeDamage_Self\n{\n     SetDamage(0);\n}\nOnDamageTaken_Self\n{\n     SetDamage(0);\n}\nOnStartToEndAction_Self\n{\n     SetDamage(0);\n}",
+        "DescriptionContextID": 10106,
         "ID": 10015,
         "MaxAmount": 1,
-        "NameContextID": 10131,
-        "Tag": 400016
-    },
-    {
-        "ID": 10016,
-        "MaxAmount": 1,
-        "Tag": 400016
+        "NameContextID": 10105,
+        "Tag": 400030
     }
 ]
