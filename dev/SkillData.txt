@@ -1609,11 +1609,12 @@
         "Tag": "400001;400003"
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}",
+        "Command": "OnBattleStarted\r\n{\r\n     Record(OutOfBalance,50000);\r\n     Record(b_balance_30, 0);\r\n     Record(b_balance_60, 0);\r\n     Record(b_balance_90, 0);\r\n}\n\nOnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10021, 10030);\n     EndIf();\n}",
         "DescriptionContextID": 10053,
         "ID": 10021,
         "IsDrop": 0,
         "NameContextID": 10052,
+        "References": "S:10030",
         "SP": 0,
         "Tag": 400030
     },
@@ -1694,7 +1695,7 @@
         "SP": 0
     },
     {
-        "Command": "OnBattleStarted\n{\n     Record(OutOfBalance,50000);\n     Record(b_balance_30, 0);\n     Record(b_balance_60, 0);\n     Record(b_balance_90, 0);\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400001);\n          Record(TaltalTakenDamage,Self.LastTakenDamage + Read(TaltalTakenDamage));\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 30);\n                   BeginIf(Read(b_balance_30)== 0);\n                         Record(b_balance_30,1);\n                         GainBuff(Self, 10010 ,1t-1);\n                   EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 60);\n                    BeginIf(Read(b_balance_60)== 0);\n                         Record(b_balance_60,1);\n                         AddBuffAmount(Self,10010 ,-99);\n                         GainBuff(Self, 10011,1t-1);\n                    EndIf();\n          EndIf();\n         BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 90);\n                    BeginIf(Read(b_balance_90)== 0);\n                         Record(b_balance_90,1);\n                         AddBuffAmount(Self,10011,-99);\n                         GainBuff(Self, 10012,1t-1);\n                    EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage) \u003e= Read(OutOfBalance));\n              GainBuff(Self, 10013 ,1t1);\n              AddBuffAmount(Self,10012,-99);\n              AddBuffAmountByTag(Self,400030,-99);\n              Record(TaltalTakenDamage,0);\n              Record(b_balance_30, 0);\n              Record(b_balance_60, 0);\n              Record(b_balance_90, 0);\n          EndIf();\n     EndIf();    \n}",
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(-50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400001);\n          Record(TaltalTakenDamage,Self.LastTakenDamage + Read(TaltalTakenDamage));\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 30);\n                   BeginIf(Read(b_balance_30)== 0);\n                         Record(b_balance_30,1);\n                         GainBuff(Self, 10010 ,1t-1);\n                   EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 60);\n                    BeginIf(Read(b_balance_60)== 0);\n                         Record(b_balance_60,1);\n                         AddBuffAmount(Self,10010 ,-99);\n                         GainBuff(Self, 10011,1t-1);\n                    EndIf();\n          EndIf();\n         BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 90);\n                    BeginIf(Read(b_balance_90)== 0);\n                         Record(b_balance_90,1);\n                         AddBuffAmount(Self,10011,-99);\n                         GainBuff(Self, 10012,1t-1);\n                    EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage) \u003e= Read(OutOfBalance));\n              AddBuffAmount(Self,10012,-99);\n              ReplaceSkill(10030, 10021);\n              Record(TaltalTakenDamage,0);\n              Record(b_balance_30, 0);\n              Record(b_balance_60, 0);\n              Record(b_balance_90, 0);\n          EndIf();\n     EndIf();    \n}",
         "DescriptionContextID": 10075,
         "ID": 10030,
         "IsDrop": 0,

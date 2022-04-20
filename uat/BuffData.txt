@@ -237,20 +237,18 @@
         "Tag": 400019
     },
     {
-        "Command": "OnAttackEnded_Self\n{\n   BeginIf(Random(1,100) \u003c= 45);\n     Remember(LastAttacked);\n     ShowVFXOnTarget(Fog1, 2);\n     PlaySFX(Posion);\n     GainBuff(LastAttacked, 5, 1t2);\n   EndIf();\n\n  BeginIf(Random(1, 100) \u003c= 30);\n    ShowVFX(Temp, 2);\n    GainBuff(Self, 10, 1t1);\n    PlaySFX(AddStatus);\n    AddExtraAction(Self, 1);\n  EndIf();\n}",
-        "DescriptionContextID": 10004,
+        "Command": "OnActived\n{\nAddShield(Self,Self.HP,0); \n} \n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400007); \nAddDamage(50%); \nEndIf(); \n} ",
+        "DescriptionContextID": 10013,
         "ID": 10001,
         "MaxAmount": 1,
-        "NameContextID": 10003,
+        "NameContextID": 10012,
         "Tag": 400015
     },
     {
-        "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP \u003c= Self.MaxHP * 0.5);\n     AddStatus(Self, Attack, Self.Attack * 0.3);\n     AddStatus(Self, Speed, Self.Speed * 0.3);\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n  EndIf();\n}",
-        "DescriptionContextID": 10006,
+        "DescriptionContextID": 0,
         "ID": 10002,
         "MaxAmount": 1,
-        "NameContextID": 10005,
-        "Tag": 400015
+        "NameContextID": 0
     },
     {
         "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n     AddStatus(Self, Speed, -Self.Speed * 0.3);\n}",

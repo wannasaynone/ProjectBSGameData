@@ -2031,8 +2031,8 @@
     },
     {
         "ID": 10053,
-        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increase damage by 50%.",
-        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。"
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increase the damage taken by 50%. When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, replace this skill with \"Fire Protection\".",
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊後，將這個技能替換為「防火裝置」。"
     },
     {
         "ID": 10054,
@@ -2136,13 +2136,13 @@
     },
     {
         "ID": 10074,
-        "en_us": "Imbalance",
-        "zh_tw": "失衡"
+        "en_us": "Fire Protection",
+        "zh_tw": "防火裝置"
     },
     {
         "ID": 10075,
-        "en_us": "Attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill will accumulate \"Imbalance Value\". If the \"Imbalance Value\" exceeds a certain value, it gives this unit an \"Cannot Action\" for 1 turn.",
-        "zh_tw": "受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊會累積失衡值。若失衡值超過一定數值，給予自己持續1回合的「失衡狀態」，並消除當前的狀態。"
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, it reduces the damage taken by 50%. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill, it accumulates imbalance value. If the imbalance value exceeds a certain value, replace this skill with \"Flammable\".",
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害減少50%。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊會累積失衡值。若失衡值超過一定數值時，將這個技能替換為「易燃」。"
     },
     {
         "ID": 10076,
@@ -2451,8 +2451,8 @@
     },
     {
         "ID": 100005,
-        "en_us": "Normal Unit (press to change name)",
-        "zh_tw": "一般素體(點擊修改名稱)"
+        "en_us": "Normal Unit",
+        "zh_tw": "一般素體"
     },
     {
         "ID": 100006,
@@ -3416,8 +3416,8 @@
     },
     {
         "ID": 1000099,
-        "en_us": "Character\nChange Ticket\nx 10",
-        "zh_tw": "變換角色券\nx 10"
+        "en_us": "Character Change Ticket x 10",
+        "zh_tw": "變換角色券 x 10"
     },
     {
         "ID": 1000100,
@@ -3426,8 +3426,8 @@
     },
     {
         "ID": 1000101,
-        "en_us": "Transformation\nTicket\nx100",
-        "zh_tw": "變換素質券\nx 100"
+        "en_us": "Transformation Ticket x 100",
+        "zh_tw": "變換素質券 x 100"
     },
     {
         "ID": 1000102,
@@ -3436,8 +3436,8 @@
     },
     {
         "ID": 1000103,
-        "en_us": "Change Single Stat\nTicket\nx10",
-        "zh_tw": "變換單一素質券\nx 10"
+        "en_us": "Change Single Stat Ticket x 10",
+        "zh_tw": "變換單一素質券 x 10"
     },
     {
         "ID": 1000104,
@@ -3481,8 +3481,8 @@
     },
     {
         "ID": 1000112,
-        "en_us": "Obtain item {0} x {1}\n\n* Can be used through the Item Use\" button on the camp page.\"",
-        "zh_tw": "獲得物品 {0} x {1}\n\n* 可以透營地頁面的「物品使用」按鈕使用"
+        "en_us": "{0} x {1}",
+        "zh_tw": "{0} x {1}"
     },
     {
         "ID": 1000113,
@@ -3616,8 +3616,8 @@
     },
     {
         "ID": 1000139,
-        "en_us": "Useable",
-        "zh_tw": "不可使用"
+        "en_us": "Useable\n\n* Can go to the store to buy Skill Slot Unlock Ticket to become available",
+        "zh_tw": "不可使用\n\n* 可以前往商店購買技能欄位解鎖券變更為可以使用"
     },
     {
         "ID": 1000140,
@@ -3740,6 +3740,106 @@
         "zh_tw": "沒有持有狀態"
     },
     {
+        "ID": 1000165,
+        "en_us": "Skip Action",
+        "zh_tw": "跳過行動"
+    },
+    {
+        "ID": 1000166,
+        "en_us": "Click to use\nLong press to check content",
+        "zh_tw": "點擊使用技能\n長按確認內容"
+    },
+    {
+        "ID": 1000167,
+        "en_us": "Watch ad to\nreset random value",
+        "zh_tw": "觀看廣告\n重置隨機數值"
+    },
+    {
+        "ID": 1000168,
+        "en_us": "Confirmation to watch ads reset random values?\n\n* Randomly reset the value, you may get the random value of the Rank\n* Rank will not change when resetting random values",
+        "zh_tw": "確認觀看廣告重置隨機數值？\n\n* 隨機重置數值，可能得到該Rank可得的隨機數值\n* 重置隨機數值時，Rank不會改變"
+    },
+    {
+        "ID": 1000169,
+        "en_us": "Go to the Unit page \nto view",
+        "zh_tw": "前往角色頁面查看"
+    },
+    {
+        "ID": 1000170,
+        "en_us": "Get Special Reward",
+        "zh_tw": "獲得特殊獎勵"
+    },
+    {
+        "ID": 1000171,
+        "en_us": "Go to the Camp page to use",
+        "zh_tw": "前往營地頁面使用"
+    },
+    {
+        "ID": 1000172,
+        "en_us": "Skill Slot Unlock Ticket x 10",
+        "zh_tw": "技能欄位解鎖券 x 10"
+    },
+    {
+        "ID": 1000173,
+        "en_us": "You can change a skill field that is not available on the character information page to one that is available.",
+        "zh_tw": "可以在角色資訊頁面將不可以使用的技能欄位變更為可以使用。"
+    },
+    {
+        "ID": 1000174,
+        "en_us": "Cannot be used directly.\nYou can use this item when you click on a skill field that is not available on the character information page.\n\nClick OK to go to Unit page.",
+        "zh_tw": "無法直接使用。\n在角色資訊頁面點擊不可以使用的技能欄位時可以使用這個物品。\n\n點擊OK前往角色頁面。"
+    },
+    {
+        "ID": 1000175,
+        "en_us": "Skill Slot Unlock Ticket",
+        "zh_tw": "技能欄位解鎖券"
+    },
+    {
+        "ID": 1000176,
+        "en_us": "You can use this item when you click on a skill field that is not available on the character information page.",
+        "zh_tw": "在角色資訊頁面點擊不可以使用的技能欄位時可以使用這個物品。"
+    },
+    {
+        "ID": 1000177,
+        "en_us": "You have a Skill Field Unlock Ticket {0}.\n\nShould I consume 1 to change 1 field to usable?",
+        "zh_tw": "持有 技能欄位解鎖券 {0} 張。\n\n是否消耗 1 張將 1 個欄位變更為可以使用？"
+    },
+    {
+        "ID": 1000178,
+        "en_us": "Order By",
+        "zh_tw": "排序"
+    },
+    {
+        "ID": 1000179,
+        "en_us": "By Get Order",
+        "zh_tw": "依獲得順序"
+    },
+    {
+        "ID": 1000180,
+        "en_us": "By Attack",
+        "zh_tw": "依攻擊值"
+    },
+    {
+        "ID": 1000181,
+        "en_us": "By Defense",
+        "zh_tw": "依防禦值"
+    },
+    {
+        "ID": 1000182,
+        "en_us": "By Speed",
+        "zh_tw": "依速度值"
+    },
+    {
+        "ID": 1000183,
+        "en_us": "By HP",
+        "zh_tw": "依生命值"
+    },
+    {
+        "ID": 1000184,
+        "en_us": "CLEAR",
+        "zh_tw": "清除搜尋"
+    },
+    {
         "ID": 1500000,
         "en_us": "Welcome, researcher.",
         "zh_tw": "歡迎，研究員。"
@@ -3816,8 +3916,8 @@
     },
     {
         "ID": 1500015,
-        "en_us": "Now apply \"Normal Defense\" to defend against enemy attacks!\r\n(Long press the enemy to learn why)",
-        "zh_tw": "現在施展「普通防禦」抵擋敵人攻擊！\n（長按敵人了解原因）"
+        "en_us": "Now apply \"\u003ccolor=#FEFF00\u003eNormal Defense\u003c/color\u003e\" to defend against enemy attacks!\n(Long press the enemy to learn why)",
+        "zh_tw": "現在施展 \u003ccolor=#FEFF00\u003e普通防禦\u003c/color\u003e 抵擋敵人攻擊！\n（長按敵人了解原因）"
     },
     {
         "ID": 2000001,
