@@ -20,5 +20,7 @@
    "DropMallItemChance" : 3,
    "DropMallRareItemMultiplier" : 0.3,
    "TagRange" : "400001~400020",
-   "DropMallItemStaminaBase" : 80
+   "DropMallItemStaminaBase" : 80,
+   "MainPageGiftBoxID" : 1,
+   "CombineSkillRequireSkillParts" : 100
 }

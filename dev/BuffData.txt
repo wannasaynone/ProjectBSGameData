@@ -229,7 +229,7 @@
         "Tag": 400015
     },
     {
-        "Command": "OnDeactived\r\n{\r\nReplaceSkill(237,238); \r\n} ",
+        "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnDeactived\n{\nReplaceSkill(237,238); \n} ",
         "DescriptionContextID": 403,
         "ID": 116,
         "MaxAmount": 1,

@@ -1716,8 +1716,8 @@
     },
     {
         "ID": 403,
-        "en_us": "When the buff is removed, replace the skill \"Ready for Wooden Pile Strike \" with \"Wooden Pile Cannon Strike\".",
-        "zh_tw": "狀態消除時，將技能「木樁炮擊準備中」替換成「木樁炮擊」。"
+        "en_us": "Cannot act. When the buff is removed, replace the skill \"Ready for Wooden Pile Strike \" with \"Wooden Pile Cannon Strike\".",
+        "zh_tw": "不能行動。狀態消除時，將技能「木樁炮擊準備中」替換成「木樁炮擊」。"
     },
     {
         "ID": 404,
@@ -2918,8 +2918,8 @@
     },
     {
         "ID": 1000000,
-        "en_us": "Last updated: 2022/04/06\n\n\u003csize=52\u003e* Pausing Update\u003c/size\u003e\n\nThank you for your participation!\n\nNext will spend more time on the optimization of the game, the content of the update may be temporarily paused, sorry about that\n\nAnd we will be back soon\n\n------------------------------------------------\n\nCurrently open to 2. Streets of Desolation\n\nMore content will be added later! Thank you for playing!",
-        "zh_tw": "最近更新日期：2022/04/06\n\n\u003csize=52\u003e* 暫停更新公告\u003c/size\u003e\n\n感謝大家的參與\n\n接下來會花較多時間進行遊戲的優化，內容的更新可能會暫時更新，還請大家見諒\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
+        "en_us": "Last updated: 2022/04/27\n\n\u003csize=52\u003e*Future Plans\u003c/size\u003e\n\nThank you all for waiting for this time!\nThe next items that are expected to be updated in June are\n\n1. Optimize the UI of the level selection page to reduce the possibility of operation errors\n2. Optimize the battle-related UI to reduce the possibility of misunderstanding functions\n3. Optimize the skill system flow operation\n4. Optimize the character list, remove the filter, and add the function of arranging by conditions\n5. Add the specified skill synthesis system\n6. Add the third area related level content.\n7. Optimize the newbie tutorial\n8. modify the content of random drops from raids\n9. Add a new mechanism for obtaining mall props and optimize special reward performances.\n10. Optimize the mall UI, and add skill grid to unlock related goods\n11. add random type of goods related UI panel for players to check the chance of obtaining all items\n12. Optimize the level value, will reduce the level physical power consumption\n13. Optimize the content of the second area-related levels to increase the fun\n\n------------------------------------------------\n\nCurrently open to 2. Wasteland Street\n\nMore content will be added later! Thank you for playing!",
+        "zh_tw": "最近更新日期：2022/04/27\n\n\u003csize=52\u003e* 未來計畫\u003c/size\u003e\n\n感謝大家這段時間的等待！\n接下來預計將在六月更新的項目：\n\n1. 優化選擇關卡頁面的UI，減少操作錯誤的可能\n2. 優化戰鬥相關UI，減少誤會功能的可能\n3. 優化技能系統流程操作\n4. 優化角色列表，移除篩選器，增加依條件排列功能\n5. 增加指定技能合成系統\n6. 新增第三區相關關卡內容\n7. 優化新手教學\n8. 修改掃蕩隨機掉落的內容\n9. 新增取得商城道具的機制，優化特殊獎勵演出\n10. 優化商城UI，並新增技能格子解鎖相關商品\n11. 新增隨機類型商品相關UI面板供玩家查詢所有物品取得的機率\n12. 優化關卡數值，將降低關卡體力消耗\n13. 優化第二區相關關卡內容，增加趣味性\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
     },
     {
         "ID": 3
@@ -3186,8 +3186,8 @@
     },
     {
         "ID": 1000053,
-        "en_us": "Combine Skill",
-        "zh_tw": "合成技能"
+        "en_us": "Random Combine",
+        "zh_tw": "隨機合成"
     },
     {
         "ID": 1000054,
@@ -3376,8 +3376,8 @@
     },
     {
         "ID": 1000091,
-        "en_us": "* Spend experience value to get a character\n* All values are random\n* Chance to get a character with a unique skill",
-        "zh_tw": "* 消耗經驗值取得角色\n* 數值均為隨機\n* 有機會取得持有獨特技能的角色"
+        "en_us": "* Spend experience value to get a character\n* All values are random\n* Long press to check chance list",
+        "zh_tw": "* 消耗經驗值取得角色\n* 數值均為隨機\n* 長按確認機率"
     },
     {
         "ID": 1000092,
@@ -3391,8 +3391,8 @@
     },
     {
         "ID": 1000094,
-        "en_us": "* Cannot obtain unique skills held by the character\n* Unable to obtain the limited drop skill of the level\n* Possible to obtain 2 or more of the same skill in the same draw result",
-        "zh_tw": "* 無法取得角色持有的獨特技能\n* 無法取得關卡的限定掉落技能\n* 可能在同次抽取結果中取得2個或以上相同技能"
+        "en_us": "* Possible to obtain 2 or more of the same skill in the same draw result\n* Long press to check chance list",
+        "zh_tw": "* 可能在同次抽取結果中取得2個或以上相同技能\n* 長按確認機率"
     },
     {
         "ID": 1000095,
@@ -3401,8 +3401,8 @@
     },
     {
         "ID": 1000096,
-        "en_us": "After purchase, you will receive a character with an A rating for all abilities.\n* Character appearance is random",
-        "zh_tw": "購買後直接取得全能力均為評價A的角色。\n* 角色外型為隨機"
+        "en_us": "After purchase, you can directly obtain a character with an A rating for all abilities.\r\n* The random chance of character appearance is the same as that of the extracted character.",
+        "zh_tw": "購買後直接取得全能力均為評價A的角色。\n* 角色外型隨機機率與抽取角色相同"
     },
     {
         "ID": 1000097,
@@ -3421,7 +3421,7 @@
     },
     {
         "ID": 1000100,
-        "en_us": "After using it on a character, you can change its appearance. The skill will be reset, but the quality will not be changed.",
+        "en_us": "After using it on a character, you can change its appearance. The skill will be reset, but the ability rank and value will not be changed.",
         "zh_tw": "對角色使用後，可以變更其外觀。技能將會被重置，素質不會被變更。"
     },
     {
@@ -3431,7 +3431,7 @@
     },
     {
         "ID": 1000102,
-        "en_us": "When used on a character, it refreshes the level and value of all ability values.",
+        "en_us": "When used on a character, it refreshes the rnak and value of all ability values.",
         "zh_tw": "對角色使用後，刷新所有能力值的階級與數值。"
     },
     {
@@ -3441,7 +3441,7 @@
     },
     {
         "ID": 1000104,
-        "en_us": "Refreshes the level and value of the specified ability value when used on a character.",
+        "en_us": "Refreshes the rank and value of the specified ability value when used on a character.",
         "zh_tw": "對角色使用後，刷新指定能力值的階級與數值。"
     },
     {
@@ -3506,8 +3506,8 @@
     },
     {
         "ID": 1000117,
-        "en_us": "Insufficient number of items\n\n* Items can be purchased at the store\n* Low chance of getting items when raiding",
-        "zh_tw": "物品數量不足\n\n* 物品可於商店購入\n* 掃蕩時有低機率獲得物品"
+        "en_us": "Insufficient number of items\n\n* Items can be purchased at the store\n* Low chance of getting items when raiding\n\nPress OK to go to Shop",
+        "zh_tw": "物品數量不足\n\n* 物品可於商店購入\n* 掃蕩時有低機率獲得物品\n\n點擊OK後前往商店"
     },
     {
         "ID": 1000118,
@@ -3838,6 +3838,101 @@
         "ID": 1000184,
         "en_us": "CLEAR",
         "zh_tw": "清除搜尋"
+    },
+    {
+        "ID": 1000185,
+        "en_us": "No special skills held",
+        "zh_tw": "沒有持有特殊技能"
+    },
+    {
+        "ID": 1000186,
+        "en_us": "Random Special Characters",
+        "zh_tw": "隨機特殊角色"
+    },
+    {
+        "ID": 1000187,
+        "en_us": "Obtain random characters with unique skill.",
+        "zh_tw": "取得隨機帶有獨特技能的角色。"
+    },
+    {
+        "ID": 1000188,
+        "en_us": "Random A-rank Character",
+        "zh_tw": "隨機全能力 A 級角色"
+    },
+    {
+        "ID": 1000189,
+        "en_us": "A character with an A rank for all abilities.",
+        "zh_tw": "取得全能力值均為評價A的角色。"
+    },
+    {
+        "ID": 1000190,
+        "en_us": "Random A-rank Special Character",
+        "zh_tw": "隨機全能力 A 級的特殊角色"
+    },
+    {
+        "ID": 1000191,
+        "en_us": "A character with an A rank for all abilities and unieuq skill.",
+        "zh_tw": "取得全能力值均為評價A，且持有獨特技能的角色。"
+    },
+    {
+        "ID": 1000192,
+        "en_us": "Combine",
+        "zh_tw": "技能合成"
+    },
+    {
+        "ID": 1000193,
+        "en_us": "Search",
+        "zh_tw": "搜尋技能"
+    },
+    {
+        "ID": 1000194,
+        "en_us": "Specify Combine",
+        "zh_tw": "指定合成"
+    },
+    {
+        "ID": 1000195,
+        "en_us": "Depart Skill",
+        "zh_tw": "分解技能"
+    },
+    {
+        "ID": 1000196,
+        "en_us": "Obtained {0} skill parts, now hold {1}.\n\nYou can synthesize the specified skill through the \"Specify Combine\" in the skill list.",
+        "zh_tw": "獲得 {0} 個技能碎片，現在持有 {1} 個。\n\n可以透過技能列表中的「指定合成」合成指定技能。"
+    },
+    {
+        "ID": 1000197,
+        "en_us": "Insufficient skill parts! Need {0} parts.\nCurrently have {1}.\n\n* You can obtain skill parts by depart them.",
+        "zh_tw": "技能碎片不足！需要 {0} 個碎片。\n目前擁有 {1} 個。\n\n* 可以透過分解技能取得技能碎片"
+    },
+    {
+        "ID": 1000198,
+        "en_us": "Acquired skill: {0}",
+        "zh_tw": "獲得技能: {0}"
+    },
+    {
+        "ID": 1000199,
+        "en_us": "Please enter the serial coupon code ......",
+        "zh_tw": "請輸入序號......"
+    },
+    {
+        "ID": 1000200,
+        "en_us": "Wrong coupon code",
+        "zh_tw": "序號錯誤"
+    },
+    {
+        "ID": 1000201,
+        "en_us": "Redeemed coupon code",
+        "zh_tw": "兌換過的序號"
+    },
+    {
+        "ID": 1000202,
+        "en_us": "This coupon code cannot be exchanged, please contact the development team",
+        "zh_tw": "無法兌換此序號，請與開發團隊聯絡"
+    },
+    {
+        "ID": 1000203,
+        "en_us": "Watch Ad\nGet Reward",
+        "zh_tw": "觀看廣告\n獲得獎勵"
     },
     {
         "ID": 1500000,
