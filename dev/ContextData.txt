@@ -3692,7 +3692,7 @@
     {
         "ID": 1000154,
         "en_us": "Click on the panel to \nconfirm character information\nTry to equip skills for your character",
-        "zh_tw": "點擊面板確認角色資訊\n嘗試替腳色裝備技能"
+        "zh_tw": "點擊面板確認角色資訊\n嘗試替角色裝備技能"
     },
     {
         "ID": 1000155,
@@ -3933,6 +3933,11 @@
         "ID": 1000203,
         "en_us": "Watch Ad\nGet Reward",
         "zh_tw": "觀看廣告\n獲得獎勵"
+    },
+    {
+        "ID": 1000204,
+        "en_us": "Use the recommended configuration?\n\n* Special skills will not be automatically replaced\n* If a field is unavailable, it will be skipped\n* If the skill is not held, it will be skipped\n* If the skill is already installed, it will be skipped",
+        "zh_tw": "要套用推薦的配置嗎？\n\n* 將不會自動取代特殊技能\n* 若欄位為不可使用，將跳過套用\n* 若未持有技能，將跳過套用\n* 若已裝備該技能，將跳過套用"
     },
     {
         "ID": 1500000,

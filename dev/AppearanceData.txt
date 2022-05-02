@@ -28,6 +28,7 @@
         "DropRate": 2,
         "ID": 10,
         "NameContextID": 100005,
+        "RecommendSet": "1;2;127;129;163;164;165;196",
         "SpriteAssetPath": "icon_game_100"
     },
     {
@@ -35,6 +36,7 @@
         "DropRate": 2,
         "ID": 11,
         "NameContextID": 100005,
+        "RecommendSet": "1;2;107;109;129;160;219;157",
         "SpriteAssetPath": "icon_game_14"
     },
     {
@@ -42,6 +44,7 @@
         "DropRate": 2,
         "ID": 12,
         "NameContextID": 100005,
+        "RecommendSet": "1;2;107;115;116;123;190;201",
         "SpriteAssetPath": "icon_game_91"
     },
     {
@@ -49,6 +52,7 @@
         "DropRate": 2,
         "ID": 13,
         "NameContextID": 100005,
+        "RecommendSet": "1;2;107;101;103;104;105;194",
         "SpriteAssetPath": "icon_game_97"
     },
     {
@@ -56,6 +60,7 @@
         "DropRate": 1,
         "ID": 14,
         "NameContextID": 100006,
+        "RecommendSet": "123;190;226;201;128;135;139;140",
         "SpriteAssetPath": "icon_game_1000"
     },
     {
@@ -63,6 +68,7 @@
         "DropRate": 1,
         "ID": 15,
         "NameContextID": 100007,
+        "RecommendSet": "107;113;227;144;108;121;185;140",
         "SpriteAssetPath": "icon_game_1002"
     },
     {
@@ -70,6 +76,7 @@
         "DropRate": 1,
         "ID": 16,
         "NameContextID": 100008,
+        "RecommendSet": "203;192;228;130;135;108;139;140",
         "SpriteAssetPath": "icon_game_1001"
     },
     {
@@ -77,6 +84,7 @@
         "DropRate": 1,
         "ID": 17,
         "NameContextID": 100009,
+        "RecommendSet": "128;131;229;134;135;137;138;139",
         "SpriteAssetPath": "icon_game_1006"
     },
     {
@@ -84,6 +92,7 @@
         "DropRate": 1,
         "ID": 18,
         "NameContextID": 100010,
+        "RecommendSet": "107;114;234;159;111;129;132;140",
         "SpriteAssetPath": "icon_game_1007"
     },
     {
@@ -91,6 +100,7 @@
         "DropRate": 1,
         "ID": 19,
         "NameContextID": 100011,
+        "RecommendSet": "127;129;235;163;164;165;196;140",
         "SpriteAssetPath": "icon_game_1008"
     },
     {
