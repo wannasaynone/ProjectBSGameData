@@ -1486,14 +1486,24 @@
         "Tag": "400001;400002"
     },
     {
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10005, 10030);\n          GainBuff(Self, 10002, 1t2);\n     EndIf();\n}",
+        "DescriptionContextID": 10053,
         "DropRate": 0,
         "ID": 10005,
-        "SP": 0
+        "NameContextID": 10052,
+        "References": "S:10030;B:10002",
+        "SP": 0,
+        "Tag": 400030
     },
     {
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10006, 10030);\n          GainBuff(Self, 10016, 1t2);\n     EndIf();\n}",
+        "DescriptionContextID": 10053,
         "DropRate": 0,
         "ID": 10006,
-        "SP": 0
+        "NameContextID": 10052,
+        "References": "S:10030;B:10016",
+        "SP": 0,
+        "Tag": 400030
     },
     {
         "DropRate": 0,
@@ -1609,12 +1619,12 @@
         "Tag": "400001;400003"
     },
     {
-        "Command": "OnBattleStarted\r\n{\r\n     Record(OutOfBalance,50000);\r\n     Record(b_balance_30, 0);\r\n     Record(b_balance_60, 0);\r\n     Record(b_balance_90, 0);\r\n}\n\nOnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10021, 10030);\n     EndIf();\n}",
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10021, 10030);\n          GainBuff(Self, 10017, 1t2);\n     EndIf();\n}",
         "DescriptionContextID": 10053,
         "DropRate": 0,
         "ID": 10021,
         "NameContextID": 10052,
-        "References": "S:10030",
+        "References": "S:10030;B:10017",
         "SP": 0,
         "Tag": 400030
     },
@@ -1659,7 +1669,7 @@
         "Tag": "400001;400004"
     },
     {
-        "Command": "OnDamageTaken_Self\n{\n     BeginIf_Buff(Self, 1, 10007);\n           BeginIf(Random(0, 100) \u003c= 50);\n                AddBuffTime(Self,10007,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10008);\n           BeginIf(Random(0, 100) \u003c= 50);\n                AddBuffTime(Self,10008,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10009);\n           BeginIf(Random(0, 100) \u003c= 50);\n                AddBuffTime(Self,10009,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n}",
+        "Command": "OnBeAttackedEnded_Self\n{\n     BeginIf_Buff(Self, 1, 10007);\n           BeginIf(Random(0, 100) \u003c= 50);\n                AddBuffTime(Self,10007,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10008);\n           BeginIf(Random(0, 100) \u003c= 50);\n                AddBuffTime(Self,10008,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10009);\n           BeginIf(Random(0, 100) \u003c= 50);\n                AddBuffTime(Self,10009,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n}",
         "DescriptionContextID": 10061,
         "DropRate": 0,
         "ID": 10026,
@@ -1695,7 +1705,7 @@
         "SP": 0
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(-50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400001);\n          Record(TaltalTakenDamage,Self.LastTakenDamage + Read(TaltalTakenDamage));\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 30);\n                   BeginIf(Read(b_balance_30)== 0);\n                         Record(b_balance_30,1);\n                         GainBuff(Self, 10010 ,1t-1);\n                   EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 60);\n                    BeginIf(Read(b_balance_60)== 0);\n                         Record(b_balance_60,1);\n                         AddBuffAmount(Self,10010 ,-99);\n                         GainBuff(Self, 10011,1t-1);\n                    EndIf();\n          EndIf();\n         BeginIf(Read(TaltalTakenDamage)/Read(OutOfBalance)*100 \u003e= 90);\n                    BeginIf(Read(b_balance_90)== 0);\n                         Record(b_balance_90,1);\n                         AddBuffAmount(Self,10011,-99);\n                         GainBuff(Self, 10012,1t-1);\n                    EndIf();\n          EndIf();\n          BeginIf(Read(TaltalTakenDamage) \u003e= Read(OutOfBalance));\n              AddBuffAmount(Self,10012,-99);\n              ReplaceSkill(10030, 10021);\n              Record(TaltalTakenDamage,0);\n              Record(b_balance_30, 0);\n              Record(b_balance_60, 0);\n              Record(b_balance_90, 0);\n          EndIf();\n     EndIf();    \n}",
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(-50%);\n          ShowVFX(Shield1, 1);\n          PlaySFX(Protection);\n     EndIf();\n}",
         "DescriptionContextID": 10075,
         "DropRate": 0,
         "ID": 10030,
@@ -1704,7 +1714,7 @@
         "Tag": 400030
     },
     {
-        "Command": "OnDamageTaken_Self\n{\n     BeginIf_Buff(Self, 1, 10007);\n           BeginIf(Random(0, 100) \u003c= 30);\n                AddBuffTime(Self,10007,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10008);\n           BeginIf(Random(0, 100) \u003c= 30);\n                AddBuffTime(Self,10008,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10009);\n           BeginIf(Random(0, 100) \u003c= 30);\n                AddBuffTime(Self,10009,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n}",
+        "Command": "OnBeAttackedEnded_Self\n{\n     BeginIf_Buff(Self, 1, 10007);\n           BeginIf(Random(0, 100) \u003c= 30);\n                AddBuffTime(Self,10007,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10008);\n           BeginIf(Random(0, 100) \u003c= 30);\n                AddBuffTime(Self,10008,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n\n     BeginIf_Buff(Self, 1, 10009);\n           BeginIf(Random(0, 100) \u003c= 30);\n                AddBuffTime(Self,10009,-1)\n                PlaySFX(DefenseBuff);\n          EndIf();\n     EndIf();\n}",
         "DescriptionContextID": 10081,
         "DropRate": 0,
         "ID": 10031,

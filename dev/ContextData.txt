@@ -1826,8 +1826,7 @@
     },
     {
         "ID": 10012,
-        "en_us": "Shield",
-        "zh_tw": "防護罩"
+        "zh_tw": "訓練用護盾"
     },
     {
         "ID": 10013,
@@ -1847,32 +1846,32 @@
     {
         "ID": 10016,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "維修護盾 I"
     },
     {
         "ID": 10017,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "獲得25%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10018,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "維修護盾 II"
     },
     {
         "ID": 10019,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "獲得50%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10020,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "維修護盾 III"
     },
     {
         "ID": 10021,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "獲得75%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10022,
@@ -2031,8 +2030,7 @@
     },
     {
         "ID": 10053,
-        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increase the damage taken by 50%. When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, replace this skill with \"Fire Protection\".",
-        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊後，將這個技能替換為「防火裝置」。"
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊後，將這個技能替換為「防火裝置」，並給予自己持續2回合的「維修護盾」。"
     },
     {
         "ID": 10054,
@@ -2072,7 +2070,7 @@
     {
         "ID": 10061,
         "en_us": "After taking damage, there is a 50% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
-        "zh_tw": "受到傷害後，有50%的機率減少1回合的「裝填彈藥」。"
+        "zh_tw": "受到攻擊後，有50%的機率減少1回合的「裝填彈藥」。"
     },
     {
         "ID": 10062,
@@ -2142,7 +2140,7 @@
     {
         "ID": 10075,
         "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, it reduces the damage taken by 50%. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill, it accumulates imbalance value. If the imbalance value exceeds a certain value, replace this skill with \"Flammable\".",
-        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害減少50%。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊會累積失衡值。若失衡值超過一定數值時，將這個技能替換為「易燃」。"
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害減少50%。"
     },
     {
         "ID": 10076,
@@ -2172,7 +2170,7 @@
     {
         "ID": 10081,
         "en_us": "After taking damage, there is a 30% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
-        "zh_tw": "受到傷害後，有30%的機率減少1回合的「裝填彈藥」。"
+        "zh_tw": "受到攻擊後，有30%的機率減少1回合的「裝填彈藥」。"
     },
     {
         "ID": 10082,
