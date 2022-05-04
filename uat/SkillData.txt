@@ -1521,6 +1521,7 @@
         "DropRate": 0,
         "ID": 10008,
         "NameContextID": 10026,
+        "References": "B:7;B:1",
         "SP": 0,
         "Tag": 400030
     },
