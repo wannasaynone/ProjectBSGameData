@@ -2030,7 +2030,8 @@
     },
     {
         "ID": 10053,
-        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊後，將這個技能替換為「防火裝置」，並給予自己持續2回合的「維修護盾」。"
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increase the damage taken by 100%. When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, replace this skill with \"Fire Protection\" and give yourself a \"Repair Shield\" that lasts for 2 turns.",
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加100%。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊後，將這個技能替換為「防火裝置」，並給予自己持續2回合的「維修護盾」。"
     },
     {
         "ID": 10054,

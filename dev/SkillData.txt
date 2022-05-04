@@ -1486,7 +1486,7 @@
         "Tag": "400001;400002"
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10005, 10030);\n          GainBuff(Self, 10002, 1t2);\n     EndIf();\n}",
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(100%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10005, 10030);\n          GainBuff(Self, 10002, 1t2);\n     EndIf();\n}",
         "DescriptionContextID": 10053,
         "DropRate": 0,
         "ID": 10005,
@@ -1496,7 +1496,7 @@
         "Tag": 400030
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10006, 10030);\n          GainBuff(Self, 10016, 1t2);\n     EndIf();\n}",
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(100%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10006, 10030);\n          GainBuff(Self, 10016, 1t2);\n     EndIf();\n}",
         "DescriptionContextID": 10053,
         "DropRate": 0,
         "ID": 10006,
@@ -1516,7 +1516,7 @@
         "Tag": 400013
     },
     {
-        "Command": "OnActionStarted_Self\n{\nAddStatus(Self,HP,MaxHP * 0.03 * Buff(Target,5,Amount) ); \n} \n\nOnActived\n{\nAddStatus(Self,Attack,Buff(Target,5,Amount) * 500); \nAddStatus(Self,Defense,Buff(Target,5,Amount) * 500); \n} ",
+        "Command": "OnActionStarted_Self\n{\nAddStatus(Self,HP,Self.MaxHP * 0.03 * Buff(Target,5,Amount) ); \n} \n\nOnActived\n{\nAddStatus(Self,Attack,Buff(Target,5,Amount) * 500); \nAddStatus(Self,Defense,Buff(Target,5,Amount) * 500); \n} ",
         "DescriptionContextID": 10027,
         "DropRate": 0,
         "ID": 10008,
@@ -1628,7 +1628,7 @@
         "Tag": "400001;400003"
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(50%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10021, 10030);\n          GainBuff(Self, 10017, 1t2);\n     EndIf();\n}",
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          AddDamage(100%);\n     EndIf();\n}\n\nOnDamageTaken_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400007);\n          ReplaceSkill(10021, 10030);\n          GainBuff(Self, 10017, 1t2);\n     EndIf();\n}",
         "DescriptionContextID": 10053,
         "DropRate": 0,
         "ID": 10021,
