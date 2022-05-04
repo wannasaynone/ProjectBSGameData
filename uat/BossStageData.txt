@@ -18,11 +18,11 @@
         "DescriptionContextID": 300002,
         "ID": 1,
         "Index": 1,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300001,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 1,
@@ -31,11 +31,11 @@
         "FrontStageIDs": 1,
         "ID": 2,
         "Index": 2,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300003,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 1,
@@ -44,11 +44,11 @@
         "FrontStageIDs": 2,
         "ID": 3,
         "Index": 3,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300005,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 2,
@@ -58,11 +58,11 @@
         "FrontStageIDs": 3,
         "ID": 4,
         "Index": 0,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300009,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 2,
@@ -72,11 +72,11 @@
         "FrontStageIDs": 4,
         "ID": 5,
         "Index": 1,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300011,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 2,
@@ -86,11 +86,11 @@
         "FrontStageIDs": 5,
         "ID": 6,
         "Index": 2,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300013,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 2,
@@ -100,11 +100,11 @@
         "FrontStageIDs": 6,
         "ID": 7,
         "Index": 3,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300015,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 0,
@@ -112,8 +112,8 @@
         "DescriptionContextID": 300010,
         "ID": 8,
         "Index": -1,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300017,
         "RequireLevel": 100,
         "Stamina": 0
@@ -124,8 +124,8 @@
         "DescriptionContextID": 300010,
         "ID": 9,
         "Index": -1,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300017,
         "RequireLevel": 100,
         "Stamina": 0
@@ -136,8 +136,8 @@
         "DescriptionContextID": 300010,
         "ID": 10,
         "Index": -1,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300017,
         "RequireLevel": 100,
         "Stamina": 0
@@ -148,8 +148,8 @@
         "DescriptionContextID": 300010,
         "ID": 11,
         "Index": -1,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300017,
         "RequireLevel": 100,
         "Stamina": 0
@@ -162,8 +162,8 @@
         "FrontStageIDs": 7,
         "ID": 12,
         "Index": 4,
-        "MaxExp": 7921600,
-        "MinExp": 3960800,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300018,
         "RequireLevel": 100,
         "Stamina": 80
@@ -175,11 +175,11 @@
         "FrontStageIDs": 7,
         "ID": 13,
         "Index": 0,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300020,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 3,
@@ -188,11 +188,11 @@
         "FrontStageIDs": 13,
         "ID": 14,
         "Index": 1,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300022,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 3,
@@ -201,11 +201,11 @@
         "FrontStageIDs": 14,
         "ID": 15,
         "Index": 2,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300024,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 3,
@@ -214,10 +214,10 @@
         "FrontStageIDs": 15,
         "ID": 16,
         "Index": 3,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 1980400,
+        "MinExp": 990200,
         "NameContextID": 300026,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     }
 ]
