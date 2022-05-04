@@ -1790,7 +1790,7 @@
     },
     {
         "AnimationInfo": "Attack0;\n0.58_Fire_Spell5_0.3;\n0.58_SFX_CastDarkSpell;\n0.88_Show_Hit16-3_Target;\n0.88_Show_Fog1_Target;\n0.88_SFX_DarkSpellHit;\n0.9_Damage_1;",
-        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 1), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) \u003c= 70);\n          GainBuff(LastSelected, 5, 1t3);\n     EndIf();\n}",
+        "Command": "OnActived\n{\n     Remember(SelectOther(Opponent, Random, 1));\n\n     BeginIf(LastSelected0.HP \u003c= LastSelected0.MaxHP * 0.1);\n           DealDamage(LastSelected, Self.Attack * 1.3, 1);\n\n           BeginIf(Random(0, 100) \u003c= 70);\n                GainBuff(LastSelected, 5, 1t3);\n           EndIf();\n\n          Quit();\n     EndIf();\n     \n     DealDamage(LastSelected, Self.Attack * 1.3, 0);\n\n     BeginIf(Random(0, 100) \u003c= 70);\n          GainBuff(LastSelected, 5, 1t3);\n     EndIf();\n}",
         "DescriptionContextID": 10102,
         "DropRate": 0,
         "ID": 10038,
@@ -1801,7 +1801,7 @@
     },
     {
         "AnimationInfo": "Attack0;\n0.58_Fire_Spell5_0.3;\n0.58_SFX_CastDarkSpell;\n0.88_Show_Hit16-3_Target;\n0.88_Show_Fog1_Target;\n0.88_SFX_DarkSpellHit;\n0.9_Damage_1;",
-        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.3, 0);\n     BeginIf(Random(0, 100) \u003c= 70);\n          GainBuff(LastSelected, 5, 1t3);\n     EndIf();\n}",
+        "Command": "OnActived\n{\n     DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 0.5, 1);\n     BeginIf(Random(0, 100) \u003c= 70);\n          GainBuff(LastSelected, 5, 1t3);\n     EndIf();\n}",
         "DescriptionContextID": 10104,
         "DropRate": 0,
         "ID": 10039,

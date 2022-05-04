@@ -2275,8 +2275,8 @@
     },
     {
         "ID": 10102,
-        "en_us": "Deals 130% Attack damage to 1 random enemy unit, and has a 70% chance to give \"Poison\" to the target for 3 turns.",
-        "zh_tw": "對1個隨機敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
+        "en_us": "Deals 130% Attack damage to 1 random enemy unit, and has a 70% chance to give \"Poison\" to the target for 3 turns. When the target's HP value is below 10%, defense is ignored.",
+        "zh_tw": "對1個隨機敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。目標生命值低於10%時，無視防禦。"
     },
     {
         "ID": 10103,
@@ -2285,8 +2285,8 @@
     },
     {
         "ID": 10104,
-        "en_us": "Deals 130% attack damage to 2 random enemy units and has a 70% chance to give \"Poison\" to the target for 3 turns.",
-        "zh_tw": "對2個隨機敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
+        "en_us": "Deals 130% attack damage to 2 random enemy units and has a 70% chance to give \"Poison\" to the target for 3 turns. Defense is ignored.",
+        "zh_tw": "對2個隨機敵方單位造成50%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。無視防禦。"
     },
     {
         "ID": 10105,
