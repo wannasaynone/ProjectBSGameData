@@ -229,7 +229,7 @@
         "Tag": 400015
     },
     {
-        "Command": "OnDeactived\r\n{\r\nReplaceSkill(237,238); \r\n} ",
+        "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnDeactived\n{\nReplaceSkill(237,238); \n} ",
         "DescriptionContextID": 403,
         "ID": 116,
         "MaxAmount": 1,
@@ -245,10 +245,12 @@
         "Tag": 400015
     },
     {
-        "DescriptionContextID": 0,
+        "Command": "OnActived\n{\nAddShield(Self,Self.MaxHP*0.25,0); \n} \n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400001); \nAddDamage(50%); \nEndIf(); \n} \n\nOnDeactived\n{\nBeginIf(Self.Shield \u003e= 0);\n     AddStatus(Self, HP, Self.Shield);\nEndIf();\n\nReplaceSkill(10030, 10005);\n}",
+        "DescriptionContextID": 10017,
         "ID": 10002,
         "MaxAmount": 1,
-        "NameContextID": 0
+        "NameContextID": 10016,
+        "Tag": 400015
     },
     {
         "Command": "OnActived\n{\n     AddStatus(Self, Attack, Self.Attack * 0.7);\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n     AddStatus(Self, Speed, -Self.Speed * 0.3);\n}",
@@ -348,5 +350,29 @@
         "MaxAmount": 1,
         "NameContextID": 10105,
         "Tag": 400030
+    },
+    {
+        "Command": "OnActived\n{\nAddShield(Self,Self.MaxHP*0.5,0); \n} \n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400001); \nAddDamage(50%); \nEndIf(); \n} \n\nOnDeactived\n{\nBeginIf(Self.Shield \u003e= 0);\n     AddStatus(Self, HP, Self.Shield);\nEndIf();\n\nReplaceSkill(10030, 10006);\n}",
+        "DescriptionContextID": 10019,
+        "ID": 10016,
+        "MaxAmount": 1,
+        "NameContextID": 10018,
+        "Tag": 400015
+    },
+    {
+        "Command": "OnActived\n{\nAddShield(Self,Self.MaxHP*0.75,0); \n} \n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400001); \nAddDamage(50%); \nEndIf(); \n} \n\nOnDeactived\n{\nBeginIf(Self.Shield \u003e= 0);\n     AddStatus(Self, HP, Self.Shield);\nEndIf();\n\nReplaceSkill(10030, 10021);\n}",
+        "DescriptionContextID": 10021,
+        "ID": 10017,
+        "MaxAmount": 1,
+        "NameContextID": 10020,
+        "Tag": 400015
+    },
+    {
+        "Command": "OnDeactived\r\n{\r\n   AddStatus(Self, HP, 99999);\r\n} ",
+        "DescriptionContextID": 10025,
+        "ID": 10018,
+        "MaxAmount": 1,
+        "NameContextID": 10024,
+        "Tag": 400015
     }
 ]

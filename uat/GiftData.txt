@@ -1,0 +1,86 @@
+[
+    {
+        "Amount": 10,
+        "DescriptionContextID": 1000102,
+        "GiftType": "ChangeAllStatusTicket",
+        "ID": 1,
+        "NameContextID": 1000106
+    },
+    {
+        "Amount": 20,
+        "DescriptionContextID": 1000102,
+        "GiftType": "ChangeAllStatusTicket",
+        "ID": 2,
+        "NameContextID": 1000106
+    },
+    {
+        "Amount": 40,
+        "DescriptionContextID": 1000102,
+        "GiftType": "ChangeAllStatusTicket",
+        "ID": 3,
+        "NameContextID": 1000106
+    },
+    {
+        "Amount": 80,
+        "DescriptionContextID": 1000102,
+        "GiftType": "ChangeAllStatusTicket",
+        "ID": 4,
+        "NameContextID": 1000106
+    },
+    {
+        "Amount": 1,
+        "DescriptionContextID": 1000187,
+        "GiftType": "RandomSpecialCharacter",
+        "ID": 5,
+        "NameContextID": 1000186
+    },
+    {
+        "Amount": 1,
+        "DescriptionContextID": 1000100,
+        "GiftType": "ChangeCharacterTicket",
+        "ID": 6,
+        "NameContextID": 1000105
+    },
+    {
+        "Amount": 2,
+        "DescriptionContextID": 1000100,
+        "GiftType": "ChangeCharacterTicket",
+        "ID": 7,
+        "NameContextID": 1000105
+    },
+    {
+        "Amount": 4,
+        "DescriptionContextID": 1000100,
+        "GiftType": "ChangeCharacterTicket",
+        "ID": 8,
+        "NameContextID": 1000105
+    },
+    {
+        "Amount": 8,
+        "DescriptionContextID": 1000100,
+        "GiftType": "ChangeCharacterTicket",
+        "ID": 9,
+        "NameContextID": 1000105
+    },
+    {
+        "Amount": 1,
+        "DescriptionContextID": 1000104,
+        "GiftType": "ChangeSpecialStatusTicket",
+        "ID": 10,
+        "NameContextID": 1000107
+    },
+    {
+        "Amount": 1,
+        "DescriptionContextID": 1000189,
+        "GiftType": "AllRankARandomCharacter",
+        "ID": 11,
+        "NameContextID": 1000188
+    },
+    {
+        "Amount": 1,
+        "DescriptionContextID": 1000191,
+        "GiftType": "AllRankASpecialCharacter",
+        "ID": 12,
+        "NameContextID": 1000190
+    }
+]

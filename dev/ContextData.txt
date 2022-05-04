@@ -1845,63 +1845,63 @@
     },
     {
         "ID": 10016,
-        "en_us": "None",
+        "en_us": "Repair Shield I",
         "zh_tw": "維修護盾 I"
     },
     {
         "ID": 10017,
-        "en_us": "None",
+        "en_us": "Gain 25% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases the damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself.",
         "zh_tw": "獲得25%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10018,
-        "en_us": "None",
+        "en_us": "Repair Shield II",
         "zh_tw": "維修護盾 II"
     },
     {
         "ID": 10019,
-        "en_us": "None",
+        "en_us": "Gain 50% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself.",
         "zh_tw": "獲得50%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10020,
-        "en_us": "None",
+        "en_us": "Repair Shield III",
         "zh_tw": "維修護盾 III"
     },
     {
         "ID": 10021,
-        "en_us": "None",
+        "en_us": "Gain 75% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is any remaining shield value, add the same amount of HP to yourself.",
         "zh_tw": "獲得75%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10022,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Quicksand Body",
+        "zh_tw": "流沙身體"
     },
     {
         "ID": 10023,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill, give yourself a \"Body Rebuild\" that lasts for 2 turns.",
+        "zh_tw": "受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊時，給予自己1個持續2回合的「身體重建」。"
     },
     {
         "ID": 10024,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Body Rebuild",
+        "zh_tw": "身體重建"
     },
     {
         "ID": 10025,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Increases life by 99,999 points when the status is removed.",
+        "zh_tw": "狀態消除時，增加99,999點生命值。"
     },
     {
         "ID": 10026,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Poisoned Body",
+        "zh_tw": "毒性身體"
     },
     {
         "ID": 10027,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "At the beginning of an action, if you have \"Poison\" buff, each \"Poison\" increases your HP value by 3% of your Max HP value. Increase your Attack and Defense value by (500 x the number of \"Poisoned\") points.",
+        "zh_tw": "行動開始時，若持有「中毒」狀態，每個「中毒」使自己增加3%最大生命值的生命值。使自己的攻擊值與防禦值增加(500 x 「中毒」個數)點。"
     },
     {
         "ID": 10028,
@@ -2564,6 +2564,7 @@
     },
     {
         "ID": 300017,
+        "en_us": "Test",
         "zh_tw": "測試用"
     },
     {

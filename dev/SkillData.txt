@@ -1506,14 +1506,23 @@
         "Tag": 400030
     },
     {
+        "Command": "OnStartToTakeDamage_Self\n{\n     BeginIf_LastSkillTag(Target, 1, 400001);\n          GainBuff(Self, 10018, 1t2);\n     EndIf();\n}",
+        "DescriptionContextID": 10023,
         "DropRate": 0,
         "ID": 10007,
-        "SP": 0
+        "NameContextID": 10022,
+        "References": "B:10018",
+        "SP": 0,
+        "Tag": 400013
     },
     {
+        "Command": "OnActionStarted_Self\r\n{\r\nAddStatus(Self,HP,MaxHP * 0.03 * Buff(Owner,5,Amount) ); \r\n} \r\n\r\nOnActived\r\n{\r\nAddStatus(Self,Attack,Buff(Owner,5,Amount) * 500); \r\nAddStatus(Self,Defense,Buff(Owner,5,Amount) * 500); \r\n} ",
+        "DescriptionContextID": 10027,
         "DropRate": 0,
         "ID": 10008,
-        "SP": 0
+        "NameContextID": 10026,
+        "SP": 0,
+        "Tag": 400030
     },
     {
         "DropRate": 0,

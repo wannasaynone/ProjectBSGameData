@@ -366,5 +366,13 @@
         "MaxAmount": 1,
         "NameContextID": 10020,
         "Tag": 400015
+    },
+    {
+        "Command": "OnDeactived\r\n{\r\n   AddStatus(Self, HP, 99999);\r\n} ",
+        "DescriptionContextID": 10025,
+        "ID": 10018,
+        "MaxAmount": 1,
+        "NameContextID": 10024,
+        "Tag": 400015
     }
 ]

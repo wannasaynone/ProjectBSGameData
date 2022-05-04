@@ -1716,8 +1716,8 @@
     },
     {
         "ID": 403,
-        "en_us": "When the buff is removed, replace the skill \"Ready for Wooden Pile Strike \" with \"Wooden Pile Cannon Strike\".",
-        "zh_tw": "狀態消除時，將技能「木樁炮擊準備中」替換成「木樁炮擊」。"
+        "en_us": "Cannot act. When the buff is removed, replace the skill \"Ready for Wooden Pile Strike \" with \"Wooden Pile Cannon Strike\".",
+        "zh_tw": "不能行動。狀態消除時，將技能「木樁炮擊準備中」替換成「木樁炮擊」。"
     },
     {
         "ID": 404,
@@ -1826,8 +1826,7 @@
     },
     {
         "ID": 10012,
-        "en_us": "Shield",
-        "zh_tw": "防護罩"
+        "zh_tw": "訓練用護盾"
     },
     {
         "ID": 10013,
@@ -1846,63 +1845,63 @@
     },
     {
         "ID": 10016,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Repair Shield I",
+        "zh_tw": "維修護盾 I"
     },
     {
         "ID": 10017,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Gain 25% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases the damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself.",
+        "zh_tw": "獲得25%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10018,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Repair Shield II",
+        "zh_tw": "維修護盾 II"
     },
     {
         "ID": 10019,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Gain 50% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself.",
+        "zh_tw": "獲得50%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10020,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Repair Shield III",
+        "zh_tw": "維修護盾 III"
     },
     {
         "ID": 10021,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Gain 75% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is any remaining shield value, add the same amount of HP to yourself.",
+        "zh_tw": "獲得75%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10022,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Quicksand Body",
+        "zh_tw": "流沙身體"
     },
     {
         "ID": 10023,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill, give yourself a \"Body Rebuild\" that lasts for 2 turns.",
+        "zh_tw": "受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊時，給予自己1個持續2回合的「身體重建」。"
     },
     {
         "ID": 10024,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Body Rebuild",
+        "zh_tw": "身體重建"
     },
     {
         "ID": 10025,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Increases life by 99,999 points when the status is removed.",
+        "zh_tw": "狀態消除時，增加99,999點生命值。"
     },
     {
         "ID": 10026,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Poisoned Body",
+        "zh_tw": "毒性身體"
     },
     {
         "ID": 10027,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "At the beginning of an action, if you have \"Poison\" buff, each \"Poison\" increases your HP value by 3% of your Max HP value. Increase your Attack and Defense value by (500 x the number of \"Poisoned\") points.",
+        "zh_tw": "行動開始時，若持有「中毒」狀態，每個「中毒」使自己增加3%最大生命值的生命值。使自己的攻擊值與防禦值增加(500 x 「中毒」個數)點。"
     },
     {
         "ID": 10028,
@@ -2031,8 +2030,7 @@
     },
     {
         "ID": 10053,
-        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increase the damage taken by 50%. When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, replace this skill with \"Fire Protection\".",
-        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊後，將這個技能替換為「防火裝置」。"
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊後，將這個技能替換為「防火裝置」，並給予自己持續2回合的「維修護盾」。"
     },
     {
         "ID": 10054,
@@ -2072,7 +2070,7 @@
     {
         "ID": 10061,
         "en_us": "After taking damage, there is a 50% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
-        "zh_tw": "受到傷害後，有50%的機率減少1回合的「裝填彈藥」。"
+        "zh_tw": "受到攻擊後，有50%的機率減少1回合的「裝填彈藥」。"
     },
     {
         "ID": 10062,
@@ -2142,7 +2140,7 @@
     {
         "ID": 10075,
         "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, it reduces the damage taken by 50%. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill, it accumulates imbalance value. If the imbalance value exceeds a certain value, replace this skill with \"Flammable\".",
-        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害減少50%。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊會累積失衡值。若失衡值超過一定數值時，將這個技能替換為「易燃」。"
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害減少50%。"
     },
     {
         "ID": 10076,
@@ -2172,7 +2170,7 @@
     {
         "ID": 10081,
         "en_us": "After taking damage, there is a 30% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
-        "zh_tw": "受到傷害後，有30%的機率減少1回合的「裝填彈藥」。"
+        "zh_tw": "受到攻擊後，有30%的機率減少1回合的「裝填彈藥」。"
     },
     {
         "ID": 10082,
@@ -2566,6 +2564,7 @@
     },
     {
         "ID": 300017,
+        "en_us": "Test",
         "zh_tw": "測試用"
     },
     {
@@ -3186,8 +3185,8 @@
     },
     {
         "ID": 1000053,
-        "en_us": "Combine Skill",
-        "zh_tw": "合成技能"
+        "en_us": "Random Combine",
+        "zh_tw": "隨機合成"
     },
     {
         "ID": 1000054,
@@ -3421,7 +3420,7 @@
     },
     {
         "ID": 1000100,
-        "en_us": "After using it on a character, you can change its appearance. The skill will be reset, but the quality will not be changed.",
+        "en_us": "After using it on a character, you can change its appearance. The skill will be reset, but the ability rank and value will not be changed.",
         "zh_tw": "對角色使用後，可以變更其外觀。技能將會被重置，素質不會被變更。"
     },
     {
@@ -3431,7 +3430,7 @@
     },
     {
         "ID": 1000102,
-        "en_us": "When used on a character, it refreshes the level and value of all ability values.",
+        "en_us": "When used on a character, it refreshes the rnak and value of all ability values.",
         "zh_tw": "對角色使用後，刷新所有能力值的階級與數值。"
     },
     {
@@ -3441,7 +3440,7 @@
     },
     {
         "ID": 1000104,
-        "en_us": "Refreshes the level and value of the specified ability value when used on a character.",
+        "en_us": "Refreshes the rank and value of the specified ability value when used on a character.",
         "zh_tw": "對角色使用後，刷新指定能力值的階級與數值。"
     },
     {
@@ -3506,8 +3505,8 @@
     },
     {
         "ID": 1000117,
-        "en_us": "Insufficient number of items\n\n* Items can be purchased at the store\n* Low chance of getting items when raiding",
-        "zh_tw": "物品數量不足\n\n* 物品可於商店購入\n* 掃蕩時有低機率獲得物品"
+        "en_us": "Insufficient number of items\n\n* Items can be purchased at the store\n* Low chance of getting items when raiding\n\nPress OK to go to Shop",
+        "zh_tw": "物品數量不足\n\n* 物品可於商店購入\n* 掃蕩時有低機率獲得物品\n\n點擊OK後前往商店"
     },
     {
         "ID": 1000118,
@@ -3692,7 +3691,7 @@
     {
         "ID": 1000154,
         "en_us": "Click on the panel to \nconfirm character information\nTry to equip skills for your character",
-        "zh_tw": "點擊面板確認角色資訊\n嘗試替腳色裝備技能"
+        "zh_tw": "點擊面板確認角色資訊\n嘗試替角色裝備技能"
     },
     {
         "ID": 1000155,
@@ -3873,6 +3872,76 @@
         "ID": 1000191,
         "en_us": "A character with an A rank for all abilities and unieuq skill.",
         "zh_tw": "取得全能力值均為評價A，且持有獨特技能的角色。"
+    },
+    {
+        "ID": 1000192,
+        "en_us": "Combine",
+        "zh_tw": "技能合成"
+    },
+    {
+        "ID": 1000193,
+        "en_us": "Search",
+        "zh_tw": "搜尋技能"
+    },
+    {
+        "ID": 1000194,
+        "en_us": "Specify Combine",
+        "zh_tw": "指定合成"
+    },
+    {
+        "ID": 1000195,
+        "en_us": "Depart Skill",
+        "zh_tw": "分解技能"
+    },
+    {
+        "ID": 1000196,
+        "en_us": "Obtained {0} skill parts, now hold {1}.\n\nYou can synthesize the specified skill through the \"Specify Combine\" in the skill list.",
+        "zh_tw": "獲得 {0} 個技能碎片，現在持有 {1} 個。\n\n可以透過技能列表中的「指定合成」合成指定技能。"
+    },
+    {
+        "ID": 1000197,
+        "en_us": "Insufficient skill parts! Need {0} parts.\nCurrently have {1}.\n\n* You can obtain skill parts by depart them.",
+        "zh_tw": "技能碎片不足！需要 {0} 個碎片。\n目前擁有 {1} 個。\n\n* 可以透過分解技能取得技能碎片"
+    },
+    {
+        "ID": 1000198,
+        "en_us": "Acquired skill: {0}",
+        "zh_tw": "獲得技能: {0}"
+    },
+    {
+        "ID": 1000199,
+        "en_us": "Please enter the serial coupon code ......",
+        "zh_tw": "請輸入序號......"
+    },
+    {
+        "ID": 1000200,
+        "en_us": "Wrong coupon code",
+        "zh_tw": "序號錯誤"
+    },
+    {
+        "ID": 1000201,
+        "en_us": "Redeemed coupon code",
+        "zh_tw": "兌換過的序號"
+    },
+    {
+        "ID": 1000202,
+        "en_us": "This coupon code cannot be exchanged, please contact the development team",
+        "zh_tw": "無法兌換此序號，請與開發團隊聯絡"
+    },
+    {
+        "ID": 1000203,
+        "en_us": "Watch Ad\nGet Reward",
+        "zh_tw": "觀看廣告\n獲得獎勵"
+    },
+    {
+        "ID": 1000204,
+        "en_us": "Use the recommended configuration?\n\n* Special skills will not be automatically replaced\n* If a field is unavailable, it will be skipped\n* If the skill is not held, it will be skipped\n* If the skill is already installed, it will be skipped",
+        "zh_tw": "要套用推薦的配置嗎？\n\n* 將不會自動取代特殊技能\n* 若欄位為不可使用，將跳過套用\n* 若未持有技能，將跳過套用\n* 若已裝備該技能，將跳過套用"
+    },
+    {
+        "ID": 1000205,
+        "en_us": "RECOMMEND SET",
+        "zh_tw": "推薦技能"
     },
     {
         "ID": 1500000,
