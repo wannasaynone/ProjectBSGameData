@@ -1516,7 +1516,7 @@
         "Tag": 400013
     },
     {
-        "Command": "OnActionStarted_Self\n{\nAddStatus(Self,HP,Self.MaxHP * 0.03 * Buff(Target,5,Amount) ); \n} \n\nOnActived\n{\nAddStatus(Self,Attack,Buff(Target,5,Amount) * 500); \nAddStatus(Self,Defense,Buff(Target,5,Amount) * 500); \n} ",
+        "Command": "OnActionStarted_Self\n{\nAddStatus(Self,HP,Self.MaxHP * 0.03 * Buff(Target,5,Amount) ); \nGainBuff(Self, 7, 1t3);\nGainBuff(Self, 1, 1t3);\n} ",
         "DescriptionContextID": 10027,
         "DropRate": 0,
         "ID": 10008,

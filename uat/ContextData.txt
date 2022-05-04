@@ -1900,8 +1900,8 @@
     },
     {
         "ID": 10027,
-        "en_us": "At the beginning of an action, if you have \"Poison\" buff, each \"Poison\" increases your HP value by 3% of your Max HP value. Increase your Attack and Defense value by (500 x the number of \"Poisoned\") points.",
-        "zh_tw": "行動開始時，若持有「中毒」狀態，每個「中毒」使自己增加3%最大生命值的生命值。使自己的攻擊值與防禦值增加(500 x 「中毒」個數)點。"
+        "en_us": "At the beginning of the action, if you have \"Poison\" buff, each \"Poison\" increases your life value by 6% of your Max HP value and gives you \"Attack Up\" and \"Defense Up\" for 3 turns.",
+        "zh_tw": "行動開始時，若持有「中毒」狀態，每個「中毒」使自己增加6%最大生命值的生命值，並給予自己持續3回合的「攻擊值上升」與「防禦值上升」。"
     },
     {
         "ID": 10028,
