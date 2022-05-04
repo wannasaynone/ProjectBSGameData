@@ -2305,8 +2305,8 @@
     },
     {
         "ID": 10108,
-        "en_us": "Deals 180% of the Attack value to 1 random enemy unit.",
-        "zh_tw": "對1個隨機敵方單位造成180%攻擊值的傷害。"
+        "en_us": "Deals 180% attack damage to 1~4 random enemy units.",
+        "zh_tw": "對隨機1~4個敵方單位造成180%攻擊值的傷害。"
     },
     {
         "ID": 10109,
