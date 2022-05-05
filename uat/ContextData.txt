@@ -2246,7 +2246,7 @@
     {
         "ID": 10096,
         "en_us": "Deals 150% Attack damage to 1 random enemy unit, ignoring defenses.",
-        "zh_tw": "根據仇恨值比例，對1個隨機的敵方單位造成150%攻擊值的傷害，無視防禦。"
+        "zh_tw": "對1個隨機的敵方單位造成150%攻擊值的傷害，無視防禦。"
     },
     {
         "ID": 10097,
@@ -2285,8 +2285,8 @@
     },
     {
         "ID": 10104,
-        "en_us": "Deals 130% attack damage to 2 random enemy units and has a 70% chance to give \"Poison\" to the target for 3 turns. Defense is ignored.",
-        "zh_tw": "對2個隨機敵方單位造成50%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。無視防禦。"
+        "en_us": "Deals 30% attack damage to 2 random enemy units and has a 70% chance to give \"Poison\" to the target for 3 turns. Defense is ignored.",
+        "zh_tw": "對2個隨機敵方單位造成30%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。無視防禦。"
     },
     {
         "ID": 10105,

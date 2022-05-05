@@ -82,5 +82,12 @@
         "GiftType": "AllRankASpecialCharacter",
         "ID": 12,
         "NameContextID": 1000190
+    },
+    {
+        "Amount": 1,
+        "DescriptionContextID": 1000176,
+        "GiftType": "UnlockSkillSlotTicket",
+        "ID": 13,
+        "NameContextID": 1000175
     }
 ]
