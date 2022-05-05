@@ -134,7 +134,7 @@
     {
         "AI": "CastSkill(10035);",
         "AppearanceDataID": 10017,
-        "Attack": 1500,
+        "Attack": 2500,
         "Defense": 2000,
         "HP": 300000,
         "ID": 21,
@@ -156,7 +156,7 @@
     {
         "AI": "CastSkill(10039); ",
         "AppearanceDataID": 10019,
-        "Attack": 5000,
+        "Attack": 2000,
         "Defense": 3000,
         "HP": 300000,
         "ID": 23,
@@ -167,7 +167,7 @@
     {
         "AI": "CastSkill(10039); ",
         "AppearanceDataID": 10019,
-        "Attack": 5000,
+        "Attack": 2000,
         "Defense": 3000,
         "HP": 300000,
         "ID": 24,
