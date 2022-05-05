@@ -2918,8 +2918,8 @@
     },
     {
         "ID": 1000000,
-        "en_us": "Last updated: 2022/04/27\n\n\u003csize=52\u003e*Future Plans\u003c/size\u003e\n\nThank you all for waiting for this time!\nThe next items that are expected to be updated in June are\n\n1. Optimize the UI of the level selection page to reduce the possibility of operation errors\n2. Optimize the battle-related UI to reduce the possibility of misunderstanding functions\n3. Optimize the skill system flow operation\n4. Optimize the character list, remove the filter, and add the function of arranging by conditions\n5. Add the specified skill synthesis system\n6. Add the third area related level content.\n7. Optimize the newbie tutorial\n8. modify the content of random drops from raids\n9. Add a new mechanism for obtaining mall props and optimize special reward performances.\n10. Optimize the mall UI, and add skill grid to unlock related goods\n11. add random type of goods related UI panel for players to check the chance of obtaining all items\n12. Optimize the level value, will reduce the level physical power consumption\n13. Optimize the content of the second area-related levels to increase the fun\n\n------------------------------------------------\n\nCurrently open to 2. Wasteland Street\n\nMore content will be added later! Thank you for playing!",
-        "zh_tw": "最近更新日期：2022/04/27\n\n\u003csize=52\u003e* 未來計畫\u003c/size\u003e\n\n感謝大家這段時間的等待！\n接下來預計將在六月更新的項目：\n\n1. 優化選擇關卡頁面的UI，減少操作錯誤的可能\n2. 優化戰鬥相關UI，減少誤會功能的可能\n3. 優化技能系統流程操作\n4. 優化角色列表，移除篩選器，增加依條件排列功能\n5. 增加指定技能合成系統\n6. 新增第三區相關關卡內容\n7. 優化新手教學\n8. 修改掃蕩隨機掉落的內容\n9. 新增取得商城道具的機制，優化特殊獎勵演出\n10. 優化商城UI，並新增技能格子解鎖相關商品\n11. 新增隨機類型商品相關UI面板供玩家查詢所有物品取得的機率\n12. 優化關卡數值，將降低關卡體力消耗\n13. 優化第二區相關關卡內容，增加趣味性\n\n------------------------------------------------\n\n目前開放至 2. 荒蕪街道\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
+        "en_us": "Last updated: 2022/05/05\r\n\r\n\u003csize=52\u003e* Big Update\u003c/size\r\n\r\nVersion 0.9.50 has been released!\r\n\r\n1. Optimize the UI of the level selection page to reduce the possibility of operation errors\r\n2. Optimize the battle-related UI to reduce the possibility of misunderstanding functions\r\n3. Optimize the skill system flow operation\r\n4. Optimize the character list, remove the filter, and add the function of arranging by conditions\r\n5. Add the specified skill synthesis system\r\n6. Add the third area related level content.\r\n7. Optimize the newbie tutorial\r\n8. modify the content of random drops from raids\r\n9. Add a new mechanism for obtaining mall props and optimize special reward performances.\r\n10. Optimize the mall UI, and add skill grid to unlock related goods\r\n11. add random type of goods related UI panel for players to check the chance of obtaining all items\r\n12. Optimize the level value, will reduce the level physical power consumption\r\n13. Optimize the content of the second area-related levels to increase the fun\r\n\r\n------------------------------------------------\r\n\r\nCurrently open to 3. Desert\r\n\r\nMore content will be updated later! Thank you for playing!",
+        "zh_tw": "最近更新日期：2022/05/05\n\n\u003csize=52\u003e* 大型更新\u003c/size\u003e\n\n0.9.50版本已釋出！\n\n1. 優化選擇關卡頁面的UI，減少操作錯誤的可能\n2. 優化戰鬥相關UI，減少誤會功能的可能\n3. 優化技能系統流程操作\n4. 優化角色列表，移除篩選器，增加依條件排列功能\n5. 增加指定技能合成系統\n6. 新增第三區相關關卡內容\n7. 優化新手教學\n8. 修改掃蕩隨機掉落的內容\n9. 新增取得商城道具的機制，優化特殊獎勵演出\n10. 優化商城UI，並新增技能格子解鎖相關商品\n11. 新增隨機類型商品相關UI面板供玩家查詢所有物品取得的機率\n12. 優化關卡數值，將降低關卡體力消耗\n13. 優化第二區相關關卡內容，增加趣味性\n\n------------------------------------------------\n\n目前開放至 3. 荒漠\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
     },
     {
         "ID": 3
@@ -4141,7 +4141,7 @@
     },
     {
         "ID": 3000003,
-        "en_us": "None",
+        "en_us": "3. Desert",
         "zh_tw": "3. 荒漠"
     },
     {
