@@ -16,39 +16,38 @@
         "AreaID": 1,
         "BossIDs": 1,
         "DescriptionContextID": 300002,
-        "FrontStageIDs": 1,
         "ID": 1,
-        "Index": 0,
-        "MaxExp": 36800,
-        "MinExp": 18400,
+        "Index": 1,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
         "NameContextID": 300001,
-        "RequireLevel": 0,
-        "Stamina": 2
+        "RequireLevel": 100,
+        "Stamina": 40
     },
     {
         "AreaID": 1,
-        "BossIDs": "2;3",
+        "BossIDs": 2,
         "DescriptionContextID": 300004,
         "FrontStageIDs": 1,
         "ID": 2,
-        "Index": 1,
-        "MaxExp": 152800,
-        "MinExp": 76400,
+        "Index": 2,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
         "NameContextID": 300003,
-        "RequireLevel": 10,
-        "Stamina": 10
+        "RequireLevel": 100,
+        "Stamina": 40
     },
     {
         "AreaID": 1,
-        "BossIDs": 5,
-        "DescriptionContextID": 300008,
+        "BossIDs": 3,
+        "DescriptionContextID": 300006,
         "FrontStageIDs": 2,
         "ID": 3,
-        "Index": 2,
-        "MaxExp": 818800,
-        "MinExp": 409400,
-        "NameContextID": 300007,
-        "RequireLevel": 40,
+        "Index": 3,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
+        "NameContextID": 300005,
+        "RequireLevel": 100,
         "Stamina": 40
     },
     {
@@ -63,7 +62,7 @@
         "MinExp": 1980400,
         "NameContextID": 300009,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 2,
@@ -77,7 +76,7 @@
         "MinExp": 1980400,
         "NameContextID": 300011,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 2,
@@ -91,7 +90,7 @@
         "MinExp": 1980400,
         "NameContextID": 300013,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 2,
@@ -105,7 +104,7 @@
         "MinExp": 1980400,
         "NameContextID": 300015,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 0,
@@ -163,8 +162,8 @@
         "FrontStageIDs": 7,
         "ID": 12,
         "Index": 4,
-        "MaxExp": 7921600,
-        "MinExp": 3960800,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
         "NameContextID": 300018,
         "RequireLevel": 100,
         "Stamina": 80
@@ -180,7 +179,7 @@
         "MinExp": 1980400,
         "NameContextID": 300020,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 3,
@@ -193,11 +192,11 @@
         "MinExp": 1980400,
         "NameContextID": 300022,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 3,
-        "BossIDs": 23,
+        "BossIDs": "24;23;24",
         "DescriptionContextID": 300025,
         "FrontStageIDs": 14,
         "ID": 15,
@@ -206,11 +205,11 @@
         "MinExp": 1980400,
         "NameContextID": 300024,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     },
     {
         "AreaID": 3,
-        "BossIDs": 25,
+        "BossIDs": "25;26;26;26",
         "DescriptionContextID": 300027,
         "FrontStageIDs": 15,
         "ID": 16,
@@ -219,6 +218,6 @@
         "MinExp": 1980400,
         "NameContextID": 300026,
         "RequireLevel": 100,
-        "Stamina": 80
+        "Stamina": 40
     }
 ]

@@ -1716,8 +1716,8 @@
     },
     {
         "ID": 403,
-        "en_us": "When the buff is removed, replace the skill \"Ready for Wooden Pile Strike \" with \"Wooden Pile Cannon Strike\".",
-        "zh_tw": "狀態消除時，將技能「木樁炮擊準備中」替換成「木樁炮擊」。"
+        "en_us": "Cannot act. When the buff is removed, replace the skill \"Ready for Wooden Pile Strike \" with \"Wooden Pile Cannon Strike\".",
+        "zh_tw": "不能行動。狀態消除時，將技能「木樁炮擊準備中」替換成「木樁炮擊」。"
     },
     {
         "ID": 404,
@@ -1771,138 +1771,137 @@
     },
     {
         "ID": 10001,
-        "en_us": "Rodent Bite",
-        "zh_tw": "嚙咬"
+        "en_us": "Magic Core Kolon  MK.I",
+        "zh_tw": "魔法核心高崙 MK.I"
     },
     {
         "ID": 10002,
-        "en_us": "Deals 100% Attack value damage to the enemy unit with the highest Hatred value.",
-        "zh_tw": "對仇恨值最高的敵方單位造成100%攻擊值的傷害。"
+        "en_us": "Train with Attack Device",
+        "zh_tw": "訓練用攻擊裝置"
     },
     {
         "ID": 10003,
-        "en_us": "Chemical Hormone",
-        "zh_tw": "化學激素"
+        "en_us": "Inflicts 30% of the Attack value of an enemy unit. If the target does not have \"Defense Up\", the damage dealt is increased by 10,000 points.",
+        "zh_tw": "對1個敵方單位造成30%攻擊值的傷害。目標沒有「防禦值上升」時，增加造成的傷害10,000點。"
     },
     {
         "ID": 10004,
-        "en_us": "After attacking, there is a 15% chance of giving the target a 2-turn \"Poison\". There is also a 30% chance that you will immediately take an additional action and give yourself \"Attack Down\" for 1 turn.",
-        "zh_tw": "攻擊後，有15%的機率給予目標1個持續2回合的「中毒」。另有30%的機率立即追加行動，並給予自己持續1回合的「攻擊破壞」。"
+        "en_us": "Training Defense Device",
+        "zh_tw": "訓練用防禦裝置"
     },
     {
         "ID": 10005,
-        "en_us": "Wildness",
-        "zh_tw": "野性"
+        "en_us": "When damage is about to be dealt, if the attacker does not have \"Defense Up\", the damage dealt becomes 1.",
+        "zh_tw": "將受到傷害時，若攻擊方沒有「防禦值上升」，使受到的傷害變為1。"
     },
     {
         "ID": 10006,
-        "en_us": "After receiving damage, if HP value is below 50% of Max HP, increase Attack value and Speed value by 30% and decrease Defense value by 30%.",
-        "zh_tw": "受到傷害後，若生命值低於50%，增加攻擊值與速度值30%，減少防禦值30%。"
+        "en_us": "Magic Core Kolon MK.II",
+        "zh_tw": "魔法核心高崙 MK.II"
     },
     {
         "ID": 10007,
-        "en_us": "Continuous Grab",
-        "zh_tw": "連抓"
+        "en_us": "Training Defense Device II",
+        "zh_tw": "訓練用防禦裝置 II"
     },
     {
         "ID": 10008,
-        "en_us": "Deals 150% Attack value damage to the enemy unit with the highest Hatred value. After attacking, there is a 60% chance of using \"Combo Grab\". Up to 3 times.",
-        "zh_tw": "對仇恨值最高的敵方單位造成150%攻擊值的傷害。攻擊後，有60%的機率追加使用「連抓」，最多3次。"
+        "en_us": "When damage is about to be dealt, if the attacker does not have \"Attack Up\", the damage dealt becomes 1.",
+        "zh_tw": "將受到傷害時，若攻擊方沒有「攻擊值上升」，使受到的傷害變為1。"
     },
     {
         "ID": 10009,
-        "en_us": "Continuous Catch (Two Strikes)",
-        "zh_tw": "連抓（二連擊）"
+        "en_us": "Magic Core Kolon MK.III",
+        "zh_tw": "魔法核心高崙 MK.III"
     },
     {
         "ID": 10010,
-        "en_us": "Continuous Catch (Triple Strike)",
-        "zh_tw": "連抓（三連擊）"
+        "en_us": "Training Defense Device III",
+        "zh_tw": "訓練用防禦裝置 III"
     },
     {
         "ID": 10011,
-        "en_us": "Sewer Rats",
-        "zh_tw": "下水道老鼠"
+        "en_us": "When dealt damage, if the skill is not a [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, gain a shield equal to your current HP.",
+        "zh_tw": "受到傷害時，若該技能不是[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能，獲得相當於目前生命值的護盾。"
     },
     {
         "ID": 10012,
-        "en_us": "Guard Robot Type 30001",
-        "zh_tw": "守衛機器人30001型"
+        "zh_tw": "訓練用護盾"
     },
     {
         "ID": 10013,
-        "en_us": "Auxiliary Support Module",
-        "zh_tw": "輔助支援模組"
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increases the damage taken by 50%.",
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。"
     },
     {
         "ID": 10014,
-        "en_us": "Use \"Advanced Repair Module\" whenever other friendly units take damage.",
-        "zh_tw": "每當其他友方單位受到傷害後，使用「高級修復模組」。"
+        "en_us": "Training Attack Device Modified",
+        "zh_tw": "訓練用攻擊裝置 改"
     },
     {
         "ID": 10015,
-        "en_us": "Advanced Repair Module",
-        "zh_tw": "高級修復模組"
+        "en_us": "Deals 180% attack damage to 1~4 random enemy units.",
+        "zh_tw": "對隨機1~4個敵方單位造成180%攻擊值的傷害。"
     },
     {
         "ID": 10016,
-        "en_us": "Increases the HP value of all friendly units other than yourself by 100% of my Defense value.",
-        "zh_tw": "增加自己以外的所有友方單位100%防禦值的生命值。"
+        "en_us": "Repair Shield I",
+        "zh_tw": "維修護盾 I"
     },
     {
         "ID": 10017,
-        "en_us": "Advanced Taunt Module",
-        "zh_tw": "高級嘲諷模組"
+        "en_us": "Gain 25% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases the damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself.",
+        "zh_tw": "獲得25%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10018,
-        "en_us": "Increases your Hatred value by the same value as your 100% Max HP value, then increases your HP value by 2% of your Haterd value. Removes Hatred value from all other friendly units.",
-        "zh_tw": "使自己的仇恨值增加與自己100%最大生命值相同的數值後，增加2%仇恨值的生命值。消除其他所有友方單位的仇恨值。"
+        "en_us": "Repair Shield II",
+        "zh_tw": "維修護盾 II"
     },
     {
         "ID": 10019,
-        "en_us": "Guard robot 20001 type",
-        "zh_tw": "守衛機器人20001型"
+        "en_us": "Gain 50% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself.",
+        "zh_tw": "獲得50%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10020,
-        "en_us": "Advanced Attack Module",
-        "zh_tw": "高級攻擊模組"
+        "en_us": "Repair Shield III",
+        "zh_tw": "維修護盾 III"
     },
     {
         "ID": 10021,
-        "en_us": "Deals 150% Attack value damage to all enemy units.",
-        "zh_tw": "對所有敵方單位造成150%攻擊值的傷害。"
+        "en_us": "Gain 75% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is any remaining shield value, add the same amount of HP to yourself.",
+        "zh_tw": "獲得75%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10022,
-        "en_us": "Annihilation Module",
-        "zh_tw": "殲滅模組"
+        "en_us": "Quicksand Body",
+        "zh_tw": "流沙身體"
     },
     {
         "ID": 10023,
-        "en_us": "Deals (150% + 1% x target's HP lost) Attack value damage to the enemy unit with the highest Hatred value. After the attack, use the \"Annihilation Module\" at a rate of (1% x target's remaining HP of Max HP). Up to 3 times.",
-        "zh_tw": "對仇恨值最高的敵方單位造成(150%+目標失去生命值百分比)攻擊值的傷害。攻擊後，以(目標剩餘生命值百分比)的機率，追加使用「殲滅模組」。最多3次。"
+        "en_us": "When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill, give yourself a \"Body Rebuild\" that lasts for 2 turns.",
+        "zh_tw": "受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊時，給予自己1個持續2回合的「身體重建」。"
     },
     {
         "ID": 10024,
-        "en_us": "Attack Module Initialization",
-        "zh_tw": "攻擊模組初始化"
+        "en_us": "Body Rebuild",
+        "zh_tw": "身體重建"
     },
     {
         "ID": 10025,
-        "en_us": "Gives you an \"Attack Up\" for 4 turns.",
-        "zh_tw": "給予自己持續4回合的「攻擊值上升」。"
+        "en_us": "Increases life by 99,999 points when the status is removed.",
+        "zh_tw": "狀態消除時，增加99,999點生命值。"
     },
     {
         "ID": 10026,
-        "en_us": "Annihilation Module (Two Strikes)",
-        "zh_tw": "殲滅模組（二連擊）"
+        "en_us": "Poisoned Body",
+        "zh_tw": "毒性身體"
     },
     {
         "ID": 10027,
-        "en_us": "Annihilation Module (Triple Strike)",
-        "zh_tw": "殲滅模組（三連擊）"
+        "en_us": "At the beginning of the action, if you have \"Poison\" buff, each \"Poison\" increases your life value by 6% of your Max HP value and gives you \"Attack Up\" and \"Defense Up\" for 3 turns.",
+        "zh_tw": "行動開始時，若持有「中毒」狀態，每個「中毒」使自己增加6%最大生命值的生命值，並給予自己持續3回合的「攻擊值上升」與「防禦值上升」。"
     },
     {
         "ID": 10028,
@@ -2031,8 +2030,8 @@
     },
     {
         "ID": 10053,
-        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increase damage by 50%.",
-        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。"
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increase the damage taken by 100%. When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, replace this skill with \"Fire Protection\" and give yourself a \"Repair Shield\" that lasts for 2 turns.",
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加100%。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊後，將這個技能替換為「防火裝置」，並給予自己持續2回合的「維修護盾」。"
     },
     {
         "ID": 10054,
@@ -2072,7 +2071,7 @@
     {
         "ID": 10061,
         "en_us": "After taking damage, there is a 50% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
-        "zh_tw": "受到傷害後，有50%的機率減少1回合的「裝填彈藥」。"
+        "zh_tw": "受到攻擊後，有50%的機率減少1回合的「裝填彈藥」。"
     },
     {
         "ID": 10062,
@@ -2136,13 +2135,13 @@
     },
     {
         "ID": 10074,
-        "en_us": "Imbalance",
-        "zh_tw": "失衡"
+        "en_us": "Fire Protection",
+        "zh_tw": "防火裝置"
     },
     {
         "ID": 10075,
-        "en_us": "Attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill will accumulate \"Imbalance Value\". If the \"Imbalance Value\" exceeds a certain value, it gives this unit an \"Cannot Action\" for 1 turn.",
-        "zh_tw": "受到[\u003c#cf6330\u003e物理\u003c/color\u003e]技能攻擊會累積失衡值。若失衡值超過一定數值，給予自己持續1回合的「失衡狀態」，並消除當前的狀態。"
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, it reduces the damage taken by 50%. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill, it accumulates imbalance value. If the imbalance value exceeds a certain value, replace this skill with \"Flammable\".",
+        "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害減少50%。"
     },
     {
         "ID": 10076,
@@ -2172,7 +2171,7 @@
     {
         "ID": 10081,
         "en_us": "After taking damage, there is a 30% chance that you will reduce your \"Loading Ammo\" for 1 turn.",
-        "zh_tw": "受到傷害後，有30%的機率減少1回合的「裝填彈藥」。"
+        "zh_tw": "受到攻擊後，有30%的機率減少1回合的「裝填彈藥」。"
     },
     {
         "ID": 10082,
@@ -2247,7 +2246,7 @@
     {
         "ID": 10096,
         "en_us": "Deals 150% Attack damage to 1 random enemy unit, ignoring defenses.",
-        "zh_tw": "根據仇恨值比例，對1個隨機的敵方單位造成150%攻擊值的傷害，無視防禦。"
+        "zh_tw": "對1個隨機的敵方單位造成100%攻擊值的傷害，無視防禦。"
     },
     {
         "ID": 10097,
@@ -2276,8 +2275,8 @@
     },
     {
         "ID": 10102,
-        "en_us": "Deals 130% Attack damage to 1 random enemy unit, and has a 70% chance to give \"Poison\" to the target for 3 turns.",
-        "zh_tw": "對1個隨機敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
+        "en_us": "Deals 130% Attack damage to 1 random enemy unit, and has a 70% chance to give \"Poison\" to the target for 3 turns. When the target's HP value is below 10%, defense is ignored.",
+        "zh_tw": "對1個隨機敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。目標生命值低於10%時，無視防禦。"
     },
     {
         "ID": 10103,
@@ -2286,8 +2285,8 @@
     },
     {
         "ID": 10104,
-        "en_us": "Deals 130% attack damage to 2 random enemy units and has a 70% chance to give \"Poison\" to the target for 3 turns.",
-        "zh_tw": "對2個隨機敵方單位造成130%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。"
+        "en_us": "Deals 30% attack damage to 2 random enemy units and has a 70% chance to give \"Poison\" to the target for 3 turns. Defense is ignored.",
+        "zh_tw": "對2個隨機敵方單位造成30%攻擊值的傷害，並有70%的機率給予目標持續3回合的「中毒」。無視防禦。"
     },
     {
         "ID": 10105,
@@ -2306,8 +2305,8 @@
     },
     {
         "ID": 10108,
-        "en_us": "Deals 180% of the Attack value to 1 random enemy unit.",
-        "zh_tw": "對1個隨機敵方單位造成180%攻擊值的傷害。"
+        "en_us": "Deals 180% attack damage to 1~4 random enemy units.",
+        "zh_tw": "對隨機1~4個敵方單位造成180%攻擊值的傷害。"
     },
     {
         "ID": 10109,
@@ -2321,13 +2320,13 @@
     },
     {
         "ID": 10111,
-        "en_us": "Rebirth",
-        "zh_tw": "重生"
+        "en_us": "Worm King Form",
+        "zh_tw": "蟲王化"
     },
     {
         "ID": 10112,
-        "en_us": "When damage is dealt, if HP value falls below 30% of Max HP, HP value becomes full. This skill will only trigger once in this battle.",
-        "zh_tw": "受到傷害後，若生命值低於最大生命值的30%，使生命值變為全滿。此戰鬥中，這個技能只會生效1次。"
+        "en_us": "When damage is dealt, if life value is less than 30% of Max HP value, it will cause all other friendly units to die, giving you \"Attack Up\" and \"Defense Up\", and making your HP value full. This skill will only work once during this battle.",
+        "zh_tw": "受到傷害後，若生命值低於最大生命值的50%，使其他所有友方單位死亡，給予自己「攻擊值上升」、「防禦值上升」，並使生命值變為全滿。此戰鬥中，這個技能只會生效1次。"
     },
     {
         "ID": 10113,
@@ -2451,8 +2450,8 @@
     },
     {
         "ID": 100005,
-        "en_us": "Normal Unit (press to change name)",
-        "zh_tw": "一般素體(點擊修改名稱)"
+        "en_us": "Normal Unit",
+        "zh_tw": "一般素體"
     },
     {
         "ID": 100006,
@@ -2486,43 +2485,43 @@
     },
     {
         "ID": 300001,
-        "en_us": "Sewer Rat",
-        "zh_tw": "下水道老鼠"
+        "en_us": "Training Level 1",
+        "zh_tw": "訓練關卡一"
     },
     {
         "ID": 300002,
-        "en_us": "Suggested Level: Lv. 1\nA common underground waterway rat is blocking your way.",
-        "zh_tw": "建議等級：Lv. 1\n一隻普通的地下水道老鼠，阻擋了你的去路。"
+        "en_us": "Easy training level, where you will learn to face death.",
+        "zh_tw": "簡易訓練關卡，您將在這裡學習面對死亡。"
     },
     {
         "ID": 300003,
-        "en_us": "Guard Robot Type 30001",
-        "zh_tw": "守衛機器人30001型"
+        "en_us": "Training Level 2",
+        "zh_tw": "訓練關卡二"
     },
     {
         "ID": 300004,
-        "en_us": "Recommended level: Lv. 10\nThe two mechanical guards standing in front of the archway.\nThe program is still running despite the fact that there are no more guards left.",
-        "zh_tw": "建議等級：Lv. 10\n站立在拱門前的兩名機械守衛。\n儘管早已沒了看守的對象，但程式依然在運轉。"
+        "en_us": "Easy training level, where you will learn to face death.",
+        "zh_tw": "簡易訓練關卡，您將在這裡學習面對死亡。"
     },
     {
         "ID": 300005,
-        "en_us": "A Bunch of Sewer Rats",
-        "zh_tw": "一群下水道老鼠"
+        "en_us": "Training Level 3",
+        "zh_tw": "訓練關卡三"
     },
     {
         "ID": 300006,
-        "en_us": "Recommended level: Lv. 20\nThe new ruler of the deserted city is a bunch of rats.\nYou are not surprised by this. Yes, one rat is weak. What about a pack?",
-        "zh_tw": "建議等級：Lv. 20\n在荒蕪的城市裡面建立新統治權的，是一群老鼠。\n你對此毫不意外。是的，一隻老鼠很弱。那，一群呢？"
+        "en_us": "Easy training level, where you will learn to face death.",
+        "zh_tw": "簡易訓練關卡，您將在這裡學習面對死亡。"
     },
     {
         "ID": 300007,
-        "en_us": "Ancient Core Goren",
-        "zh_tw": "古代核心高崙"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 300008,
-        "en_us": "Recommended level: Lv. 40\nLumino has built a camp in the center of the city according to your instructions.\nAnd the violent energy wave of the change triggered the ancient core of the sleeping Goren.",
-        "zh_tw": "建議等級：Lv. 40\n魯米諾依照你的指令，在城市的中心建造了營地。\n而變動劇烈的能量波觸發了沉睡的古代核心高崙。"
+        "en_us": "None",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 300009,
@@ -2531,8 +2530,8 @@
     },
     {
         "ID": 300010,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e)\nActing based on the energy source known locally as \"magic\".\nUsually only simple commands can be performed, such as eliminating external enemies.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e)\n以被當地人稱為「魔法」的能源作為核心運作。\n通常只能執行簡單的指令，例如排除外敵。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e"
     },
     {
         "ID": 300011,
@@ -2541,8 +2540,8 @@
     },
     {
         "ID": 300012,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e)\nWooden guards are available in different sizes.\nThe reason for this is yet to be investigated, perhaps magic\" is not a free source of energy here.\nIt's like electricity power source for us.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e)\n木造守衛有體型之分。\n原因尚待調查，或許「魔法」在這裡並不是免費的能源。\n就像是我們的電源。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 1 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：1 / 10\u003c/color\u003e"
     },
     {
         "ID": 300013,
@@ -2551,8 +2550,8 @@
     },
     {
         "ID": 300014,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e)\nThe wooden guards that should be used to defend against foreign enemies are wandering around the streets.\nMaybe there was an invasion, a war.\nOr maybe it simply got out of hand.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e)\n應該用來抵禦外敵的木造守衛卻在街道各處遊走，\n或許這裡曾經發生過一場入侵，一場戰爭。\n或者只是單純的失控。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e"
     },
     {
         "ID": 300015,
@@ -2561,11 +2560,12 @@
     },
     {
         "ID": 300016,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 3 / 10\u003c/color\u003e)\nWooden guards of unusually large size appear in the deepest part.\nNo habit of wandering patrol, just standing there.\nIf you do not insist on approaching, there seems to be no active attack setting.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：3 / 10\u003c/color\u003e)\n尺寸異常巨大的木造守衛出現在最深處。\n沒有遊走巡邏的習慣，僅僅是在那裡站立著。\n若不堅持接近的話，似乎沒有主動攻擊的設定。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 3 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：3 / 10\u003c/color\u003e"
     },
     {
         "ID": 300017,
+        "en_us": "Test",
         "zh_tw": "測試用"
     },
     {
@@ -2575,8 +2575,8 @@
     },
     {
         "ID": 300019,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e)\n[Twice the Exp].\nHigh difficulty level.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e)\n[兩倍經驗]\n高難度關卡。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e [Twice the Exp].",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e [兩倍經驗]"
     },
     {
         "ID": 300020,
@@ -2585,8 +2585,8 @@
     },
     {
         "ID": 300021,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e)\r\nThere are many humanoid creatures made of sand and gravel here.\r\nThey wander around in the desert as if they are looking for something.\r\nMaybe there are some secrets hidden deep in the desert.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e)\n這裡有許多由沙礫所構成的人形生物。\n它們在沙漠中到處徘徊，像是在找尋甚麼東西似的。\n或許沙漠深處還隱藏著一些秘密。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e"
     },
     {
         "ID": 300022,
@@ -2595,8 +2595,8 @@
     },
     {
         "ID": 300023,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e)\r\nWith its golden appearance, the Desert Gold Scorpion has excellent concealment in the desert.\r\nIt should look good on the outside of your defense gear.\r\nBut beware of the poison in their tails.",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e)\n荒漠金蠍有著金燦燦的外表，在沙漠中有極佳的隱蔽性。\n拿來做在防具的外部應該很不錯。\n但是要小心它們尾部的劇毒。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e"
     },
     {
         "ID": 300024,
@@ -2605,8 +2605,8 @@
     },
     {
         "ID": 300025,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 5 / 10\u003c/color\u003e)\r\nHeat.\r\nThe deeper you go into the desert the hotter it gets and you never get used to it.\r\nAnd you seem to be starting to hallucinate ......",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：5 / 10\u003c/color\u003e)\n熱。\n越是深入荒漠之中越是炎熱，永遠也無法習慣。\n而且你好像開始出現了幻覺......"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 3 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：3 / 10\u003c/color\u003e"
     },
     {
         "ID": 300026,
@@ -2615,8 +2615,8 @@
     },
     {
         "ID": 300027,
-        "en_us": "Recommended level: Lv. 100 (\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e)\r\nThere should have been a huge oasis here.\r\nIs it due to environmental changes or something else?",
-        "zh_tw": "建議等級：Lv. 100 (\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e)\n這裡原先應該有一個巨大的綠洲。\n是因為環境變化，還是其他原因。"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
     },
     {
         "ID": 400001,
@@ -2996,8 +2996,8 @@
     },
     {
         "ID": 1000015,
-        "en_us": "\u003c#ff6347\u003eSweep\u003c/color\u003e",
-        "zh_tw": "\u003c#ff6347\u003e點擊掃蕩\u003c/color\u003e"
+        "en_us": "Sweep",
+        "zh_tw": "掃蕩"
     },
     {
         "ID": 1000016,
@@ -3186,8 +3186,8 @@
     },
     {
         "ID": 1000053,
-        "en_us": "Combine Skill",
-        "zh_tw": "合成技能"
+        "en_us": "Random Combine",
+        "zh_tw": "隨機合成"
     },
     {
         "ID": 1000054,
@@ -3256,8 +3256,8 @@
     },
     {
         "ID": 1000067,
-        "en_us": "[Long press to confirm special drop]",
-        "zh_tw": "[長按確認特殊掉落]"
+        "en_us": "Special Drop",
+        "zh_tw": "特殊掉落"
     },
     {
         "ID": 1000068,
@@ -3266,8 +3266,8 @@
     },
     {
         "ID": 1000069,
-        "en_us": "- Raid cleared levels to gain skills and EXP\n\n- Go to the character page and use EXP to upgrade heroes\n\n- Configure your team and skills according to the characteristics of the Demon King\n\n- Go to the store to get more powerful characters and more skills",
-        "zh_tw": "- 掃蕩已通關關卡獲得技能與經驗值\n\n- 前往角色頁面使用經驗值升級英雄\n\n- 根據魔王特性配置隊伍與技能\n\n- 前往商店取得更強力的角色與更多技能"
+        "en_us": "可用ID",
+        "zh_tw": "可用ID"
     },
     {
         "ID": 1000070,
@@ -3376,8 +3376,8 @@
     },
     {
         "ID": 1000091,
-        "en_us": "* Spend experience value to get a character\n* All values are random\n* Chance to get a character with a unique skill",
-        "zh_tw": "* 消耗經驗值取得角色\n* 數值均為隨機\n* 有機會取得持有獨特技能的角色"
+        "en_us": "* Spend experience value to get a character\n* All values are random\n* Long press to check chance list",
+        "zh_tw": "* 消耗經驗值取得角色\n* 數值均為隨機\n* 長按確認機率"
     },
     {
         "ID": 1000092,
@@ -3391,8 +3391,8 @@
     },
     {
         "ID": 1000094,
-        "en_us": "* Cannot obtain unique skills held by the character\n* Unable to obtain the limited drop skill of the level\n* Possible to obtain 2 or more of the same skill in the same draw result",
-        "zh_tw": "* 無法取得角色持有的獨特技能\n* 無法取得關卡的限定掉落技能\n* 可能在同次抽取結果中取得2個或以上相同技能"
+        "en_us": "* Possible to obtain 2 or more of the same skill in the same draw result\n* Long press to check chance list",
+        "zh_tw": "* 可能在同次抽取結果中取得2個或以上相同技能\n* 長按確認機率"
     },
     {
         "ID": 1000095,
@@ -3401,8 +3401,8 @@
     },
     {
         "ID": 1000096,
-        "en_us": "After purchase, you will receive a character with an A rating for all abilities.\n* Character appearance is random",
-        "zh_tw": "購買後直接取得全能力均為評價A的角色。\n* 角色外型為隨機"
+        "en_us": "After purchase, you can directly obtain a character with an A rating for all abilities.\r\n* The random chance of character appearance is the same as that of the extracted character.",
+        "zh_tw": "購買後直接取得全能力均為評價A的角色。\n* 角色外型隨機機率與抽取角色相同"
     },
     {
         "ID": 1000097,
@@ -3416,32 +3416,32 @@
     },
     {
         "ID": 1000099,
-        "en_us": "Character\nChange Ticket\nx 10",
-        "zh_tw": "變換角色券\nx 10"
+        "en_us": "Character Change Ticket x 10",
+        "zh_tw": "變換角色券 x 10"
     },
     {
         "ID": 1000100,
-        "en_us": "After using it on a character, you can change its appearance. The skill will be reset, but the quality will not be changed.",
+        "en_us": "After using it on a character, you can change its appearance. The skill will be reset, but the ability rank and value will not be changed.",
         "zh_tw": "對角色使用後，可以變更其外觀。技能將會被重置，素質不會被變更。"
     },
     {
         "ID": 1000101,
-        "en_us": "Transformation\nTicket\nx100",
-        "zh_tw": "變換素質券\nx 100"
+        "en_us": "Transformation Ticket x 100",
+        "zh_tw": "變換素質券 x 100"
     },
     {
         "ID": 1000102,
-        "en_us": "When used on a character, it refreshes the level and value of all ability values.",
+        "en_us": "When used on a character, it refreshes the rnak and value of all ability values.",
         "zh_tw": "對角色使用後，刷新所有能力值的階級與數值。"
     },
     {
         "ID": 1000103,
-        "en_us": "Change Single Stat\nTicket\nx10",
-        "zh_tw": "變換單一素質券\nx 10"
+        "en_us": "Change Single Stat Ticket x 10",
+        "zh_tw": "變換單一素質券 x 10"
     },
     {
         "ID": 1000104,
-        "en_us": "Refreshes the level and value of the specified ability value when used on a character.",
+        "en_us": "Refreshes the rank and value of the specified ability value when used on a character.",
         "zh_tw": "對角色使用後，刷新指定能力值的階級與數值。"
     },
     {
@@ -3481,8 +3481,8 @@
     },
     {
         "ID": 1000112,
-        "en_us": "Obtain item {0} x {1}\n\n* Can be used through the Item Use\" button on the camp page.\"",
-        "zh_tw": "獲得物品 {0} x {1}\n\n* 可以透營地頁面的「物品使用」按鈕使用"
+        "en_us": "{0} x {1}",
+        "zh_tw": "{0} x {1}"
     },
     {
         "ID": 1000113,
@@ -3506,8 +3506,8 @@
     },
     {
         "ID": 1000117,
-        "en_us": "Insufficient number of items\n\n* Items can be purchased at the store\n* Low chance of getting items when raiding",
-        "zh_tw": "物品數量不足\n\n* 物品可於商店購入\n* 掃蕩時有低機率獲得物品"
+        "en_us": "Insufficient number of items\n\n* Items can be purchased at the store\n* Low chance of getting items when raiding\n\nPress OK to go to Shop",
+        "zh_tw": "物品數量不足\n\n* 物品可於商店購入\n* 掃蕩時有低機率獲得物品\n\n點擊OK後前往商店"
     },
     {
         "ID": 1000118,
@@ -3616,8 +3616,8 @@
     },
     {
         "ID": 1000139,
-        "en_us": "Useable",
-        "zh_tw": "不可使用"
+        "en_us": "Useable\n\n* Can go to the store to buy Skill Slot Unlock Ticket to become available",
+        "zh_tw": "不可使用\n\n* 可以前往商店購買技能欄位解鎖券變更為可以使用"
     },
     {
         "ID": 1000140,
@@ -3671,8 +3671,8 @@
     },
     {
         "ID": 1000150,
-        "en_us": "Well done, researcher.\r\nYou have successfully established a foothold and have all the knowledge of the battle.\r\nThis will be our last communication.\r\nPlease complete your mission: complete the investigation of all areas to follow.",
-        "zh_tw": "做得好，研究員。\n你已經成功建立據點，擁有對戰鬥的一切知識。\n這將會是我們最後一次通訊。\n請完成你的任務：完成接下來所有區域的調查。"
+        "en_us": "Well done, researcher.\r\nYou have everything you need to know about the battle.\r\nThis will be our last communication.\r\nPlease complete your mission: remove all enemies.",
+        "zh_tw": "做得好，研究員。\n你已經擁有對戰鬥的一切知識。\n這將會是我們最後一次通訊。\n請完成你的任務：清除所有敵人。"
     },
     {
         "ID": 1000151,
@@ -3691,13 +3691,13 @@
     },
     {
         "ID": 1000154,
-        "en_us": "Click panel to check character info\nTry to level up 2 characters to 11",
-        "zh_tw": "點擊面板確認角色資訊\n嘗試將兩個角色都升級到11"
+        "en_us": "Click on the panel to \nconfirm character information\nTry to equip skills for your character",
+        "zh_tw": "點擊面板確認角色資訊\n嘗試替角色裝備技能"
     },
     {
         "ID": 1000155,
-        "en_us": "Click here to level up\nTry level up to Lv. 11",
-        "zh_tw": "點擊這裡升級\n嘗試升級到11"
+        "en_us": "Click here to start equipping skills",
+        "zh_tw": "點擊這裡開始裝備技能"
     },
     {
         "ID": 1000156,
@@ -3705,14 +3705,324 @@
         "zh_tw": "點擊此處關閉面板"
     },
     {
-        "ID": 1000157,
-        "en_us": "Go next battle!",
-        "zh_tw": "進行下一場戰鬥！"
+        "ID": 1000158,
+        "en_us": "Play the next battle\r\nGet more unique characters",
+        "zh_tw": "進行下一場戰鬥\n獲得更多獨特角色"
     },
     {
-        "ID": 1000158,
-        "en_us": "Please go to upgrade another character\r\nor start the next battle!\r\n\r\n* After that, you can freely upgrade up to level 100.",
-        "zh_tw": "請前往升級另一隻角色\n或開始進行下一場戰鬥！\n\n* 之後可以自由升級至最高100級"
+        "ID": 1000159,
+        "en_us": "INFO",
+        "zh_tw": "資訊"
+    },
+    {
+        "ID": 1000160,
+        "en_us": "This level does not have special drop skills",
+        "zh_tw": "本關卡沒有特殊掉落技能"
+    },
+    {
+        "ID": 1000161,
+        "en_us": "Click to confirm skills",
+        "zh_tw": "點擊確認技能"
+    },
+    {
+        "ID": 1000162,
+        "en_us": "Buff",
+        "zh_tw": "狀態"
+    },
+    {
+        "ID": 1000163,
+        "en_us": "No holding skills",
+        "zh_tw": "沒有持有技能"
+    },
+    {
+        "ID": 1000164,
+        "en_us": "No holding buffs",
+        "zh_tw": "沒有持有狀態"
+    },
+    {
+        "ID": 1000165,
+        "en_us": "Skip Action",
+        "zh_tw": "跳過行動"
+    },
+    {
+        "ID": 1000166,
+        "en_us": "Click to use\nLong press to check content",
+        "zh_tw": "點擊使用技能\n長按確認內容"
+    },
+    {
+        "ID": 1000167,
+        "en_us": "Watch ad to\nreset random value",
+        "zh_tw": "觀看廣告\n重置隨機數值"
+    },
+    {
+        "ID": 1000168,
+        "en_us": "Confirmation to watch ads reset random values?\n\n* Randomly reset the value, you may get the random value of the Rank\n* Rank will not change when resetting random values",
+        "zh_tw": "確認觀看廣告重置隨機數值？\n\n* 隨機重置數值，可能得到該Rank可得的隨機數值\n* 重置隨機數值時，Rank不會改變"
+    },
+    {
+        "ID": 1000169,
+        "en_us": "Go to the Unit page \nto view",
+        "zh_tw": "前往角色頁面查看"
+    },
+    {
+        "ID": 1000170,
+        "en_us": "Get Special Reward",
+        "zh_tw": "獲得特殊獎勵"
+    },
+    {
+        "ID": 1000171,
+        "en_us": "Go to the Camp page to use",
+        "zh_tw": "前往營地頁面使用"
+    },
+    {
+        "ID": 1000172,
+        "en_us": "Skill Slot Unlock Ticket x 10",
+        "zh_tw": "技能欄位解鎖券 x 10"
+    },
+    {
+        "ID": 1000173,
+        "en_us": "You can change a skill field that is not available on the character information page to one that is available.",
+        "zh_tw": "可以在角色資訊頁面將不可以使用的技能欄位變更為可以使用。"
+    },
+    {
+        "ID": 1000174,
+        "en_us": "Cannot be used directly.\nYou can use this item when you click on a skill field that is not available on the character information page.\n\nClick OK to go to Unit page.",
+        "zh_tw": "無法直接使用。\n在角色資訊頁面點擊不可以使用的技能欄位時可以使用這個物品。\n\n點擊OK前往角色頁面。"
+    },
+    {
+        "ID": 1000175,
+        "en_us": "Skill Slot Unlock Ticket",
+        "zh_tw": "技能欄位解鎖券"
+    },
+    {
+        "ID": 1000176,
+        "en_us": "You can use this item when you click on a skill field that is not available on the character information page.",
+        "zh_tw": "在角色資訊頁面點擊不可以使用的技能欄位時可以使用這個物品。"
+    },
+    {
+        "ID": 1000177,
+        "en_us": "You have a Skill Field Unlock Ticket {0}.\n\nShould I consume 1 to change 1 field to usable?",
+        "zh_tw": "持有 技能欄位解鎖券 {0} 張。\n\n是否消耗 1 張將 1 個欄位變更為可以使用？"
+    },
+    {
+        "ID": 1000178,
+        "en_us": "Order By",
+        "zh_tw": "排序"
+    },
+    {
+        "ID": 1000179,
+        "en_us": "By Get Order",
+        "zh_tw": "依獲得順序"
+    },
+    {
+        "ID": 1000180,
+        "en_us": "By Attack",
+        "zh_tw": "依攻擊值"
+    },
+    {
+        "ID": 1000181,
+        "en_us": "By Defense",
+        "zh_tw": "依防禦值"
+    },
+    {
+        "ID": 1000182,
+        "en_us": "By Speed",
+        "zh_tw": "依速度值"
+    },
+    {
+        "ID": 1000183,
+        "en_us": "By HP",
+        "zh_tw": "依生命值"
+    },
+    {
+        "ID": 1000184,
+        "en_us": "CLEAR",
+        "zh_tw": "清除搜尋"
+    },
+    {
+        "ID": 1000185,
+        "en_us": "No special skills held",
+        "zh_tw": "沒有持有特殊技能"
+    },
+    {
+        "ID": 1000186,
+        "en_us": "Random Special Characters",
+        "zh_tw": "隨機特殊角色"
+    },
+    {
+        "ID": 1000187,
+        "en_us": "Obtain random characters with unique skill.",
+        "zh_tw": "取得隨機帶有獨特技能的角色。"
+    },
+    {
+        "ID": 1000188,
+        "en_us": "Random A-rank Character",
+        "zh_tw": "隨機全能力 A 級角色"
+    },
+    {
+        "ID": 1000189,
+        "en_us": "A character with an A rank for all abilities.",
+        "zh_tw": "取得全能力值均為評價A的角色。"
+    },
+    {
+        "ID": 1000190,
+        "en_us": "Random A-rank Special Character",
+        "zh_tw": "隨機全能力 A 級的特殊角色"
+    },
+    {
+        "ID": 1000191,
+        "en_us": "A character with an A rank for all abilities and unieuq skill.",
+        "zh_tw": "取得全能力值均為評價A，且持有獨特技能的角色。"
+    },
+    {
+        "ID": 1000192,
+        "en_us": "Combine",
+        "zh_tw": "技能合成"
+    },
+    {
+        "ID": 1000193,
+        "en_us": "Search",
+        "zh_tw": "搜尋技能"
+    },
+    {
+        "ID": 1000194,
+        "en_us": "Specify Combine",
+        "zh_tw": "指定合成"
+    },
+    {
+        "ID": 1000195,
+        "en_us": "Depart Skill",
+        "zh_tw": "分解技能"
+    },
+    {
+        "ID": 1000196,
+        "en_us": "Obtained {0} skill parts, now hold {1}.\n\nYou can synthesize the specified skill through the \"Specify Combine\" in the skill list.",
+        "zh_tw": "獲得 {0} 個技能碎片，現在持有 {1} 個。\n\n可以透過技能列表中的「指定合成」合成指定技能。"
+    },
+    {
+        "ID": 1000197,
+        "en_us": "Insufficient skill parts! Need {0} parts.\nCurrently have {1}.\n\n* You can obtain skill parts by depart them.",
+        "zh_tw": "技能碎片不足！需要 {0} 個碎片。\n目前擁有 {1} 個。\n\n* 可以透過分解技能取得技能碎片"
+    },
+    {
+        "ID": 1000198,
+        "en_us": "Acquired skill: {0}",
+        "zh_tw": "獲得技能: {0}"
+    },
+    {
+        "ID": 1000199,
+        "en_us": "Please enter the serial coupon code ......",
+        "zh_tw": "請輸入序號......"
+    },
+    {
+        "ID": 1000200,
+        "en_us": "Wrong coupon code",
+        "zh_tw": "序號錯誤"
+    },
+    {
+        "ID": 1000201,
+        "en_us": "Redeemed coupon code",
+        "zh_tw": "兌換過的序號"
+    },
+    {
+        "ID": 1000202,
+        "en_us": "This coupon code cannot be exchanged, please contact the development team",
+        "zh_tw": "無法兌換此序號，請與開發團隊聯絡"
+    },
+    {
+        "ID": 1000203,
+        "en_us": "Watch Ad\nGet Reward",
+        "zh_tw": "觀看廣告\n獲得獎勵"
+    },
+    {
+        "ID": 1000204,
+        "en_us": "Use the recommended configuration?\n\n* Special skills will not be automatically replaced\n* If a field is unavailable, it will be skipped\n* If the skill is not held, it will be skipped\n* If the skill is already installed, it will be skipped",
+        "zh_tw": "要套用推薦的配置嗎？\n\n* 將不會自動取代特殊技能\n* 若欄位為不可使用，將跳過套用\n* 若未持有技能，將跳過套用\n* 若已裝備該技能，將跳過套用"
+    },
+    {
+        "ID": 1000205,
+        "en_us": "RECOMMEND SET",
+        "zh_tw": "推薦技能"
+    },
+    {
+        "ID": 1500000,
+        "en_us": "Welcome, researcher.",
+        "zh_tw": "歡迎，研究員。"
+    },
+    {
+        "ID": 1500001,
+        "en_us": "Welcome to the Remote Combat System.",
+        "zh_tw": "歡迎使用遠端戰鬥系統。"
+    },
+    {
+        "ID": 1500002,
+        "en_us": "Here you will learn to control android to eliminate enemies \nso that our field personnel can explore safely.",
+        "zh_tw": "您將在這裡學習操作安卓清除敵人，\n讓我們的現場人員可以安全地進行探索。"
+    },
+    {
+        "ID": 1500003,
+        "en_us": "But don't worry, you too will be able to practice your skills to defeat them here.",
+        "zh_tw": "但別擔心，您也將可以這裡練習戰勝他們的技巧。"
+    },
+    {
+        "ID": 1500004,
+        "en_us": "Introducing to you, the Magic Core Kolon MK.I .",
+        "zh_tw": "為您介紹，魔法核心高崙 MK.I。"
+    },
+    {
+        "ID": 1500005,
+        "en_us": "Try equip 2 skills.",
+        "zh_tw": "試著裝備兩個技能。"
+    },
+    {
+        "ID": 1500006,
+        "en_us": "Close panel",
+        "zh_tw": "關閉面板"
+    },
+    {
+        "ID": 1500007,
+        "en_us": "Different levels usually have\ndifferent strategy points.\n\nLong press on the enemy \nto confirm the information.",
+        "zh_tw": "不同的關卡通常有不同的攻略要點。\n長按敵人確認資訊。"
+    },
+    {
+        "ID": 1500008,
+        "en_us": "Meet the final training\r\nGet a strong character!",
+        "zh_tw": "迎接最後的訓練\n取得強力的角色！"
+    },
+    {
+        "ID": 1500009,
+        "en_us": "This is a training Kolon.\nIt is very weak.\nPlease try to find a way to defeat it.",
+        "zh_tw": "這是訓練用高崙。\n它很弱。\n請試著找出方法打倒它。"
+    },
+    {
+        "ID": 1500010,
+        "en_us": "Pass the level to get 2 new characters",
+        "zh_tw": "通關可獲得 2 名新角色"
+    },
+    {
+        "ID": 1500011,
+        "en_us": "Pass the level to get a new character with full quality \u003ccolor=#ff4cf0\u003eA\u003c/color\u003e",
+        "zh_tw": "通關可獲得全素質 \u003ccolor=#ff4cf0\u003eA\u003c/color\u003e 的新角色"
+    },
+    {
+        "ID": 1500012,
+        "en_us": "None",
+        "zh_tw": "可用ID"
+    },
+    {
+        "ID": 1500013,
+        "en_us": "The strategy failed, but that's normal.",
+        "zh_tw": "攻略失敗了，但這很正常。"
+    },
+    {
+        "ID": 1500014,
+        "en_us": "Please check the enemy's information in detail and then challenge again.",
+        "zh_tw": "請詳細確認敵人的資訊之後，再次挑戰。"
+    },
+    {
+        "ID": 1500015,
+        "en_us": "Now apply \"\u003ccolor=#FEFF00\u003eNormal Defense\u003c/color\u003e\" to defend against enemy attacks!\n(Long press the enemy to learn why)",
+        "zh_tw": "現在施展 \u003ccolor=#FEFF00\u003e普通防禦\u003c/color\u003e 抵擋敵人攻擊！\n（長按敵人了解原因）"
     },
     {
         "ID": 2000001,

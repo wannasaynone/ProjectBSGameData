@@ -229,7 +229,7 @@
         "Tag": 400015
     },
     {
-        "Command": "OnDeactived\r\n{\r\nReplaceSkill(237,238); \r\n} ",
+        "Command": "OnActived\n{\n    SetForceEndAction();\n}\n\nOnDeactived\n{\nReplaceSkill(237,238); \n} ",
         "DescriptionContextID": 403,
         "ID": 116,
         "MaxAmount": 1,
@@ -237,19 +237,19 @@
         "Tag": 400019
     },
     {
-        "Command": "OnAttackEnded_Self\n{\n   BeginIf(Random(1,100) \u003c= 45);\n     Remember(LastAttacked);\n     ShowVFXOnTarget(Fog1, 2);\n     PlaySFX(Posion);\n     GainBuff(LastAttacked, 5, 1t2);\n   EndIf();\n\n  BeginIf(Random(1, 100) \u003c= 30);\n    ShowVFX(Temp, 2);\n    GainBuff(Self, 10, 1t1);\n    PlaySFX(AddStatus);\n    AddExtraAction(Self, 1);\n  EndIf();\n}",
-        "DescriptionContextID": 10004,
+        "Command": "OnActived\n{\nAddShield(Self,Self.HP,0); \n} \n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400007); \nAddDamage(50%); \nEndIf(); \n} ",
+        "DescriptionContextID": 10013,
         "ID": 10001,
         "MaxAmount": 1,
-        "NameContextID": 10003,
+        "NameContextID": 10012,
         "Tag": 400015
     },
     {
-        "Command": "OnDamageTaken_Self\n{\n  BeginIf(Self.HP \u003c= Self.MaxHP * 0.5);\n     AddStatus(Self, Attack, Self.Attack * 0.3);\n     AddStatus(Self, Speed, Self.Speed * 0.3);\n     AddStatus(Self, Defense, -Self.Defense * 0.3);\n  EndIf();\n}",
-        "DescriptionContextID": 10006,
+        "Command": "OnActived\n{\nAddShield(Self,Self.MaxHP*0.25,0); \n} \n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400001); \nAddDamage(50%); \nEndIf(); \n} \n\nOnDeactived\n{\nBeginIf(Self.Shield \u003e= 0);\n     AddStatus(Self, HP, Self.Shield);\nEndIf();\n\nReplaceSkill(10030, 10005);\n}",
+        "DescriptionContextID": 10017,
         "ID": 10002,
         "MaxAmount": 1,
-        "NameContextID": 10005,
+        "NameContextID": 10016,
         "Tag": 400015
     },
     {
@@ -337,24 +337,42 @@
         "Tag": 400016
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n       ShowVFX(EnergyWall1, 1);\n       PlaySFX(Protection);\n       AddDamage(-45%);\n}",
-        "DescriptionContextID": 10124,
+        "DescriptionContextID": 10106,
         "ID": 10014,
         "MaxAmount": 1,
-        "NameContextID": 10123,
+        "NameContextID": 10105,
+        "Tag": 400030
+    },
+    {
+        "Command": "OnStartToTakeDamage_Self\n{\n     SetDamage(0);\n}\nOnDamageTaken_Self\n{\n     SetDamage(0);\n}\nOnStartToEndAction_Self\n{\n     SetDamage(0);\n}",
+        "DescriptionContextID": 10106,
+        "ID": 10015,
+        "MaxAmount": 1,
+        "NameContextID": 10105,
+        "Tag": 400030
+    },
+    {
+        "Command": "OnActived\n{\nAddShield(Self,Self.MaxHP*0.5,0); \n} \n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400001); \nAddDamage(50%); \nEndIf(); \n} \n\nOnDeactived\n{\nBeginIf(Self.Shield \u003e= 0);\n     AddStatus(Self, HP, Self.Shield);\nEndIf();\n\nReplaceSkill(10030, 10006);\n}",
+        "DescriptionContextID": 10019,
+        "ID": 10016,
+        "MaxAmount": 1,
+        "NameContextID": 10018,
         "Tag": 400015
     },
     {
-        "Command": "OnStartToTakeDamage_Self\n{\n     AddDamage(35%);\n}",
-        "DescriptionContextID": 10132,
-        "ID": 10015,
+        "Command": "OnActived\n{\nAddShield(Self,Self.MaxHP*0.75,0); \n} \n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400001); \nAddDamage(50%); \nEndIf(); \n} \n\nOnDeactived\n{\nBeginIf(Self.Shield \u003e= 0);\n     AddStatus(Self, HP, Self.Shield);\nEndIf();\n\nReplaceSkill(10030, 10021);\n}",
+        "DescriptionContextID": 10021,
+        "ID": 10017,
         "MaxAmount": 1,
-        "NameContextID": 10131,
-        "Tag": 400016
+        "NameContextID": 10020,
+        "Tag": 400015
     },
     {
-        "ID": 10016,
+        "Command": "OnDeactived\r\n{\r\n   AddStatus(Self, HP, 99999);\r\n} ",
+        "DescriptionContextID": 10025,
+        "ID": 10018,
         "MaxAmount": 1,
-        "Tag": 400016
+        "NameContextID": 10024,
+        "Tag": 400015
     }
 ]

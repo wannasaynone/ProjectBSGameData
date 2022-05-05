@@ -1,192 +1,226 @@
 [
     {
+        "DropRate": 0,
         "ID": 1,
-        "IsDrop": 0,
         "NameContextID": 100001,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 2,
-        "IsDrop": 0,
         "NameContextID": 100002,
         "SpriteAssetPath": "icon_game_14"
     },
     {
+        "DropRate": 0,
         "ID": 3,
-        "IsDrop": 0,
         "NameContextID": 100003,
         "SpriteAssetPath": "icon_game_91"
     },
     {
+        "DropRate": 0,
         "ID": 4,
-        "IsDrop": 0,
         "NameContextID": 100004,
         "SpriteAssetPath": "icon_game_97"
     },
     {
         "DefaultSkillSet": "1;2",
+        "DropRate": 2,
         "ID": 10,
-        "IsDrop": 2,
         "NameContextID": 100005,
+        "RecommendSet": "1;2;127;129;163;164;165;196",
         "SpriteAssetPath": "icon_game_100"
     },
     {
         "DefaultSkillSet": "1;2",
+        "DropRate": 2,
         "ID": 11,
-        "IsDrop": 2,
         "NameContextID": 100005,
+        "RecommendSet": "1;2;107;109;129;160;219;157",
         "SpriteAssetPath": "icon_game_14"
     },
     {
         "DefaultSkillSet": "1;2",
+        "DropRate": 2,
         "ID": 12,
-        "IsDrop": 2,
         "NameContextID": 100005,
+        "RecommendSet": "1;2;107;115;116;123;190;201",
         "SpriteAssetPath": "icon_game_91"
     },
     {
         "DefaultSkillSet": "1;2",
+        "DropRate": 2,
         "ID": 13,
-        "IsDrop": 2,
         "NameContextID": 100005,
+        "RecommendSet": "1;2;107;101;103;104;105;194",
         "SpriteAssetPath": "icon_game_97"
     },
     {
         "DefaultSkillSet": "1;2;226",
+        "DropRate": 1,
         "ID": 14,
-        "IsDrop": 1,
         "NameContextID": 100006,
+        "RecommendSet": "123;190;226;201;128;135;139;140",
         "SpriteAssetPath": "icon_game_1000"
     },
     {
         "DefaultSkillSet": "1;2;227",
+        "DropRate": 1,
         "ID": 15,
-        "IsDrop": 1,
         "NameContextID": 100007,
+        "RecommendSet": "107;113;227;144;108;121;185;140",
         "SpriteAssetPath": "icon_game_1002"
     },
     {
         "DefaultSkillSet": "1;2;228",
+        "DropRate": 1,
         "ID": 16,
-        "IsDrop": 1,
         "NameContextID": 100008,
+        "RecommendSet": "203;192;228;130;135;108;139;140",
         "SpriteAssetPath": "icon_game_1001"
     },
     {
         "DefaultSkillSet": "1;2;229",
+        "DropRate": 1,
         "ID": 17,
-        "IsDrop": 1,
         "NameContextID": 100009,
-        "SpriteAssetPath": "Temp"
+        "RecommendSet": "128;131;229;134;135;137;138;139",
+        "SpriteAssetPath": "icon_game_1006"
     },
     {
         "DefaultSkillSet": "1;2;234",
+        "DropRate": 1,
         "ID": 18,
-        "IsDrop": 1,
         "NameContextID": 100010,
-        "SpriteAssetPath": "Temp"
+        "RecommendSet": "107;114;234;159;111;129;132;140",
+        "SpriteAssetPath": "icon_game_1007"
     },
     {
         "DefaultSkillSet": "1;2;235",
+        "DropRate": 1,
         "ID": 19,
-        "IsDrop": 1,
         "NameContextID": 100011,
-        "SpriteAssetPath": "Temp"
+        "RecommendSet": "127;129;235;163;164;165;196;140",
+        "SpriteAssetPath": "icon_game_1008"
     },
     {
+        "DropRate": 0,
         "ID": 10001,
-        "IsDrop": 0,
-        "NameContextID": 10011,
-        "SpriteAssetPath": "icon_animal_26"
+        "NameContextID": 10001,
+        "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10002,
-        "IsDrop": 0,
-        "NameContextID": 10012,
+        "NameContextID": 10006,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10003,
-        "IsDrop": 0,
-        "NameContextID": 10019,
+        "NameContextID": 10009,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10004,
-        "IsDrop": 0,
         "NameContextID": 10028,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10005,
-        "IsDrop": 0,
         "NameContextID": 10051,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10006,
-        "IsDrop": 0,
         "NameContextID": 10062,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10007,
-        "IsDrop": 0,
         "NameContextID": 10071,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10008,
-        "IsDrop": 0,
         "NameContextID": 10088,
         "SpriteAssetPath": "icon_animal_26"
     },
     {
+        "DropRate": 0,
         "ID": 10009,
-        "IsDrop": 0,
         "NameContextID": 10095,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10010,
-        "IsDrop": 0,
         "NameContextID": 10106,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10011,
-        "IsDrop": 0,
         "NameContextID": 10111,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10012,
-        "IsDrop": 0,
         "NameContextID": 10118,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10013,
-        "IsDrop": 0,
         "NameContextID": 10125,
         "SpriteAssetPath": "icon_game_100"
     },
     {
+        "DropRate": 0,
         "ID": 10014,
-        "IsDrop": 0,
         "NameContextID": 10051,
         "SpriteAssetPath": "icon_game_1003"
     },
     {
+        "DropRate": 0,
         "ID": 10015,
-        "IsDrop": 0,
         "NameContextID": 10056,
         "SpriteAssetPath": "icon_game_1004"
     },
     {
+        "DropRate": 0,
         "ID": 10016,
-        "IsDrop": 0,
         "NameContextID": 10059,
         "SpriteAssetPath": "icon_game_1005"
+    },
+    {
+        "DropRate": 0,
+        "ID": 10017,
+        "NameContextID": 10113,
+        "SpriteAssetPath": "icon_game_1009"
+    },
+    {
+        "DropRate": 0,
+        "ID": 10018,
+        "NameContextID": 10114,
+        "SpriteAssetPath": "icon_game_1010"
+    },
+    {
+        "DropRate": 0,
+        "ID": 10019,
+        "NameContextID": 10115,
+        "SpriteAssetPath": "icon_game_1011"
+    },
+    {
+        "DropRate": 0,
+        "ID": 10020,
+        "NameContextID": 10116,
+        "SpriteAssetPath": "icon_game_1012"
     }
 ]

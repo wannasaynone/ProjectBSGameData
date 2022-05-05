@@ -2585,8 +2585,8 @@
     },
     {
         "ID": 300021,
-        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e",
-        "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e"
     },
     {
         "ID": 300022,
@@ -2595,8 +2595,8 @@
     },
     {
         "ID": 300023,
-        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e",
-        "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 2 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：2 / 10\u003c/color\u003e"
     },
     {
         "ID": 300024,
@@ -2605,8 +2605,8 @@
     },
     {
         "ID": 300025,
-        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 5 / 10\u003c/color\u003e",
-        "zh_tw": "\u003c#bc8f8f\u003e難度等級：5 / 10\u003c/color\u003e"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 3 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：3 / 10\u003c/color\u003e"
     },
     {
         "ID": 300026,
@@ -2615,8 +2615,8 @@
     },
     {
         "ID": 300027,
-        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 6 / 10\u003c/color\u003e",
-        "zh_tw": "\u003c#bc8f8f\u003e難度等級：6 / 10\u003c/color\u003e"
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
     },
     {
         "ID": 400001,
