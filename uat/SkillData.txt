@@ -1853,7 +1853,7 @@
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Heal4_Target;\n0.25_Apply;\n0.25_SFX_HealingSuper",
-        "Command": "OnBattleStarted\n{\n     Record(b_reborn,0);\n}\n\nOnDamageTaken_Self\n{\n    BeginIf(Read(b_reborn)== 0);\n          BeginIf(Self.HP \u003c= Self.MaxHP * 0.3);\n               Record(b_reborn,1);\n               SetPlayAnimationNext();\n               AddStatus(Self, HP, Self.MaxHP-Self.HP);\n          EndIf();\n    EndIf();\n}",
+        "Command": "OnBattleStarted\n{\n     Record(b_reborn,0);\n}\n\nOnDamageTaken_Self\n{\n    BeginIf(Read(b_reborn)== 0);\n          BeginIf(Self.HP \u003c= Self.MaxHP * 0.3);\n               Record(b_reborn,1);\n\n      BeginIf_Buff(Self, 1, 10015 );\n             AddBuffAmount(Self, 10015 ,-99);\n      EndIf();\n      BeginIf_Buff(Self, 1, 10014 );\n             AddBuffAmount(Self, 10014 ,-99);\n      EndIf();\n\n               ReplaceSkill(10041, 0);\n               ReplaceSkill(10042, 0);\n\n               SetPlayAnimationNext();\n               ForceDie(SelectOther(SameSide, Random, -1));\n               SetPlayAnimationNext();\n               GainBuff(Self, 7, 1t-1);\n               SetPlayAnimationNext();\n               GainBuff(Self, 1, 1t-1);\n               SetPlayAnimationNext();\n               AddStatus(Self, HP, Self.MaxHP-Self.HP);\n          EndIf();\n    EndIf();\n}",
         "DescriptionContextID": 10112,
         "DropRate": 0,
         "ID": 10044,

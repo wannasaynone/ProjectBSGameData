@@ -2320,13 +2320,13 @@
     },
     {
         "ID": 10111,
-        "en_us": "Rebirth",
-        "zh_tw": "重生"
+        "en_us": "Absorb",
+        "zh_tw": "吸收"
     },
     {
         "ID": 10112,
-        "en_us": "When damage is dealt, if HP value falls below 30% of Max HP, HP value becomes full. This skill will only trigger once in this battle.",
-        "zh_tw": "受到傷害後，若生命值低於最大生命值的30%，使生命值變為全滿。此戰鬥中，這個技能只會生效1次。"
+        "en_us": "When damage is dealt, if life value is less than 30% of Max HP value, it will cause all other friendly units to die, giving you \"Attack Up\" and \"Defense Up\", and making your HP value full. This skill will only work once during this battle.",
+        "zh_tw": "受到傷害後，若生命值低於最大生命值的30%，使其他所有友方單位死亡，給予自己「攻擊值上升」、「防禦值上升」，並使生命值變為全滿。此戰鬥中，這個技能只會生效1次。"
     },
     {
         "ID": 10113,

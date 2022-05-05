@@ -176,7 +176,7 @@
         "Speed": 4000
     },
     {
-        "AI": "BeginIf_Buff(Self, 1, 10014);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10015);\n    BeginIf(Random(1, 100) \u003c= 30);\n       CastSkill(10045); \n       Quit();\n    EndIf();\n    CastSkill(10043); \n    Quit();\nEndIf();",
+        "AI": "BeginIf_Buff(Self, 1, 10014);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf(CombatField.OpponentUnitCount == 1);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10015);\n    BeginIf(Random(1, 100) \u003c= 30);\n       CastSkill(10045); \n       Quit();\n    EndIf();\n    CastSkill(10043); \n    Quit();\nEndIf();",
         "AppearanceDataID": 10020,
         "Attack": 5000,
         "Defense": 2800,
@@ -187,7 +187,7 @@
         "Speed": 4000
     },
     {
-        "AI": "BeginIf_Buff(Self, 1, 10014);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10015);\n    BeginIf(Random(1, 100) \u003c= 30);\n       CastSkill(10045); \n       Quit();\n    EndIf();\n    CastSkill(10043); \n    Quit();\nEndIf();",
+        "AI": "BeginIf_Buff(Self, 1, 10014);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf(CombatField.OpponentUnitCount == 1);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10015);\n    BeginIf(Random(1, 100) \u003c= 30);\n       CastSkill(10045); \n       Quit();\n    EndIf();\n    CastSkill(10043); \n    Quit();\nEndIf();",
         "AppearanceDataID": 10020,
         "Attack": 5000,
         "Defense": 2800,
