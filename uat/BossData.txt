@@ -162,7 +162,7 @@
         "ID": 23,
         "SP": 100,
         "SkillIDs": "10033;10034;10039;10040;10008",
-        "Speed": 1000
+        "Speed": 4000
     },
     {
         "AI": "CastSkill(10039); ",
@@ -173,7 +173,7 @@
         "ID": 24,
         "SP": 100,
         "SkillIDs": "10033;10034;10039;10041;10008",
-        "Speed": 1000
+        "Speed": 4000
     },
     {
         "AI": "BeginIf_Buff(Self, 1, 10014);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10015);\n    BeginIf(Random(1, 100) \u003c= 30);\n       CastSkill(10045); \n       Quit();\n    EndIf();\n    CastSkill(10043); \n    Quit();\nEndIf();",
@@ -184,7 +184,7 @@
         "ID": 25,
         "SP": 100,
         "SkillIDs": "10033;10034;10045;10042;10040;10043;10044;10008",
-        "Speed": 1000
+        "Speed": 4000
     },
     {
         "AI": "BeginIf_Buff(Self, 1, 10014);\n   CastSkill(10042);    \n   Quit();\nEndIf();\n\nBeginIf_Buff(Self, 1, 10015);\n    BeginIf(Random(1, 100) \u003c= 30);\n       CastSkill(10045); \n       Quit();\n    EndIf();\n    CastSkill(10043); \n    Quit();\nEndIf();",
@@ -195,6 +195,6 @@
         "ID": 26,
         "SP": 100,
         "SkillIDs": "10033;10034;10045;10042;10041;10043;10044;10008",
-        "Speed": 1000
+        "Speed": 4000
     }
 ]
