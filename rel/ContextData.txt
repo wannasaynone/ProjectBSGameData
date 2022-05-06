@@ -1826,6 +1826,7 @@
     },
     {
         "ID": 10012,
+        "en_us": "Training Shield",
         "zh_tw": "訓練用護盾"
     },
     {
@@ -4001,7 +4002,7 @@
     },
     {
         "ID": 1500011,
-        "en_us": "Pass the level to get a new character with full quality \u003ccolor=#ff4cf0\u003eA\u003c/color\u003e",
+        "en_us": "Pass the level to get all \u003ccolor=#ff4cf0\u003eA\u003c/color\u003e character",
         "zh_tw": "通關可獲得全素質 \u003ccolor=#ff4cf0\u003eA\u003c/color\u003e 的新角色"
     },
     {
