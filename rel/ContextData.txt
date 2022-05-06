@@ -1851,8 +1851,8 @@
     },
     {
         "ID": 10017,
-        "en_us": "Gain 25% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases the damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself.",
-        "zh_tw": "獲得25%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
+        "en_us": "Gain 25% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases the damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself and replace skill \"Fire Protection\" with \"Flammable\".",
+        "zh_tw": "獲得25%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值，並將「防火裝置」替換為「易燃」。"
     },
     {
         "ID": 10018,
@@ -1861,8 +1861,8 @@
     },
     {
         "ID": 10019,
-        "en_us": "Gain 50% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself.",
-        "zh_tw": "獲得50%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
+        "en_us": "Gain 50% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is shield value left, add the same amount of HP to yourself and replace skill \"Fire Protection\" with \"Flammable\".",
+        "zh_tw": "獲得50%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值，並將「防火裝置」替換為「易燃」。"
     },
     {
         "ID": 10020,
@@ -1871,8 +1871,8 @@
     },
     {
         "ID": 10021,
-        "en_us": "Gain 75% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is any remaining shield value, add the same amount of HP to yourself.",
-        "zh_tw": "獲得75%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
+        "en_us": "Gain 75% of your Max HP shield value. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e], increases damage taken by 50%. When the status is removed, if there is any remaining shield value, add the same amount of HP to yourself and replace skill \"Fire Protection\" with \"Flammable\".",
+        "zh_tw": "獲得75%最大生命值的護盾值。受到[\u003c#cf6330\u003e物理\u003c/color\u003e]攻擊時，增加50%受到的傷害。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值，並將「防火裝置」替換為「易燃」。"
     },
     {
         "ID": 10022,
@@ -2141,7 +2141,7 @@
     },
     {
         "ID": 10075,
-        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, it reduces the damage taken by 50%. When attacked by [\u003c#cf6330\u003ePhysical\u003c/color\u003e] skill, it accumulates imbalance value. If the imbalance value exceeds a certain value, replace this skill with \"Flammable\".",
+        "en_us": "When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, it reduces the damage taken by 50%.",
         "zh_tw": "受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害減少50%。"
     },
     {

@@ -368,7 +368,7 @@
         "Tag": 400015
     },
     {
-        "Command": "OnDeactived\r\n{\r\n   AddStatus(Self, HP, 99999);\r\n} ",
+        "Command": "OnDeactived\n{\n   AddStatus(Self, HP, 99999);\n} ",
         "DescriptionContextID": 10025,
         "ID": 10018,
         "MaxAmount": 1,
