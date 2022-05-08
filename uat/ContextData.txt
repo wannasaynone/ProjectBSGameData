@@ -1781,8 +1781,8 @@
     },
     {
         "ID": 10003,
-        "en_us": "Inflicts 30% of the Attack value of an enemy unit. If the target does not have \"Defense Up\", the damage dealt is increased by 10,000 points.",
-        "zh_tw": "對1個敵方單位造成30%攻擊值的傷害。目標沒有「防禦值上升」時，增加造成的傷害10,000點。"
+        "en_us": "Deals 30% of the Attack value of an enemy unit.",
+        "zh_tw": "對1個敵方單位造成30%攻擊值的傷害。"
     },
     {
         "ID": 10004,
