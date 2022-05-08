@@ -1440,7 +1440,7 @@
     },
     {
         "AnimationInfo": "Attack0;\n0.58_Damage_1;\n0.58_Show_Hit16_Target;\n0.58_SFX_NormalHit",
-        "Command": "OnActived\n{\n     DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1, 0);\n}\n\nOnDamageCalculated_Self\n{\nBeginIf_Buff(SkillLastSelected(10000),0,1); \nAddDamage(10000); \nEndIf(); \n} ",
+        "Command": "OnActived\n{\n     DealDamage(Select(Opponent, HighestHatred, 1), Self.Attack * 1, 0);\n}",
         "DescriptionContextID": 10003,
         "DropRate": 0,
         "ID": 10000,
