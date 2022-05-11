@@ -2387,8 +2387,8 @@
     },
     {
         "ID": 10124,
-        "en_us": "When attacked, if you have \"Feather Perch\", cause the unit you are moving to lose 50% of its speed value in HP.",
-        "zh_tw": "受到攻擊後，若擁有「羽棲」，使正在行動的單位失去自己50%速度值的生命值。"
+        "en_us": "When attacked, if you have \"Feather Perch\", cause the unit you are moving to lose 20% of its speed value in HP.",
+        "zh_tw": "受到攻擊後，若擁有「羽棲」，使正在行動的單位失去自己20%速度值的生命值。"
     },
     {
         "ID": 10125,
