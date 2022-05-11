@@ -2351,43 +2351,44 @@
     },
     {
         "ID": 10117,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Thunderbird",
+        "zh_tw": "雷鳥"
     },
     {
         "ID": 10118,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Thunder",
+        "zh_tw": "雷鳴"
     },
     {
         "ID": 10119,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Deals 180% attack damage to 1~4 random enemy units.",
+        "undefined": "雷電傷害增幅",
+        "zh_tw": "對隨機1~4個敵方單位造成180%攻擊值的傷害。"
     },
     {
         "ID": 10120,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "\"Feather Perch",
+        "zh_tw": "羽棲"
     },
     {
         "ID": 10121,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Gives you \"\"Feather Perch\" for 3 turns.",
+        "zh_tw": "給予自己持續3回合的「羽棲」。"
     },
     {
         "ID": 10122,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Cannot act. Gains a shield equal to 200% of Speed value. When attacked by [\u003c#cd5c5c\u003eFlame\u003c/color\u003e] skill, increases damage taken by 50%. When the buff is removed, if there is Shield value left, add the same amount of HP to yourself.",
+        "zh_tw": "不能行動。獲得相當於200%速度值的護盾。受到[\u003c#cd5c5c\u003e火焰\u003c/color\u003e]技能攻擊時，使受到的傷害增加50%。狀態消除時，若還有剩餘的護盾值，使自己增加相同的生命值。"
     },
     {
         "ID": 10123,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Static Power",
+        "zh_tw": "靜電"
     },
     {
         "ID": 10124,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When attacked, if you have \"Feather Perch\", cause the unit you are moving to lose 50% of its speed value in HP.",
+        "zh_tw": "受到攻擊後，若擁有「羽棲」，使正在行動的單位失去自己50%速度值的生命值。"
     },
     {
         "ID": 10125,
@@ -2617,6 +2618,14 @@
     {
         "ID": 300027,
         "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color\u003e",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
+    },
+    {
+        "ID": 300028,
+        "zh_tw": "雷鳴山丘"
+    },
+    {
+        "ID": 300029,
         "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
     },
     {
@@ -4153,7 +4162,7 @@
     {
         "ID": 3000004,
         "en_us": "None",
-        "zh_tw": "可用ID"
+        "zh_tw": "4. 轟雷森林"
     },
     {
         "ID": 3000005,

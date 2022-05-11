@@ -1,5 +1,5 @@
 {
-   "DevAccountIDs" : "499k0095@gmail.com",
+   "DevAccountIDs" : "499k0095@gmail.com,wannasaynone@gmail.com",
    "UATAccountIDs" : "jerry6087@gmail.com,rui8524@gmail.com,610621214@gms.ndhu.edu.tw,reevan0613@gmail.com",
    "AppVersion" : "0.9.53"
 }
