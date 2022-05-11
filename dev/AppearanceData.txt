@@ -222,5 +222,10 @@
         "ID": 10020,
         "NameContextID": 10116,
         "SpriteAssetPath": "icon_game_1012"
+    },
+    {
+        "ID": 10021,
+        "NameContextID": 10117,
+        "SpriteAssetPath": "icon_animal_26"
     }
 ]

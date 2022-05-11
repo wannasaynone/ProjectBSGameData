@@ -199,7 +199,7 @@
     },
     {
         "AI": "BeginIf(Random(0, 100) \u003c= 50);\n      CastSkill(10046);\n      Quit();\nEndIf();\n\nCastSkill(10047);",
-        "AppearanceDataID": 10117,
+        "AppearanceDataID": 10021,
         "Attack": 6000,
         "Defense": 3500,
         "HP": 300000,
