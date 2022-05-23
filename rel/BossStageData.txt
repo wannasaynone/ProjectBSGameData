@@ -162,8 +162,8 @@
         "FrontStageIDs": 7,
         "ID": 12,
         "Index": 4,
-        "MaxExp": 3960800,
-        "MinExp": 1980400,
+        "MaxExp": 7921600,
+        "MinExp": 3960800,
         "NameContextID": 300018,
         "RequireLevel": 100,
         "Stamina": 80
@@ -217,6 +217,19 @@
         "MaxExp": 3960800,
         "MinExp": 1980400,
         "NameContextID": 300026,
+        "RequireLevel": 100,
+        "Stamina": 40
+    },
+    {
+        "AreaID": 4,
+        "BossIDs": "27;27",
+        "DescriptionContextID": 300029,
+        "FrontStageIDs": 16,
+        "ID": 17,
+        "Index": 1,
+        "MaxExp": 3960800,
+        "MinExp": 1980400,
+        "NameContextID": 300028,
         "RequireLevel": 100,
         "Stamina": 40
     }

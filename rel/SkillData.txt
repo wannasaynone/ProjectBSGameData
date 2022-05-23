@@ -1873,11 +1873,33 @@
         "Tag": "400012;400016"
     },
     {
-        "DescriptionContextID": 10118,
+        "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Temp_Target;\r\n0.58_SFX_LightningSpellHit",
+        "Command": "OnActived\n{\n     BeginIf(Random(0, 100) \u003c= 25);\n          DealDamage(SelectOther(Opponent, Random, 1), Self.Attack * 1.8, 0);\n          Quit();\n     EndIf();\n\n     BeginIf(Random(0, 100) \u003c= 50);\n          DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.8, 0);\n          Quit();\n     EndIf();\n\n     BeginIf(Random(0, 100) \u003c= 25);\n          DealDamage(SelectOther(Opponent, Random, 3), Self.Attack * 1.8, 0);\n          Quit();\n     EndIf();\n\n     DealDamage(SelectOther(Opponent, Random, 4), Self.Attack * 1.8, 0);\n}",
+        "DescriptionContextID": 10119,
         "DropRate": 0,
         "ID": 10046,
-        "NameContextID": 10117,
-        "SP": 0
+        "NameContextID": 10118,
+        "SP": 0,
+        "Tag": 400008
+    },
+    {
+        "AnimationInfo": "Support;\r\n0.25_ShowMessage;\r\n0.25_Show_Temp_Targetl;\r\n0.25_SFX_DefenseBuff",
+        "Command": "OnActived\n{\n     GainBuff(Self, 10019, 1t3);\n}",
+        "DescriptionContextID": 10121,
+        "DropRate": 0,
+        "ID": 10047,
+        "NameContextID": 10120,
+        "SP": 0,
+        "Tag": 400013
+    },
+    {
+        "Command": "OnBeAttackedEnded_Self\n{\n     BeginIf_Buff(Self, 1, 10019);\n           AddStatus(CurrentActor, HP, -Self.Speed*Random(0.2,0.4));\n     EndIf();\n}",
+        "DescriptionContextID": 10124,
+        "DropRate": 0,
+        "ID": 10048,
+        "NameContextID": 10123,
+        "SP": 0,
+        "Tag": 400013
     },
     {
         "DescriptionContextID": 90,

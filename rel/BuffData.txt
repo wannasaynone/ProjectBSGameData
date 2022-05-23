@@ -374,5 +374,13 @@
         "MaxAmount": 1,
         "NameContextID": 10024,
         "Tag": 400015
+    },
+    {
+        "Command": "OnActived\n{\nSetForceEndAction();\nAddShield(Self,Self.MaxHP*0.5,0); \n} \n\n\nOnStartToTakeDamage_Self\n{\nBeginIf_LastSkillTag(CurrentActor,1,400007); \nAddDamage(50%); \nEndIf(); \n} \n\nOnDeactived\n{\nBeginIf(Self.Shield \u003e= 0);\n     AddStatus(Self, HP, Self.Shield);\nEndIf();\n}",
+        "DescriptionContextID": 10122,
+        "ID": 10019,
+        "MaxAmount": 1,
+        "NameContextID": 10120,
+        "Tag": 400015
     }
 ]

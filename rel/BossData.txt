@@ -196,5 +196,16 @@
         "SP": 100,
         "SkillIDs": "10033;10034;10045;10042;10041;10043;10044;10008",
         "Speed": 4000
+    },
+    {
+        "AI": "BeginIf(Self.HP \u003e= Self.MaxHP * 0.4);\n      CastSkill(10046);\n      Quit();\nEndIf();\n\nBeginIf(Random(0, 100) \u003c= 50);\n       CastSkill(10046);\n       Quit();\nEndIf();\n\nCastSkill(10047);",
+        "AppearanceDataID": 10021,
+        "Attack": 6000,
+        "Defense": 3500,
+        "HP": 300000,
+        "ID": 27,
+        "SP": 100,
+        "SkillIDs": "10046;10047;10048",
+        "Speed": 6000
     }
 ]
