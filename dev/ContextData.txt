@@ -2387,8 +2387,8 @@
     },
     {
         "ID": 10124,
-        "en_us": "When attacked, if you have \"Feather Perch\", cause the unit you are moving to lose 20% of its speed value in HP.",
-        "zh_tw": "受到攻擊後，若擁有「羽棲」，使正在行動的單位失去自己20%速度值的生命值。"
+        "en_us": "When attacked, if you have \"Feather Perch\", cause the unit you are moving to lose 20% to 40% of its speed value in HP at random.",
+        "zh_tw": "受到攻擊後，若擁有「羽棲」，使正在行動的單位失去自己20%~40%速度值的生命值。"
     },
     {
         "ID": 10125,
@@ -2622,10 +2622,12 @@
     },
     {
         "ID": 300028,
+        "en_us": "Thundering Hills",
         "zh_tw": "雷鳴山丘"
     },
     {
         "ID": 300029,
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color",
         "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
     },
     {
