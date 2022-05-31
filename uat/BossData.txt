@@ -207,5 +207,16 @@
         "SP": 100,
         "SkillIDs": "10046;10047;10048",
         "Speed": 6000
+    },
+    {
+        "AI": "CastSkill(10050); ",
+        "AppearanceDataID": 10022,
+        "Attack": 4000,
+        "Defense": 5000,
+        "HP": 250000,
+        "ID": 28,
+        "SP": 100,
+        "SkillIDs": "10049;10050;10051",
+        "Speed": 6000
     }
 ]

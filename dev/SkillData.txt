@@ -1902,6 +1902,34 @@
         "Tag": 400013
     },
     {
+        "Command": "OnBattleStarted\n{\n     GainBuff(Self, 10020, 1t-1);\n}\n\nOnDamageTaken\n{\n      GainBuff(Self, 10020, 1t-1);\n}",
+        "DescriptionContextID": 10127,
+        "DropRate": 0,
+        "ID": 10049,
+        "NameContextID": 10126,
+        "SP": 0,
+        "Tag": 400013
+    },
+    {
+        "AnimationInfo": "Attack0;\r\n0.58_Damage_1;\r\n0.58_Show_Temp_Target;\r\n0.58_SFX_LightningSpellHit",
+        "Command": "OnActived\n{\n          DealDamage(SelectOther(Opponent, Random, 2), Self.Attack * 1.8, 0);\n}",
+        "DescriptionContextID": 10131,
+        "DropRate": 0,
+        "ID": 10050,
+        "NameContextID": 10130,
+        "SP": 0,
+        "Tag": 400008
+    },
+    {
+        "Command": "OnDamageTaken_Self\n{\n     BeginIf(Self.HP \u003c= 0);\n         ShowVFX(Hit22, 1);\n         AddExtraAction(SelectOther(SameSide, Random, -1), 0);\n     EndIf();\n}",
+        "DescriptionContextID": 10133,
+        "DropRate": 0,
+        "ID": 10051,
+        "NameContextID": 10132,
+        "SP": 0,
+        "Tag": 400013
+    },
+    {
         "DescriptionContextID": 90,
         "DropRate": 0,
         "ID": 999990,

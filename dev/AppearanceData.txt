@@ -224,8 +224,15 @@
         "SpriteAssetPath": "icon_game_1012"
     },
     {
+        "DropRate": 0,
         "ID": 10021,
         "NameContextID": 10117,
+        "SpriteAssetPath": "icon_animal_26"
+    },
+    {
+        "DropRate": 0,
+        "ID": 10022,
+        "NameContextID": 10125,
         "SpriteAssetPath": "icon_animal_26"
     }
 ]
