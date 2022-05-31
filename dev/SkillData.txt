@@ -1902,7 +1902,7 @@
         "Tag": 400013
     },
     {
-        "Command": "OnBattleStarted\n{\n     GainBuff(Self, 10020, 1t-1);\n}\n\nOnDamageTaken\n{\n      GainBuff(Self, 10020, 1t-1);\n}",
+        "Command": "OnBattleStarted\n{\n     GainBuff(Self, 10020, 1t-1);\n}\n\nOnDamageTaken_Self\n{\n      GainBuff(Self, 10020, 1t-1);\n}",
         "DescriptionContextID": 10127,
         "DropRate": 0,
         "ID": 10049,
@@ -2011,7 +2011,7 @@
     },
     {
         "AnimationInfo": "Support;\n0.25_ShowMessage;\n0.25_Show_Hit16_Target",
-        "Command": "OnDamageDealed_Self\r\n{\r\n     BeginIf(Target.HP \u003c= 0);\r\n         SetStatus(Select(Opponent, Random, -1), HP, 1);\r\n     EndIf();\r\n}",
+        "Command": "OnDamageDealed_Self\n{\n     BeginIf(Target.HP \u003c= 0);\n         SetStatus(Select(Opponent, Random, -1), HP, 1);\n     EndIf();\n}",
         "DescriptionContextID": 99,
         "DropRate": 0,
         "ID": 999999,
