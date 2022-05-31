@@ -2392,43 +2392,48 @@
     },
     {
         "ID": 10125,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Thunderbolt Insect",
+        "zh_tw": "雷爆蟲"
     },
     {
         "ID": 10126,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Lightning Body",
+        "zh_tw": "雷電體質"
     },
     {
         "ID": 10127,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When you start a battle or take damage, give yourself 1 \"Lightning Blast Strengthening\".",
+        "zh_tw": "戰鬥開始與受到傷害時，給予自己1個「雷爆強化」。"
     },
     {
         "ID": 10128,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Lightning Blast Strengthening",
+        "zh_tw": "雷爆強化"
     },
     {
         "ID": 10129,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "When you use the \"Thunder Blast\" skill, the damage dealt is increased by 5%. You can have up to 20 of them.",
+        "zh_tw": "使用技能「雷爆」時，使造成的傷害增加5%。最多擁有20個。"
     },
     {
         "ID": 10130,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Thunder Blast",
+        "zh_tw": "雷爆"
     },
     {
         "ID": 10131,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Deals 180% Attack damage to 2 random enemy units.",
+        "zh_tw": "對隨機2個敵方單位造成180%攻擊值的傷害。"
     },
     {
         "ID": 10132,
-        "en_us": "None",
-        "zh_tw": "可用ID"
+        "en_us": "Blast Drive",
+        "zh_tw": "爆能驅動"
+    },
+    {
+        "ID": 10133,
+        "en_us": "If the remaining HP value is less than 0 after taking damage, cause all other friendly units to take 1 additional action.",
+        "zh_tw": "受到傷害後，若剩餘的生命值小於0，使其他所有友方單位追加1次行動。"
     },
     {
         "ID": 100001,
@@ -2627,6 +2632,16 @@
     },
     {
         "ID": 300029,
+        "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color",
+        "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
+    },
+    {
+        "ID": 300030,
+        "en_us": "Legacy of Thunder God",
+        "zh_tw": "雷神遺跡"
+    },
+    {
+        "ID": 300031,
         "en_us": "\u003c#bc8f8f\u003eDifficulty level: 4 / 10\u003c/color",
         "zh_tw": "\u003c#bc8f8f\u003e難度等級：4 / 10\u003c/color\u003e"
     },
@@ -2930,8 +2945,8 @@
     },
     {
         "ID": 1000000,
-        "en_us": "Last updated: 2022/05/23\r\n\r\n\u003csize=52\u003e* Updated levels\u003c/size\u003e\r\n\r\nContinuously updated levels! Added \"Thundering Hills\".\r\n\r\n------------------------------------------------\r\n\r\nCurrently open to 4. Thunder Forest\r\n\r\nMore content will be added later! Thank you for playing!",
-        "zh_tw": "最近更新日期：2022/05/23\n\n\u003csize=52\u003e* 更新關卡\u003c/size\u003e\n\n持續更新關卡！新增「雷鳴山丘」。\n\n------------------------------------------------\n\n目前開放至 4. 轟雷森林\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
+        "en_us": "Last updated: 2022/05/31\n\n\u003csize=52\u003e* Updated levels\u003c/size\u003e\n\nContinuously updated levels! Added \"Legacy of Thunder God.\n\n------------------------------------------------\n\nCurrently open to 4. Thunder Forest\n\nMore content will be added later! Thank you for playing!",
+        "zh_tw": "最近更新日期：2022/05/31\n\n\u003csize=52\u003e* 更新關卡\u003c/size\u003e\n\n持續更新關卡！新增「雷神遺跡」。\n\n------------------------------------------------\n\n目前開放至 4. 轟雷森林\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
     },
     {
         "ID": 3

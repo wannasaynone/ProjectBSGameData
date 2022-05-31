@@ -382,5 +382,13 @@
         "MaxAmount": 1,
         "NameContextID": 10120,
         "Tag": 400015
+    },
+    {
+        "Command": "OnDamageCalculated_Self\n{\n      BeginIf(Self.LastSkill == 10050);\n          AddDamage(5%);\n     EndIf();\n}",
+        "DescriptionContextID": 10129,
+        "ID": 10020,
+        "MaxAmount": 1,
+        "NameContextID": 10128,
+        "Tag": 400015
     }
 ]

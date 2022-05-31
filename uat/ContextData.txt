@@ -2945,8 +2945,8 @@
     },
     {
         "ID": 1000000,
-        "en_us": "Last updated: 2022/05/23\r\n\r\n\u003csize=52\u003e* Updated levels\u003c/size\u003e\r\n\r\nContinuously updated levels! Added \"Thundering Hills\".\r\n\r\n------------------------------------------------\r\n\r\nCurrently open to 4. Thunder Forest\r\n\r\nMore content will be added later! Thank you for playing!",
-        "zh_tw": "最近更新日期：2022/05/23\n\n\u003csize=52\u003e* 更新關卡\u003c/size\u003e\n\n持續更新關卡！新增「雷鳴山丘」。\n\n------------------------------------------------\n\n目前開放至 4. 轟雷森林\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
+        "en_us": "Last updated: 2022/05/31\n\n\u003csize=52\u003e* Updated levels\u003c/size\u003e\n\nContinuously updated levels! Added \"Legacy of Thunder God.\n\n------------------------------------------------\n\nCurrently open to 4. Thunder Forest\n\nMore content will be added later! Thank you for playing!",
+        "zh_tw": "最近更新日期：2022/05/31\n\n\u003csize=52\u003e* 更新關卡\u003c/size\u003e\n\n持續更新關卡！新增「雷神遺跡」。\n\n------------------------------------------------\n\n目前開放至 4. 轟雷森林\n\n後續將陸續更新更多內容！ 感謝您的遊玩！"
     },
     {
         "ID": 3
